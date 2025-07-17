@@ -11,7 +11,7 @@ const config: Config = {
       {
         redirects: [
           {
-            to: '/docs/guide/installation',
+            to: '/guide/installation',
             from: '/',
           },
         ],
@@ -27,7 +27,7 @@ const config: Config = {
   },
 
   url: 'https://your-docusaurus-site.example.com',
-  baseUrl: '/costrict/',
+  baseUrl: '/',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -40,14 +40,12 @@ const config: Config = {
   presets: [
     [
       'classic',
-      // 'classic' 预设的所有选项都应该在这个大括号内
       {
-        // 这是你的 docs 配置
         docs: {
           sidebarPath: './sidebars.ts',
+          routeBasePath: '/',
         },
 
-        // theme 配置应该和 docs 配置并列放在这里
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -64,7 +62,7 @@ const config: Config = {
       logo: {
         alt: 'costrict logo',
         src: 'img/logo.svg',
-        href: '/docs/guide/installation',
+        href: '/guide/installation',
       },
       items: [
         {
