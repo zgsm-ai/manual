@@ -39,12 +39,8 @@ jobs:
         uses: docker/metadata-action@v5
         with:
           images: ${{ secrets.DOCKERHUB_REPOSITORY }}/costrict-manual
-          # 这是修改后的核心部分
           tags: |
-            # 1. 只有当推送到默认主分支时，才生成 'latest' 标签
             type=raw,value=latest,enable={{is_default_branch}}
-
-            # 2. 当推送新标签时，使用标签名作为镜像标签 (例如 v1.2.3)
             type=ref,event=tag
 
       - name: Build and push to Docker Hub
