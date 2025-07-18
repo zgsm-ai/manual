@@ -32,16 +32,16 @@ sidebar_position: 1
 ![img_2.png](img/check.png)
 
 
-## 登陆
+## 登录
 
-> 点击 登陆costrict
+> 点击 登录costrict
 
 > 首次会弹出窗口, 点击打开 (如果点击`配置受信任的域`，后面会直接跳转到浏览器)
 
 ![img.png](img/confirm.png)
 
-> 选择任意一种方式登陆 (推荐使用 `github` 登陆)
+> 选择任意一种方式登录 (推荐使用 `github` 登录)
 
 
 ![img_1.png](img/login.png)
-> 看到登陆成功页面后，回到vscode，等待几秒即可完成登陆
+> 看到登录成功页面后，回到vscode，等待几秒即可完成登录
