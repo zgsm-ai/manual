@@ -1,11 +1,3 @@
----
-sidebar_position: 2
----
-
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
-
 # 使用说明
 
 
@@ -166,20 +158,16 @@ npm run serve
 ```js
 manual-copy
 ├─docs
-// highlight-start
 │  └─img
 │  └─your.md
 │  └─ ...
-// highlight-end
 ├─i18n
 │  └─zh
 │      ├─docusaurus-plugin-content-docs
 │      │  └─current
-// highlight-start
 │      │      └─img
 │      │      └─your.md
 │      │      └─ ..
-// highlight-end
 ```
 
 编写md文件需要加入下面的内容
@@ -207,26 +195,22 @@ sidebar_position: 3          # 该参数规定了当前文档在大纲中的位�
 ```js
 manual-copy
 ├─docs
-// highlight-start
 │  ├─guide
 │  │  └─img
 │  │  └─_category_.json
 │  │  └─mdfile1.md
 │  │  └─mdfile2.md
 │  │  └─ ...
-// highlight-end
 ├─i18n
 │  └─zh
 │      ├─docusaurus-plugin-content-docs
 │      │  └─current
-// highlight-start
 │      │      ├─guide
 │      │      │  └─img
 │      │      │  └─_category_.json
 │      │      │  └─mdfile1.md
 │      │      │  └─mdfile2.md
 │      │      │  └─ ...
-// highlight-end
 ```
 
 
