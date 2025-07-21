@@ -1,34 +1,67 @@
 ---
 sidebar_position: 2
 ---
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
 # 配额获取
 
-首先明确您的登录账号是Github还是手机号，如果您对登录的账号不清楚，可前往用户信息&配额用量网页查看，该页面还可以查看您剩余的Credit 用量。
-如果您是手机号登录的，建议在该页面绑定Github账号，方便后续参与github相关运营活动的Credit 额度赠送。
 
-![alt text](img/image1.png)
-![alt text](img/image2.png)
 
-在GitHub上点亮star收藏Costrict开源项目即可获得额外 50 Credit
+## 查看登录信息和配额信息
 
-场景1：Github账号登录的用户
+> 点击 `costrict` 图标, 接着点击 `credit 用量管理`, 最后点击 `查看 Credit 用量`
 
-如果您是Github账号登录的用户，请点击链接地址：https://github.com/zgsm-ai/costrict  点亮star 收藏Costrict项目即可获得额外 50 Credit。到账大约需要2-3分钟。
+![img.png](img/credit-setting.png)
 
-![alt text](img/image3.png)
+> 在 `配额管理` 页面查看您的登录信息和 `credit` 使用信息
 
-收藏项目后返回VSCode插件端即可正常使用了。
+![img.png](img/credit-page.png)
 
-场景2：手机号登录的用户
 
-如果您是手机号登录的用户，需要先在用户信息&配额用量页面绑定你的github账号（VScode端点击”设置> Credit用量管理“页面的”查看Credit 用量“按钮也可以跳转至该页面）。
-如果没有Github账号，系统会引导您先注册一个账号。
 
-![alt text](img/image4.png)
+## 配额获取
 
-绑定后点击链接地址：https://github.com/zgsm-ai/costrict  点亮star 收藏Costrict项目即可获得额外 50 Credit。到账大约需要2-3分钟。
+> 如果还未进行过账号绑定, 会在 `配额管理` 页面中显示**立即绑定**, 例如:
 
-![alt text](img/image5.png)
+<Tabs>
+  <TabItem value="phone" label="手机 登录" default>
 
-收藏项目后返回VSCode插件端即可正常使用了。
+```
+基本信息
+
+Github账号: 立即绑定      手机号: 151********      用户id:  ************************
+```
+
+  </TabItem>
+
+  <TabItem value="github" label="github 登录">
+
+```
+基本信息
+
+Github账号: git用户**   手机号: 立即绑定            用户id:  ************************
+```
+
+  </TabItem>
+</Tabs>
+
+
+
+> 如果您是Github账号登录的用户，前往：https://github.com/zgsm-ai/costrict  用当前账户点亮 `star` 即可获得额外 `50` `Credit`, 到账大约需要 `2-3` 分钟。
+
+![img.png](img/star-credit.png)
+
+
+## 账号绑定
+
+> 如果您是手机号登录的用户, 可以绑定一个 `github` 账户, 可以同步 `github` 账户额度, 也方便在不使用科学上网的情况下登录。
+
+> 点击立即绑定, 按照要求登录 `github` 账户（不存在会自动创建, 最好还是先注册一个 `github` 账户）
+
+- 点击立即绑定
+- 登陆github账户
+
+> 完成上述步骤会自动重定向到配额页面
+
+![img_1.png](img/linked-accounts.png)
