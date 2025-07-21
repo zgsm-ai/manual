@@ -64,20 +64,15 @@ git clone [URL]  # 例如 git clone https://github.com/zgsm-ai/manual.git
 
 > `cmd` 和 `bash` 设置环境变量有区别, 参考：
 
-<Tabs>
-  <TabItem value="apple" label="git bash" default>
-```commandline
+```
+git bash:
 export https_proxy=http://localhost:7890  # 7890 是clash的端口， verge应该是7897
 export http_proxy=http://localhost:7890   # 这个加不加都行
-```
-  </TabItem>
-  <TabItem value="orange" label="cmd">
-```commandline
+
+cmd:
 set https_proxy=http://localhost:7890  # 7890 是clash的端口， verge应该是7897
 set http_proxy=http://localhost:7890   # 这个加不加都行
 ```
-  </TabItem>
-</Tabs>
 
 > clone的总流程如下所示
 
@@ -138,12 +133,11 @@ docs/
 
 
 ## 本地调试
-:::info[在项目目录下执行命令， 安装开发所需的包]
+在项目目录下执行命令， 安装开发所需的包
 
 ```commandline
 npm install
 ```
-:::
 
 ### 开发模式
 开发模式执行
@@ -265,8 +259,7 @@ npm run docusaurus -- write-translations
 ## 提交代码
 
 
-:::warning[通过生产模式测试才可以提交pr]
-:::
+通过生产模式测试才可以提交pr
 
 
 ```commandline
