@@ -13,8 +13,7 @@ import TabItem from '@theme/TabItem';
 
 > 后续添加文档，需要用到 `git `等操作，要准备 `github` 账号 和 `git` 工具
 
-:::info[git[安装参考](https://blog.csdn.net/mukes/article/details/115693833)]
-:::
+[安装参考](https://blog.csdn.net/mukes/article/details/115693833)
 
 
 > 要查看添加 `md` 文件后的展示效果还需要准备 `node.js` （本地测试完才可以提交代码）
@@ -22,16 +21,14 @@ import TabItem from '@theme/TabItem';
 
 
 
-:::info[node.js[下载链接](https://nodejs.org/en/download)]
-:::
+[下载链接](https://nodejs.org/en/download)
 
 
 ## 文档仓库
 
 ### 克隆仓库
 
-:::info[[文档仓库地址](https://github.com/zgsm-ai/manual)]
-:::
+[文档仓库地址](https://github.com/zgsm-ai/manual)
 
 1. 首先 `fork` 主仓库, 会在个人账户下创建一个与原始项目一模一样的仓库副本, 在副本仓库操作，可以避免错误操作等带来的影响
 
@@ -165,10 +162,7 @@ npm run serve
 这种缺点是没法实时看到修改的内容
 
 ## 编写文档
-:::warning[如果添加文档，则必须在docs目录下要有一份，i18n下可以没有（会默认使用docs下的）]
-:::
-:::warning[文档和所在目录的命名不能存在*空格*，可以用`‘-’`]
-:::
+文档和所在目录的命名不能存在*空格*，可以用`‘-’`
 
 ### 添加扁平式结构文档
 
@@ -215,8 +209,7 @@ sidebar_position: 3          # 该参数规定了当前文档在大纲中的位�
 
 ### 添加分组式结构文档
 
-:::info[首先把md文件按照下列方式组织起来]
-:::
+首先把md文件按照下列方式组织起来
 ```js
 manual-copy
 ├─docs
@@ -243,8 +236,7 @@ manual-copy
 ```
 
 
-:::info[相比扁平式结构文档，需要增加 `_category_.json` 文件]
-:::
+相比扁平式结构文档，需要增加 `_category_.json` 文件
 
 
 ```js
@@ -289,8 +281,7 @@ git push -u origin feature/add-md:feature/add-md)  # 这样会在github个人仓
 ```
 [其他 git 使用介绍参考](https://github.com/zgsm-ai/costrict/blob/main/assets/docs/devel/zh-CN/fork.md)
 
-:::info[完成上述操作后， 准备提交pr]
-:::
+完成上述操作后， 准备提交pr
 
 
 > 首先检查下提交的内容和本地提交的是不是一致的， 点击后查看每个文件的改动
@@ -305,5 +296,4 @@ git push -u origin feature/add-md:feature/add-md)  # 这样会在github个人仓
 ![img.png](img/check.png)
 
 <br/>
-:::info[合并到主线后会自动触发服务更新，可以在主仓库的 `Actions` 下查看]
-:::
+合并到主线后会自动触发服务更新，可以在主仓库的 `Actions` 下查看
