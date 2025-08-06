@@ -10,5 +10,13 @@
   "sidebar.tutorialSidebar.category.Getting Started.link.generated-index.title": {
     "message": "开始上手",
     "description": "The generated-index page title for category Getting Started in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Local deployment": {
+    "message": "本地部署",
+    "description": "The label for category Local deployment in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Local deployment.link.generated-index.title": {
+    "message": "本地部署",
+    "description": "The generated-index page title for category Local deployment in sidebar tutorialSidebar"
   }
 }
