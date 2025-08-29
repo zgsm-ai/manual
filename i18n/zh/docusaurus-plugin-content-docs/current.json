@@ -18,5 +18,21 @@
   "sidebar.tutorialSidebar.category.Local deployment.link.generated-index.title": {
     "message": "本地部署",
     "description": "The generated-index page title for category Local deployment in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Product Features": {
+    "message": "产品特性",
+    "description": "The label for category Product Features in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Product Features.link.generated-index.title": {
+    "message": "产品特性",
+    "description": "The generated-index page title for category Product Features in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Version notes": {
+    "message": "版本更新",
+    "description": "The label for category Version Notes in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Version notes.link.generated-index.title": {
+    "message": "版本更新",
+    "description": "The generated-index page title for category Version Notes in sidebar tutorialSidebar"
   }
 }
