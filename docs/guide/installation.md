@@ -2,14 +2,16 @@
 sidebar_position: 1
 ---
 
-# Installation Process
+# 安装流程
 
-:::tip[Requirements]
 
-The minimum supported version of `VS Code` for `costrict` is `1.86`. We recommend updating to the latest version of `VS Code` for the best experience.
+
+:::tip[安装要求]
+
+`costrict` 支持的 `VS Code` 最低版本是 `1.86.3`，建议升级到最新的 `VS Code` 版本以获得最佳的使用体验
 
 <details>
-  <summary>You can check your current version by pressing 'Ctrl + Shift + P' and typing 'about'.</summary>
+  <summary> 您可以通过快捷键 'Crtl + Shift + p', 输入 'about', 即可查看当前版本 </summary>
 
 ![img.png](img/version.png)
 
@@ -17,26 +19,14 @@ The minimum supported version of `VS Code` for `costrict` is `1.86`. We recommen
 
 :::
 
-## Plugin Installation
 
-- In the VS Code Marketplace, search for `zgsm`, `shenma`, or `costrict`.
-- Click "Install".
-- The costrict icon will appear in the left-hand sidebar by default.
+## 插件安装
 
-> Click the `costrict` icon in the sidebar. If the following interface appears after a few seconds, the installation was successful.
+- 在 `vscode` 插件商城中搜索 `zgsm` / `shenma` / `costrict` 
+- 点击安装
 
-![img.png](img/check.png)
+![img.png](install/install.png)
 
-## Login
+- costrict图标默认会出现在左侧
 
-> Click "Login to costrict".
-
-> A confirmation dialog will appear the first time. Click "Open". (If you select "Configure Trusted Domains", you will be redirected to the browser directly on future logins.)
-
-![img.png](img/confirm.png)
-
-> Choose any of the available login methods (we recommend using GitHub).
-
-![img_1.png](img/login.png)
-
-> Once you see the "Login Successful" page in your browser, return to VS Code. The login will complete automatically after a few seconds.
+![img.png](install/login.png)

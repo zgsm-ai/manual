@@ -1,63 +1,32 @@
 ---
 sidebar_position: 4
 ---
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
 
-# Getting Credits
+# Credit 配额
 
-## View Login and Credit Information
+## Credie配额说明
 
-> Click the `costrict` icon, then click `Credit Usage Management`, and finally click `View Credit Usage`.
+Costrict为免费提供用户使用，但是由于算力资源有限，为保证大规模用户请求的情况下仍能保持较好的用户体验，Costrict采取按Credit额度计算用户的使用情况（类似积分规则），当你有Credit时，你就可以正常使用Costrict（使用其它供应商则不受影响）。新用户注册或参与官方运营活动会有Credit额度奖励。
 
-![img.png](img/credit-setting.png)
+Credit在计算使用额度时，是按照一次对话或请求为 1 Credit的基数来计算，不同的模型消耗的倍率有所区别（模型的收费标准不同，对token的消耗也有所区别，举例：比如deepseek r1模型每次请求消耗可能是0.5 Credit，但是如果是Claude模型可能就是 1.5 Credit）具体以实际的扣除比例为准。
 
-> On the `Credit Management` page, you can view your login information and `credit` usage details.
+您可以在Costrict插件端的账户页面 ，点击“查看账户详情” 跳转至网页的 用户信息&配额用量页面，在 “用量”模块可查看Credit的总量和消耗情况。
 
-![img.png](img/credit-page.png)
+![alt text](./credit/1.png)
+![alt text](./credit/2.png)
 
+用户可在：“用量”模块的 “Credit有效期” 区域查看额度的到期时间，请在有效期内及时消费。
 
-## Getting Credits
+![alt text](./credit/3.png)
 
-> If you haven't linked an account yet, the `Credit Management` page will show **Link Now**, for example:
+## Credie配额获取
 
-<Tabs>
-  <TabItem value="phone" label="手机 登录" default>
+官方推出了多种Credit方式：新用户注册会有 50 Credit的奖励额度；官方在每周也会赠送10 Credit左右，如果参与官方的运营活动，如前往Github点亮 Star收藏Costrict项目（链接地址：https://github.com/zgsm-ai/costrict ），我们也会有奖励额度。（奖励额度定期会调整，因此奖励额度以实际领取的为准）
 
-```
-基本信息
+![alt text](./credit/4.png)
 
-Github账号: 立即绑定      手机号: 151********      用户id:  ************************
-```
+在“用量“模块的 “Credit 记录” 页面可查看Credit额度的获取的一些详细信息。对于参加点亮 Star 收藏 Costrict 项目的运营活动获赠的额度，大约需要等待2分钟左右到账。
 
-  </TabItem>
+![alt text](./credit/5.png)
+![alt text](./credit/6.png)
 
-  <TabItem value="github" label="github 登录">
-
-```
-基本信息
-
-Github账号: git用户**   手机号: 立即绑定            用户id:  ************************
-```
-
-  </TabItem>
-</Tabs>
-
-
-> If you logged in with a GitHub account, go to: https://github.com/zgsm-ai/costrict and give it a `star` with your current account to receive an additional `50` `Credits`. The credits will arrive in about `2-3` minutes.
-
-![img.png](img/star-credit.png)
-
-
-## Link Account
-
-> If you logged in with a phone number, you can link a `GitHub` account. This allows you to sync credits from your `GitHub` account and also provides a convenient login method without needing a VPN/proxy.
-
-> Click "Link Now" and follow the prompts to log in to your `GitHub` account (one may be created automatically if it doesn't exist, but it's best to register a `GitHub` account first).
-
-- Click "Link Now"
-- Log in to your GitHub account
-
-> After completing these steps, you will be automatically redirected to the credit management page.
-
-![img_1.png](img/linked-accounts.png)
