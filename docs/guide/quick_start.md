@@ -5,7 +5,7 @@ sidebar_position: 2
 
 # 账号登录
 
-## 方式1：Costrict账号登录
+### 方式1：Costrict账号登录
 
 1. 点击侧边栏的Costrict图标，打开Costrict窗口
 2. 点击"登录Costrict"，页面跳转至登录页面，支持手机号和GitHub两种登录方式，鼓励使用Github的方式登录

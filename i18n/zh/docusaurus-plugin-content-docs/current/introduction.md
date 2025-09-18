@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# 项目简介
+# 本地部署
 
 
 # Costrict 后端部署工具
