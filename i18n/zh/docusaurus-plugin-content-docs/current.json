@@ -34,5 +34,13 @@
   "sidebar.tutorialSidebar.category.Version notes.link.generated-index.title": {
     "message": "版本更新",
     "description": "The generated-index page title for category Version Notes in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Best Practices": {
+    "message": "最佳实践",
+    "description": "The label for category Best Practices in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Best Practices.link.generated-index.title": {
+    "message": "最佳实践",
+    "description": "The generated-index page title for category Best Practices in sidebar tutorialSidebar"
   }
 }
