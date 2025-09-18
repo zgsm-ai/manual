@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # FAQ
 
-## The "credit usage" page is blank or shows a "This site can't be reached" error
+### The "credit usage" page is blank or shows a "This site can't be reached" error
 
 **Cause**:
 > The system previously had an incorrect permanent redirect rule (HTTP 301) that would incorrectly redirect `https` requests to `http`. Your browser may have cached this faulty redirect.
@@ -14,7 +14,7 @@ sidebar_position: 3
 > *   First, check the protocol in your browser's address bar. If it is `http`, manually change it to `https` and try accessing the page again.
 > *   To permanently fix this, clear your browser's cache (specifically "Cached images and files") to remove the stored permanent redirect.
 
-## `costrict` Plugin Fails to Redirect to the Chat Page After Successful Login
+### `costrict` Plugin Fails to Redirect to the Chat Page After Successful Login
 
 **Cause**:
 > This is most likely caused by local proxy settings interfering with the extension's network connectivity.
