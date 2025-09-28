@@ -2,32 +2,36 @@
 sidebar_position: 3
 ---
 
-# 基本功能入门
+# Getting Started with Basic Features
 
-### Agent智能体对话功能
+## Agent 
+The Agent panel is similar to AI chat software, allowing developers to converse with an AI Agent assistant. It supports end-to-end output of results through natural language. The Agent is suitable for consulting relatively broad questions, as well as more complex issues that may require multiple rounds of communication between the developer and the AI to arrive at an ideal answer.
 
-Agent对话面板与传统的聊天软件类似，支持开发者与AI Agent助手进行对话，能够通过自然语言端到端输出结果。对话面板适合咨询一些比较宽泛的问题，一些复杂的问题，需要开发者多回合沟通才能得到最终理想答案。
+![alt text](./basic_feature/agent.png)
 
-![alt text](img/7.png)
 
-### 代码智能补全
+## Code Completion
 
-代码自动补全，Costrict能够根据光标所在位置的上下文代码，自动生成后续代码，快速秒级出码，支持主流开发语言，例如：Python、Go、Java、JavaScript、TypeScript、C/C++等。只需要使用编辑器打开代码文件，编辑代码文件时候，Costrict会在合适时机和位置自动触发智能代码补全提示，如下图所示：
+With automatic code completion, Costrict can generate subsequent code based on the context at the cursor's position, delivering rapid code generation within seconds. It supports mainstream programming languages such as Python, Go, Java, JavaScript, TypeScript, C/C++, and more. Simply open a code file in the editor, and while editing, Costrict will automatically trigger intelligent code completion suggestions at appropriate times, as shown in the figure below:
 
-![alt text](img/8.png)
+![alt text](./basic_feature/completion.png)
 
-### CodeReview
 
-代码审查有多种触发方式，函数：点击函数上方的快捷键触发；代码行：选中代码行点击右键的代码审查触发；文件/仓库：选文件点击右键支持对文件或者整个仓库进行代码审查。
+## Code Review
 
-函数代码审查快捷触发
 
-![alt text](img/9.png)
+Code review can be triggered in multiple ways:
 
-选中代码行右键触发
+- Function: Click the shortcut key above a function to trigger a review.
 
-![alt text](img/10.png)
+![alt text](./basic_feature/codereview1.png)
 
-选中文件右键触发单文件/全仓库代码审查
 
-![alt text](img/11.png)
+- Code Line: Select a line of code and right-click to trigger a code review via the context menu.
+
+![alt text](./basic_feature/codereview2.png)
+
+
+- File/Repository: Select a file, right-click, and choose to review either the single file or the entire repository.
+
+![alt text](./basic_feature/codereview3.png)

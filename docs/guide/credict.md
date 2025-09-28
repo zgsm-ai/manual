@@ -2,31 +2,30 @@
 sidebar_position: 4
 ---
 
-# Credit 配额
+# Credit 
 
-### Credie配额说明
+## Credit Description
 
-Costrict为免费提供用户使用，但是由于算力资源有限，为保证大规模用户请求的情况下仍能保持较好的用户体验，Costrict采取按Credit额度计算用户的使用情况（类似积分规则），当你有Credit时，你就可以正常使用Costrict（使用其它供应商则不受影响）。新用户注册或参与官方运营活动会有Credit额度奖励。
+Costrict provides users with free access, but due to limited computing resources, in order to ensure a good user experience under large-scale user requests, Costrict adopts a usage calculation method based on the Credit quota (similar to points rules). When you have Credits, you can use Costrict normally (usage from other suppliers is not affected). New users registering or participating in official operational activities will receive Credit quota rewards.
 
-Credit在计算使用额度时，是按照一次对话或请求为 1 Credit的基数来计算，不同的模型消耗的倍率有所区别（模型的收费标准不同，对token的消耗也有所区别，举例：比如deepseek r1模型每次请求消耗可能是0.5 Credit，但是如果是Claude模型可能就是 1.5 Credit）具体以实际的扣除比例为准。
+Credits are calculated based on a base of 1 Credit per conversation or request, with different models having different consumption rates (the charging standards of models are different, and the consumption of tokens is also different, for example: the deepseekr1 model may consume 0.5 Credits per request, but for the Claude model, it may be 1.5 Credits). The actual deduction ratio is subject to the actual amount.
 
-您可以在Costrict插件端的账户页面 ，点击“查看账户详情” 跳转至网页的 用户信息&配额用量页面，在 “用量”模块可查看Credit的总量和消耗情况。
+You can view the total amount and consumption of Credits on the account page of the Costrict plugin, click "View Account Details" to jump to the user information & quota usage page on the web, and check the "Usage" module for the total amount and consumption of Credits.
 
 ![alt text](./credit/1.png)
 ![alt text](./credit/2.png)
 
-用户可在：“用量”模块的 “Credit有效期” 区域查看额度的到期时间，请在有效期内及时消费。
+Users can check the expiration time of the credit in the "Credit Validity Period" area under the "Usage" module, and please consume in time within the validity period.
 
 ![alt text](./credit/3.png)
 
-### Credie配额获取
+## Credit Acquisition
 
-官方推出了多种Credit方式：新用户注册会有 50 Credit的奖励额度；官方在每周也会赠送10 Credit左右，如果参与官方的运营活动，如前往Github点亮 Star收藏Costrict项目（链接地址：https://github.com/zgsm-ai/costrict ），我们也会有奖励额度。（奖励额度定期会调整，因此奖励额度以实际领取的为准）
+The official has launched multiple Credit methods: new users who register will receive a reward quota of 50 Credits; the official will also gift around 10 Credits each week. If you participate in official operational activities, such visiting Github to add a Star to the Costrict project (link address: https://github.com/zgsm-a1/costrict), We will also have a reward quota. (The reward quota is adjusted periodically, so the actual amount received shall prevail.)
 
 ![alt text](./credit/4.png)
 
-在“用量“模块的 “Credit 记录” 页面可查看Credit额度的获取的一些详细信息。对于参加点亮 Star 收藏 Costrict 项目的运营活动获赠的额度，大约需要等待2分钟左右到账。
-
+On the "Credit Record" page of the "Usage" module, you can view some detailed information about the acquisition of Credit. 
 ![alt text](./credit/5.png)
 ![alt text](./credit/6.png)
 

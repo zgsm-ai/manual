@@ -2,87 +2,93 @@
 sidebar_position: 2
 ---
 
-# 智能体（AI Agent）
+### AI Agent
 
-用户只需通过自然语言描述你的诉求，智能体（AI Agent）能够根据需求端到端完成任务，它功能强大，智能可控。具备：自主决策、全仓库上下文检索、调用工具、错误修复、运行终端等能力。
+Users only need to describe their requests in natural language, and the AI Agent can complete tasks end-to-end based on requirements. It is powerful, intelligent, and controllable. Capabilities include: autonomous decision-making, full repository context retrieval, tool calling, error fixing, terminal operation, and more.
 
-### 智能问答
 
-当您进行编码工作遇到疑问时可以使用智能问答模式，能够帮您答疑解惑，快速为您生成代码，添加代码注释、代码优化、解释代码、修复代码问题、排查编译报错等。
+## Intelligent AI Agent
 
-![alt text](img/19.png)
+When you encounter doubts during coding, you can use the Intelligent AI Agent. It can help answer questions, quickly generate code, add code comments, optimize code, explain code, fix code issues, troubleshoot compilation errors, and more.
 
-智能体（智能问答）界面元素
+![alt text](./img/19.png)
 
-### 快速开启对话
+AI Agent Interface Elements
 
-1. 打开Costrict插件，默认即为Agent对话模式
-2. 找到对话框，输入您的指令并发送，比如：帮我生成一个贪吃蛇小游戏；优化当前代码等等
-3. 等待模型返回结果，如果遇到本地文件访问、运行命令、文件保存、浏览器访问等权限问题，请正常批准即可。
 
-![alt text](img/20.png)
-![alt text](img/21.png)
+## Start a Conversation Quickly
 
-### 上下文
+1. Open the `Costrict` plugin; it defaults to Agent dialogue mode.
+2. Locate the dialog box, enter your command, and send it. For example: "Help me generate a Snake game"; "Optimize the current code," etc.
+3. Wait for the model to return results. If you encounter permission issues related to local file access, running commands, file saving, browser access, etc., please approve them as needed.
 
-上下文能够为Costrict提供关于您项目的具体信息，使其能够更准确、更高效地执行任务。您可以使用上下文来引用文件、文件夹、问题、URL和Git提交等。
 
-快捷键 `@` 能调用上下文。
+![alt text](./img/20.png)
+![alt text](./img/21.png)
 
-![alt text](img/22.png)
 
-**类型概览**
 
-![alt text](img/23.png)
+## Context
 
-**图片上下文**
+Context provides Costrict with specific information about your project, enabling it to perform tasks more accurately and efficiently. You can use context to `reference files`, `folders`, `issues`, `URL`, `Git commits`, and more.
 
-当需要结合图片生成代码、问题修复、或进行图形化表达时，可点击对话框下方的
-按钮添加图片上下文。该功能是否可用取决于模型是否支持图像，若不支持，此处的图片功能则不支持使用。
+Use the shortcut `@` to invoke context.
 
-![alt text](img/24.png)
+![alt text](./img/22.png)
 
-查看模型对图像的支持情况可前往：设置 > 供应商页面的"模型"描述信息处进行查看。
 
-![alt text](img/25.png)
+**Overview**
 
-### 模式选择
+![alt text](./img/23.svg)
 
-Costrict中的模式是针对特定任务而设计的个性化角色，每种模式提供的功能有所不同，擅长的领域和访问权限也有所区别，用户可根据具体情况作出选择。如果您对这些模式不太了解，建议使用Orchestrator（编排模式），它会根据任务类型自行分配模式。
 
-模式选择有两种使用方式，方式一：点击输入框底部的第一个按钮可以手动选择模式。方式二：在输入框使用快捷键"/"能快速调用mode功能。
+**Image Context**
 
-![alt text](img/26.png)
-![alt text](img/27.png)
+When you need to generate code based on images, fix issues, or create graphical expressions, click the button below the dialog box to add image context. The availability of this feature depends on whether the model supports images. If the model does not support images, this function will be unavailable.
 
-**各模式功能介绍**
+![alt text](./img/24.png)
 
-**Architect模式**
+To check a model's image support, go to: `Settings > Providers` page, and view the `Model` description information.
 
-![alt text](img/28.png)
+![alt text](./img/25.png)
 
-**Code模式**
+## Modes
 
-![alt text](img/29.png)
+Modes in Costrict are personalized roles designed for specific tasks. Each mode offers different functions, excels in different areas, and has varying access permissions. Users can make choices based on their specific situation. If you are unfamiliar with these modes, it is recommended to use the Orchestrator mode, which automatically assigns the appropriate mode based on the task type.
 
-**Ask模式**
+There are two ways to select a mode: Method 1: Click the first button at the bottom of the input box to manually select a mode. Method 2: Use the shortcut / in the input box to quickly invoke the mode function.
 
-![alt text](img/30.png)
+![alt text](./img/26.png)
+![alt text](./img/27.png)
 
-**Debug模式**
+**Mode Function Introductions**
 
-![alt text](img/31.png)
+**Architect**
 
-**Orchestrator模式**
+![alt text](./img/28.svg)
 
-![alt text](img/32.png)
+**Code**
 
-**模式自定义设置**
+![alt text](./img/29.svg)
 
-Costrict支持自定义现有模式或创建新的模式。支持定义模式名称、API、角色定义、规则约束和访问的工具。
+**Ask**
 
-### 模型选择
+![alt text](./img/30.svg)
 
-Costrict插件提供了多种模型供用户免费使用。Costrict最新版本推出了Auto模式，新手用户如果对模型没有特定的偏好，推荐使用该模式。Auto模式会综合考量当前模型列表的效果、速度、Credit的消耗情况，根据任务类型智能为用户选择合适模型来完成任务。点击输入框下方第二个按钮即可切换模型。
+**Debug**
 
-![alt text](img/33.png)
+![alt text](./img/31.svg)
+
+**Orchestrator**
+
+![alt text](./img/32.svg)
+
+**Mode Customization Settings**
+
+Costrict supports customizing existing modes or creating new ones. You can define the mode name, API, role definition, rule constraints, and accessible tools.
+
+## Model Selection
+
+The Costrict plugin provides multiple models for users to use free of charge. The latest version of Costrict introduces an `Auto mode`. For new users without specific model preferences, using this mode is recommended. `Auto mode` comprehensively considers the effectiveness, speed, and Credit consumption of the current model list, intelligently selecting the most suitable model to complete the task based on the task type. Click the second button below the input box to switch models.
+
+![alt text](./img/33.png)

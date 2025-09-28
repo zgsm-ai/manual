@@ -3,35 +3,32 @@ sidebar_position: 2
 ---
 
 
-# 账号登录
+# Account Login
 
-### 方式1：Costrict账号登录
+## Method 1: Costrict Account Login
 
-1. 点击侧边栏的Costrict图标，打开Costrict窗口
-2. 点击"登录Costrict"，页面跳转至登录页面，支持手机号和GitHub两种登录方式，鼓励使用Github的方式登录
-3. 登录完成后返回IDE插件端即可开始使用
+1. Click the `Costrict` icon in the sidebar to open the `Costrict` window.
+2. Click`Login to Costric`. You will be redirected to the login page, which supports logging in via `mobile number` or `GitHub`. Using `GitHub` is recommended.
+3. After logging in, return to the IDE to start using the `Costrict`.
+![img.png](./login/login.png)
+![img.png](./login/login2.png)
 
-![img.png](install/login.png)
-![alt text](img/3.png)
+**Other Login Entries**
 
+Users who have logged in before can log in again through the following two methods:
 
-**其它登录入口**
-
-非首次登录的用户可以通过以下两种方式重新登录：
-
-- **重新登录**：点击右上角"Account"按钮进入账户页面，根据需要点击"重新登录"即可
+- **Re-login**：Click the `Account` button in the upper right corner to access the account page. Click `Re-login` as needed.
 
 
-- **重置**：点击"配置"按钮进入配置页面，选中"关于Costrict"，点击"重置"按钮则进入初始化状态，非必要情况请慎用，该操作会删除所有的记录
+- **Reset**：Click the `Settings` button to enter the setting page, select `About Costrict`, and then click the `Reset` button to return to the initial state. Please use this with caution, as it will delete all records. Only perform this action if absolutely necessary.
+![img.png](./login/relogin.png)
+![img.png](./login/reset.png)
 
-![alt text](img/4.png)
-![img.png](install/reset.png)
 
+### Method 2: Third-party API Account Login
 
-### 方式2：第三方API账号登录
+1. Click the `Costrict` icon in the sidebar to open the `Costrict` window.
+2. Select an `API provider`, fill in the `Base URL`, and click `Login to Costrict`.
+3. After logging in, return to the IDE plugin to start using the Costrict.
 
-1. 点击侧边栏的Costrict图标，打开Costrict窗口
-2. 选择API提供商，填写Base URL后点击"登录Costrict"
-3. 登录完成后返回IDE插件端即可开始使用
-
-![img.png](install/other.png)
+![img.png](./login/other.png)

@@ -2,56 +2,74 @@
 sidebar_position: 1
 ---
 
-# 代码审查（Code Review）
+# Code Review
 
-Costrict代码审查能够进行全量代码仓库的索引解析（codebase）、公司级编码知识库RAG（即将上线），支持用户对函数、选中代码行、代码文件和整个代码仓库进行代码检查，在发现问题和确认问题上采用"多专家模型专项检查"+"多模型交叉确认"策略。确保审查无死角、漏洞零遗漏，为企业代码筑牢安全防线。
+Costrict Code Review enables full repository indexing (codebase), along with a company-level coding knowledge base RAG (coming soon). It supports users in conducting code checks on functions, selected code, code files and entire project files. To identify and confirm issues, it employs a "multi-expert model inspection" + "multi-model cross-validation" strategy. Ensure a thorough review with zero oversight of vulnerabilities, fortifying the security defenses for enterprise code.
 
-### 触发方式
 
-支持用户对函数、代码块、代码文件和整个代码仓库进行代码审查。
+## Trigger Methods
 
-代码行和函数采用通用触发方式，点击鼠标 **右键选择"Costrict > 代码审查"** 触发
+Users can trigger code reviews for functions, code blocks, code files, and entire code repositories.
 
-![alt text](img/12.png)
+For code lines and functions, use the universal trigger method: right-click and select `Costrict > Code Review`.
 
-对于函数支持点击顶部 **快捷按钮"代码审查"** 触发
+![alt text](./img/12.png)
 
-![alt text](img/13.png)
 
-对于代码文件和代码仓库，打开文件目录，选中其中一个文件，点击鼠标右键选择" **Costrict > 代码审查"** 则可对该代码文件进行代码审查，点击" **Costrict > 检查仓库** "则会对检查该文件所在的全量代码仓库。
+For functions, you can also click the quick action button `Code Review`" `at the top.
 
-![alt text](img/14.png)
+![alt text](./img/13.png)
 
-### 执行过程&结果
 
-代码触发审查之后，Costrict面板的CODE REVIEW栏实时展示代码审查的进度，扫描的时间长短跟执行的代码量成正比，短到几秒，长到几十分钟。
+For code files and code repositories, open the EXPLORE panel, select a file, right-click, and choose `Costrict > Code Review` to review that specific code file. Click `Costrict > Review Repo` to review the entire code repository where the file is located.
+![alt text](./img/14.png)
 
-审查结果会以列表形式展示在侧边栏，根据标题描述、左侧颜色和问题标签可以对整体问题以及严重程度做一个大致的了解。
 
-三种颜色条红、黄、蓝对应问题严重等级：高、中、低。点击某个问题可在代码编辑区查看详情，右侧对应的问题代码行会被自动定位，呈高亮显示，问题行下方浮窗展示问题详情。
+## Execution Process & Results
 
-![alt text](img/15.png)
 
-为了Codereview功能后续能被训练的更智能更好，我们鼓励用户根据实际情况点击详情卡片右上角的按钮，有"接受"、"拒绝"、"关闭"三个按钮。接受：表示你认可AI输出的问题；拒绝：表示你认为这不是一个问题或者输出有误，你不认可输出结果；关闭：关闭当前详情窗口。
+After triggering a code review, the CODE REVIEW panel in Costrict will display the real-time progress. The scanning duration is proportional to the amount of code being processed, ranging from a few seconds to several tens of minutes.
 
-![alt text](img/16.png)
 
-### 过滤条件
+The review results will be displayed as a list. Accodring to the title description,  the color bar on the left , and the issue labels.
+You can get a general overview of the issues and its severity.
 
-Codereview支持对问题做过滤，支持对严重程度、问题标签和确信度三个维度过滤。
 
-- **严重程度**：高、中、低，对应问题列表的左侧颜色条：红黄蓝
-- **问题标签**：AI会根据问题描述自动给问题进行归类打标，通常一个问题会有一到多个标签。常见的问题标签类型有：语法错误、逻辑错误、内存泄露、安全漏洞等等。
-- **确信度**：指的是AI对这个问题的确定程度，确信度越高则可信度越高，符合过滤条件的问题就越少。反之亦然，默认选择适中即可。
+Three color bars—red, yellow, and blue—correspond to the severity levels: high, medium, and low. Click on an issue to view details in the code editor. The corresponding problematic code line will be automatically located and highlighted`. A pop-up window below the issue line displays detailed information.
 
-![alt text](img/17.png)
+![alt text](./img/15.png)
 
-### Codebase索引构建
 
-Codebase索引是一套针对代码库进行结构化解析、关联与存储的智能系统，通过建立代码元素（如函数、类、变量、调用关系等）的高效检索机制，为提高代码审查的准确度，Costrict在执行代码审查之前会先做Codebase索引构建工作。
+In order to make the Codereview feature more intelligent and better trained for future use, we encourage users to click the buttons in the top-right corner of the detail card according to the actual situation. There are three buttons: `Accept`, `Reject,` and `Close`.
+- Accept: Indicates that you agree with the issue identified by the AI.
 
-你可以在 **"设置 > 上下文"** 模块看到构建的进度和具体情况。Costrict插件默认会几分钟检查同步一次Codebase索引，如果有文件变更，也会自动触发索引同步。
+- Reject: Indicates that you believe this is not an issue or the output is incorrect, and you do not agree with the result.
 
-![alt text](img/18.png)
+- Close: Closes the current detail window.
 
-如果用户需要设置排除文件，点击"Ignore文件配置"模块下方的"编辑"按钮可以将索引文件配置到.coignore文件中，插件在做Codebase索引同步时就会自动过滤掉.coignore文件中的文件。该排除文件是与项目绑定的，如果用户切换了项目，则需要重新配置排除文件。如果用户未设置排除文件，则系统会使用默认的排除配置。
+![alt text](./img/16.png)
+
+
+## Filter Conditions
+
+Code Review supports filtering issues based on three dimensions: severity, issue labels, and confidence level.
+
+- **Severity**: High, medium, low, corresponding to the color bars on the left side of the issue list: red, yellow, blue.
+
+- **Labels**: The AI automatically categorizes and tags issues based on their descriptions. Typically, an issue will have one or more tags. Common issue label types include: syntax errors, logic errors, memory leaks, security vulnerabilities, etc.
+
+- **Confidence**: Refers to how certain the AI is about the issue. Higher confidence levels indicate greater reliability, and fewer issues will meet the filter criteria. Conversely, lower confidence levels will include more issues. The default setting is "Medium."
+
+
+![alt text](./img/17.png)
+
+## Codebase Index
+
+The Codebase index is an intelligent system designed for structured parsing, association, and storage of code repositories. By establishing an efficient retrieval mechanism for code elements (such as functions, classes, variables, call relationships, etc.), Costrict constructs the Codebase index before performing code reviews to improve the accuracy of code reviews.
+
+
+You can view the progress and specifics of the Codebase Index in the `Settings > Context` module. The Costrict plugin defaults to checking and synchronizing the Codebase index every few minutes. If there are file changes, it will also automatically trigger index synchronization.
+
+![alt text](./img/18.png)
+
+If users need to set up excluded files, they can click the `Edit` button under the "Ignore File Settings" module to configure the index files in the `.coignore` file. The plugin will automatically filter out files listed in `.coignore` during Codebase index synchronization. This exclusion file is project-bound. If users switch projects, they will need to reconfigure the exclusion file. The system will use the default exclusion configuration if there is no exclusion file.
