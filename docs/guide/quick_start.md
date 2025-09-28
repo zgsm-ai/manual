@@ -21,6 +21,7 @@ Users who have logged in before can log in again through the following two metho
 
 
 - **Reset**：Click the `Settings` button to enter the setting page, select `About Costrict`, and then click the `Reset` button to return to the initial state. Please use this with caution, as it will delete all records. Only perform this action if absolutely necessary.
+
 ![img.png](./login/relogin.png)
 ![img.png](./login/reset.png)
 
