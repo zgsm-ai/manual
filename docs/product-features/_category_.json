@@ -2,7 +2,7 @@
   "label": "Product Features",
   "position": 2,
   "link": {
-    "title": "产品特性",
+    "title": "Product Features",
     "type": "generated-index",
     "description": "Costrict 的核心产品特性包括代码审查、智能体和智能代码补全功能"
   }

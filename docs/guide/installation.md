@@ -2,31 +2,30 @@
 sidebar_position: 1
 ---
 
-# 安装流程
+# Installation
 
 
 
-:::tip[安装要求]
+:::tip[Installation Requirements]
 
-`costrict` 支持的 `VS Code` 最低版本是 `1.86.3`，建议升级到最新的 `VS Code` 版本以获得最佳的使用体验
+`costrict` supports the minimum VS Code version is `1.86.3`, and it is recommended to upgrade to the latest VS Code version for the best user experience.
+
 
 <details>
-  <summary> 您可以通过快捷键 'Crtl + Shift + p', 输入 'about', 即可查看当前版本 </summary>
-
-![img.png](img/version.png)
+  <summary> You can check the current version by pressing the shortcut key `Ctrl + Shift + p`, entering `about`. </summary>
 
 </details>
 
 :::
 
 
-### 插件安装
+## Plugin Installation
 
-- 在 `vscode` 插件商城中搜索 `zgsm` / `shenma` / `costrict` 
-- 点击安装
+- In the vscode plugin store，search for `zgsm` / `shenma` / `costrict` 
+-  Click to install
 
-![img.png](install/install.png)
+![img.png](./install/install.png)
 
-- costrict图标默认会出现在左侧
+- The Costrict icon will default to appearing on the left side
 
-![img.png](install/login.png)
+![img.png](./install/login.png)
