@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# 本地部署
+# 私有化部署
 
 
 # Costrict 后端部署工具
