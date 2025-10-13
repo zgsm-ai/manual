@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# 案例实践4 - Costrict 严格模式
+# 案例实践4 - Costrict 严肃编程模式
 
 ## 1.什么是strict模式？
 
