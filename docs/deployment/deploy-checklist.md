@@ -191,7 +191,7 @@ Local AI gateway configuration: `/opt/zgsm-backend-deploy/docs/higress.zh-CN.md`
 
   ```bash
   1. Access Higress page via browser
-  http://\{COSTRICT_BACKEND\}:\{PORT_HIGRESS_CONTROL\}
+  http://{COSTRICT_BACKEND}:{PORT_HIGRESS_CONTROL}
   
   2. Check "AI Traffic Entry Management -> AI Service Provider Management" page
   
@@ -225,7 +225,7 @@ apisix gateway service probe interface: http://\{COSTRICT_BACKEND\}:\{PORT_APISI
 - [ ] **Backend Service Gateway Connectivity Check**
 
   ```bash
-  curl -v http://\{COSTRICT_BACKEND\}:\{PORT_APISIX_ENTRY\}/health
+  curl -v http://{COSTRICT_BACKEND}:{PORT_APISIX_ENTRY}/health
   ```
 
 ### 3.2 Functionality Testing

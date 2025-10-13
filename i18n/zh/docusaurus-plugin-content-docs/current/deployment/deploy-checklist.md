@@ -228,7 +228,7 @@ AI网关配置本地：`/opt/zgsm-backend-deploy/docs/higress.zh-CN.md`
 
   ```bash
   1. 浏览器访问Higress页面
-  http://\{COSTRICT_BACKEND\}:\{PORT_HIGRESS_CONTROL\}
+  http://{COSTRICT_BACKEND}:{PORT_HIGRESS_CONTROL}
   
   2. 查看 “AI 流量入口管理 -> AI 服务提供者管理” 页面
   
@@ -270,7 +270,7 @@ apisix网关服务探测接口: http://\{COSTRICT_BACKEND\}:\{PORT_APISIX_ENTRY\
 - [ ] **后端服务网关连通性检查**
 
   ```bash
-  curl -v http://\{COSTRICT_BACKEND\}:\{PORT_APISIX_ENTRY\}/health
+  curl -v http://{COSTRICT_BACKEND}:{PORT_APISIX_ENTRY}/health
   ```
 
 
