@@ -24,14 +24,14 @@ Costrict 后端部署工具是基于 Docker Compose 的企业级 AI 代码助手
 
 ```
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│   VSCode 插件    │────│   API Gateway   │────│   后端服务群     │
-│   (Costrict)    │    │  (Apache APISIX) │    │  (Microservices) │
+│  VSCode Plugin  │────│   API Gateway   │────│ Backend Services│
+│   (Costrict)    │    │ (Apache APISIX) │    │ (Microservices) │
 └─────────────────┘    └─────────────────┘    └─────────────────┘
-                              │                        │
-                       ┌─────────────────┐    ┌─────────────────┐
-                       │   AI 网关       │    │   数据库集群     │
-                       │   (Higress)     │    │   (PostgreSQL)  │
-                       └─────────────────┘    └─────────────────┘
+                               │                        │
+                        ┌─────────────────┐    ┌─────────────────┐
+                        │   AI Gateway    │    │ Database Cluster│
+                        │   (Higress)     │    │   (PostgreSQL)  │
+                        └─────────────────┘    └─────────────────┘
 ```
 
 ## 系统要求
@@ -104,7 +104,7 @@ https://modelscope.cn/models/iic/gte-reranker-modernbert-base
 
 ## 部署检查清单
 
-在开始部署之前，请 **同步打开查看 [部署检查清单](./deploy-checklist.md)** 中的内容；并在整个部署过程中 **检查完成所有项目**，以确保最终部署成功。
+在开始部署之前，请 **同步打开查看 [部署检查清单](./deploy-checklist.md)** 中的内容；并在整个部署过程中 **检查完成所有检查项**，以确保最终部署成功。
 
 ## 快速开始
 
@@ -192,6 +192,8 @@ https://pan.baidu.com/s/12kP5VyQinFNrXFsKEWFGJw?pwd=k2dh
 ```
 
 ### 4. 服务部署
+
+**注意**：在执行下面`自动化部署脚本`前，请确保 **[部署检查清单](./deploy-checklist.md)** 中 **第1.1~2.2章节检查项已完成** 。
 
 执行自动化部署脚本:
 

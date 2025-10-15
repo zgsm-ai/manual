@@ -102,7 +102,7 @@ https://modelscope.cn/models/iic/gte-reranker-modernbert-base
 
 ## Deployment Checklist
 
-Before starting the deployment, please **simultaneously open and view the [Deployment Checklist](./deploy-checklist.md)** and **complete all items** throughout the deployment process to ensure a successful final deployment.
+Before starting the deployment, please **simultaneously open and view the [Deployment Checklist](./deploy-checklist.md)** and **check and complete all checklist items** throughout the deployment process to ensure a successful final deployment.
 
 ## Quick Start
 
@@ -190,6 +190,8 @@ https://pan.baidu.com/s/12kP5VyQinFNrXFsKEWFGJw?pwd=k2dh
 ```
 
 ### 4. Service Deployment
+
+**Note**: Before executing the `automated deployment script` below, please ensure that **checklist items in sections 1.1~2.2 of the [Deployment Checklist](./deploy-checklist.md) have been completed**.
 
 Execute the automated deployment script:
 
