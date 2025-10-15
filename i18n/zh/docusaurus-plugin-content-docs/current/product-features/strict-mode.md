@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 1
 ---
 
 # 严肃编程模式（Strict Mode）
