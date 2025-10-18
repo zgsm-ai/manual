@@ -12,23 +12,23 @@ sidebar_position: 3
 
 #### 1.1.1 模型GPU资源（推荐）
 
-- **对话模型**：4 * H20 或 4 * RTX4090
-- **code review模型**：2 * H20 或 2 * RTX4090
-- **补全模型**： 1 * H20 或 1 * RTX4090
-- **embedding模型**：0.5 * H20 或 * RTX4090
-- **rerank模型**：0.5 * H20 或 0.5 * RTX4090
+- **对话模型**：`4 * H20` 或 `4 * RTX4090`
+- **code review模型**：`2 * H20` 或 `2 * RTX4090`
+- **补全模型**：`1 * H20` 或 `1 * RTX4090`
+- **embedding模型**：`0.5 * H20` 或 `0.5 * RTX4090`
+- **rerank模型**：`0.5 * H20` 或 `0.5 * RTX4090`
 
 
 
 #### 1.1.2 模型列表（推荐）
 
-- **对话模型**： `GLM-4.5-FP8`、`GLM-4.5-106B-A12B-FP8`
+- **对话模型**：`GLM-4.5-FP8`、`GLM-4.5-106B-A12B-FP8`
 - **code review模型**：`Qwen2.5-Coder-32B-Instruct`
 - **补全模型**：`DeepSeek-Coder-V2-Lite-Base`
 - **embedding模型**：`gte-modernbert-baseRAG/Embedding`
 - **rerank模型**：`gte-reranker-modernbert-baseRAG/Rerank`
 
-**注意**：确认模型的命令名称、APIKEY和上下文大小等信息是否准确并记录
+**注意**：确认模型的`名称`、`APIKEY`和`上下文长度`等信息是否准确并记录
 
 
 
@@ -43,11 +43,10 @@ sidebar_position: 3
 - [ ] **模型接口**
   
   - [ ] **对话模型**: `/v1/chat/completions` 接口
-  - [ ] **code review模型**: 同对话 `/v1/chat/completions` 接口
+  - [ ] **code review模型**: `/v1/chat/completions` 接口
   - [ ] **补全模型**: `/v1/completions` 接口
   - [ ] **embedding模型**: `/v1/embeddings` 接口
   - [ ] **rerank模型**: `/v1/embeddings` 接口
-
 
 
 ### 1.2 后端服务器
