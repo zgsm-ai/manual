@@ -258,7 +258,7 @@ http://{COSTRICT_BACKEND}:{PORT_CASDOOR}
 
 ## 客户端集成
 
-### VSCode 插件配置
+### Costrict 插件配置
 
 1. 安装 Costrict VSCode 扩展
 2. 打开扩展设置中的"提供商"页面
@@ -268,6 +268,8 @@ http://{COSTRICT_BACKEND}:{PORT_CASDOOR}
    Costrict Base URL: {COSTRICT_BACKEND_BASEURL}
    ```
 5. 点击"登录 Costrict"完成身份验证
+
+详细安装指南：[Costrict 下载安装文档](https://costrict.ai/download) (含 `VSCode` 和 `JetBrains` IDE)
 
 **服务访问地址**:
 ```
