@@ -8,7 +8,7 @@ sidebar_position: 1
 
 :::tip[Installation Requirements]
 
-`costrict` supports the minimum VS Code version is `1.86.3`, and it is recommended to upgrade to the latest VS Code version for the best user experience.
+`CoStrict` supports the minimum VS Code version is `1.86.3`, and it is recommended to upgrade to the latest VS Code version for the best user experience.
 
 
 <details>
@@ -21,11 +21,11 @@ sidebar_position: 1
 
 ## Plugin Installation
 
-- In the vscode plugin store，search for `zgsm` / `shenma` / `costrict` 
+- In the vscode plugin store，search for `zgsm` / `shenma` / `CoStrict` 
 -  Click to install
 
 ![img.png](./install/install.png)
 
-- The Costrict icon will default to appearing on the left side
+- The CoStrict icon will default to appearing on the left side
 
 ![img.png](./install/login.png)

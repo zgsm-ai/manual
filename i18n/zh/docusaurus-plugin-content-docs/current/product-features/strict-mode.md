@@ -28,7 +28,7 @@ Vibe模式沿用了此前的开发模式，需求澄清与代码生成交替进�
 
 ## 内置多个增强生成效果的智能工具，提高编码质量
 
-Costrict内置多项增强生成效果的智能工具，包括项目理解、测试方案与问题排障。
+CoStrict内置多项增强生成效果的智能工具，包括项目理解、测试方案与问题排障。
 
 ### 2.1 项目理解
 
@@ -42,7 +42,7 @@ Costrict内置多项增强生成效果的智能工具，包括项目理解、测
 
 输入问题日志或故障描述，AI协助定位问题根源，提供修复方案。
 
-详细使用教程参见[Costrict
+详细使用教程参见[CoStrict
 2.0版本用户手册](../../best-practices/user-manual)
 
 ## 支持智能化协作流程，让开发更高效更可控
@@ -71,9 +71,9 @@ Strict模式支持任务过程的可视化与可编辑，开发者可在执行�
 
 ![descript](./img/strict-mode/image4.png)
 
-#  获取Costrict 2.0版本
+#  获取CoStrict 2.0版本
 
-打开VS Code，点击插件市场，搜索Costrict，更新插件。
+打开VS Code，点击插件市场，搜索CoStrict，更新插件。
 
 ![descript](./img/strict-mode/image5.png)
 

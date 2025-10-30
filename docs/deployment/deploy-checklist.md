@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Deployment Checklist
 
-Used for checking and verifying the preparation before deployment, configuration during deployment, and functionality after deployment in the Costrict backend service deployment process.
+Used for checking and verifying the preparation before deployment, configuration during deployment, and functionality after deployment in the CoStrict backend service deployment process.
 
 ## I. Pre-Deployment
 

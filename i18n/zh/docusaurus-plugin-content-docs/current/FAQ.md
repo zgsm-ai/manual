@@ -21,7 +21,7 @@ sidebar_position: 4
 > 清理 `cookies`, 网页临时文件, 消除永久重定向带来的问题
 
 
-### 前端登录成功一段时间后, `costrict` 插件没有跳转对话页面
+### 前端登录成功一段时间后, `CoStrict` 插件没有跳转对话页面
 
 **问题原因**: 
 > 大概率是因为配置了代理, 导致插件网络出现问题
@@ -30,7 +30,7 @@ sidebar_position: 4
 
 
 <details>
-  <summary> 点击终端旁边的输出, 选择 costrict </summary>
+  <summary> 点击终端旁边的输出, 选择 CoStrict </summary>
 
 ![img.png](FAQ-img/proxy-err.png)
 
