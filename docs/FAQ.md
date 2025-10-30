@@ -14,7 +14,7 @@ sidebar_position: 4
 > *   First, check the protocol in your browser's address bar. If it is `http`, manually change it to `https` and try accessing the page again.
 > *   To permanently fix this, clear your browser's cache (specifically "Cached images and files") to remove the stored permanent redirect.
 
-### `costrict` Plugin Fails to Redirect to the Chat Page After Successful Login
+### `CoStrict` Plugin Fails to Redirect to the Chat Page After Successful Login
 
 **Cause**:
 > This is most likely caused by local proxy settings interfering with the extension's network connectivity.
@@ -22,7 +22,7 @@ sidebar_position: 4
 **Diagnosing the Error**:
 
 <details>
-  <summary>Click on 'OUTPUT' next to the 'TERMINAL' tab, then select 'costrict' from the dropdown menu.</summary>
+  <summary>Click on 'OUTPUT' next to the 'TERMINAL' tab, then select 'CoStrict' from the dropdown menu.</summary>
 
 ![img.png](FAQ-img/proxy-err.png)
 

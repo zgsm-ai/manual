@@ -12,7 +12,7 @@ The Agent panel is similar to AI chat software, allowing developers to converse 
 
 ## Code Completion
 
-With automatic code completion, Costrict can generate subsequent code based on the context at the cursor's position, delivering rapid code generation within seconds. It supports mainstream programming languages such as Python, Go, Java, JavaScript, TypeScript, C/C++, and more. Simply open a code file in the editor, and while editing, Costrict will automatically trigger intelligent code completion suggestions at appropriate times, as shown in the figure below:
+With automatic code completion, CoStrict can generate subsequent code based on the context at the cursor's position, delivering rapid code generation within seconds. It supports mainstream programming languages such as Python, Go, Java, JavaScript, TypeScript, C/C++, and more. Simply open a code file in the editor, and while editing, CoStrict will automatically trigger intelligent code completion suggestions at appropriate times, as shown in the figure below:
 
 ![alt text](./basic_feature/completion.png)
 

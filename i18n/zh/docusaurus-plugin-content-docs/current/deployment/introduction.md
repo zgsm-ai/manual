@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Costrict 后端部署工具
+# CoStrict 后端部署工具
 
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
 [![Docker](https://img.shields.io/badge/docker-required-blue.svg)](https://docs.docker.com/get-docker/)
@@ -10,7 +10,7 @@ sidebar_position: 1
 
 ## 项目概述
 
-Costrict 后端部署工具是基于 Docker Compose 的企业级 AI 代码助手后端服务部署解决方案。该项目提供了完整的微服务架构，包含 AI 网关、身份认证、代码分析、聊天服务等核心组件，支持私有化部署和云端服务两种模式。
+CoStrict 后端部署工具是基于 Docker Compose 的企业级 AI 代码助手后端服务部署解决方案。该项目提供了完整的微服务架构，包含 AI 网关、身份认证、代码分析、聊天服务等核心组件，支持私有化部署和云端服务两种模式。
 
 ### 核心特性
 
@@ -25,7 +25,7 @@ Costrict 后端部署工具是基于 Docker Compose 的企业级 AI 代码助手
 ```
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
 │  VSCode Plugin  │────│   API Gateway   │────│ Backend Services│
-│   (Costrict)    │    │ (Apache APISIX) │    │ (Microservices) │
+│   (CoStrict)    │    │ (Apache APISIX) │    │ (Microservices) │
 └─────────────────┘    └─────────────────┘    └─────────────────┘
                                │                        │
                         ┌─────────────────┐    ┌─────────────────┐
@@ -38,7 +38,7 @@ Costrict 后端部署工具是基于 Docker Compose 的企业级 AI 代码助手
 
 ### 模型要求
 
-costrict的核心功能都依赖大语言模型，总共需要准备如下模型服务
+CoStrict的核心功能都依赖大语言模型，总共需要 **准备如下模型服务**
 
 ```
 1. 对话模型(提供完整的 http://chat_model_ip:chat_model_port/v1/chat/completions 接口)
@@ -48,21 +48,21 @@ costrict的核心功能都依赖大语言模型，总共需要准备如下模型
 5. 补全模型(提供完整的 http://completion_model_ip:completion_model_port/v1/completions 接口)
 ```
 
-**注意**：提供并记录准确的模型名称、AIPKEY和上下文大小信息。用于部署服务时配置。
+**注意**：提供并记录准确的 `模型名称`、`APIKEY` 和 `上下文长度` 信息。用于部署服务时配置。
 
-推荐模型和下载地址：
+**推荐模型** 和 **下载地址**：
 
-对话模型： `GLM-4.5-FP8`、`GLM-4.5-106B-A12B-FP8`
+- **对话模型**： `GLM-4.5-FP8`、`GLM-4.5-106B-A12B-FP8`
 
-code review模型：`Qwen2.5-Coder-32B-Instruct`
+- **code review模型**：`Qwen2.5-Coder-32B-Instruct`、`Qwen3.0-Coder-30B-A3B-Instruct`
 
-补全模型：`DeepSeek-Coder-V2-Lite-Base`
+- **补全模型**：`DeepSeek-Coder-V2-Lite-Base`
 
-embedding模型：`gte-modernbert-baseRAG/Embedding`
+- **embedding模型**：`gte-modernbert-baseRAG/Embedding`
 
-rerank模型：`gte-reranker-modernbert-baseRAG/Rerank`
+- **rerank模型**：`gte-reranker-modernbert-baseRAG/Rerank`
 
-下载地址：
+- **下载地址**：
 
 ```
 https://modelscope.cn/models/ZhipuAI/GLM-4.5-FP8
@@ -74,29 +74,43 @@ https://modelscope.cn/models/iic/gte-modernbert-base
 https://modelscope.cn/models/iic/gte-reranker-modernbert-base
 ```
 
-### 自部署模型实例环境
+**推荐模型部署资源**：
+
+- **对话模型**：`4 * H20` 或 `4 * RTX4090`
+
+- **code review模型**：`2 * H20` 或 `2 * RTX4090`
+
+- **补全模型**：`1 * H20` 或 `1 * RTX4090`
+
+- **embedding模型**：`0.5 * H20` 或 `0.5 * RTX4090`
+
+- **rerank模型**：`0.5 * H20` 或 `0.5 * RTX4090`
+
+**试用提醒**：
+
+- 若有资源，为了体验完整的功能，请确保 **所有模型部署时满足上述要求**。
+- 若无资源，我们可以提供两种方式：
+  - 直接使用我们正式发布的CoStrict，无需额外部署，体验CoStrict所有功能。
+  - 由我们提供 **限时** 的线上`对话`和`code review`模型接口，用于短期体验CoStrict主要的`AGNET`和`CODE REVIEW`功能。
+
+| 功能 | 自部署（模型符合要求） | 正式发布CoStrict | 使用限时接口 |
+|------|------------|--------------|--------------|
+| AGENT（Vibe） | ✅ 完整功能 | ✅ 完整功能 | ✅ 限时体验（缺少Codebase） |
+| AGENT（Strict） | ✅ 完整功能 | ✅ 完整功能 | ✅ 限时体验（缺少Codebase） |
+| CODE REVIEW | ✅ 完整功能 | ✅ 完整功能 | ✅ 限时体验 |
+| 代码补全 | ✅ 完整功能 | ✅ 完整功能 | ❌ 不支持 |
+| CoStrict线上接口访问 | ✅ 无需访问CoStrict线上接口 | ❌ 要求访问CoStrict线上接口 | ❌ 要求访问CoStrict线上接口 |
+
+
+### 自部署后端服务实例环境
 
 **硬件要求**:
 - CPU: Intel x64 架构，最低 16 核心
 - 内存: 最低 32GB RAM
 - 存储: 最低 512GB 可用存储空间
-- GPU: 支持 CUDA 的显卡
 
 **软件要求**:
 - 操作系统: CentOS 7+ 或 Ubuntu 18.04+ (支持 WSL)
-- Container Runtime: Docker 20.10+
-- 编排工具: Docker Compose 2.0+
-- NVIDIA 驱动: nvidia-docker 支持
-
-### 第三方 API 服务环境
-
-**硬件要求**:
-- CPU: Intel x64 架构，最低 16 核心
-- 内存: 最低 32GB RAM
-- 存储: 最低 512GB 可用存储空间
-
-**软件要求**:
-- 操作系统: CentOS 7+ 或 Ubuntu 18.04+
 - Container Runtime: Docker 20.10+ (可参考[离线安装docker](./how-to-install-docker-offline.md)离线安装)
 - 编排工具: Docker Compose 2.0+
 
@@ -110,9 +124,24 @@ https://modelscope.cn/models/iic/gte-reranker-modernbert-base
 
 ### 1. 获取部署代码
 
+**方式一：通过 Git 克隆**
+
 ```bash
 git clone https://github.com/zgsm-ai/zgsm-backend-deploy.git
 cd zgsm-backend-deploy
+```
+
+**方式二：通过下载 ZIP 包**
+
+```bash
+# 下载最新版本分支的 ZIP 包
+wget https://github.com/zgsm-ai/zgsm-backend-deploy/archive/refs/heads/v4.zip -O zgsm-backend-deploy-4.zip
+
+# 解压 ZIP 包
+unzip zgsm-backend-deploy-4.zip
+
+# 进入解压后的目录（GitHub默认解压目录名为 仓库名-分支名）
+cd zgsm-backend-deploy-4
 ```
 
 ### 2. 环境配置
@@ -159,15 +188,15 @@ vim configure.sh
 | `RERANKER_MODEL` | rerank模型的名称 | - | ✅ |
 | `RERANKER_APIKEY` | rerank模型的APIKEY，如果模型启用了APIKEY鉴权，则需要设置 | - | ❌ |
 
-**注意**：代码补全、向量嵌入、rerank模型仅供Costrict内部使用，不会出现在用户可选择的模型列表中。
+**注意**：代码补全、向量嵌入、rerank模型仅供CoStrict内部使用，不会出现在用户可选择的模型列表中。
 
 ### 3. 准备后端服务镜像
 
-Costrict后端镜像主要保存在docker hub镜像仓库docker.io/zgsm中。
+CoStrict后端镜像主要保存在docker hub镜像仓库docker.io/zgsm中。
 
 在执行部署前，需要先保证后端部署需要的镜像，可以正常从镜像仓库拉取。
 
-Costrict后端需要的镜像，可以查看scripts/newest-images.list文件获取完整列表。
+CoStrict后端需要的镜像，可以查看scripts/newest-images.list文件获取完整列表。
 
 通过下述命令可以从云端获取该列表文件。
 
@@ -183,7 +212,7 @@ bash scripts/get-images-list.sh -o scripts
 bash scripts/load-images.sh -l /root/images
 ```
 
-除了从docker镜像仓库拉取并导出镜像文件，还可以从百度网盘下载Costrict后端部署需要的所有镜像文件。
+除了从docker镜像仓库拉取并导出镜像文件，还可以从百度网盘下载CoStrict后端部署需要的所有镜像文件。
 
 网盘地址：
 
@@ -258,18 +287,18 @@ http://{COSTRICT_BACKEND}:{PORT_CASDOOR}
 
 ## 客户端集成
 
-### Costrict 插件配置
+### CoStrict 插件配置
 
-1. 安装 Costrict VSCode 扩展
+1. 安装 CoStrict VSCode 扩展
 2. 打开扩展设置中的"提供商"页面
-3. 选择 API 提供商为"Costrict"
+3. 选择 API 提供商为"CoStrict"
 4. 配置后端服务地址:
    ```
-   Costrict Base URL: {COSTRICT_BACKEND_BASEURL}
+   CoStrict Base URL: {COSTRICT_BACKEND_BASEURL}
    ```
-5. 点击"登录 Costrict"完成身份验证
+5. 点击"登录 CoStrict"完成身份验证
 
-详细安装指南：[Costrict 下载安装文档](https://costrict.ai/download) (含 `VSCode` 和 `JetBrains` IDE)
+详细安装指南：[CoStrict 下载安装文档](https://costrict.ai/download) (含 `VSCode` 和 `JetBrains` IDE)
 
 **服务访问地址**:
 ```
@@ -397,4 +426,4 @@ docker-compose logs postgres
 
 ---
 
-**Costrict** - 让 AI 助力您的代码开发之旅
+**CoStrict** - 让 AI 助力您的代码开发之旅

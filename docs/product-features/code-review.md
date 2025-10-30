@@ -4,14 +4,14 @@ sidebar_position: 1
 
 # Code Review
 
-Costrict Code Review enables full repository indexing (codebase), along with a company-level coding knowledge base RAG (coming soon). It supports users in conducting code checks on functions, selected code, code files and entire project files. To identify and confirm issues, it employs a "multi-expert model inspection" + "multi-model cross-validation" strategy. Ensure a thorough review with zero oversight of vulnerabilities, fortifying the security defenses for enterprise code.
+CoStrict Code Review enables full repository indexing (codebase), along with a company-level coding knowledge base RAG (coming soon). It supports users in conducting code checks on functions, selected code, code files and entire project files. To identify and confirm issues, it employs a "multi-expert model inspection" + "multi-model cross-validation" strategy. Ensure a thorough review with zero oversight of vulnerabilities, fortifying the security defenses for enterprise code.
 
 
 ## Trigger Methods
 
 Users can trigger code reviews for functions, code blocks, code files, and entire code repositories.
 
-For code lines and functions, use the universal trigger method: right-click and select `Costrict > Code Review`.
+For code lines and functions, use the universal trigger method: right-click and select `CoStrict > Code Review`.
 
 ![alt text](./img/12.png)
 
@@ -21,14 +21,14 @@ For functions, you can also click the quick action button `Code Review`" `at the
 ![alt text](./img/13.png)
 
 
-For code files and code repositories, open the EXPLORE panel, select a file, right-click, and choose `Costrict > Code Review` to review that specific code file. Click `Costrict > Review Repo` to review the entire code repository where the file is located.
+For code files and code repositories, open the EXPLORE panel, select a file, right-click, and choose `CoStrict > Code Review` to review that specific code file. Click `CoStrict > Review Repo` to review the entire code repository where the file is located.
 ![alt text](./img/14.png)
 
 
 ## Execution Process & Results
 
 
-After triggering a code review, the CODE REVIEW panel in Costrict will display the real-time progress. The scanning duration is proportional to the amount of code being processed, ranging from a few seconds to several tens of minutes.
+After triggering a code review, the CODE REVIEW panel in CoStrict will display the real-time progress. The scanning duration is proportional to the amount of code being processed, ranging from a few seconds to several tens of minutes.
 
 
 The review results will be displayed as a list. Accodring to the title description,  the color bar on the left , and the issue labels.
@@ -65,10 +65,10 @@ Code Review supports filtering issues based on three dimensions: severity, issue
 
 ## Codebase Index
 
-The Codebase index is an intelligent system designed for structured parsing, association, and storage of code repositories. By establishing an efficient retrieval mechanism for code elements (such as functions, classes, variables, call relationships, etc.), Costrict constructs the Codebase index before performing code reviews to improve the accuracy of code reviews.
+The Codebase index is an intelligent system designed for structured parsing, association, and storage of code repositories. By establishing an efficient retrieval mechanism for code elements (such as functions, classes, variables, call relationships, etc.), CoStrict constructs the Codebase index before performing code reviews to improve the accuracy of code reviews.
 
 
-You can view the progress and specifics of the Codebase Index in the `Settings > Context` module. The Costrict plugin defaults to checking and synchronizing the Codebase index every few minutes. If there are file changes, it will also automatically trigger index synchronization.
+You can view the progress and specifics of the Codebase Index in the `Settings > Context` module. The CoStrict plugin defaults to checking and synchronizing the Codebase index every few minutes. If there are file changes, it will also automatically trigger index synchronization.
 
 ![alt text](./img/18.png)
 

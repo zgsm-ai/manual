@@ -12,7 +12,7 @@ Agent对话面板与传统的聊天软件类似，支持开发者与AI Agent助�
 
 ### 代码智能补全
 
-代码自动补全，Costrict能够根据光标所在位置的上下文代码，自动生成后续代码，快速秒级出码，支持主流开发语言，例如：Python、Go、Java、JavaScript、TypeScript、C/C++等。只需要使用编辑器打开代码文件，编辑代码文件时候，Costrict会在合适时机和位置自动触发智能代码补全提示，如下图所示：
+代码自动补全，CoStrict能够根据光标所在位置的上下文代码，自动生成后续代码，快速秒级出码，支持主流开发语言，例如：Python、Go、Java、JavaScript、TypeScript、C/C++等。只需要使用编辑器打开代码文件，编辑代码文件时候，CoStrict会在合适时机和位置自动触发智能代码补全提示，如下图所示：
 
 ![alt text](img/8.png)
 
