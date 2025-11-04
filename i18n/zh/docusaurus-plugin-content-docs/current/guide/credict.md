@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # Credit 配额
 
-### Credie配额说明
+### Credit配额说明
 
 CoStrict为免费提供用户使用，但是由于算力资源有限，为保证大规模用户请求的情况下仍能保持较好的用户体验，CoStrict采取按Credit额度计算用户的使用情况（类似积分规则），当你有Credit时，你就可以正常使用CoStrict（使用其它供应商则不受影响）。新用户注册或参与官方运营活动会有Credit额度奖励。
 
@@ -19,7 +19,7 @@ Credit在计算使用额度时，是按照一次对话或请求为 1 Credit的�
 
 ![alt text](./credit/3.png)
 
-### Credie配额获取
+### Credit配额获取
 
 官方推出了多种Credit方式：新用户注册会有 50 Credit的奖励额度；官方在每周也会赠送10 Credit左右，如果参与官方的运营活动，如前往Github点亮 Star收藏CoStrict项目（链接地址：https://github.com/zgsm-ai/costrict ），我们也会有奖励额度。（奖励额度定期会调整，因此奖励额度以实际领取的为准）
 
