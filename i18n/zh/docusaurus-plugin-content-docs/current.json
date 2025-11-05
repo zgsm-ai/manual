@@ -42,5 +42,13 @@
   "sidebar.tutorialSidebar.category.Best Practices.link.generated-index.title": {
     "message": "最佳实践",
     "description": "The generated-index page title for category Best Practices in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.billing": {
+    "message": "套餐&计费说明",
+    "description": "The label for category billing in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.billing.link.generated-index.title": {
+    "message": "套餐&计费说明",
+    "description": "The generated-index page title for category billing in sidebar tutorialSidebar"
   }
 }
