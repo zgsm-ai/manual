@@ -4,7 +4,7 @@ sidebar_position: 6
 
 # Task Todo List
 
-ToDo List is a task list designed to clearly reflect Costrict's upcoming tasks and track the progress of current workflows. It is automatically created in the following scenarios: when handling complex tasks, managing multi-step workflows, or when using the Architect mode. You can also manually trigger them by asking Costrict: "Use to do list". Example:Please create a Snake game and use the to-do list.
+ToDo List is a task list designed to clearly reflect CoStrict's upcoming tasks and track the progress of current workflows. It is automatically created in the following scenarios: when handling complex tasks, managing multi-step workflows, or when using the Architect mode. You can also manually trigger them by asking CoStrict: "Use to do list". Example:Please create a Snake game and use the to-do list.
 
 ![descript](./img/todolist/image1.png)
 
@@ -14,9 +14,9 @@ ToDo List is a task list designed to clearly reflect Costrict's upcoming tasks a
 
 The Task Todo List enables dynamic task management within the chat interface.
 
-#### When Costrict Creates Todo Lists
+#### When CoStrict Creates Todo Lists
 
-Costrict creates todo lists through both automatic detection and manual requests:
+CoStrict creates todo lists through both automatic detection and manual requests:
 
 - **Task complexity detected** - Multiple steps, phases, or dependencies identified in your request
 
@@ -24,7 +24,7 @@ Costrict creates todo lists through both automatic detection and manual requests
 
 - **Direct tool request** - Say "use the update_todo_list tool" or "please use update_todo_list"
 
-Remember: Even when manually triggered, Costrict maintains control over the todo list content and workflow. You provide feedback during approval dialogs, but Costrict manages the list based on task needs.
+Remember: Even when manually triggered, CoStrict maintains control over the todo list content and workflow. You provide feedback during approval dialogs, but CoStrict manages the list based on task needs.
 
 ### **Display and Interaction**
 
