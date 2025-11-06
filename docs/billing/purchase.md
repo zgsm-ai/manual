@@ -2,9 +2,9 @@
 sidebar_position: 2
 ---
 
-# CoStrict购买条款（京东商店版）
+# CoStrict购买条款
 
-- [CoStrict购买条款（京东商店版）](#costrict购买条款京东商店版)
+- [CoStrict购买条款](#costrict购买条款)
   - [1. 产品套餐及定价](#1-产品套餐及定价)
     - [1.1 套餐类型](#11-套餐类型)
     - [1.2 Credits消耗规则](#12-credits消耗规则)
