@@ -87,7 +87,7 @@ sidebar_position: 1
 **活动说明：**
 
 - 🚨 **限时活动**：本活动为限时推广活动，暂未确定结束时间
-- 📢 **提前通知**：活动结束前一个月，我们将在 CoStrict 官网（https://costrict.ai）发布结束通知
+- 📢 **提前通知**：活动结束前一个月，我们将在 CoStrict 官网 (https://costrict.ai) 发布结束通知
 - ⏰ **时间判定**：以服务器时间（UTC+8 北京时间）为准
 
 ### 模型选择建议
@@ -135,7 +135,7 @@ sidebar_position: 1
 
 ### 查看你的 Credits 使用情况
 
-1. 登录 CoStrict 客户端或访问 CoStrict 官网（https://zgsm.sangfor.com/credit/manager/）
+1. 登录 CoStrict 客户端或访问 CoStrict 官网 (https://zgsm.sangfor.com/credit/manager)
 2. 点击右上角头像，进入 Settings > Usage
 3. 在这里，你可以查看当前套餐，以及流量包中可用与已使用的 Credits 信息
 
