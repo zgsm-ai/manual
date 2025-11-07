@@ -42,11 +42,11 @@ sidebar_position: 3
 
 - [ ] **模型接口**
   
-  - [ ] **对话模型**: `/v1/chat/completions` 接口
-  - [ ] **code review模型**: `/v1/chat/completions` 接口
-  - [ ] **补全模型**: `/v1/completions` 接口
-  - [ ] **embedding模型**: `/v1/embeddings` 接口
-  - [ ] **rerank模型**: `/v1/embeddings` 接口
+  - [ ] **对话模型**: `{CHAT_BASEURL}/v1/chat/completions` 接口
+  - [ ] **code review模型**: `{CODEREVIEW_BASEURL}/v1/chat/completions` 接口
+  - [ ] **补全模型**: `{COMPLETION_BASEURL}` 接口
+  - [ ] **embedding模型**: `{EMBEDDER_BASEURL}` 接口
+  - [ ] **rerank模型**: `{RERANKER_BASEURL}` 接口
 
 
 ### 1.2 后端服务器
@@ -110,7 +110,7 @@ sidebar_position: 3
 
 项目地址：https://github.com/zgsm-ai/zgsm-backend-deploy
 
-项目存放路径：`/opt/zgsm-backend-deploy`
+项目存放路径：`/opt/zgsm-backend-deploy` (假设目录为`/opt/zgsm-backend-deploy`, 根据实际项目存放路径修改，下同)
 
 
 
@@ -137,7 +137,7 @@ sidebar_position: 3
 - [ ] **端口检查**
 
   ```bash
-  sudo ss -tlnp | grep -E ':(9180|9080|9091|9092|9093|2382|6379|5432|5003|9081|5000|8765|5001|9090|3000|9200|8080|8001|9001|5173|9003|9004|9005|9006|9007|9008|9009|9010|9011) '
+  sudo ss -tlnp | grep -E ':(9180|9080|9091|9092|9093|2382|6379|5432|5003|9081|5000|8765|5001|9090|3000|9200|8080|8001|9001|5173|9003|9004|9005|9006|9007|9008|9009|9010|7890|9011|8888|8889) '
   ```
 
 
@@ -192,7 +192,8 @@ sidebar_position: 3
 - [ ] **镜像检查**
 
   ```bash
-  bash /opt/zgsm-backend-deploy/docker-download-images.sh
+  cd /opt/zgsm-backend-deploy
+  bash docker-download-images.sh
   ```
 
 
@@ -294,10 +295,8 @@ apisix网关服务探测接口: http://\{COSTRICT_BACKEND\}:\{PORT_APISIX_ENTRY\
 
 #### 3.2.3 CodeReview
 
+- 代码块
 - 文件
-- 目录
-- 项目
-
 
 
 #### 3.2.4 补全
@@ -362,5 +361,6 @@ apisix网关服务探测接口: http://\{COSTRICT_BACKEND\}:\{PORT_APISIX_ENTRY\
 - [ ] **服务日志检查**
 
   ```bash
+  # 服务：chat-rag,issue-manager,review-manager,review-checker,code-completion,codebase-embedder
   docker-compose logs [service_name]
   ```

@@ -38,7 +38,7 @@ CoStrict Backend Deployment Tool is an enterprise-level AI code assistant backen
 
 ### Model Requirements
 
-The core functions of CoStrict all depend on large language models, and the following model services need to be **prepared in total**:
+The core functions of CoStrict all depend on large language models, and you need to **prepare the following model services and ensure that the model interfaces are functioning properly**:
 
 ```
 1. Chat model (providing complete http://chat_model_ip:chat_model_port/v1/chat/completions interface)
@@ -125,8 +125,17 @@ Before starting the deployment, please **simultaneously open and view the [Deplo
 **Method 1: Git Clone**
 
 ```bash
+# Clone the repository
 git clone https://github.com/zgsm-ai/zgsm-backend-deploy.git
+
+# Enter the project directory
 cd zgsm-backend-deploy
+
+# Switch to the latest version branch
+git checkout v4
+
+# Add execute permissions to all executable files in the directory
+bash add-exec-permission.sh
 ```
 
 **Method 2: Download ZIP Package**
@@ -140,6 +149,9 @@ unzip zgsm-backend-deploy-4.zip
 
 # Enter the extracted directory (GitHub default extraction directory name is repository-name-branch-name)
 cd zgsm-backend-deploy-4
+
+# Add execute permissions to all executable files in the directory
+bash add-exec-permission.sh
 ```
 
 ### 2. Environment Configuration
@@ -152,15 +164,19 @@ vim configure.sh
 
 **Key Configuration Parameters**:
 
+Review and modify the following two types of configuration parameters and save:
+
+> Basic Service Settings
+
 | Parameter Name | Description | Default Value | Required |
 |---------|------|--------|----------|
 | `COSTRICT_BACKEND_BASEURL` | Backend service base URL | - | ✅ |
 | `COSTRICT_BACKEND` | Backend service host address | - | ✅ |
-| `PORT_APISIX_ENTRY` | API gateway entry port | 9080 | ❌ |
-| `PORT_HIGRESS_CONTROL` | Higress console port | 8001 | ❌ |
-| `PORT_CASDOOR` | Casdoor authentication system port | 9009 | ❌ |
+| `PORT_APISIX_ENTRY` | API gateway entry port | 9080 | ✅ |
+| `PORT_HIGRESS_CONTROL` | Higress console port | 8001 | ✅ |
+| `PORT_CASDOOR` | Casdoor authentication system port | 9009 | ✅ |
 
-Model Settings:
+> Model Settings
 
 | Parameter Name | Description | Default Value | Required |
 |---------|------|--------|----------|
@@ -190,13 +206,13 @@ Model Settings:
 
 ### 3. Prepare Backend Service Images
 
-CoStrict backend images are mainly stored in the docker hub image repository docker.io/zgsm.
+CoStrict backend images are mainly stored in the `docker hub` image repository `docker.io/zgsm`.
 
 Before deployment, you need to ensure that the images required for backend deployment can be pulled from the image repository normally.
 
-The images required by CoStrict backend can be found in the scripts/newest-images.list file for a complete list.
+The images required by CoStrict backend can be found in the `scripts/newest-images.list` file for a complete list.
 
-You can get this list file from the cloud with the following command.
+**If the `scripts/newest-images.list` file does not exist**, you can get this list file from the cloud with the following command.
 
 ```bash
 bash scripts/get-images-list.sh -o scripts
@@ -204,7 +220,7 @@ bash scripts/get-images-list.sh -o scripts
 
 The deployment script will automatically pull all images required for backend deployment during the deployment process.
 
-However, if the deployment server cannot access the docker hub image repository, you need to download the images in advance and save them to the specified directory of the deployment machine (assuming saved in /root/images). Then run the following command to preload them.
+However, if `the deployment server cannot access the docker hub` image repository, you need to download the images in advance and save them to the specified directory of the deployment machine (assuming saved in /root/images). Then run the following command to preload them.
 
 ```bash
 bash scripts/load-images.sh -l /root/images
@@ -212,7 +228,7 @@ bash scripts/load-images.sh -l /root/images
 
 In addition to pulling and exporting image files from the docker image repository, you can also download all image files required for CoStrict backend deployment from Baidu Netdisk.
 
-Netdisk address:
+**Netdisk address**:
 
 ```
 https://pan.baidu.com/s/12kP5VyQinFNrXFsKEWFGJw?pwd=k2dh
@@ -240,7 +256,7 @@ The deployment process includes the following steps:
 
 ### AI Gateway Configuration (Higress)
 
-After deployment, access the Higress console at the following address to configure the `chat` and `code review` models:
+After deployment, access the Higress console at the following address to check and adjust the configuration of the `chat` and `code review` models:
 
 ```
 http://{COSTRICT_BACKEND}:{PORT_HIGRESS_CONTROL}
