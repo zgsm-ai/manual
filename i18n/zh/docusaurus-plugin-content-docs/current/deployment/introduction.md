@@ -38,7 +38,7 @@ CoStrict 后端部署工具是基于 Docker Compose 的企业级 AI 代码助手
 
 ### 模型要求
 
-CoStrict的核心功能都依赖大语言模型，总共需要 **准备如下模型服务**
+CoStrict的核心功能都依赖大语言模型，总共需要 **准备如下模型服务并确保模型接口功能正常**
 
 ```
 1. 对话模型(提供完整的 http://chat_model_ip:chat_model_port/v1/chat/completions 接口)
@@ -127,8 +127,17 @@ https://modelscope.cn/models/iic/gte-reranker-modernbert-base
 **方式一：通过 Git 克隆**
 
 ```bash
+# 克隆仓库
 git clone https://github.com/zgsm-ai/zgsm-backend-deploy.git
+
+# 进入项目目录
 cd zgsm-backend-deploy
+
+# 切换最新版本分支
+git checkout v4
+
+# 将目录下所有执行文件添加执行权限
+bash add-exec-permission.sh 
 ```
 
 **方式二：通过下载 ZIP 包**
@@ -142,6 +151,9 @@ unzip zgsm-backend-deploy-4.zip
 
 # 进入解压后的目录（GitHub默认解压目录名为 仓库名-分支名）
 cd zgsm-backend-deploy-4
+
+# 将目录下所有执行文件添加执行权限
+bash add-exec-permission.sh 
 ```
 
 ### 2. 环境配置
@@ -154,15 +166,19 @@ vim configure.sh
 
 **关键配置参数**:
 
+查看并修改以下两类配置参数，并保存：
+
+> 基本服务设置
+
 | 参数名称 | 描述 | 默认值 | 是否必需 |
 |---------|------|--------|----------|
 | `COSTRICT_BACKEND_BASEURL` | 后端服务基础 URL | - | ✅ |
 | `COSTRICT_BACKEND` | 后端服务主机地址 | - | ✅ |
-| `PORT_APISIX_ENTRY` | API 网关入口端口 | 9080 | ❌ |
-| `PORT_HIGRESS_CONTROL` | Higress 控制台端口 | 8001 | ❌ |
-| `PORT_CASDOOR` | Casdoor 认证系统端口 | 9009 | ❌ |
+| `PORT_APISIX_ENTRY` | API 网关入口端口 | 9080 | ✅ |
+| `PORT_HIGRESS_CONTROL` | Higress 控制台端口 | 8001 | ✅ |
+| `PORT_CASDOOR` | Casdoor 认证系统端口 | 9009 | ✅ |
 
-模型设置：
+> 模型设置
 
 | 参数名称 | 描述 | 默认值 | 是否必需 |
 |---------|------|--------|----------|
@@ -192,13 +208,13 @@ vim configure.sh
 
 ### 3. 准备后端服务镜像
 
-CoStrict后端镜像主要保存在docker hub镜像仓库docker.io/zgsm中。
+CoStrict后端镜像主要保存在 `docker hub` 镜像仓库 `docker.io/zgsm` 中。
 
 在执行部署前，需要先保证后端部署需要的镜像，可以正常从镜像仓库拉取。
 
-CoStrict后端需要的镜像，可以查看scripts/newest-images.list文件获取完整列表。
+CoStrict后端需要的镜像，可以查看 `scripts/newest-images.list` 文件获取完整列表。
 
-通过下述命令可以从云端获取该列表文件。
+**不存在 `scripts/newest-images.list` 文件**，通过下述命令可以从云端获取该列表文件。
 
 ```bash
 bash scripts/get-images-list.sh -o scripts
@@ -206,7 +222,7 @@ bash scripts/get-images-list.sh -o scripts
 
 部署脚本在部署过程中会自动拉取所有后端部署需要的镜像。
 
-但是，如果部署服务器无法访问docker hub镜像仓库，则需要提前将镜像下载，保存到部署机器的指定目录(假设保存在/root/images下)。然后运行下述命令预加载好。
+但是，如果**部署服务器无法访问 `docker hub`** 镜像仓库，则需要提前将镜像下载，保存到部署机器的指定目录(假设保存在/root/images下)。然后运行下述命令预加载好。
 
 ```bash
 bash scripts/load-images.sh -l /root/images
@@ -214,7 +230,7 @@ bash scripts/load-images.sh -l /root/images
 
 除了从docker镜像仓库拉取并导出镜像文件，还可以从百度网盘下载CoStrict后端部署需要的所有镜像文件。
 
-网盘地址：
+**网盘地址**：
 
 ```
 https://pan.baidu.com/s/12kP5VyQinFNrXFsKEWFGJw?pwd=k2dh
@@ -242,7 +258,7 @@ bash deploy.sh
 
 ### AI 网关配置 (Higress)
 
-部署完成后，通过以下地址访问 Higress 控制台，对 `对话` 和 `code review` 模型配置:
+部署完成后，通过以下地址访问 Higress 控制台，对 `对话` 和 `code review` 模型配置检查并调整:
 
 ```
 http://{COSTRICT_BACKEND}:{PORT_HIGRESS_CONTROL}

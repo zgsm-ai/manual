@@ -38,11 +38,11 @@ Used for checking and verifying the preparation before deployment, configuration
 
 - [ ] **Model Interfaces**
   
-  - [ ] **Chat Model**: `/v1/chat/completions` interface
-  - [ ] **Code Review Model**: `/v1/chat/completions` interface
-  - [ ] **Completion Model**: `/v1/completions` interface
-  - [ ] **Embedding Model**: `/v1/embeddings` interface
-  - [ ] **Rerank Model**: `/v1/embeddings` interface
+  - [ ] **Chat Model**: `{CHAT_BASEURL}/v1/chat/completions` interface
+  - [ ] **Code Review Model**: `{CODEREVIEW_BASEURL}/v1/chat/completions` interface
+  - [ ] **Completion Model**: `{COMPLETION_BASEURL}` interface
+  - [ ] **Embedding Model**: `{EMBEDDER_BASEURL}` interface
+  - [ ] **Rerank Model**: `{RERANKER_BASEURL}` interface
 
 ### 1.2 Backend Server
 
@@ -99,7 +99,7 @@ Used for checking and verifying the preparation before deployment, configuration
 
 Project URL: https://github.com/zgsm-ai/zgsm-backend-deploy
 
-Project storage path: `/opt/zgsm-backend-deploy`
+Project storage path: `/opt/zgsm-backend-deploy` (Assuming the directory is `/opt/zgsm-backend-deploy`, modify according to the actual project storage path, the same below)
 
 #### 1.3.2 Service Port Requirements
 
@@ -120,7 +120,7 @@ Online port list: https://github.com/zgsm-ai/zgsm-backend-deploy/blob/main/confi
 - [ ] **Port Check**
 
   ```bash
-  sudo ss -tlnp | grep -E ':(9180|9080|9091|9092|9093|2382|6379|5432|5003|9081|5000|8765|5001|9090|3000|9200|8080|8001|9001|5173|9003|9004|9005|9006|9007|9008|9009|9010|9011) '
+  sudo ss -tlnp | grep -E ':(9180|9080|9091|9092|9093|2382|6379|5432|5003|9081|5000|8765|5001|9090|3000|9200|8080|8001|9001|5173|9003|9004|9005|9006|9007|9008|9009|9010|7890|9011|8888|8889) '
   ```
 
 ## II. During Deployment
@@ -164,7 +164,8 @@ Online image list: https://github.com/zgsm-ai/zgsm-backend-deploy/blob/main/scri
 - [ ] **Image Check**
 
   ```bash
-  bash /opt/zgsm-backend-deploy/docker-download-images.sh
+  cd /opt/zgsm-backend-deploy
+  bash docker-download-images.sh
   ```
 
 ### 2.3 Execute Script
@@ -244,9 +245,8 @@ Login Baseurl: \{COSTRICT_BACKEND_BASEURL\}
 
 #### 3.2.3 CodeReview
 
+- Code block
 - File
-- Directory
-- Project
 
 #### 3.2.4 Completion
 
@@ -303,5 +303,6 @@ Online service image list: https://github.com/zgsm-ai/zgsm-backend-deploy/blob/m
 - [ ] **Service Log Check**
 
   ```bash
+  # Services: chat-rag,issue-manager,review-manager,review-checker,code-completion,codebase-embedder
   docker-compose logs [service_name]
   ```
