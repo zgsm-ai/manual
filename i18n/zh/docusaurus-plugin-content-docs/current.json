@@ -50,5 +50,13 @@
   "sidebar.tutorialSidebar.category.billing.link.generated-index.title": {
     "message": "套餐&计费说明",
     "description": "The generated-index page title for category billing in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Tutorial Videos": {
+    "message": "视频教程",
+    "description": "The label for category billing in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Tutorial Videos.link.generated-index.title": {
+    "message": "视频教程",
+    "description": "The generated-index page title for category Tutorial Videos in sidebar tutorialSidebar"
   }
 }
