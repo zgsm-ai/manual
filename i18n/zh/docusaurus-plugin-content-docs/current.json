@@ -56,7 +56,7 @@
     "description": "The label for category billing in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Tutorial Videos.link.generated-index.title": {
-    "message": "套视频教程",
+    "message": "视频教程",
     "description": "The generated-index page title for category Tutorial Videos in sidebar tutorialSidebar"
   }
 }
