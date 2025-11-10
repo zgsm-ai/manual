@@ -71,6 +71,7 @@ sidebar_position: 1
 | Kimi-K2-Moonshot | 10 | 10 | 月之暗面高性能模型，支持长上下文 |
 | Kimi-K2-Turbo-Moonshot | 10 | 10 | 月之暗面加速版本，响应更快 |
 | Qwen-2.5-VL | 0.25 | 0.25 | 通义千问视觉语言模型，支持图像理解 |
+| Auto |-|-|9折|
 
 ### 🌙 夜间半价活动
 
