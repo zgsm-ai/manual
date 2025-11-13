@@ -172,9 +172,9 @@ Review and modify the following two types of configuration parameters and save:
 |---------|------|--------|----------|
 | `COSTRICT_BACKEND_BASEURL` | Backend service base URL | - | ✅ |
 | `COSTRICT_BACKEND` | Backend service host address | - | ✅ |
-| `PORT_APISIX_ENTRY` | API gateway entry port | 9080 | ✅ |
-| `PORT_HIGRESS_CONTROL` | Higress console port | 8001 | ✅ |
-| `PORT_CASDOOR` | Casdoor authentication system port | 9009 | ✅ |
+| `PORT_APISIX_ENTRY` | API gateway entry port | 39080 | ✅ |
+| `PORT_HIGRESS_CONTROL` | Higress console port | 38001 | ✅ |
+| `PORT_CASDOOR` | Casdoor authentication system port | 39009 | ✅ |
 
 > Model Settings
 
@@ -202,7 +202,7 @@ Review and modify the following two types of configuration parameters and save:
 | `RERANKER_MODEL` | Name of rerank model | - | ✅ |
 | `RERANKER_APIKEY` | APIKEY of rerank model, required if the model enables APIKEY authentication | - | ❌ |
 
-**Note**: Code completion, vector embedding, and rerank models are for internal use by CoStrict only and will not appear in the user-selectable model list.
+**Note**: `Code completion`, `vector embedding`, and `rerank` models are for internal use by CoStrict only and will not appear in the user-selectable model list.
 
 ### 3. Prepare Backend Service Images
 
