@@ -107,7 +107,7 @@ Local port list: `/opt/zgsm-backend-deploy/configure.sh`
 
 Online port list: https://github.com/zgsm-ai/zgsm-backend-deploy/blob/main/configure.sh
 
-- Port list: Lines `6~34`
+- Port list: Lines `6~33`
 
 #### 1.3.3 Checks
 
@@ -120,7 +120,7 @@ Online port list: https://github.com/zgsm-ai/zgsm-backend-deploy/blob/main/confi
 - [ ] **Port Check**
 
   ```bash
-  sudo ss -tlnp | grep -E ':(9180|9080|9091|9092|9093|2382|6379|5432|5003|9081|5000|8765|5001|9090|3000|9200|8080|8001|9001|5173|9003|9004|9005|9006|9007|9008|9009|9010|7890|9011|8888|8889) '
+  sudo ss -tlnp | grep -E ':(39180|39080|32382|36379|35432|35003|39090|33000|39200|38001|39009) '
   ```
 
 ## II. During Deployment

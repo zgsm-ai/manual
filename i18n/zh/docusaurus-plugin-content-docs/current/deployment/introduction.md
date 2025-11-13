@@ -174,9 +174,9 @@ vim configure.sh
 |---------|------|--------|----------|
 | `COSTRICT_BACKEND_BASEURL` | 后端服务基础 URL | - | ✅ |
 | `COSTRICT_BACKEND` | 后端服务主机地址 | - | ✅ |
-| `PORT_APISIX_ENTRY` | API 网关入口端口 | 9080 | ✅ |
-| `PORT_HIGRESS_CONTROL` | Higress 控制台端口 | 8001 | ✅ |
-| `PORT_CASDOOR` | Casdoor 认证系统端口 | 9009 | ✅ |
+| `PORT_APISIX_ENTRY` | API 网关入口端口 | 39080 | ✅ |
+| `PORT_HIGRESS_CONTROL` | Higress 控制台端口 | 38001 | ✅ |
+| `PORT_CASDOOR` | Casdoor 认证系统端口 | 39009 | ✅ |
 
 > 模型设置
 
