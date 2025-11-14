@@ -184,13 +184,11 @@ Review and modify the following two types of configuration parameters and save:
 | `CHAT_BASEURL` | Access address of chat model | - | ✅ |
 | `CHAT_DEFAULT_MODEL` | Name of chat model | - | ✅ |
 | `CHAT_MODEL_CONTEXTSIZE` | Context length of chat model | - | ✅ |
-| `CHAT_MODEL_DESC` | Description of chat model | - | ❌ |
 | `CHAT_APIKEY` | APIKEY of chat model, required if the model enables APIKEY authentication | - | ❌ |
 | `CODEREVIEW_MODEL_HOST` | IP+PORT of Codereview model | - | ✅ |
 | `CODEREVIEW_BASEURL` | Access address of Codereview model | - | ✅ |
 | `CODEREVIEW_MODEL` | Name of Codereview model | - | ✅ |
 | `CODEREVIEW_MODEL_CONTEXTSIZE` | Context length of Codereview model | - | ✅ |
-| `CODEREVIEW_MODEL_DESC` | Description of Codereview model | - | ❌ |
 | `CODEREVIEW_APIKEY` | APIKEY of Codereview model, required if the model enables APIKEY authentication | - | ❌ |
 | `COMPLETION_BASEURL` | Access address of code completion model | - | ✅ |
 | `COMPLETION_MODEL` | Name of code completion model | - | ✅ |
@@ -202,7 +200,7 @@ Review and modify the following two types of configuration parameters and save:
 | `RERANKER_MODEL` | Name of rerank model | - | ✅ |
 | `RERANKER_APIKEY` | APIKEY of rerank model, required if the model enables APIKEY authentication | - | ❌ |
 
-**Note**: Code completion, vector embedding, and rerank models are for internal use by CoStrict only and will not appear in the user-selectable model list.
+**Note:** `Code completion`, `vector embedding`, and `rerank` models are for internal use by `CoStrict` only and will not appear in the user-selectable model list.
 
 ### 3. Prepare Backend Service Images
 
@@ -312,6 +310,12 @@ Detailed configuration guide: [Casdoor Configuration Document](./casdoor.md)
    ```
 5. Click "Login CoStrict" to complete authentication
 
+**Test Account**:
+```
+Username: demo
+Password: test123
+```
+
 Detailed installation guide: [CoStrict Download and Installation Documentation](https://costrict.ai/download) (includes `VSCode` and `JetBrains` IDE)
 
 **Service Access Address**:
@@ -339,43 +343,6 @@ server {
         proxy_set_header X-Real-IP $remote_addr;
     }
 }
-```
-
-## Operations Management
-
-### Service Status Monitoring
-
-Check service running status:
-
-```bash
-# View all service status
-docker-compose ps
-
-# View service logs
-docker-compose logs -f [service_name]
-
-# View resource usage
-docker stats
-```
-
-### Data Backup and Recovery
-
-```bash
-# Database backup
-bash ./scripts/backup.sh
-
-# Database recovery
-bash ./scripts/restore.sh [backup_file]
-```
-
-### Service Scaling
-
-```bash
-# Scale service instances
-docker-compose up -d --scale chatgpt=3
-
-# Update service configuration
-docker-compose up -d --force-recreate [service_name]
 ```
 
 ## Troubleshooting
@@ -413,12 +380,51 @@ docker-compose exec postgres pg_isready
 docker-compose logs postgres
 ```
 
+Deployment FAQ: [Deployment FAQ Document](./deploy-faq.md)
+
 ### Log Collection
 
 System log locations:
 - Application logs: `./logs/`
 - Database logs: `/var/log/postgresql/` inside container
 - Gateway logs: `/var/log/apisix/` inside container
+
+## Operations Management
+
+### Service Status Monitoring
+
+Check service running status:
+
+```bash
+# View all service status
+docker-compose ps
+
+# View service logs
+docker-compose logs -f [service_name]
+
+# View resource usage
+docker stats
+```
+
+### Data Backup and Recovery
+
+```bash
+# Database backup
+bash ./scripts/backup.sh
+
+# Database recovery
+bash ./scripts/restore.sh [backup_file]
+```
+
+### Service Scaling
+
+```bash
+# Scale service instances
+docker-compose up -d --scale chatgpt=3
+
+# Update service configuration
+docker-compose up -d --force-recreate [service_name]
+```
 
 ## Security Notes
 

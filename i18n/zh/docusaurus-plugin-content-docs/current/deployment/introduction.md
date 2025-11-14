@@ -186,13 +186,11 @@ vim configure.sh
 | `CHAT_BASEURL` | 对话模型的访问地址 | - | ✅ |
 | `CHAT_DEFAULT_MODEL` | 对话模型的名称 | - | ✅ |
 | `CHAT_MODEL_CONTEXTSIZE` | 对话模型的上下文长度 | - | ✅ |
-| `CHAT_MODEL_DESC` | 对话模型的描述信息 | - | ❌ |
 | `CHAT_APIKEY` | 对话模型的APIKEY，如果模型启用了APIKEY鉴权，则需要设置 | - | ❌ |
 | `CODEREVIEW_MODEL_HOST` | Codereview模型的IP+PORT | - | ✅ |
 | `CODEREVIEW_BASEURL` | Codereview模型的访问地址 | - | ✅ |
 | `CODEREVIEW_MODEL` | Codereview模型的名称 | - | ✅ |
 | `CODEREVIEW_MODEL_CONTEXTSIZE` | Codereview模型的上下文长度 | - | ✅ |
-| `CODEREVIEW_MODEL_DESC` | Codereview模型的描述信息 | - | ❌ |
 | `CODEREVIEW_APIKEY` | Codereview模型的APIKEY，如果模型启用了APIKEY鉴权，则需要设置 | - | ❌ |
 | `COMPLETION_BASEURL` | 代码补全模型的访问地址 | - | ✅ |
 | `COMPLETION_MODEL` | 代码补全模型的名称 | - | ✅ |
@@ -204,7 +202,7 @@ vim configure.sh
 | `RERANKER_MODEL` | rerank模型的名称 | - | ✅ |
 | `RERANKER_APIKEY` | rerank模型的APIKEY，如果模型启用了APIKEY鉴权，则需要设置 | - | ❌ |
 
-**注意**：代码补全、向量嵌入、rerank模型仅供CoStrict内部使用，不会出现在用户可选择的模型列表中。
+**注意：** `代码补全`、`向量嵌入`、`rerank` 模型仅供 `CoStrict` 内部使用，不会出现在用户可选择的模型列表中。
 
 ### 3. 准备后端服务镜像
 
@@ -314,6 +312,12 @@ http://{COSTRICT_BACKEND}:{PORT_CASDOOR}
    ```
 5. 点击"登录 CoStrict"完成身份验证
 
+**测试账户**:
+```
+用户名: demo
+密码: test123
+```
+
 详细安装指南：[CoStrict 下载安装文档](https://costrict.ai/download) (含 `VSCode` 和 `JetBrains` IDE)
 
 **服务访问地址**:
@@ -341,43 +345,6 @@ server {
         proxy_set_header X-Real-IP $remote_addr;
     }
 }
-```
-
-## 运维管理
-
-### 服务状态监控
-
-检查服务运行状态:
-
-```bash
-# 查看所有服务状态
-docker-compose ps
-
-# 查看服务日志
-docker-compose logs -f [service_name]
-
-# 查看资源使用情况
-docker stats
-```
-
-### 数据备份与恢复
-
-```bash
-# 数据库备份
-bash ./scripts/backup.sh
-
-# 数据库恢复
-bash ./scripts/restore.sh [backup_file]
-```
-
-### 服务扩缩容
-
-```bash
-# 扩容服务实例
-docker-compose up -d --scale chatgpt=3
-
-# 更新服务配置
-docker-compose up -d --force-recreate [service_name]
 ```
 
 ## 故障排除
@@ -415,12 +382,51 @@ docker-compose exec postgres pg_isready
 docker-compose logs postgres
 ```
 
+部署常见问题解决: [部署常见问题文档](./deploy-faq.md)
+
 ### 日志收集
 
 系统日志位置:
 - 应用日志: `./logs/`
 - 数据库日志: 容器内 `/var/log/postgresql/`
 - 网关日志: 容器内 `/var/log/apisix/`
+
+## 运维管理
+
+### 服务状态监控
+
+检查服务运行状态:
+
+```bash
+# 查看所有服务状态
+docker-compose ps
+
+# 查看服务日志
+docker-compose logs -f [service_name]
+
+# 查看资源使用情况
+docker stats
+```
+
+### 数据备份与恢复
+
+```bash
+# 数据库备份
+bash ./scripts/backup.sh
+
+# 数据库恢复
+bash ./scripts/restore.sh [backup_file]
+```
+
+### 服务扩缩容
+
+```bash
+# 扩容服务实例
+docker-compose up -d --scale chatgpt=3
+
+# 更新服务配置
+docker-compose up -d --force-recreate [service_name]
+```
 
 ## 安全注意事项
 
