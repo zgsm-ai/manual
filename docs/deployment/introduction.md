@@ -172,9 +172,9 @@ Review and modify the following two types of configuration parameters and save:
 |---------|------|--------|----------|
 | `COSTRICT_BACKEND_BASEURL` | Backend service base URL | - | ✅ |
 | `COSTRICT_BACKEND` | Backend service host address | - | ✅ |
-| `PORT_APISIX_ENTRY` | API gateway entry port | 9080 | ✅ |
-| `PORT_HIGRESS_CONTROL` | Higress console port | 8001 | ✅ |
-| `PORT_CASDOOR` | Casdoor authentication system port | 9009 | ✅ |
+| `PORT_APISIX_ENTRY` | API gateway entry port | 39080 | ✅ |
+| `PORT_HIGRESS_CONTROL` | Higress console port | 38001 | ✅ |
+| `PORT_CASDOOR` | Casdoor authentication system port | 39009 | ✅ |
 
 > Model Settings
 
