@@ -133,6 +133,39 @@ code:oidc-auth.updateInfoFailed,data:"",message:"update user info fail:faile to 
    - 删除唯一索引：`drop index idx_auth_users_github_id;`
 4. 操作完成后，在 `CoStrict` 插件使用新增用户重新登录
 
+### 问题4：用户认证过期
+
+**问题详情**：
+```
+API请求失败
+错误详情:
+认证已过期
+认证时间:11/3/2025,11:32:55 AM
+过期时间:11/10/2025,11:32:55 AM
+```
+
+**处理方法**：
+
+点击CoStrict插件右上角账户头像进入账户界面，点击 **"重新登录"** 进行登录。
+
+### 问题5：如何修改用户认证有效期长度
+
+**处理方法**：
+
+1. 访问casdoor页面，点击 **"身份认证"** 进入应用页面
+2. 选择名称为 **"loginApp"** 记录中的 **"操作"** 列的 **"编辑"** 按钮进入编辑页面
+3. 找到认证Token过期配置（`Access Token过期`、`Refresh Token过期`）进行修改
+
+### 问题6：账户界面访问网页错误
+
+**问题详情**：
+
+在账户界面点击 **"购买更多配额"**、**"参与运营活动获取配额"** 和 **"查看账户详情"** 后访问的网页存在错误。
+
+**处理方法**：
+
+私有化部署，不涉及配额使用，忽略即可。
+
 ---
 
 ## 六、模型更新问题
@@ -141,7 +174,7 @@ code:oidc-auth.updateInfoFailed,data:"",message:"update user info fail:faile to 
 
 **处理方法**：
 
-1. 访问 `higress`页面，到以下三个页面查看并配置：
+1. 访问 `higress` 页面，到以下三个页面查看并配置：
    - **AI网关管理->AI服务提供者管理**：配置模型访问信息
    - **AI网关管理->AI路由管理**：配置模型路由信息
    - **插件配置->AI配额管理**：配置 `CoStrict` 插件可选的模型信息
@@ -190,6 +223,25 @@ docker rm codebase-embedder
 # 在部署项目目录下执行命令
 docker-compose up -d
 ```
+
+### 问题4：higress中更新了对话模型列表，但CoStrict插件刷新模型列表还是旧的
+
+**原因分析1**：
+
+可能由于网络或代理问题，导致访问后端服务失败
+
+**处理方法**：
+
+使用浏览器访问 `http://{COSTRICT_BACKEND}:{PORT_APISIX_ENTRY}/ai-gateway/api/v1/models` 能否获取到模型列表
+
+**原因分析2**：
+
+可能由于 `higress` 中的配置存在问题，使得 `higress` 部分插件没有启动成功，导致配置没有生效
+
+**处理方法**：
+
+1. 连接到后端部署服务器上, docker 命令进入 `higress` 容器内
+2. cd到 `/var/log/higress` 目录下， 查看 `gateway.log` 日志内容
 
 ---
 
