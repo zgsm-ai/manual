@@ -133,6 +133,39 @@ code:oidc-auth.updateInfoFailed,data:"",message:"update user info fail:faile to 
    - Drop the unique index: `drop index idx_auth_users_github_id;`
 4. After completing the operations, use the new user to log in again in the `CoStrict` plugin
 
+### Issue 4: User authentication expired
+
+**Issue Details**:
+```
+API request failed
+Error details:
+Authentication expired
+Authentication time: 11/3/2025, 11:32:55 AM
+Expiration time: 11/10/2025, 11:32:55 AM
+```
+
+**Solution**:
+
+Click the account avatar in the upper right corner of the CoStrict plugin to enter the account page, and click **"Relogin"** to log in.
+
+### Issue 5: How to modify user authentication validity period
+
+**Solution**:
+
+1. Access the casdoor page, click **"Identity Authentication"** to enter the application page
+2. Select the **"Edit"** button in the **"Actions"** column of the record named **"loginApp"** to enter the edit page
+3. Find the authentication Token expiration configuration (`Access Token expiration`, `Refresh Token expiration`) and modify it
+
+### Issue 6: Account interface webpage access error
+
+**Issue Details**:
+
+When clicking **"Buy More Quota"**, **"Participate in Activities to Get Quota"** and **"View Account Details"** on the account interface, the accessed webpages have errors.
+
+**Solution**:
+
+For private deployment, quota usage is not involved, so this can be ignored.
+
 ---
 
 ## 6. Model Update Issues

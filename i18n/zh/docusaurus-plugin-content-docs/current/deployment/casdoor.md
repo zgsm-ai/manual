@@ -8,7 +8,7 @@ sidebar_position: 5
 
 ### 配置页面访问
 
-访问 http://host:8000, 进入管理端登陆页面
+访问 http://\{COSTRICT_BACKEND\}:\{PORT_CASDOOR\}, 进入管理端登录页面
 
 ```commandline
 默认账号： admin

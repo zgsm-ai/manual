@@ -1,8 +1,11 @@
 ---
 sidebar_position: 3
 ---
+import CopyMarkdown from '@site/src/components/DownloadButton';
 
 # 部署检查清单
+
+<CopyMarkdown path="@site/i18n/zh/docusaurus-plugin-content-docs/current/deployment/deploy-checklist.md" filename="deploy-checklist.md"/>
 
 用于检查校验，在 CoStrict 后端服务部署流程中，部署前的准备，部署中的配置以及部署后的功能。
 
