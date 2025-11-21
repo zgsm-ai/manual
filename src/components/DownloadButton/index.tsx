@@ -14,6 +14,9 @@ export default function DownloadMarkdown({ path, filename }) {
 
       let content = fileModule.default;
 
+      // 去掉顶部 frontmatter（--- 开头 --- 结尾）
+      content = content.replace(/^---[\s\S]*?---\s*/m, '');
+      
       // ------------------------------------
       // 1. 去掉 import/export
       // ------------------------------------
