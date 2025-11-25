@@ -42,19 +42,16 @@ CoStrict的核心功能都依赖大语言模型，总共需要 **准备如下模
 
 ```
 1. 对话模型(提供完整的 http://chat_model_ip:chat_model_port/v1/chat/completions 接口)
-2. code review模型(提供完整的 http://review_model_ip:review_model_port/v1/chat/completions 接口)
-3. embedding模型(提供完整的 http://embedding_model_ip:embedding_model_port/v1/embeddings 接口)
-4. rerank 模型(提供完整的 http://rerank_model_ip:rerank_model_port/v1/rerank 接口)
-5. 补全模型(提供完整的 http://completion_model_ip:completion_model_port/v1/completions 接口)
+2. embedding模型(提供完整的 http://embedding_model_ip:embedding_model_port/v1/embeddings 接口)
+3. rerank 模型(提供完整的 http://rerank_model_ip:rerank_model_port/v1/rerank 接口)
+4. 补全模型(提供完整的 http://completion_model_ip:completion_model_port/v1/completions 接口)
 ```
 
 **注意**：提供并记录准确的 `模型名称`、`APIKEY` 和 `上下文长度` 信息。用于部署服务时配置。
 
 **推荐模型** 和 **下载地址**：
 
-- **对话模型**： `GLM-4.5-FP8`、`GLM-4.5-106B-A12B-FP8`
-
-- **code review模型**：`Qwen2.5-Coder-32B-Instruct`、`Qwen3.0-Coder-30B-A3B-Instruct`
+- **对话模型**： `GLM-4.6-FP8`
 
 - **补全模型**：`DeepSeek-Coder-V2-Lite-Base`
 
@@ -65,10 +62,7 @@ CoStrict的核心功能都依赖大语言模型，总共需要 **准备如下模
 - **下载地址**：
 
 ```
-https://modelscope.cn/models/ZhipuAI/GLM-4.5-FP8
-https://modelscope.cn/models/ZhipuAI/GLM-4.5-Air-FP8
-https://modelscope.cn/models/Qwen/Qwen2.5-Coder-32B-Instruct
-https://modelscope.cn/models/Qwen/Qwen3-Coder-30B-A3B-Instruct
+https://modelscope.cn/models/ZhipuAI/GLM-4.6-FP8
 https://modelscope.cn/models/deepseek-ai/DeepSeek-Coder-V2-Lite-Base
 https://modelscope.cn/models/iic/gte-modernbert-base
 https://modelscope.cn/models/iic/gte-reranker-modernbert-base
@@ -77,8 +71,6 @@ https://modelscope.cn/models/iic/gte-reranker-modernbert-base
 **推荐模型部署资源**：
 
 - **对话模型**：`4 * H20` 或 `4 * RTX4090`
-
-- **code review模型**：`2 * H20` 或 `2 * RTX4090`
 
 - **补全模型**：`1 * H20` 或 `1 * RTX4090`
 
@@ -91,7 +83,7 @@ https://modelscope.cn/models/iic/gte-reranker-modernbert-base
 - 若有资源，为了体验完整的功能，请确保 **所有模型部署时满足上述要求**。
 - 若无资源，我们可以提供两种方式：
   - 直接使用我们正式发布的CoStrict，无需额外部署，体验CoStrict所有功能。
-  - 由我们提供 **限时** 的线上`对话`和`code review`模型接口，用于短期体验CoStrict主要的`AGNET`和`CODE REVIEW`功能。
+  - 由我们提供 **限时** 的线上`对话`模型接口，用于短期体验CoStrict主要的`AGNET`和`CODE REVIEW`功能。
 
 | 功能 | 自部署（模型符合要求） | 正式发布CoStrict | 使用限时接口 |
 |------|------------|--------------|--------------|
@@ -187,14 +179,8 @@ vim configure.sh
 | `CHAT_DEFAULT_MODEL` | 对话模型的名称 | - | ✅ |
 | `CHAT_MODEL_CONTEXTSIZE` | 对话模型的上下文长度 | - | ✅ |
 | `CHAT_APIKEY` | 对话模型的APIKEY，如果模型启用了APIKEY鉴权，则需要设置 | - | ❌ |
-| `CODEREVIEW_MODEL_HOST` | Codereview模型的IP+PORT | - | ✅ |
-| `CODEREVIEW_BASEURL` | Codereview模型的访问地址 | - | ✅ |
-| `CODEREVIEW_MODEL` | Codereview模型的名称 | - | ✅ |
-| `CODEREVIEW_MODEL_CONTEXTSIZE` | Codereview模型的上下文长度 | - | ✅ |
-| `CODEREVIEW_APIKEY` | Codereview模型的APIKEY，如果模型启用了APIKEY鉴权，则需要设置 | - | ❌ |
 | `COMPLETION_BASEURL` | 代码补全模型的访问地址 | - | ✅ |
 | `COMPLETION_MODEL` | 代码补全模型的名称 | - | ✅ |
-| `COMPLETION_APIKEY` | 代码补全模型的APIKEY，如果模型启用了APIKEY鉴权，则需要设置 | - | ❌ |
 | `EMBEDDER_BASEURL` | 向量嵌入模型的访问地址 | - | ✅ |
 | `EMBEDDER_MODEL` | 向量嵌入模型的名称 | - | ✅ |
 | `EMBEDDER_APIKEY` | 向量嵌入模型的APIKEY，如果模型启用了APIKEY鉴权，则需要设置 | - | ❌ |
@@ -256,7 +242,7 @@ bash deploy.sh
 
 ### AI 网关配置 (Higress)
 
-部署完成后，通过以下地址访问 Higress 控制台，对 `对话` 和 `code review` 模型配置检查并调整:
+部署完成后，通过以下地址访问 Higress 控制台，对 `对话` 模型配置检查并调整:
 
 ```
 http://{COSTRICT_BACKEND}:{PORT_HIGRESS_CONTROL}

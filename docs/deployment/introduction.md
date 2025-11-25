@@ -42,19 +42,16 @@ The core functions of CoStrict all depend on large language models, and you need
 
 ```
 1. Chat model (providing complete http://chat_model_ip:chat_model_port/v1/chat/completions interface)
-2. Code review model (providing complete http://review_model_ip:review_model_port/v1/chat/completions interface)
-3. Embedding model (providing complete http://embedding_model_ip:embedding_model_port/v1/embeddings interface)
-4. Rerank model (providing complete http://rerank_model_ip:rerank_model_port/v1/rerank interface)
-5. Completion model (providing complete http://completion_model_ip:completion_model_port/v1/completions interface)
+2. Embedding model (providing complete http://embedding_model_ip:embedding_model_port/v1/embeddings interface)
+3. Rerank model (providing complete http://rerank_model_ip:rerank_model_port/v1/rerank interface)
+4. Completion model (providing complete http://completion_model_ip:completion_model_port/v1/completions interface)
 ```
 
 **Note**: Provide and record accurate `MODEL NAMES`, `APIKEYs`, and `CONTEXT LENGTHS` information. Used for configuration during service deployment.
 
 **Recommended Models** and **Download Addresses**:
 
-- **Chat Model**: `GLM-4.5-FP8`, `GLM-4.5-106B-A12B-FP8`
-
-- **Code Review Model**: `Qwen2.5-Coder-32B-Instruct`, `Qwen3.0-Coder-30B-A3B-Instruct`
+- ***Chat Model**: `GLM-4.6-FP8`
 
 - **Completion Model**: `DeepSeek-Coder-V2-Lite-Base`
 
@@ -65,10 +62,7 @@ The core functions of CoStrict all depend on large language models, and you need
 - **Download Addresses**:
 
 ```
-https://modelscope.cn/models/ZhipuAI/GLM-4.5-FP8
-https://modelscope.cn/models/ZhipuAI/GLM-4.5-Air-FP8
-https://modelscope.cn/models/Qwen/Qwen2.5-Coder-32B-Instruct
-https://modelscope.cn/models/Qwen/Qwen3-Coder-30B-A3B-Instruct
+https://modelscope.cn/models/ZhipuAI/GLM-4.6-FP8
 https://modelscope.cn/models/deepseek-ai/DeepSeek-Coder-V2-Lite-Base
 https://modelscope.cn/models/iic/gte-modernbert-base
 https://modelscope.cn/models/iic/gte-reranker-modernbert-base
@@ -77,8 +71,6 @@ https://modelscope.cn/models/iic/gte-reranker-modernbert-base
 **Recommended Model Deployment Resources**:
 
 - **Chat Model**: `4 * H20` or `4 * RTX4090`
-
-- **Code Review Model**: `2 * H20` or `2 * RTX4090`
 
 - **Completion Model**: `1 * H20` or `1 * RTX4090`
 
@@ -91,7 +83,7 @@ https://modelscope.cn/models/iic/gte-reranker-modernbert-base
 - If you have resources, to try the complete functionality, please ensure **all models meet the above requirements when deployed**.
 - If you don't have resources, we can provide two options:
   - Use our officially released CoStrict directly without additional deployment to experience all CoStrict features.
-  - We provide **time-limited** online `conversation` and `code review` model interfaces for short-term experience of CoStrict's main `AGENT` and `CODE REVIEW` features.
+  - We provide **time-limited** online `conversation` model interfaces for short-term experience of CoStrict's main `AGENT` and `CODE REVIEW` features.
 
 | Feature | Self-deployed (Models Meet Requirements) | Official CoStrict Release | Time-limited Interface |
 |---------|------------------------------------------|---------------------------|------------------------|
@@ -185,11 +177,6 @@ Review and modify the following two types of configuration parameters and save:
 | `CHAT_DEFAULT_MODEL` | Name of chat model | - | ✅ |
 | `CHAT_MODEL_CONTEXTSIZE` | Context length of chat model | - | ✅ |
 | `CHAT_APIKEY` | APIKEY of chat model, required if the model enables APIKEY authentication | - | ❌ |
-| `CODEREVIEW_MODEL_HOST` | IP+PORT of Codereview model | - | ✅ |
-| `CODEREVIEW_BASEURL` | Access address of Codereview model | - | ✅ |
-| `CODEREVIEW_MODEL` | Name of Codereview model | - | ✅ |
-| `CODEREVIEW_MODEL_CONTEXTSIZE` | Context length of Codereview model | - | ✅ |
-| `CODEREVIEW_APIKEY` | APIKEY of Codereview model, required if the model enables APIKEY authentication | - | ❌ |
 | `COMPLETION_BASEURL` | Access address of code completion model | - | ✅ |
 | `COMPLETION_MODEL` | Name of code completion model | - | ✅ |
 | `COMPLETION_APIKEY` | APIKEY of code completion model, required if the model enables APIKEY authentication | - | ❌ |
@@ -254,7 +241,7 @@ The deployment process includes the following steps:
 
 ### AI Gateway Configuration (Higress)
 
-After deployment, access the Higress console at the following address to check and adjust the configuration of the `chat` and `code review` models:
+After deployment, access the Higress console at the following address to check and adjust the configuration of the `chat` models:
 
 ```
 http://{COSTRICT_BACKEND}:{PORT_HIGRESS_CONTROL}

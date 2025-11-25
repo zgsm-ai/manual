@@ -213,7 +213,7 @@ For private deployment, quota usage is not involved, so this can be ignored.
 
 ## 6. Model Update Issues
 
-### Issue 1: Chat, CodeReview model updates
+### Issue 1: Chat model updates
 
 **Solution**:
 
