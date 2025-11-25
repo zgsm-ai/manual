@@ -20,7 +20,7 @@ Used for checking and verifying the preparation before deployment, configuration
 #### 1.1.2 Model List (Recommended)
 
 - **Chat Model**: `GLM-4.6-FP8`
-- **Completion Model**: `DeepSeek-Coder-V2-Lite-Base`
+- **Completion Model**: `Qwen3-4B-Instruct-2507`
 - **Embedding Model**: `gte-modernbert-baseRAG/Embedding`
 - **Rerank Model**: `gte-reranker-modernbert-baseRAG/Rerank`
 

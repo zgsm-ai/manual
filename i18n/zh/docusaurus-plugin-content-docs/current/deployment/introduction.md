@@ -53,7 +53,7 @@ CoStrict的核心功能都依赖大语言模型，总共需要 **准备如下模
 
 - **对话模型**： `GLM-4.6-FP8`
 
-- **补全模型**：`DeepSeek-Coder-V2-Lite-Base`
+- **补全模型**：`Qwen3-4B-Instruct-2507`
 
 - **embedding模型**：`gte-modernbert-baseRAG/Embedding`
 
@@ -63,7 +63,7 @@ CoStrict的核心功能都依赖大语言模型，总共需要 **准备如下模
 
 ```
 https://modelscope.cn/models/ZhipuAI/GLM-4.6-FP8
-https://modelscope.cn/models/deepseek-ai/DeepSeek-Coder-V2-Lite-Base
+https://modelscope.cn/models/Qwen/Qwen3-4B-Instruct-2507
 https://modelscope.cn/models/iic/gte-modernbert-base
 https://modelscope.cn/models/iic/gte-reranker-modernbert-base
 ```
