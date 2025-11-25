@@ -181,6 +181,7 @@ vim configure.sh
 | `CHAT_APIKEY` | 对话模型的APIKEY，如果模型启用了APIKEY鉴权，则需要设置 | - | ❌ |
 | `COMPLETION_BASEURL` | 代码补全模型的访问地址 | - | ✅ |
 | `COMPLETION_MODEL` | 代码补全模型的名称 | - | ✅ |
+| `COMPLETION_APIKEY` | 代码补全模型的APIKEY，如果模型启用了APIKEY鉴权，则需要设置 | - | ❌ |
 | `EMBEDDER_BASEURL` | 向量嵌入模型的访问地址 | - | ✅ |
 | `EMBEDDER_MODEL` | 向量嵌入模型的名称 | - | ✅ |
 | `EMBEDDER_APIKEY` | 向量嵌入模型的APIKEY，如果模型启用了APIKEY鉴权，则需要设置 | - | ❌ |
