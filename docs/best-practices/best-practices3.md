@@ -2,53 +2,49 @@
 sidebar_position: 3
 ---
 
-# 案例实践3 - 代码生成
+# Case Study 3 – Code Generation
 
-### 告别手动测试，用CoStrict工具快速实现DFX平台VDC性能测试集成
+### Say Goodbye to Manual Testing: Integrating VDC Performance Testing into the DFX Platform with CoStrict
 
 :::tip
 
-本期案例由ChaoLi03贡献。
+This case study was contributed by ChaoLi03.
 
 :::
 
+#### 1. Background: From Manual to Automated Efficiency
 
-#### 1.案例背景:从手动到自动的效能提升
+In a DFX performance-testing platform, the ability to benchmark the creation of VDCs (virtual data centers) had never been integrated. Every time engineers wanted to run the vdc-benchmark script they had to log in to a back-end host, execute it manually, and then interpret the results by hand. The process was slow, error-prone, and impossible to orchestrate with the rest of the platform.
 
-在某企业的DFX性能测试平台中，VDC（虚拟数据中心）的新建性能测试能力一直未被集成进来。测试工程师每次执行vdc-benchmark测试脚本，都需要登录后台执行机手动运行，再人工分析结果。这种方式不仅效率低下，也难以与平台其他功能联动，整体集成度较差。
+To raise testing efficiency and tighten platform integration we decided to embed VDC-creation benchmarking into DFX and introduced the CoStrict tool to accelerate development while keeping code quality high.
 
-为了提高测试效率和平台一体化水平，我们决定将VDC新建性能测试能力集成到DFX平台中，并引入CoStrict工具辅助开发，显著提升了开发速度和代码质量。
+#### 2. Hands-on: Database & Full-Stack Integration in Hours
 
-#### 2.案例实操：快速实现数据库与前后端集成
+**1. Automated database design**
 
-**1.数据库设计自动化**
-
-我们首先设计了两个新的数据库表：`VDC表和测试任务表`。在定义好字段后，通过CoStrict工具直接读取本地已有的数据库设计案例，自动生成建表语句和ORM代码，无需手动编写重复的CRUD操作。我们设计好数据库字段后，在代码中添加了数据库描述，内容如下：
+We first added two new tables—`VDC` and `TestTask`. After defining the columns we let CoStrict read an existing local database-design example and instantly emit the DDL and ORM code; no repetitive CRUD was written by hand. The annotations we added in code look like this:
 
 ![alt text](img/case3/1.png)
 
+**2. One-command back-end scaffold**
 
-**2.后端控制层快速搭建** 
-
-Costric可以自动读取本地相关联的代码（无需复制出来），并根据数据库结构自动生成了对应的实体类、DAO层和服务层代码，风格与平台现有模块保持一致。此时我们可以让 CoStrict在了解参数含义后，对照之前的数据库案例，快速构建数据库并实现基本的增删改查功能，让控制层可以直接调用。
+CoStrict automatically ingested related local code (no copy-paste required) and, from the schema alone, produced entity classes, DAOs and service layers that follow the platform’s existing conventions. Once we explained the meaning of each field, CoStrict referenced our prior database example, built the tables, and exposed basic CRUD endpoints that the controller could call immediately.
 
 ![alt text](img/case3/2.png)
 
 ![alt text](img/case3/3.png)
 
+**3. Auto-generated front-end pages**
 
-**3.前端页面自动生成**
-
-前端页面同样借鉴了平台已有模块的设计风格。我们可以让CoStrict根据数据库字段和交互需求，自动生成符合平台规范的页面组件，并支持与后端接口联动调试，大大减少了前端开发时间。我输入的提示词如下：
+We kept the same UI patterns already used in the platform. CoStrict accepted the column list and interaction requirements and emitted page components that conform to the house style, already wired to the back-end for live debugging—slashing front-end effort. The prompt we used is shown below:
 
 ![alt text](img/case3/4.png)
 
+#### 3. Results: Dramatic Speed-Up in Test Development
 
-#### 3.案例效果：大幅提升测试开发效率
+**1. Generated code runs out-of-the-box**
 
-**1.生成的代码可直接运行**
-
-生成的数据库代码会完全仿照我们已有的工程结构实现，无需调整即可集成运行：
+The emitted database layer mirrors the existing project layout, so it drops straight in:
 
 ![alt text](img/case3/5.png)
 
@@ -56,27 +52,25 @@ Costric可以自动读取本地相关联的代码（无需复制出来），并�
 
 ![alt text](img/case3/7.png)
 
+**2. Consistent UI, smooth UX**
 
-**2.页面风格统一，交互流畅**
-
-通过CoStrict快速生成的前端页面与平台整体风格一致，支持完整的增删改查和测试任务触发功能，能够快速和后台的控制层发起联动，效果如下：
+The auto-generated pages match the platform’s look-and-feel and expose full CRUD plus test-task triggering. They communicate with the back-end controller instantly, as shown here:
 
 ![alt text](img/case3/8.png)
 
 ![alt text](img/case3/9.png)
 
-**3.效率显著提升**
-原本需要1到2天的数据库、前后端代码实现、调试和联动，现在仅需0.5天即可完成全栈联通，测试平台功能的迭代效率有显著提升。
+**3. Measurable efficiency gain**
 
+Work that used to take one or two days—schema scripting, back-end coding, front-end crafting, integration and debugging—now ships in half a day, accelerating iteration speed across the entire testing platform.
 
-#### 总结：CoStrict的三大价值
+#### Summary: Three Core Values of CoStrict
 
-**1.显著提升测试工具/平台的开发效率**
-通过CoStrict工具，数据库表结构的代码生成、前后端页面开发均可基于现有工程模板和设计规范自动完成，无需从零编写重复性代码。例如，新建VDC表和测试任务表时，工具直接仿照既有工程结构生成可运行代码，节省了传统手动编写与调试的大量时间，使功能快速落地。
+**1. Radically faster development of test tools / platforms**  
+CoStrict auto-generates DDL, ORM, back-end services and front-end pages from existing templates and style guides, eliminating repetitive hand-coding. When we added the VDC and TestTask tables the tool produced runnable code in the project’s own structure, saving hours of manual writing and debugging and letting the feature go live immediately.
 
-**2.降低开发与维护成本**
-工具通过将数据库字段定义与前端页面组件、后端控制层逻辑自动绑定，减少了代码耦合和人工错误风险。同时，代码风格与平台原有模块高度一致，避免因风格差异导致的维护难度增加，保障了系统整体的可维护性。
+**2. Lower development and maintenance cost**  
+By binding column definitions to front-end components and back-end logic automatically, CoStrict reduces coupling and human error. The generated style is identical to legacy modules, so future maintenance stays simple and uniform.
 
-**3.加速DFX测试平台前后端的协同开发**
-前端页面的生成能够直接适配平台设计规范，且后端控制层可直接调用工具生成的数据库接口，实现了前后端的无缝联动。测试开发过程中，无需单独开发前端页面或进行大量调试适配，缩短了开发周期，提升了协作效率。
-
+**3. Faster front-end / back-end collaboration inside DFX**  
+Front-end pages arrive already compliant with design rules and pre-connected to the generated APIs, enabling seamless end-to-end workflows. No separate page development or lengthy alignment sessions are required, shortening the cycle and improving team throughput.

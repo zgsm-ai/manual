@@ -4,53 +4,53 @@ sidebar_position: 2
 
 # v2.0.0
 
-## 新增Strict和Vibe两种开发模式
+## New Strict and Vibe Development Modes
 
-本次更新引入了两种不同的开发模式，以满足不同场景的开发需求：
+This update introduces two distinct development modes to meet different development scenarios:
 
-### Strict模式（严肃编程模式）
+### Strict Mode (Enterprise Development Mode)
 
-Strict模式是一种结构化、系统化的开发模式，严格遵循企业开发流程规范，通过「项目反推→需求澄清→设计→任务拆解→测试自校验自修复」流程，帮助AI准确地理解已有项目的依赖关系，复用已有的代码规范，通过标准化流程提升AI交付质量，生成可用性更强的代码。
+Strict Mode is a structured, systematic development approach that strictly follows enterprise development process standards. Through the "project reverse inference → requirement clarification → design → task breakdown → self-testing and self-repair" workflow, it helps AI accurately understand existing project dependencies, reuse established code standards, and improve AI delivery quality through standardized processes to generate more usable code.
 
-**适用场景**：推荐用于"老代码加新特性"等复杂任务场景。
+**Applicable Scenarios**: Recommended for complex tasks such as "adding new features to existing code."
 
-### Vibe模式
+### Vibe Mode
 
-Vibe模式沿用了此前的开发模式，需求澄清与代码生成交替进行，适合快速开发或简单任务场景。若使用者具备较强提示词能力，仍可通过Vibe模式产出高质量代码。
+Vibe Mode continues the previous development approach where requirement clarification and code generation alternate, suitable for rapid development or simple task scenarios. Users with strong prompt engineering skills can still produce high-quality code through Vibe Mode.
 
-## 内置增强生成效果的智能工具
+## Built-in Intelligent Tools for Enhanced Generation
 
-CoStrict内置多项增强生成效果的智能工具，可同时使用于Strict模式和Vibe模式：
+CoStrict includes multiple intelligent tools to enhance generation effects, available in both Strict and Vibe modes:
 
-### 项目理解
+### Project Understanding
 
-大模型生成「适配AI读取」的项目知识库与规则（Rules），帮助AI理解业务，提升代码生成准确度。
+The large model generates a project knowledge base and rules "optimized for AI reading," helping AI understand the business and improve code generation accuracy.
 
-### 测试方案
+### Test Planning
 
-分析并生成项目测试方案，提高代码质量和可靠性。
+Analyzes and generates project test plans to improve code quality and reliability.
 
-### 问题排障
+### Problem Troubleshooting
 
-输入问题日志或故障描述，AI协助定位问题根源，提供修复方案。
+Input problem logs or failure descriptions, and AI assists in locating root causes and providing repair solutions.
 
-## 支持智能化协作流程
+## Support for Intelligent Collaboration Workflow
 
-Strict模式支持任务过程的可视化与可编辑，让开发更高效更可控：
+Strict Mode supports visualization and editing of the task process, making development more efficient and controllable:
 
-### 任务过程可视化、可编辑
+### Task Process Visualization and Editing
 
-执行过程中可以编辑相应文档，与AI相互协作，实时调整开发方向。
+During execution, corresponding documents can be edited to collaborate with AI and adjust development direction in real-time.
 
-### 流程自动同步
+### Automatic Process Synchronization
 
-遵从「需求澄清→设计→任务拆解→测试自校验自修复」流程，当更新需求文档，可一键同步至设计与实现阶段。
+Following the "requirement clarification → design → task breakdown → self-testing and self-repair" process, when updating requirement documents, they can be synchronized to the design and implementation stages with one click.
 
-### 子任务独立执行
+### Independent Sub-task Execution
 
-由需求拆分后的每个子任务可独立执行、测试，使整体流程更高效、更可控。
+Each sub-task decomposed from requirements can be executed and tested independently, making the overall process more efficient and controllable.
 
-## 注意事项
+## Important Notes
 
-1. 由于Strict模式下token消耗大，使用前请确保是否有足够的模型token。
-2. 为保障生成效果，建议使用GLM4.5或GLM4.6模型。
+1. Due to high token consumption in Strict Mode, please ensure you have sufficient model tokens before use.
+2. To ensure generation quality, it is recommended to use GLM4.5 or GLM4.6 models.

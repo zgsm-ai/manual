@@ -2,263 +2,263 @@
 sidebar_position: 2
 ---
 
-# CoStrict购买条款
-
-- [CoStrict购买条款](#costrict购买条款)
-  - [1. 产品套餐及定价](#1-产品套餐及定价)
-    - [1.1 套餐类型](#11-套餐类型)
-    - [1.2 Credits消耗规则](#12-credits消耗规则)
-    - [1.3 价格调整](#13-价格调整)
-  - [2. 购买和交付](#2-购买和交付)
-    - [2.1 购买渠道](#21-购买渠道)
-    - [2.2 **必要信息填写**](#22-必要信息填写)
-    - [2.3 Credits到账时间](#23-credits到账时间)
-    - [2.4 支付方式](#24-支付方式)
-    - [2.5 发票开具](#25-发票开具)
-  - [3. Credits使用规则](#3-credits使用规则)
-    - [3.1 有效期](#31-有效期)
-    - [3.2 使用顺序](#32-使用顺序)
-    - [3.3 转让限制](#33-转让限制)
-  - [4. 退款政策](#4-退款政策)
-    - [4.1 **不支持退款情形**](#41-不支持退款情形)
-    - [4.2 支持退款情形](#42-支持退款情形)
-    - [4.3 退款流程](#43-退款流程)
-    - [4.4 特殊情况处理](#44-特殊情况处理)
-  - [5. 交付异常处理](#5-交付异常处理)
-    - [5.1 充值延迟](#51-充值延迟)
-    - [5.2 充值错误](#52-充值错误)
-    - [5.3 账号问题](#53-账号问题)
-  - [6. 服务变更和终止](#6-服务变更和终止)
-    - [6.1 服务调整](#61-服务调整)
-    - [6.2 服务终止](#62-服务终止)
-  - [7. 特别声明](#7-特别声明)
-    - [7.1 Credits性质](#71-credits性质)
-    - [7.2 责任限制](#72-责任限制)
-    - [7.3 服务限制](#73-服务限制)
-  - [8. 客服支持](#8-客服支持)
-    - [8.1 联系方式](#81-联系方式)
-    - [8.2 问题处理优先级](#82-问题处理优先级)
-  - [9. 争议解决](#9-争议解决)
-    - [9.1 争议处理](#91-争议处理)
-    - [9.2 条款修改](#92-条款修改)
-  - [10. 其他](#10-其他)
-    - [10.1 条款效力](#101-条款效力)
-    - [10.2 适用范围](#102-适用范围)
+# CoStrict Purchase Terms
+
+- [CoStrict Purchase Terms](#costrict-purchase-terms)
+  - [1. Product Plans and Pricing](#1-product-plans-and-pricing)
+    - [1.1 Plan Types](#11-plan-types)
+    - [1.2 Credits Consumption Rules](#12-credits-consumption-rules)
+    - [1.3 Price Adjustments](#13-price-adjustments)
+  - [2. Purchase and Delivery](#2-purchase-and-delivery)
+    - [2.1 Purchase Channels](#21-purchase-channels)
+    - [2.2 **Required Information**](#22-required-information)
+    - [2.3 Credits Arrival Time](#23-credits-arrival-time)
+    - [2.4 Payment Methods](#24-payment-methods)
+    - [2.5 Invoice Issuance](#25-invoice-issuance)
+  - [3. Credits Usage Rules](#3-credits-usage-rules)
+    - [3.1 Validity Period](#31-validity-period)
+    - [3.2 Usage Order](#32-usage-order)
+    - [3.3 Transfer Restrictions](#33-transfer-restrictions)
+  - [4. Refund Policy](#4-refund-policy)
+    - [4.1 **Non-Refundable Situations**](#41-non-refundable-situations)
+    - [4.2 Refundable Situations](#42-refundable-situations)
+    - [4.3 Refund Process](#43-refund-process)
+    - [4.4 Special Situation Handling](#44-special-situation-handling)
+  - [5. Delivery Exception Handling](#5-delivery-exception-handling)
+    - [5.1 Recharge Delays](#51-recharge-delays)
+    - [5.2 Recharge Errors](#52-recharge-errors)
+    - [5.3 Account Issues](#53-account-issues)
+  - [6. Service Changes and Termination](#6-service-changes-and-termination)
+    - [6.1 Service Adjustments](#61-service-adjustments)
+    - [6.2 Service Termination](#62-service-termination)
+  - [7. Special Statements](#7-special-statements)
+    - [7.1 Credits Nature](#71-credits-nature)
+    - [7.2 Liability Limitations](#72-liability-limitations)
+    - [7.3 Service Restrictions](#73-service-restrictions)
+  - [8. Customer Support](#8-customer-support)
+    - [8.1 Contact Information](#81-contact-information)
+    - [8.2 Issue Handling Priority](#82-issue-handling-priority)
+  - [9. Dispute Resolution](#9-dispute-resolution)
+    - [9.1 Dispute Handling](#91-dispute-handling)
+    - [9.2 Terms Modification](#92-terms-modification)
+  - [10. Other](#10-other)
+    - [10.1 Terms Effectiveness](#101-terms-effectiveness)
+    - [10.2 Scope of Application](#102-scope-of-application)
 
-为规范CoStrict AI编程服务在京东商店的购买和使用，保障用户和深信服双方的合法权益，特制定本购买条款。请您在购买前仔细阅读本条款。
+To regulate the purchase and use of CoStrict AI programming services on JD Store and protect the legitimate rights and interests of both users and Sangfor, these purchase terms are hereby established. Please read these terms carefully before making a purchase.
 
-## 1. 产品套餐及定价
+## 1. Product Plans and Pricing
 
-### 1.1 套餐类型
+### 1.1 Plan Types
 
-CoStrict目前在京东商店提供以下Credits流量包套餐：
+CoStrict currently offers the following Credits packages on JD Store:
 
-| 套餐名称 | 价格 | Credits数量 | 有效期 |
-|---------|------|-------------|--------|
-| 流量包1 | ¥50 | 500 Credits | 365天 |
-| 流量包2 | ¥200 | 2,100 Credits | 365天 |
-| 流量包3 | ¥500 | 5,400 Credits | 365天 |
+| Plan Name | Price | Credits Amount | Validity Period |
+|-----------|-------|----------------|-----------------|
+| Package 1 | ¥50 | 500 Credits | 365 days |
+| Package 2 | ¥200 | 2,100 Credits | 365 days |
+| Package 3 | ¥500 | 5,400 Credits | 365 days |
 
-### 1.2 Credits消耗规则
+### 1.2 Credits Consumption Rules
 
-- 用户使用不同AI模型时，每次调用消耗的Credits数量不同
-- 具体消耗倍率以CoStrict官网实时显示为准
-- 深信服有权根据产品运营需要调整各模型的Credits消耗倍率，**无需提前通知用户**
-- 用户可在CoStrict客户端或官网查询当前各模型的Credits消耗标准
+- Different AI models consume different amounts of Credits per call
+- Specific consumption rates are subject to real-time display on the CoStrict official website
+- Sangfor reserves the right to adjust Credits consumption rates for each model based on operational needs **without prior notice to users**
+- Users can check current Credits consumption standards for each model in the CoStrict client or official website
 
-### 1.3 价格调整
+### 1.3 Price Adjustments
 
-深信服保留调整产品价格的权利，价格调整将在京东商店和CoStrict官网同步公布，已购买的Credits不受价格调整影响。
+Sangfor reserves the right to adjust product prices. Price adjustments will be simultaneously announced on JD Store and the CoStrict official website. Credits already purchased will not be affected by price adjustments.
 
-## 2. 购买和交付
+## 2. Purchase and Delivery
 
-### 2.1 购买渠道
+### 2.1 Purchase Channels
 
-用户通过京东商店购买CoStrict Credits流量包。
+Users purchase CoStrict Credits packages through JD Store.
 
-### 2.2 **必要信息填写**
+### 2.2 **Required Information**
 
-**用户在京东下单时，必须在订单下单后，将该信息发给店铺客服，或者在下单备注中准确填写CoStrict账号ID，格式如下：**
+**When placing an order on JD, users must send this information to the store customer service after placing the order, or accurately fill in the CoStrict Account ID in the order notes in the following format:**
 
-- **备注示例："CoStrict账号ID：user123456"**
-- **如未填写账号ID或填写错误，将影响Credits到账时间**
-- **账号ID获取方式：登录CoStrict客户端，在个人中心查看**
+- **Note example: "CoStrict Account ID: user123456"**
+- **If the Account ID is not filled in or filled in incorrectly, it will affect the Credits arrival time**
+- **How to obtain Account ID: Log in to the CoStrict client and check in Personal Center**
 
-### 2.3 Credits到账时间
+### 2.3 Credits Arrival Time
 
-- **工作日（周一至周五，法定节假日除外）：开发同事将在3小时内完成Credits充值**
-- **非工作日：将在下一个工作日的3小时内完成充值**
-- 充值完成后，用户将收到CoStrict客户端内的到账通知
+- **Working days (Monday to Friday, excluding legal holidays): Development colleagues will complete Credits recharge within 3 hours**
+- **Non-working days: Recharge will be completed within 3 hours of the next working day**
+- After recharge is completed, users will receive an arrival notification in the CoStrict client
 
-### 2.4 支付方式
+### 2.4 Payment Methods
 
-支持京东商店提供的所有支付方式，包括但不限于：
+All payment methods provided by JD Store are supported, including but not limited to:
 
-- 京东支付
-- 微信支付
-- 支付宝
-- 银行卡支付
-- 京东白条
+- JD Pay
+- WeChat Pay
+- Alipay
+- Bank card payment
+- JD Baitiao
 
-### 2.5 发票开具
+### 2.5 Invoice Issuance
 
-- 用户可在京东订单中申请开具发票
-- 发票内容为"软件服务费"或"技术服务费"
-- 发票由京东商店按照其发票政策开具
+- Users can apply for invoice issuance in JD orders
+- Invoice content is "Software Service Fee" or "Technical Service Fee"
+- Invoices are issued by JD Store in accordance with its invoice policy
 
-## 3. Credits使用规则
+## 3. Credits Usage Rules
 
-### 3.1 有效期
+### 3.1 Validity Period
 
-- 所有购买的Credits有效期为**365个自然日**
-- 有效期自Credits成功充值到账之日起开始计算
-- 到期未使用的Credits将自动失效，不予退还
+- All purchased Credits are valid for **365 calendar days**
+- The validity period starts from the date when Credits are successfully recharged and credited
+- Credits that expire unused will automatically become invalid and will not be refunded
 
-### 3.2 使用顺序
+### 3.2 Usage Order
 
-- 如用户购买多次，Credits将按照到期时间先后顺序消耗
-- 即将到期的Credits优先消耗
+- If users purchase multiple times, Credits will be consumed in order of expiration time
+- Credits that are about to expire will be consumed first
 
-### 3.3 转让限制
+### 3.3 Transfer Restrictions
 
-- Credits不可转让、赠予或出售给第三方
-- Credits仅限购买时填写的CoStrict账户使用
-- 违反转让限制的，深信服有权冻结相关账户
+- Credits cannot be transferred, gifted, or sold to third parties
+- Credits can only be used by the CoStrict account filled in at the time of purchase
+- Violation of transfer restrictions may result in Sangfor freezing the relevant account
 
-## 4. 退款政策
+## 4. Refund Policy
 
-### 4.1 **不支持退款情形**
+### 4.1 **Non-Refundable Situations**
 
-以下情况下，**不支持退款**：
+**Refunds are not supported** in the following situations:
 
-- **Credits已充值到账的（无论是否使用）**
-- **用户账号ID填写错误导致无法充值的**
-- **因用户自身原因无法使用服务的**
-- **因用户违反服务协议被限制使用的**
-- **Credits已过期的**
-- **已开具发票的**
+- **Credits have been recharged and credited (whether used or not)**
+- **User Account ID was filled in incorrectly resulting in inability to recharge**
+- **Service cannot be used due to user's own reasons**
+- **User violates service agreement resulting in restricted usage**
+- **Credits have expired**
+- **Invoice has been issued**
 
-### 4.2 支持退款情形
+### 4.2 Refundable Situations
 
-仅在以下**极少数情况**下支持退款：
+Refunds are only supported in the following **very few situations**:
 
-- **京东订单支付成功但Credits尚未充值到账时**，用户可申请退款
-- 因深信服技术故障导致服务长期无法使用（连续30天以上）且无法通过技术手段恢复的
+- **When JD order payment is successful but Credits have not yet been recharged and credited**, users can apply for a refund
+- Due to Sangfor technical failures resulting in long-term service unavailability (continuously for more than 30 days) and inability to restore through technical means
 
-### 4.3 退款流程
+### 4.3 Refund Process
 
-- **未充值状态**：用户可直接通过京东商店申请退款
-- **已充值状态**：需同时联系京东客服和CoStrict官方客服处理
-- 提供京东订单号、CoStrict账号ID等相关信息
-- 退款将按照京东商店退款政策执行
+- **Not recharged status**: Users can directly apply for a refund through JD Store
+- **Recharged status**: Need to contact both JD customer service and CoStrict official customer service for processing
+- Provide relevant information such as JD order number, CoStrict Account ID, etc.
+- Refunds will be executed in accordance with JD Store's refund policy
 
-### 4.4 特殊情况处理
+### 4.4 Special Situation Handling
 
-- 如因用户账号ID填写错误导致充值失败，用户可提供正确账号ID，我们将重新充值
-- 如用户坚持退款，需在发现问题后24小时内联系客服
+- If recharge fails due to incorrect user Account ID, users can provide the correct Account ID and we will recharge again
+- If users insist on a refund, they need to contact customer service within 24 hours after discovering the problem
 
-## 5. 交付异常处理
+## 5. Delivery Exception Handling
 
-### 5.1 充值延迟
+### 5.1 Recharge Delays
 
-- 如超过承诺时间未到账，用户可联系客服查询进度
-- 客服将在1小时内回复处理结果
+- If Credits do not arrive within the promised time, users can contact customer service to check the progress
+- Customer service will reply with processing results within 1 hour
 
-### 5.2 充值错误
+### 5.2 Recharge Errors
 
-- 如Credits充值到错误账户，请及时联系客服
-- 提供京东订单号和正确的CoStrict账号ID
-- 我们将在核实后进行转移或重新充值
+- If Credits are recharged to the wrong account, please contact customer service promptly
+- Provide JD order number and correct CoStrict Account ID
+- We will transfer or recharge again after verification
 
-### 5.3 账号问题
+### 5.3 Account Issues
 
-- 如用户CoStrict账号不存在或被冻结，请先解决账号问题
-- 待账号正常后，我们将完成Credits充值
+- If the user's CoStrict account does not exist or is frozen, please resolve the account issue first
+- We will complete Credits recharge after the account returns to normal
 
-## 6. 服务变更和终止
+## 6. Service Changes and Termination
 
-### 6.1 服务调整
+### 6.1 Service Adjustments
 
-- 深信服有权调整服务内容、功能特性等
-- 重大调整将提前30天在官网和京东商店页面公告
-- 用户如不接受调整，可在公告期内申请退款（需符合退款条件）
+- Sangfor reserves the right to adjust service content, features, etc.
+- Major adjustments will be announced 30 days in advance on the official website and JD Store page
+- If users do not accept the adjustments, they can apply for a refund during the announcement period (must meet refund conditions)
 
-### 6.2 服务终止
+### 6.2 Service Termination
 
-如因以下原因终止服务，已购买的Credits不予退还：
+If service is terminated due to the following reasons, purchased Credits will not be refunded:
 
-- 用户违反服务协议或相关法律法规
-- 用户恶意攻击或滥用服务
-- 其他严重违规行为
+- User violates service agreement or relevant laws and regulations
+- User maliciously attacks or abuses the service
+- Other serious violations
 
-## 7. 特别声明
+## 7. Special Statements
 
-### 7.1 Credits性质
+### 7.1 Credits Nature
 
-- Credits为虚拟服务积分，不具有现金价值
-- Credits不可兑换现金或其他有价物品
-- Credits仅用于购买CoStrict服务
+- Credits are virtual service points and do not have cash value
+- Credits cannot be exchanged for cash or other valuable items
+- Credits can only be used to purchase CoStrict services
 
-### 7.2 责任限制
+### 7.2 Liability Limitations
 
-- **用户有责任准确填写CoStrict账号ID**
-- **因用户填写错误导致的充值延迟或失败，深信服不承担责任**
-- 用户应确保CoStrict账号正常可用
+- **Users are responsible for accurately filling in their CoStrict Account ID**
+- **Sangfor is not responsible for recharge delays or failures caused by user filling errors**
+- Users should ensure their CoStrict account is normal and available
 
-### 7.3 服务限制
+### 7.3 Service Restrictions
 
-- 本服务仅面向合法用途，禁止用于违法违规活动
-- 用户应遵守相关法律法规和CoStrict使用规范
-- 深信服有权对异常使用行为进行限制
+- This service is only for legal purposes and prohibited for illegal activities
+- Users should comply with relevant laws and regulations and CoStrict usage specifications
+- Sangfor reserves the right to restrict abnormal usage behavior
 
-## 8. 客服支持
+## 8. Customer Support
 
-### 8.1 联系方式
+### 8.1 Contact Information
 
-- **CoStrict客服邮箱**：`zgsm@sangfor.com.cn`
-- **京东商店客服**：通过京东APP或网站联系
-- **客服时间**：工作日9:00-18:00
+- **CoStrict Customer Service Email**: `zgsm@sangfor.com.cn`
+- **JD Store Customer Service**: Contact through JD APP or website
+- **Customer Service Hours**: Working days 9:00-18:00
 
-### 8.2 问题处理优先级
+### 8.2 Issue Handling Priority
 
-1. 充值到账问题 - 1小时内回复
-2. 账号相关问题 - 2小时内回复  
-3. 使用咨询问题 - 4小时内回复
+1. Recharge arrival issues - Reply within 1 hour
+2. Account-related issues - Reply within 2 hours
+3. Usage consultation issues - Reply within 4 hours
 
-## 9. 争议解决
+## 9. Dispute Resolution
 
-### 9.1 争议处理
+### 9.1 Dispute Handling
 
-- 关于京东交易的争议，按照京东平台规则处理
-- 关于CoStrict服务的争议，双方应首先协商解决
-- 协商不成的，提交深信服所在地人民法院管辖
+- Disputes regarding JD transactions shall be handled in accordance with JD platform rules
+- Disputes regarding CoStrict services shall first be resolved through negotiation between both parties
+- If negotiation fails, it shall be submitted to the jurisdiction of the People's Court where Sangfor is located
 
-### 9.2 条款修改
+### 9.2 Terms Modification
 
-- 深信服有权修改本购买条款
-- 修改后的条款将在京东商店和CoStrict官网同步公布
-- 继续购买和使用服务视为接受修改后的条款
+- Sangfor reserves the right to modify these purchase terms
+- Modified terms will be simultaneously announced on JD Store and the CoStrict official website
+- Continued purchase and use of services constitutes acceptance of the modified terms
 
-## 10. 其他
+## 10. Other
 
-### 10.1 条款效力
+### 10.1 Terms Effectiveness
 
-- 本条款与《CoStrict服务协议》、《CoStrict服务等级协议》、京东平台规则共同构成完整的服务条款体系
-- 如有冲突，以具体条款为准
+- These terms, together with the "CoStrict Service Agreement," "CoStrict Service Level Agreement," and JD platform rules constitute a complete service terms system
+- In case of conflicts, specific terms shall prevail
 
-### 10.2 适用范围
+### 10.2 Scope of Application
 
-本条款仅适用于通过京东商店购买的CoStrict Credits流量包。
+These terms only apply to CoStrict Credits packages purchased through JD Store.
 
 ---
 
-**重要提示：**
+**Important Notes:**
 
-1. **请务必在京东订单备注中准确填写您的CoStrict账号ID**
-2. **本条款中关于退款的限制性规定已用加粗字体标出，请特别注意**
-3. **一旦Credits充值到账，将不支持退款，请谨慎购买**
-4. **工作日3小时内到账，非工作日顺延至下一工作日**
+1. **Please be sure to accurately fill in your CoStrict Account ID in the JD order notes**
+2. **The restrictive provisions regarding refunds in these terms have been highlighted in bold, please pay special attention**
+3. **Once Credits are recharged and credited, refunds will not be supported, please purchase carefully**
+4. **Credits will arrive within 3 hours on working days, and will be postponed to the next working day on non-working days**
 
-*最后更新时间：2025年11月*
+*Last updated: November 2025*
 
-（完）
+(End)

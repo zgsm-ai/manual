@@ -2,189 +2,172 @@
 sidebar_position: 4
 ---
 
-# 案例实践4 - CoStrict 严肃编程模式
+# Case Study 4 – CoStrict Strict Programming Mode
 
-## 1.什么是strict模式？
+## 1. What is Strict Mode?
 
-Strict模式是结构化的成果物，用于将应用程序中复杂功能的开发流程规范化。它们提供了一种系统的方法，能把高层次的想法转化为详细的实施计划，且具备清晰的跟踪和可追溯性。
+Strict mode is a structured artifact that standardizes the development workflow for complex features in an application. It provides a systematic way to transform high-level ideas into detailed implementation plans with clear tracking and full traceability.
 
-借助Strict模式，你可以：
+With Strict mode you can:
 
-- 深度分析项目并生成全面的项目文档
+- Deeply analyze a project and generate comprehensive project documentation  
+- Break down requirements into user stories with acceptance criteria  
+- Produce design documents using sequence diagrams and architecture planning  
+- Track the implementation progress of independent tasks  
+- Execute interface and unit tests independently  
+- Automatically generate and run tests to ensure code reliability and stability  
 
-- 将需求分解为带有验收标准的用户故事
+## 2. Quick Start
 
-- 利用序列图和架构规划来生成设计文档
+Ready to create your first Strict-mode project? Here’s how to get started:
 
-- 跟踪不同独立任务的实施进度
+Project wiki → Requirements clarification → Design constraints → Task breakdown → Test cases, a five-stage workflow.
 
-- 独立执行接口测试单元测试
+### 2.1. Before You Begin
 
-- 自动生成并运行测试，确保代码可靠与稳定
+Install the basic project environment, e.g. Go, Python runtime, database, etc.  
+Install the git command-line tool: required when creating requirements, designs, or project changes.  
+Open the corresponding project.
 
-## 2.快速入门
+### 2.2. Project Wiki
 
-准备好创建你的第一个Strict模式项目吗？以下是入门方法：
+The project wiki is intended to enhance the design and coding of an existing project; it is optional.  
+It can also serve as a reference when first learning the codebase.
 
-项目wiki→需求澄清→设计约束→任务拆解→测试案例、分为五个阶段的工作流程。
-
-### 2.1.开始前准备
-
-安装好基本的项目基础环境，如：golang，python环境、数据库环境等
-
-按照好git命令：做需求、设计、项目变更时依赖\
-打开对应的工程
-
-### 2.2.项目wiki
-
-项目wiki旨在增强已有项目的设计和编码效果，非必选流程；
-
-也可以作为初次了解该工程代码参考
-
-#### 2.2.1.点击project wiki即可
+#### 2.2.1. Click “Project Wiki”
 
 ![descript](./img/manual/image1.png)
 
-#### 2.2.2.wiki生成中
+#### 2.2.2. Wiki Generation in Progress
 
-等待一段时候，即可在.cospec目录下生成项目wiki
+After a short wait, the project wiki will be generated under the `.cospec` directory.
 
 ![descript](./img/manual/image2.png)
 
-### 2.3.strict模式（不带测试案例情况）
+### 2.3. Strict Mode (without Test Cases)
 
-需求澄清→设计约束→任务拆解，这3步流程只需要输入一句话需求即可，建议生成完成后进行修改
+Requirements clarification → Design constraints → Task breakdown: these three steps only need a one-sentence requirement. We recommend editing the generated results afterwards.
 
-#### 2.3.1.选择strict模式
+#### 2.3.1. Select Strict Mode
 
-选择Strict模式这里可以看到除了strict的agent，还出现了requirement、task、test等众多agent，这些agent将帮助你生成需求、设计、任务、测试用例等辅助编程文档。
+When you choose Strict mode you will see not only the strict agent but also requirement, task, test, and other agents. These agents will help you generate requirements, designs, tasks, test cases, and other auxiliary programming documents.
 
 ![descript](./img/manual/image3.png)
 
-#### 2.3.2.输入你的需求
+#### 2.3.2. Enter Your Requirement
 
-只需要在strict模式下简单的输入你的需求，接下来多个agent将会对你的需求、wiki以及代码进行分析，生成合适的相关文档和测试用例
+Simply enter your requirement in Strict mode. Multiple agents will then analyze your requirement, wiki, and code to produce appropriate documents and test cases.
 
 ![descript](./img/manual/image4.png)
 
-#### 2.3.3.strict agent会自动拆解4个任务
+#### 2.3.3. Strict Agent Automatically Breaks Down 4 Tasks
 
-注意：strict
-agent会判断你的需求，如果你的需求很简单，如改一个小的样式，可能直接进入code模式完成任务。
+Note: the strict agent will evaluate your requirement. If it is very simple (e.g. changing a small style), it may switch directly to code mode to complete the task.
 
 ![descript](./img/manual/image5.png)
 
-#### 2.3.4.strict agent会指挥各agent完成相应的任务
+#### 2.3.4. Strict Agent Directs Each Agent to Complete Its Task
 
 ![descript](./img/manual/image6.png)
 
-#### 2.3.5.生成完成
+#### 2.3.5. Generation Complete
 
-.cospec\/\{功能名\} 目录下会生成对应需求、设计、 任务文档
+Under `.cospec/{feature-name}` you will find the corresponding requirement, design, and task documents.
 
 ![descript](./img/manual/image7.png)
 
-#### 2.3.6.需求与任务关联
+#### 2.3.6. Linking Requirements and Tasks
 
 ![descript](./img/manual/image8.png)
 
-#### 2.3.7.代码编写
+#### 2.3.7. Code Writing
 
-点击task.md上run即可开始编写当前任务。
+Click “Run” on task.md to start coding the current task.
 
 ![descript](./img/manual/image9.png)
 
-#### 2.3.8.代码编写中
+#### 2.3.8. Code Writing in Progress
 
 ![descript](./img/manual/image10.png)
 
-#### 2.3.9.任务完成
+#### 2.3.9. Task Complete
 
-任务完成后会标识结束
-
-如果遇到回话异常，导致非正常结束，可以手动标识\[x\]为结束或者重试\
-run all task会执行所有任务，推荐单步运行，可控性更好。
+When a task finishes it is marked as done.  
+If a conversation error causes abnormal termination, you can manually mark \[x\] as finished or retry.  
+“Run all tasks” executes every task; we recommend running them one by one for better control.
 
 ![descript](./img/manual/image11.png)
 
-### 2.4.文档变更
+### 2.4. Document Changes
 
-为了保障变更得可控性，你需要按照需求→设计→任务的流程变更
+To keep changes controllable, follow the flow: requirement → design → task.
 
-#### 2.4.1.需求变更
+#### 2.4.1. Requirement Change
 
-##### 2.4.1.1需求修改
+##### 2.4.1.1. Modify the Requirement
 
-requirements.md可以直接进行编辑或在requirements agent下进行对话变更
+Edit `requirements.md` directly or converse with the requirements agent to change it.
 
 ![descript](./img/manual/image12.png)
 
-##### 2.4.1.2.同步变更到设计
+##### 2.4.1.2. Sync Changes to Design
 
-点击文档任意update即可将变更后的需求同步到设计文档
-
-这里我将FR-006删除，可以看到右边变更设计后发起FR-006删除任务
+Click any “Update” in the document to propagate the changed requirement to the design document.  
+Here I delete FR-006; you can see on the right that the design is updated and a task to remove FR-006 is initiated.
 
 ![descript](./img/manual/image13.png)
 
-同时，文档末尾将会自动插入文档变更记录
+A change record is automatically appended at the end of the document.
 
 ![descript](./img/manual/image14.png)
 
-#### 2.4.2.架构设计变更
+#### 2.4.2. Architecture Design Change
 
-##### 2.4.2.1.架构设计变更
+##### 2.4.2.1. Change the Architecture Design
 
-design.md可以直接进行编辑或在架构师
-agent下进行对话变更，这里你可以修改技术细节
+Edit `design.md` directly or converse with the architect agent to change technical details.
 
 ![descript](./img/manual/image15.png)
 
-##### 2.4.2.2.同步变更到任务
+##### 2.4.2.2. Sync Changes to Tasks
 
-点击文档任意update即可将变更后的设计同步到任务
-
-变更后同步任务：任务会根据需求和设计重新生成任务。
+Click any “Update” in the document to propagate the changed design to tasks.  
+After the change, tasks are regenerated based on the new requirement and design.
 
 ![descript](./img/manual/image16.png)
 
-##### 2.4.2.3.变更结果
+##### 2.4.2.3. Change Result
 
-这里可以看到FR-006的任务已经删除
+You can see that the FR-006 task has been removed.
 
 ![descript](./img/manual/image17.png)
 
-#### 2.4.3.任务变更
+#### 2.4.3. Task Change
 
-##### 2.4.3.1.任务变更
+##### 2.4.3.1. Change a Task
 
-task.md可以直接进行编辑或在任务
-agent下进行对话变更，这里你可以修改任务执行细节
-
-这里你可以编辑你的任务执行细节，使得执行变得更可控
-
-或者删除一些不必要的任务
+Edit `task.md` directly or converse with the task agent to change execution details.  
+Here you can refine task execution details to make them more controllable, or delete unnecessary tasks.
 
 ![descript](./img/manual/image18.png)
 
-#### 2.4.4.任务执行
+#### 2.4.4. Task Execution
 
-变更后可以直接执行对应任务块
+After the change, run the corresponding task block directly.
 
 ![descript](./img/manual/image19.png)
 
-### 2.5.测试用例及测试
+### 2.5. Test Cases and Testing
 
-#### 2.5.1.生成测试用例
+#### 2.5.1. Generate Test Cases
 
-点击首页即可为工程生成测试用例和方案
+Click the home page to generate test cases and a test plan for the project.
 
 ![descript](./img/manual/image20.png)
 
-#### 2.5.2.测试任务与任务关联
+#### 2.5.2. Link Test Tasks to Tasks
 
-在strict模式下通过对话可以将测试用例关联到任务分布执行
-
-如果.cospec一开始存在TEST_GUILDE.md文件，则在生成任务后，自动有一个用例生成阶段。
+In Strict mode you can associate test cases with tasks through conversation and execute them step by step.  
+If the file `TEST_GUIDE.md` already exists under `.cospec`, a test-case generation stage is automatically added after tasks are created.
 
 ![descript](./img/manual/image21.png)

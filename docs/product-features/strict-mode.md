@@ -2,85 +2,82 @@
 sidebar_position: 1
 ---
 
-# 严肃编程模式（Strict Mode）
+# Strict Mode
 
-Strict模式是一种结构化、系统化的开发模式，它严格遵循企业开发流程规范，通过项目理解、需求澄清、任务拆解、测试自校验自修复等环节，帮助AI更好地理解企业业务，不断提高AI编码质量，让AI编程的重心从代码生成速度转向代码生成质量，从而实现真正的提效。
+Strict Mode is a structured, systematic development approach that rigorously follows enterprise development process standards. Through project understanding, requirement clarification, task decomposition, and self-testing with self-repair, it helps AI better comprehend enterprise business logic and continuously improve code generation quality. This shifts the focus of AI programming from code generation speed to code generation quality, achieving true efficiency improvements.
 
 ------------------------------------------------------------------------
 
-# 新增Strict模式，加强对已有项目的理解，让AI编程更可靠
+# Introducing Strict Mode for Enhanced Project Understanding and More Reliable AI Programming
 
-本次更新中，我们引入了Vibe和Strict两种开发模式，以满足不同场景的开发需求。
+In this update, we have introduced two development modes—Vibe and Strict—to meet different development scenario requirements.
 
 ![descript](./img/strict-mode/image1.png)
 
-### 1.1 Strict模式
+### 1.1 Strict Mode
 
-Strict模式即严肃编程模式，遵从 **「项目反推→需求澄清→设计→任务拆解→测试自校验自修复」** 流程，能有效帮助AI准确地理解已有项目的依赖关系，复用已有的代码规范，通过标准化流程提升AI交付质量，**生成可用性更强的代码。**
+Strict Mode, also known as the Serious Programming Mode, follows the **"Project Reverse Engineering → Requirement Clarification → Design → Task Decomposition → Self-Testing with Self-Repair"** workflow. It effectively helps AI accurately understand existing project dependencies and reuse established code standards, improving AI delivery quality through standardized processes and **generating more usable code.**
 
-值得注意的是，Strict模式下的Token消耗量较大，推荐用于 **"老代码加新特性"等复杂任务场景。**
+It is worth noting that Strict Mode consumes a significant amount of tokens and is recommended for complex task scenarios such as **"adding new features to existing code."**
 
-### 1.2 Vibe模式
+### 1.2 Vibe Mode
 
-Vibe模式沿用了此前的开发模式，需求澄清与代码生成交替进行，**适合快速开发或简单任务场景，** 若使用者具备较强提示词能力，仍可通过Vibe模式产出高质量代码。
-
-------------------------------------------------------------------------
-
-## 内置多个增强生成效果的智能工具，提高编码质量
-
-CoStrict内置多项增强生成效果的智能工具，包括项目理解、测试方案与问题排障。
-
-### 2.1 项目理解
-
-大模型生成「适配AI读取」的项目知识库与规则（Rules），帮助AI理解业务，提升代码生成准确度。可同时使用于Strict模式和Vibe模式。
-
-### 2.2 测试方案
-
-分析并生成项目测试方案，可同时使用于Strict模式和Vibe模式。
-
-### 2.3 问题排障
-
-输入问题日志或故障描述，AI协助定位问题根源，提供修复方案。
-
-详细使用教程参见[CoStrict
-2.0版本用户手册](../../best-practices/user-manual)
-
-## 支持智能化协作流程，让开发更高效更可控
-
-Strict模式支持任务过程的可视化与可编辑，开发者可在执行过程中直接修改文档，与AI实时协作。整个流程遵循「需求澄清
-→ 设计 → 任务拆解 →
-测试自校验自修复」的自动化链路，当需求文档更新后，可一键同步至设计与实现阶段。同时，拆分后的子任务可独立执行与测试，使整体流程更高效、更可控。
+Vibe Mode continues to use the previous development approach, alternating between requirement clarification and code generation. It is **suitable for rapid development or simple task scenarios.** If users have strong prompt engineering skills, they can still produce high-quality code through Vibe Mode.
 
 ------------------------------------------------------------------------
 
-### 3.1 任务过程可视化、可编辑
+## Built-in Intelligent Tools to Enhance Generation Quality and Improve Coding Standards
 
-执行过程中可以编辑相应文档，与AI相互协作。
+CoStrict includes multiple intelligent tools to enhance generation quality, including project understanding, testing strategies, and troubleshooting.
+
+### 2.1 Project Understanding
+
+The large model generates a project knowledge base and rules **"optimized for AI reading"** to help AI understand business logic and improve code generation accuracy. This can be used in both Strict Mode and Vibe Mode.
+
+### 2.2 Testing Strategy
+
+Analyzes and generates project testing strategies, which can be used in both Strict Mode and Vibe Mode.
+
+### 2.3 Troubleshooting
+
+Input problem logs or fault descriptions, and AI assists in locating the root cause and providing repair solutions.
+
+For detailed usage instructions, please refer to the [CoStrict 2.0 User Manual](../../best-practices/user-manual).
+
+## Supporting Intelligent Collaboration Workflow for More Efficient and Controllable Development
+
+Strict Mode supports visualization and editing of the task process, allowing developers to directly modify documents during execution and collaborate with AI in real-time. The entire workflow follows the automated chain of **"Requirement Clarification → Design → Task Decomposition → Self-Testing with Self-Repair."** When requirement documents are updated, they can be synchronized to the design and implementation stages with one click. At the same time, decomposed subtasks can be executed and tested independently, making the overall process more efficient and controllable.
+
+------------------------------------------------------------------------
+
+### 3.1 Visualizable and Editable Task Process
+
+During execution, corresponding documents can be edited to collaborate with AI.
 
 ![descript](./img/strict-mode/image2.png)
 
-### 3.2 流程自动同步
+### 3.2 Automatic Process Synchronization
 
-遵从「需求澄清→设计→任务拆解→测试自校验自修复」流程，当更新需求文档，点击更新可以自动同步到设计。
+Following the **"Requirement Clarification → Design → Task Decomposition → Self-Testing with Self-Repair"** workflow, when requirement documents are updated, clicking update will automatically synchronize to the design stage.
 
 ![descript](./img/strict-mode/image3.png)
 
-### 3.3 子任务独立执行
+### 3.3 Independent Execution of Subtasks
 
-由需求拆分后的对应的每个任务可独立执行、测试、任务更可控。
+Each task decomposed from requirements can be executed and tested independently, making tasks more controllable.
 
 ![descript](./img/strict-mode/image4.png)
 
-#  获取CoStrict 2.0版本
+# Get CoStrict 2.0
 
-打开VS Code，点击插件市场，搜索CoStrict，更新插件。
+Open VS Code, click on the Extensions Marketplace, search for CoStrict, and update the extension.
 
 ![descript](./img/strict-mode/image5.png)
 
-# 注意事项
+# Notes
 
-1.  由于Strict模式下token消耗大，使用前请确保是否有足够的模型token。
+1. Due to the high token consumption in Strict Mode, please ensure you have sufficient model tokens before use.
 
-2.  为保障生成效果，建议使用GLM4.5或GLM4.6模型
+2. To ensure optimal generation results, it is recommended to use GLM4.5 or GLM4.6 models.
 
 ------------------------------------------------------------------------

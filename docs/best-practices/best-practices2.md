@@ -2,79 +2,87 @@
 sidebar_position: 2
 ---
 
-# 案例实践2 - 代码生成，项目从0生成
+# Case Study 2 – Code Generation: Building a Project from Scratch
 
-### 案例背景
+### Background
 
-前段时间我负责开发一个用户统计功能，需要在前端展示用户活跃度、出勤频次等数据，并设计相应的后端API进行数据统计与提供。作为一个后端开发工程师，我对前端框架和ECharts图表库不够熟悉，这成为了开发过程中的主要瓶颈。
+A while ago I was tasked with building a user-analytics dashboard that displays daily active users, attendance frequency, and related metrics on the front end, plus the back-end APIs to aggregate and serve the data. As a back-end engineer, I was only vaguely familiar with front-end frameworks and the ECharts charting library, so the full-stack requirement became the biggest bottleneck.
 
-面对这个全栈任务，我决定借助CoStrict AI编程助手来完成这项跨技术栈的工作。
+Rather than stretch the sprint or pull in another teammate, I decided to let the CoStrict AI pair-programmer shoulder the cross-stack work.
 
-### 如何用AI实现
+### How I Used AI
 
-#### 1、需求分析与框架搭建
+#### 1. Requirements Analysis & Skeleton
 
-我向CoStrict输入了第一段提示词：
-```
-请分析当前项目结构，帮我设计一个用户考勤统计功能。需要包含前端和后端的设计开发。
-请先分析项目结构，然后给出实现方案。
-```
-
-CoStrict分析了项目后，识别出这是Python后端+Html前端的项目结构，然后给出了实现方案：
-- 后端：新增数据访问层
-- 前端：创建统计页面，使用ECharts可视化库
-- 数据库：建议在用户行为表中添加操作类型和时间戳字段
-
-
-#### 2、后端代码生成
-
-我进一步细化需求：
-```
-请生成后端代码，需要提供以下API：
-1. 获取近30天每日出勤用户数
-2. 获取考勤数据
-3. 获取用户缺勤数据
-```
-CoStrict生成了完整的Controller、Service代码，包括相应的数据模型和DTO，生成的代码结构清晰。
-
-
-#### 3、前端界面实现
-
-实现前端代码时，CoStrict对我的功能需求进行了拆解，并逐步进行了实现：
-```使用Element UI布局和ECharts图表库，包含：
-1. 日期范围选择器
-2. 折线图展示每日缺勤用户
-3. 饼图展示用户分布
-4. 表格展示详细数据
-
-请使用响应式设计，确保在不同屏幕尺寸下正常显示。
-```
-
-CoStrict生成了基础前端代码，但初次生成的界面布局不够美观，图表配置也需要调整。我通过多次迭代优化：
+I opened with this prompt:
 
 ```
-调整图表颜色为主题系统默认色系，添加动画效果
-优化移动端显示，在小屏幕下堆叠图表元素
-添加数据加载状态提示和错误处理
+Please analyze the current project structure and design an attendance-statistics feature for me.  
+I need both front-end and back-end implementation.  
+Start by reviewing the project layout, then propose a solution.
+```
+
+CoStrict scanned the repo, recognized a Python back-end + plain-HTML front-end stack, and returned a plan:
+
+- Back-end: add a new data-access layer  
+- Front-end: create a statistics page that uses ECharts for visualization  
+- DB: add an operation-type column and a timestamp column to the existing user-behavior table  
+
+#### 2. Back-End Code
+
+I drilled down:
+
+```
+Generate the back-end code. Expose three endpoints:
+1. Daily active users for the last 30 days  
+2. Attendance data  
+3. Absence data  
+```
+
+CoStrict emitted a complete Controller, Service, models, and DTOs—clean, layered, and ready to compile.
+
+#### 3. Front-End Implementation
+
+For the UI I fed CoStrict a step-by-step spec:
+
+```
+Use Element UI plus ECharts. Include:
+1. Date-range picker  
+2. Line chart for daily absences  
+3. Pie chart for user distribution  
+4. Data table with details  
+
+Make it responsive so it works on phones and desktops.
+```
+
+The first cut was functional but visually rough. I iterated:
+
+```
+Switch the color palette to the system theme, add animation,  
+stack the charts on small screens, and show loading & error states.
 ```
 
 ![alt text](img/case2/1.png)
 
-#### 4、效果测试
+#### 4. Testing & Polish
 
-代码生成完成后，我使用CoStrict协助编写单元测试和集成测试，并将问题发给CoStrict去debug，最终跑出了最终想要的效果。
-在CoStrict的协助下，我仅用一天时间就完成了原本需要一周多的全栈开发任务。
+After the code was generated, I asked CoStrict to write unit and integration tests, then pasted any failing output back into the chat for instant debugging.  
+In one working day I had a feature that would normally have taken a week—and the sprint stayed green.
 
 ![alt text](img/case2/2.png)
 
-### 心得体会
+### Key Takeaways
 
-1. **明确的需求描述是关键**：AI助手需要清晰、具体的指令才能生成高质量的代码。将复杂任务拆解为多个子任务，分步骤实现效果更好。
+1. **Clear, granular prompts win**  
+   The AI needs explicit, bite-sized instructions. Break the epic into stories, then into tasks.
 
-2. **迭代优化比追求完美初版更重要**：AI生成的代码可能需要多次调整，不要期望一次性得到完美结果，而是通过连续对话逐步完善。
+2. **Iterate, don’t chase perfection**  
+   Treat the first generation as scaffolding. Refine in quick loops instead of hoping for a single flawless dump.
 
-3. **代码审查仍不可少**：虽然AI能快速生成代码，但开发者仍需理解和审查生成代码的逻辑，确保符合项目标准和最佳实践。
+3. **Code review is still mandatory**  
+   AI is fast, but you still own the architecture, security, and style. Read every line.
 
-4. **跨技术栈开发效率大幅提升**：CoStrict极大降低了全栈开发的技术门槛，让后端开发者也能高效完成前端任务，减少了团队间的依赖和等待成本。
+4. **Cross-stack velocity skyrockets**  
+   A back-end dev can now ship a polished front-end feature without hand-offs, cutting calendar time and team dependencies.
 
-通过这个案例，我深刻体会到AI编程助手不是替代开发者，而是增强开发者能力的强大工具，尤其擅长处理技术栈跨越和样板代码编写，让开发者能更专注于核心业务逻辑和创新设计。
+This experience convinced me that AI pair-programming isn’t a replacement—it’s an amplifier. It crushes boilerplate and crosses tech-stack borders so engineers can stay focused on core logic and creative design.

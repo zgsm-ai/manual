@@ -2,83 +2,83 @@
 sidebar_position: 5
 ---
 
-# 登录配置文档
+# Login Configuration Guide
 
-## 配置页面
+## Configuration Page
 
-### 配置页面访问
+### Accessing the Configuration Page
 
-访问 http://\{COSTRICT_BACKEND\}:\{PORT_CASDOOR\}, 进入管理端登录页面
+Visit http://{COSTRICT_BACKEND}:{PORT_CASDOOR} to access the admin login page.
 
 ```commandline
-默认账号： admin
-默认密码： 123
+Default account: admin
+Default password: 123
 ```
 ![img.png](./img/casdoor/config-login-page.png)
 
-然后进入到管理页面
+Then enter the admin dashboard.
 
-#### 添加 `oauth` 认证服务
+#### Adding an `oauth` Authentication Provider
 
-选择身份认证 -> 提供商 -> `Oauth`（模板）
+Go to Authentication → Providers → `Oauth` (template).
 
 ![img.png](./img/casdoor/add-oauth.png)
 
-然后填写标准 `oauth` 的信息
+Fill in the standard `oauth` information.
 
 ![img.png](./img/casdoor/edit-oauth.png)
 
 ![img.png](./img/casdoor/id-secret.png)
 
-编辑完成拉到最下面点击 `保存 & 退出`
+After editing, scroll to the bottom of the page and click `Save & Exit`.
 
-### 添加 sms 认证服务
+### Adding an SMS Authentication Provider
 
-首先选择身份认证 -> 提供商 -> SMS（模板）
+First, go to Authentication → Providers → SMS (template).
 
 ![img.png](./img/casdoor/add-sms.png)
 
-只需要填写地域节点配置
+You only need to configure the region node settings.
 
 ![img.png](./img/casdoor/config-sms.png)
 
-### 登录配置
+### Login Configuration
 
-首先看下正常启用的用户登陆页面
+First, let's look at the normally enabled user login page.
 
 ![img.png](./img/casdoor/login-page.png)
 
-密码登陆是测试使用的, 内置了一个可以直接使用的账号密码
+Password login is for testing purposes and includes a built-in account that can be used directly.
 
 ```commandline
-账号： demo
-密码： test123
+Account: demo
+Password: test123
 ```
 
-配置登陆：选择身份认证 -> 应用 -> loginApp（模板）
+To configure login: go to Authentication → Applications → loginApp (template).
 
 ![img.png](./img/casdoor/config-login.png)
 
-首先修改登陆页面的图标
+First, modify the login page icon.
 
 ![img_1.png](./img/casdoor/edit-login-logo.png)
 
-点击删除按钮去掉密码登陆方式
+Click the delete button to remove the password login method.
 
 ![img.png](./img/casdoor/remove-password-login.png)
 
-也可以去除oauth登陆方式（短信验证哪里是无法去除的）
+You can also remove the oauth login method (SMS verification cannot be removed).
 
 ![img.png](./img/casdoor/remove-oauth-login.png)
 
-配置完成后拉到页面的最下方点击 `保存 & 退出`
+After configuration, scroll to the bottom of the page and click `Save & Exit`.
 
-## 组织配置
+## Organization Configuration
 
-> 这里主要用来配置图标和title名字
+> This section is mainly used to configure icons and title names.
 
 ![img.png](./img/casdoor/organization.png)
 
 ![img.png](./img/casdoor/edit-organization.png)
 
-`built-in` 中的显示名称也请和user-group的一致, `logo` 和 `组织Favicon` 请替换为您自己的
+Please ensure the display name in `built-in` matches the user-group name, and replace `logo` and `Organization Favicon` with your own.
