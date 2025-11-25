@@ -25,7 +25,7 @@ import CopyMarkdown from '@site/src/components/DownloadButton';
 #### 1.1.2 模型列表（推荐）
 
 - **对话模型**：`GLM-4.6-FP8`
-- **补全模型**：`DeepSeek-Coder-V2-Lite-Base`
+- **补全模型**：`Qwen3-4B-Instruct-2507`
 - **embedding模型**：`gte-modernbert-baseRAG/Embedding`
 - **rerank模型**：`gte-reranker-modernbert-baseRAG/Rerank`
 

@@ -53,7 +53,7 @@ The core functions of CoStrict all depend on large language models, and you need
 
 - ***Chat Model**: `GLM-4.6-FP8`
 
-- **Completion Model**: `DeepSeek-Coder-V2-Lite-Base`
+- **Completion Model**: `Qwen3-4B-Instruct-2507`
 
 - **Embedding Model**: `gte-modernbert-baseRAG/Embedding`
 
@@ -63,7 +63,7 @@ The core functions of CoStrict all depend on large language models, and you need
 
 ```
 https://modelscope.cn/models/ZhipuAI/GLM-4.6-FP8
-https://modelscope.cn/models/deepseek-ai/DeepSeek-Coder-V2-Lite-Base
+https://modelscope.cn/models/Qwen/Qwen3-4B-Instruct-2507
 https://modelscope.cn/models/iic/gte-modernbert-base
 https://modelscope.cn/models/iic/gte-reranker-modernbert-base
 ```
