@@ -2,132 +2,121 @@
 sidebar_position: 3
 ---
 
-# CoStrict服务等级协议
+# CoStrict Service Level Agreement
 
-- [CoStrict服务等级协议](#costrict服务等级协议)
-  - [1. 术语和定义](#1-术语和定义)
+- [CoStrict Service Level Agreement](#costrict-service-level-agreement)
+  - [1. Terms and Definitions](#1-terms-and-definitions)
     - [1.1 CoStrict](#11-costrict)
-    - [1.2 服务计费周期](#12-服务计费周期)
-    - [1.3 服务不可用](#13-服务不可用)
-    - [1.4 统计周期不可用分钟数](#14-统计周期不可用分钟数)
-    - [1.5 统计周期内服务总分钟数](#15-统计周期内服务总分钟数)
+    - [1.2 Service Billing Cycle](#12-service-billing-cycle)
+    - [1.3 Service Unavailability](#13-service-unavailability)
+    - [1.4 Unavailable Minutes in a Billing Cycle](#14-unavailable-minutes-in-a-billing-cycle)
+    - [1.5 Total Service Minutes in a Billing Cycle](#15-total-service-minutes-in-a-billing-cycle)
     - [1.6 Credits](#16-credits)
-  - [2. 服务可用性/服务成功率](#2-服务可用性服务成功率)
-    - [2.1 服务可用性计算方式](#21-服务可用性计算方式)
-    - [2.2 服务可用性标准](#22-服务可用性标准)
-  - [3. 赔偿方案](#3-赔偿方案)
-    - [3.1 赔偿标准](#31-赔偿标准)
-    - [3.2 赔偿申请时限](#32-赔偿申请时限)
-    - [3.3 赔偿申请材料](#33-赔偿申请材料)
-  - [4. 免责条款](#4-免责条款)
-  - [5. 其他](#5-其他)
+  - [2. Service Availability / Service Success Rate](#2-service-availability--service-success-rate)
+    - [2.1 Service Availability Calculation](#21-service-availability-calculation)
+    - [2.2 Service Availability Standard](#22-service-availability-standard)
+  - [3. Compensation Plan](#3-compensation-plan)
+    - [3.1 Compensation Standard](#31-compensation-standard)
+    - [3.2 Compensation Application Deadline](#32-compensation-application-deadline)
+    - [3.3 Compensation Application Materials](#33-compensation-application-materials)
+  - [4. Disclaimer](#4-disclaimer)
+  - [5. Miscellaneous](#5-miscellaneous)
 
 
-为使用CoStrict AI编程服务（以下简称"本服务"），您应当阅读并遵守《CoStrict服务等级协议》（以下简称"本协议"或"SLA"），以及《CoStrict服务协议》。本协议包含本服务的术语和定义、服务可用性/服务成功率等级指标、赔偿方案、免责条款等相关内容。请您务必审慎阅读、充分理解各条款内容，限制、免责条款或者其他涉及您重大权益的条款可能会以加粗、加下划线等形式提示您重点注意。
+To use the CoStrict AI programming service (hereinafter referred to as "the Service"), you must read and comply with the "CoStrict Service Level Agreement" (hereinafter referred to as "this Agreement" or "SLA"), as well as the "CoStrict Service Agreement". This Agreement includes terms and definitions related to the Service, service availability/service success rate indicators, compensation plans, disclaimers, and other relevant content. Please read carefully and fully understand each clause, especially those that may be highlighted in **bold** or underlined to draw your attention to important limitations, disclaimers, or other clauses that may significantly affect your rights.
 
-除非您已充分阅读、完全理解并接受本协议所有条款，否则，请您不要购买本服务。您点击"同意"、"下一步"或您的购买、使用等行为或者您以其他任何明示或者默示方式表示接受本协议的，即视为您已阅读并同意本协议的约束。本协议即在您与深信服之间产生法律效力，成为对双方均具有约束力的法律文件。
+Unless you have fully read, understood, and accepted all terms of this Agreement, please do not purchase the Service. By clicking "Agree", "Next", or by purchasing, using, or otherwise expressly or implicitly accepting this Agreement, you acknowledge that you have read and agreed to be bound by this Agreement. This Agreement shall become legally binding between you and Sangfor, constituting a legally enforceable agreement for both parties.
 
-## 1. 术语和定义
+## 1. Terms and Definitions
 
 ### 1.1 CoStrict
 
-CoStrict是深信服开源的一款面向企业严肃开发场景的AI编程工具，支持VS Code和JetBrains系列IDE，提供包括但不限于AI代码审查、测试驱动自校验自修复、严肃规范驱动开发、老代码文档反推等能力。
+CoStrict is an open-source AI programming tool developed by Sangfor, designed for enterprise-level serious development scenarios. It supports VS Code and JetBrains IDEs, offering capabilities including but not limited to AI code review, test-driven self-verification and self-repair, specification-driven development, and reverse documentation generation from legacy code.
 
-### 1.2 服务计费周期
+### 1.2 Service Billing Cycle
 
-服务计费周期是指您购买Credits的有效使用期限。从您成功购买Credits之日起计算，有效期为365个自然日。
+The Service billing cycle refers to the valid usage period of the Credits you purchase. It is calculated from the date of successful Credit purchase and is valid for 365 calendar days.
 
-### 1.3 服务不可用
+### 1.3 Service Unavailability
 
-当某一分钟内，由于深信服的原因，您所有试图与CoStrict服务建立访问或连接的尝试均失败，即您始终无法使用CoStrict服务，则视为该分钟服务不可用。如果用户在某一分钟内可使用本服务的部分功能或服务部分成功时，则视为该分钟内的本服务是可用的，不计入统计周期内不可用分钟数。本协议第4条免责条款规定的情形除外。
+If, within any given minute, all your attempts to access or connect to the CoStrict service fail due to reasons attributable to Sangfor, and you are unable to use the CoStrict service at all, that minute is considered as service unavailable. If you are able to use part of the service or if some requests succeed within that minute, the service is considered available, and that minute is not counted towards the unavailable minutes in the billing cycle. Exceptions are outlined in Article 4 of this Agreement.
 
-### 1.4 统计周期不可用分钟数
+### 1.4 Unavailable Minutes in a Billing Cycle
 
-在一个自然月内，服务不可用分钟数之和。
+The total number of minutes during which the service was unavailable within a natural month.
 
-### 1.5 统计周期内服务总分钟数
+### 1.5 Total Service Minutes in a Billing Cycle
 
-按照自然月内的天数 × 24（小时）× 60（分钟）计算。
+Calculated as: number of days in the natural month × 24 (hours) × 60 (minutes).
 
 ### 1.6 Credits
 
-Credits是CoStrict服务的计费单位，用户通过购买Credits使用CoStrict服务。不同AI模型按照不同的倍率消耗Credits，具体倍率以CoStrict官网公布为准。
+Credits are the billing unit for the CoStrict service. Users consume Credits to use the CoStrict service. Different AI models consume Credits at different rates, as published on the CoStrict official website.
 
-## 2. 服务可用性/服务成功率
+## 2. Service Availability / Service Success Rate
 
-### 2.1 服务可用性计算方式
+### 2.1 Service Availability Calculation
 
-服务可用性 =（1 - 统计周期内不可用分钟数 / 统计周期内服务总分钟数）× 100%
+Service Availability = (1 - Unavailable Minutes in Billing Cycle / Total Service Minutes in Billing Cycle) × 100%
 
-例如：2024年04月某一天23:00至23:05无法使用CoStrict服务，不可用时间为5分钟，则2024年04月服务可用性 = 1 - 5 /（30 × 24 × 60）× 100% = 99.98%
+Example: If the CoStrict service is unavailable from 23:00 to 23:05 on a day in April 2024, resulting in 5 minutes of downtime, then the service availability for April 2024 = 1 - 5 / (30 × 24 × 60) × 100% = 99.98%
 
-### 2.2 服务可用性标准
+### 2.2 Service Availability Standard
 
-深信服提供的本服务可用性不低于99.9%，如未达到上述可用性标准（属于免责条款情形的除外），您可以根据本协议第3条约定获得赔偿。
+Sangfor guarantees a service availability of no less than 99.9%. If this standard is not met (except for cases covered under the disclaimer clauses), you are eligible for compensation as outlined in Article 3 of this Agreement.
 
-## 3. 赔偿方案
+## 3. Compensation Plan
 
-对于本服务，如服务可用性低于标准，您有权按照如下条款约定获得赔偿：
+If the service availability falls below the standard, you are entitled to compensation as follows:
 
-### 3.1 赔偿标准
+### 3.1 Compensation Standard
 
-（1）赔偿以深信服发放Credits的形式实现，发放的Credits仅限您通过您的CoStrict账户使用本服务，不能用于其他服务，您也不可以将Credits进行转让、赠予等。
+(1) Compensation will be provided in the form of Credits issued by Sangfor. These Credits can only be used by you through your CoStrict account for the Service and cannot be used for other services, nor can they be transferred or gifted.
 
-（2）如果某自然月度没有达到服务可用性标准，赔偿额按照相应未达标自然月度单独计算，赔偿总额不超过您在该未达标自然月度内实际消耗的Credits价值（按照购买时的单价计算）。
+(2) If the service availability standard is not met in a natural month, compensation is calculated separately for that month. The total compensation amount shall not exceed the value of the Credits you actually consumed in that month (calculated based on the unit price at the time of purchase).
 
-| 自然月度的服务可用性 | 赔偿Credits金额 |
-|-------------------|----------------|
-| 低于99.9%但等于或高于99.5% | 月度消耗Credits价值的5% |
-| 低于99.5%但等于或高于97.0% | 月度消耗Credits价值的10% |
-| 低于97.0%但等于或高于95.0% | 月度消耗Credits价值的20% |
-| 低于95.0% | 月度消耗Credits价值的50% |
+| Monthly Service Availability | Compensation Credit Amount |
+|-----------------------------|---------------------------|
+| Below 99.9% but ≥ 99.5%     | 5% of monthly Credits consumed |
+| Below 99.5% but ≥ 97.0%     | 10% of monthly Credits consumed |
+| Below 97.0% but ≥ 95.0%     | 20% of monthly Credits consumed |
+| Below 95.0%                 | 50% of monthly Credits consumed |
 
-### 3.2 赔偿申请时限
+### 3.2 Compensation Application Deadline
 
-（1）如某自然月度没有达到服务可用性标准，您可以在没有达标的相应自然月度结束后的次月的第五（5）个工作日后，仅通过您相应账户的工单系统或官方客服邮箱提出赔偿申请。您提出赔偿申请后深信服会进行相应核实，对于自然月度的服务可用性的计算，若双方出现争议的，双方均同意最终以深信服的后台记录为准。
+(1) If the service availability standard is not met in a natural month, you may submit a compensation request only through your account's ticketing system or official customer service email after the fifth (5th) working day of the following month. Upon receiving your request, Sangfor will verify the claim. In case of disputes regarding the calculation of monthly service availability, both parties agree that Sangfor's backend records shall prevail.
 
-（2）您最晚提出赔偿申请的时间不应超过未达标的相应自然月度结束后六十（60）个自然日，如果您在未达标的相应自然月度结束后的六十（60）日内未提出赔偿申请或者在未达标的相应自然月度结束后的六十（60）日之后才提出赔偿申请或者您通过非本协议约定的方式提出申请的，均视为您自动放弃要求赔偿的权利及向深信服主张其他权利的权利，深信服有权不受理您的赔偿申请，不对您进行任何赔偿或补偿。
+(2) You must submit your compensation request no later than sixty (60) calendar days after the end of the month in which the service availability standard was not met. If you fail to submit a request within sixty (60) days, or submit it after sixty (60) days, or submit it through means not specified in this Agreement, you will be deemed to have waived your right to compensation and any other claims against Sangfor, and Sangfor reserves the right to reject your compensation request without any compensation or reimbursement.
 
-### 3.3 赔偿申请材料
+### 3.3 Compensation Application Materials
 
-如果您认为本服务未达到服务可用性标准的，您可以按照本服务等级协议中规定的时限发起赔偿申请。您的赔偿申请需至少与下列信息一同提供：
-（1）服务不可用的账号。
-（2）服务不可用时长及其他相关证明。
+If you believe the service availability standard has not been met, you may initiate a compensation request within the timeframe specified in this SLA. Your request must include at least the following information:
 
-## 4. 免责条款
+(1) Account experiencing service unavailability.  
+(2) Duration of service unavailability and other relevant evidence.
 
-由以下原因导致的服务不可用，相应服务不可用时间不属于服务不可用的计算范畴和深信服的赔偿范畴，深信服无须向您承担责任：
+## 4. Disclaimer
 
-4.1 您维护不当或保密不当致使数据、口令、密码等丢失或泄漏所引起的。
+Service unavailability caused by the following reasons is excluded from the calculation of service unavailability and Sangfor's compensation obligations, and Sangfor shall not be held liable:
 
-4.2 由于您的疏忽授权、错误操作、自有设备或第三方软件、设备引起的。
+4.1 Loss or leakage of data, passwords, or credentials due to your improper maintenance or confidentiality.  
+4.2 Issues caused by your negligent authorization, incorrect operations, or your own equipment or third-party software/hardware.  
+4.3 Failure to follow CoStrict product documentation or usage recommendations.  
+4.4 Usage exceeding the service capacity limits of your current paid plan.  
+4.5 Service interruptions due to system maintenance notified in advance by Sangfor, including but not limited to cut-over, repairs, upgrades, and fault simulation drills.  
+4.6 Unavailability during routine system maintenance, or due to implicit dependencies on cloud server, database, load balancer, network, or monitoring services.  
+4.7 Network, equipment failures, or configuration adjustments outside of Sangfor's infrastructure.  
+4.8 Service disruptions caused by attacks or other improper behavior targeting your application interfaces or data.  
+4.9 Errors resulting from account suspension due to content violations or other reasons.  
+4.10 Service unavailability or substandard performance not caused by Sangfor.  
+4.11 Circumstances where Sangfor is exempt from liability or compensation as stipulated in applicable laws, agreements, rules, or separately published policies.  
+4.12 Service unavailability due to IDE plugin compatibility issues.  
+4.13 Service unavailability caused by interruptions from third-party AI model providers.
 
-4.3 您未遵循CoStrict产品使用文档或使用建议引起的。
+## 5. Miscellaneous
 
-4.4 使用超过当前付费版本标定的服务能力上限而引起的。
+5.1 Both parties acknowledge and agree that, under any circumstances, if you suffer losses due to Sangfor's breach of contract during your use of the Service, the total compensation for breach of contract shall not exceed the total service fees you have paid for the Service in the past 12 months.
 
-4.5 深信服预先通知您后进行系统维护所引起的，包括割接、维修、升级和模拟故障演练等。
+5.2 Sangfor reserves the right to modify the terms of this Agreement as necessary. You may review the latest version of the Agreement on the CoStrict official website (https://costrict.ai). If you do not agree with any modifications, you have the right to discontinue using the Service. Continued use of the Service constitutes your acceptance of the modified Agreement.
 
-4.6 日常系统维护时间、隐式依赖的云服务器服务、云数据库服务、负载均衡服务、网络服务、监控服务的不可用时间。
-
-4.7 任何深信服所属设备以外的网络、设备故障或配置调整引起的。
-
-4.8 您的应用接口或数据受到攻击或其他不当行为引起的。
-
-4.9 您内容违规或其他原因而导致账号被封禁而产生的错误。
-
-4.10 非深信服原因造成的服务不可用或服务不达标的情况。
-
-4.11 属于相关法律法规、相关协议、相关规则或深信服单独发布的相关规则、说明等中所述的深信服可以免责、免除赔偿责任等的情况。
-
-4.12 IDE插件兼容性问题导致的服务不可用。
-
-4.13 第三方AI模型服务商服务中断导致的服务不可用。
-
-## 5. 其他
-
-5.1 双方确认并在此认可：在任何情况下，若您在使用本服务过程中因深信服违约原因造成您损失的，深信服的违约赔偿总额不超过您就本服务过往12个月所支付的服务费用总额。
-
-5.2 深信服有权根据变化适时或必要时对本协议条款做出修改，您可以在CoStrict官网（https://costrict.ai）的最新版本中查阅相关协议条款。如您不同意深信服对协议所做的修改，您有权停止使用本服务，如您继续使用本服务，则视为您接受修改后的协议。
-
-5.3 本协议作为《CoStrict服务协议》的附属协议，具有与《CoStrict服务协议》同等效力，本协议未约定事项，您需遵守《CoStrict服务协议》的相关约定。若本协议与《CoStrict服务协议》中的条款相冲突或不一致，则以本协议为准，但仅在该冲突或不一致范围内适用。
+5.3 This Agreement is a supplementary agreement to the "CoStrict Service Agreement" and holds equal legal effect. Matters not covered herein shall be governed by the "CoStrict Service Agreement". In case of conflict or inconsistency between this Agreement and the "CoStrict Service Agreement", this Agreement shall prevail, but only to the extent of such conflict or inconsistency.

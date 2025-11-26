@@ -11,8 +11,8 @@ const config: Config = {
       {
         redirects: [
           {
-            to: '/guide/installation',
             from: '/',
+            to: '/guide/installation',
           },
         ],
       },

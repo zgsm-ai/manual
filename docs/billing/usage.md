@@ -2,185 +2,185 @@
 sidebar_position: 1
 ---
 
-# Credits费用明细
+# Credits Usage Details
 
-## 什么是 CoStrict Credits？
+## What are CoStrict Credits?
 
-用户无法无限制地使用高级大语言模型，因此我们采用基于 Credits 的配额机制。Credits 表示 AI 在执行任务时消耗的资源配额。在 CoStrict 中，以下用户请求会消耗 Credits：
+Users cannot use advanced large language models without limits, so we adopt a quota mechanism based on Credits. Credits represent the resource quota consumed by the AI when performing tasks. In CoStrict, the following user requests will consume Credits:
 
-- **Vibe Coding**：智能代码补全和生成
-- **Code Review**：AI 驱动的代码质量检查
-- **测试方案**：分析项目代码生成或总结一套可执行的测试流程，为 AI 提供质量抓手
-- **文档生成**：分析已有代码，生成项目知识库与规则，帮助AI和人理解已有业务
-- **Strict 模式**：将一句话的需求，系统性地拆解为需求设计、架构设计、测试设计、代码设计等步骤，如同为AI设定了标准工序，确保输出结果高质量、高可控。
+- **Vibe Coding**: Intelligent code completion and generation
+- **Code Review**: AI-driven code quality checks
+- **Test Plans**: Analyzing project code to generate or summarize a set of executable test processes, providing quality assurance for AI
+- **Documentation Generation**: Analyzing existing code to generate project knowledge bases and rules, helping AI and humans understand existing business
+- **Strict Mode**: Systematically breaking down one-sentence requirements into requirement design, architecture design, test design, code design, and other steps, like setting standard procedures for AI to ensure high-quality, controllable output
 
-请注意，具体消耗的 Credits 数量会因任务复杂度、代码规模和所使用的特定高级模型而有所不同。关于不同任务的 Credits 消耗明细，请参阅我们的任务与 Credits 消耗指南。
+Please note that the specific number of Credits consumed will vary depending on task complexity, code scale, and the specific advanced model used. For details on Credits consumption for different tasks, please refer to our Task and Credits Consumption Guide.
 
-## 如何扣减 Credits？
+## How are Credits Deducted?
 
-不同时间获取的 Credits 到期时间各不相同。系统会优先使用最先到期的 Credits，帮助您最大化发挥 Credits 的价值。
+Credits obtained at different times have different expiration dates. The system will prioritize using the Credits that expire first to help you maximize the value of your Credits.
 
-即使用户已用尽高级模型的配额（即 Credits 已耗尽），我们仍会提供每日限量的基础模型调用额度，确保用户可不间断地使用产品的核心功能。
+Even if users have exhausted their advanced model quota (i.e., Credits are depleted), we will still provide a daily limited amount of basic model call quota to ensure users can continuously use the core functions of the product.
 
-## 免费 Credits 赠送规则
+## Free Credits Giveaway Rules
 
-为了让用户更好地体验 CoStrict 的功能，我们会按照以下规则免费赠送 Credits：
+To allow users to better experience CoStrict's features, we will give away Credits for free according to the following rules:
 
-| 网络环境 | 场景 | 用户类型 | 赠送 Credits | 有效期 |
+| Network Environment | Scenario | User Type | Free Credits | Validity Period |
 |---------|------|---------|-------------|--------|
-| 外网 | 自行注册 | 新用户 | 200 | 30天 |
-| 外网 | 首次 Star | 新用户 | 200 | 30天 |
-| 外网 | 受邀注册 | 受邀新用户 | 200 | 30天 |
-| 外网 | 首次 Star | 受邀新用户 | 300 | 30天 |
-| 外网 | 每周一 | 注册并 Star 的用户 | 50 | 月底清零 |
+| External Network | Self-registration | New User | 200 | 30 days |
+| External Network | First Star | New User | 200 | 30 days |
+| External Network | Invited Registration | Invited New User | 200 | 30 days |
+| External Network | First Star | Invited New User | 300 | 30 days |
+| External Network | Every Monday | Users who have registered and Starred | 50 | Cleared at month-end |
 
-### 赠送规则说明
+### Giveaway Rules Description
 
-- **新用户**：首次注册 CoStrict 的用户
-- **受邀新用户**：通过邀请链接注册的新用户
-- **首次 Star**：在 GitHub 上首次为 CoStrict 项目点 Star
-- **每周一赠送**：每周一自动为符合条件的用户发放 Credits
-- **月底清零**：每周赠送的 Credits 在当月最后一天 23:59:59 自动清零
+- **New User**: Users who register CoStrict for the first time
+- **Invited New User**: New users who register through an invitation link
+- **First Star**: First time giving a Star to the CoStrict project on GitHub
+- **Weekly Monday Giveaway**: Automatically distribute Credits to eligible users every Monday
+- **Month-end Clearance**: Credits given weekly are automatically cleared at 23:59:59 on the last day of the month
 
-### 赠送 Credits 特点
+### Features of Giveaway Credits
 
-- 赠送的 Credits 优先级低于购买的 Credits
-- 赠送的 Credits 不可转让或退款
-- 系统会自动检测并发放符合条件的 Credits
-- 赠送记录可在 Credits 日志中查看
+- Giveaway Credits have lower priority than purchased Credits
+- Giveaway Credits are non-transferable and non-refundable
+- The system will automatically detect and distribute eligible Credits
+- Giveaway records can be viewed in the Credits log
 
-## 错误处理
+## Error Handling
 
-失败的 CoStrict 模型请求不会扣减 Credits。只有在模型 API 调用成功并返回有效结果时才会扣除 Credits。
+Failed CoStrict model requests will not deduct Credits. Credits are only deducted when the model API call is successful and returns a valid result.
 
-如遇到以下情况，不会扣减 Credits：
+Credits will not be deducted in the following cases:
 
-- 网络连接失败
-- 服务器内部错误
-- 请求超时
-- 模型返回错误响应
+- Network connection failure
+- Server internal error
+- Request timeout
+- Model returns error response
 
-## 模型与 Credits 消耗对照表
+## Model and Credits Consumption Comparison Table
 
-不同的 AI 模型具有不同的性能和成本，因此每次调用消耗的 Credits 也不相同。以下是各模型的 Credits 消耗标准：
+Different AI models have different performance and costs, so the Credits consumed for each call are also different. The following are the Credits consumption standards for each model:
 
-| 模型名称 | 正常时段消耗 Credits | 夜间时段消耗 Credits | 模型特点 |
+| Model Name | Normal Period Credits Consumption | Night Period Credits Consumption | Model Features |
 |---------|-------------------|-------------------|---------|
-| GLM-4.5/GLM-4.6 | 1 | **0.5** 🌙 | 通用大语言模型，平衡性能与成本 |
-| GLM-4.6-Zhipu | 1 | **0.5** 🌙 | 智谱 AI 优化版本，适合代码生成 |
-| Kimi-K2-Moonshot | 10 | 10 | 月之暗面高性能模型，支持长上下文 |
-| Kimi-K2-Turbo-Moonshot | 10 | 10 | 月之暗面加速版本，响应更快 |
-| Qwen-2.5-VL | 0.25 | 0.25 | 通义千问视觉语言模型，支持图像理解 |
-| Auto |-|-|9折|
+| GLM-4.5/GLM-4.6 | 1 | **0.5** 🌙 | General large language model, balancing performance and cost |
+| GLM-4.6-Zhipu | 1 | **0.5** 🌙 | Zhipu AI optimized version, suitable for code generation |
+| Kimi-K2-Moonshot | 10 | 10 | Moonshot high-performance model, supporting long context |
+| Kimi-K2-Turbo-Moonshot | 10 | 10 | Moonshot accelerated version, faster response |
+| Qwen-2.5-VL | 0.25 | 0.25 | Tongyi Qianwen visual language model, supporting image understanding |
+| Auto |-|-|10% off|
 
-### 🌙 夜间半价活动
+### 🌙 Night Half-Price Activity
 
-**活动时间：** 每日 20:00 - 次日 09:00
+**Activity Time:** Daily 20:00 - Next day 09:00
 
-**参与模型：** GLM-4.5/GLM-4.6、GLM-4.6-Zhipu
+**Participating Models:** GLM-4.5/GLM-4.6, GLM-4.6-Zhipu
 
-**活动内容：**
+**Activity Content:**
 
-- GLM 系列模型在夜间时段调用，每次消耗的 Credits 减半（0.5 Credits）
-- 系统将根据请求发起的服务器时间自动判断是否为夜间时段
-- 夜间半价优惠会在 Credits 日志中单独标记
+- GLM series models consume half Credits (0.5 Credits) per call during night hours
+- The system will automatically determine whether it is night time based on the server time when the request is initiated
+- Night half-price discounts will be separately marked in the Credits log
 
-**活动说明：**
+**Activity Description:**
 
-- 🚨 **限时活动**：本活动为限时推广活动，暂未确定结束时间
-- 📢 **提前通知**：活动结束前一个月，我们将在 CoStrict 官网 (https://costrict.ai) 发布结束通知
-- ⏰ **时间判定**：以服务器时间（UTC+8 北京时间）为准
+- 🚨 **Limited Time Activity**: This is a limited-time promotion activity, no end time has been determined yet
+- 📢 **Advance Notice**: One month before the activity ends, we will publish an end notice on the CoStrict official website (https://costrict.ai)
+- ⏰ **Time Determination**: Based on server time (UTC+8 Beijing time)
 
-### 模型选择建议
+### Model Selection Recommendations
 
-- **夜间开发**：强烈建议使用 GLM 系列模型，享受半价优惠 🌙
-- **复杂代码生成**：白天使用 GLM-4.5/GLM-4.6 或 GLM-4.6-Zhipu，夜间更划算
-- **长文档处理**：建议使用 Kimi 系列模型，支持长上下文处理
-- **多模态任务**：建议使用 Qwen-2.5-VL，支持图像和文本处理
+- **Night Development**: It is strongly recommended to use GLM series models to enjoy half-price discounts 🌙
+- **Complex Code Generation**: Use GLM-4.5/GLM-4.6 or GLM-4.6-Zhipu during the day, more cost-effective at night
+- **Long Document Processing**: It is recommended to use Kimi series models, supporting long context processing
+- **Multimodal Tasks**: It is recommended to use Qwen-2.5-VL, supporting image and text processing
 
-**注意：** 模型的 Credits 消耗标准可能会根据模型提供商的价格调整而变化。我们会提前通知用户任何消耗标准的变更。
+**Note:** The Credits consumption standards for models may change according to the price adjustments of model providers. We will notify users in advance of any changes to consumption standards.
 
-## 任务与 Credits 消耗指南
+## Task and Credits Consumption Guide
 
-不同任务需要使用不同的模型，每种模型都有相应成本。为此，我们分析了用户在线活动的资源消耗。基于这些数据，我们建立了各类模型使用与 Credits 消耗之间的对应关系，帮助用户更清晰地了解我们如何对不同操作计算并扣除 Credits。
+Different tasks require different models, and each model has corresponding costs. To this end, we have analyzed the resource consumption of users' online activities. Based on this data, we have established the correspondence between various model uses and Credits consumption, helping users understand more clearly how we calculate and deduct Credits for different operations.
 
-例如，单次代码生成请求可能会使用高级大型语言模型，消耗一定数量的输入与输出 Token。扣除的 Credits 将依据所用模型以及输入与输出的 Token 总量计算。
+For example, a single code generation request may use an advanced large language model, consuming a certain number of input and output Tokens. The deducted Credits will be calculated based on the model used and the total amount of input and output Tokens.
 
-当用户发起复杂的代码审查任务时，通常会在后台触发多次高级模型调用，因此比简单的代码补全请求消耗的资源更多。
+When users initiate complex code review tasks, multiple advanced model calls are usually triggered in the background, so they consume more resources than simple code completion requests.
 
-对于大型项目的文档生成，其资源消耗将根据分析整个代码库并生成相应文档所需的模型推理量来衡量。
+For large project documentation generation, its resource consumption will be measured based on the amount of model reasoning required to analyze the entire code base and generate corresponding documents.
 
-| 功能类型 | 基础消耗 (小型文件) | 高级消耗 (大型文件/项目) | 推荐模型 | 夜间建议 🌙 |
+| Feature Type | Basic Consumption (Small Files) | Advanced Consumption (Large Files/Projects) | Recommended Model | Night Recommendation 🌙 |
 |---------|-------------------|------------------------|---------|------------|
-| Vibe Coding | ~ 3 次调用 | ~ 5 次调用 | GLM-4.5/GLM-4.6, GLM-4.6-Zhipu | GLM-4.6-Zhipu (1.5-2.5) |
-| Code Review | ~ 10 次调用 | ~ 50 次调用 | GLM-4.6-Zhipu | GLM-4.6-Zhipu (5-25) |
-| 测试方案 | ~ 80 次调用 | ~ 150 次调用 | GLM-4.5/GLM-4.6 | GLM-4.5/GLM-4.6 (40-75) |
-| 文档生成 | ~ 10 次调用 | ~ 80 次调用 | Kimi-K2-Moonshot | GLM-4.6-Zhipu (5-40) |
-| Strict模式 | / | 100 ~ 500 次调用 | GLM-4.5/GLM-4.6 | GLM-4.5/GLM-4.6 (50-250) |
+| Vibe Coding | ~ 3 calls | ~ 5 calls | GLM-4.5/GLM-4.6, GLM-4.6-Zhipu | GLM-4.6-Zhipu (1.5-2.5) |
+| Code Review | ~ 10 calls | ~ 50 calls | GLM-4.6-Zhipu | GLM-4.6-Zhipu (5-25) |
+| Test Plans | ~ 80 calls | ~ 150 calls | GLM-4.5/GLM-4.6 | GLM-4.5/GLM-4.6 (40-75) |
+| Documentation Generation | ~ 10 calls | ~ 80 calls | Kimi-K2-Moonshot | GLM-4.6-Zhipu (5-40) |
+| Strict Mode | / | 100 ~ 500 calls | GLM-4.5/GLM-4.6 | GLM-4.5/GLM-4.6 (50-250) |
 
-**表格中括号内的数字为夜间使用 GLM 系列模型的预估 Credits 消耗。**
+**The numbers in parentheses in the table are the estimated Credits consumption for using GLM series models at night.**
 
-**夜间开发优势：**
+**Night Development Advantages:**
 
-- 🌙 **成本节省**：GLM 系列模型夜间使用可节省 50% Credits
-- ⚡ **性能保持**：模型性能不变，仅价格优惠
-- 🎯 **适合场景**：非常适合夜间加班、个人学习时间使用
+- 🌙 **Cost Savings**: Using GLM series models at night can save 50% Credits
+- ⚡ **Performance Maintained**: Model performance remains unchanged, only price is discounted
+- 🎯 **Suitable Scenarios**: Very suitable for night overtime work and personal learning time
 
-**表格中的数值为基于统计分析的估算。实际的 Credits 扣减会根据选择的具体模型和使用时段而有所不同，并以实时使用为准。我们也在持续优化，以在完成同等工作的前提下减少资源消耗。**
+**The values in the table are estimates based on statistical analysis. Actual Credits deduction will vary based on the specific model selected and usage period, and will be based on real-time usage. We are also continuously optimizing to reduce resource consumption while completing the same work.**
 
-**注意：** 未来随着新功能推出，我们可能会依据其资源需求更新 Credits 消耗率。这意味着某些操作的 Credits 扣减数可能会调整，以更准确反映新功能的实际资源使用情况。
+**Note:** In the future, as new features are launched, we may update Credits consumption rates based on their resource requirements. This means that the number of Credits deducted for certain operations may be adjusted to more accurately reflect the actual resource usage of new features.
 
-## 使用监控
+## Usage Monitoring
 
-您可以在 Usage 仪表板查看您的 Credits 历史和当前用量。
+You can view your Credits history and current usage in the Usage dashboard.
 
-### 查看你的 Credits 使用情况
+### View Your Credits Usage
 
-1. 登录 CoStrict 客户端或访问 CoStrict 官网 (https://zgsm.sangfor.com/credit/manager)
-2. 点击右上角头像，进入 Settings > Usage
-3. 在这里，你可以查看当前套餐，以及流量包中可用与已使用的 Credits 信息
+1. Log in to the CoStrict client or visit the CoStrict official website (https://zgsm.sangfor.com/credit/manager)
+2. Click on the avatar in the upper right corner, go to Settings > Usage
+3. Here, you can view your current plan and information about available and used Credits in your traffic package
 
-**Credits 使用优先级：** 我们会优先消耗最先到期的 Credits。对于到期时间相同的 Credits，将按照以下顺序使用：
+**Credits Usage Priority:** We will prioritize consuming Credits that expire first. For Credits with the same expiration time, they will be used in the following order:
 
-1. 免费赠送的 Credits（优先消耗即将到期的）
-2. 购买的 Credits（按购买时间顺序）
+1. Free giveaway Credits (prioritize consuming those about to expire)
+2. Purchased Credits (in order of purchase time)
 
-**Credits 到期：**
+**Credits Expiration:**
 
-- 购买的 Credits 有效期为购买后 365 天
-- 赠送的 Credits 有效期根据赠送规则确定（30天或月底清零）
-- 你可以在 Credits 日志中查看具体的到期时间
+- Purchased Credits are valid for 365 days after purchase
+- Giveaway Credits validity is determined by giveaway rules (30 days or cleared at month-end)
+- You can view specific expiration times in the Credits log
 
-通过流量包获得的 Credits 在有效期内始终可用，不会因为新购买而提前失效。
+Credits obtained through traffic packages are always available during the validity period and will not expire early due to new purchases.
 
-## Credits 日志：Credits 历史与追踪
+## Credits Log: Credits History and Tracking
 
-Credits 获取历史提供了所有已获得 Credits 的完整记录，包括获取原因、数量，以及生效与到期日期，便于你轻松追踪 Credits 来源。
+Credits acquisition history provides a complete record of all obtained Credits, including the reason for acquisition, quantity, and effective and expiration dates, making it easy for you to track the source of Credits.
 
-![Credits 日志示例](./img/usage/image1.png)
+![Credits Log Example](./img/usage/image1.png)
 
-### Credits 日志包含以下信息
+### Credits Log Contains the Following Information
 
-- **获取时间**：Credits 到账的具体时间
-- **获取方式**：流量包购买、免费赠送、活动奖励等
-- **Credits 数量**：本次获取的 Credits 数量
-- **获取来源**：具体的获取场景（注册、Star、邀请等）
-- **有效期**：该批次 Credits 的到期时间
-- **剩余数量**：当前该批次的剩余 Credits
-- **消耗记录**：详细的使用历史，包括使用的模型类型
+- **Acquisition Time**: The specific time when Credits were credited
+- **Acquisition Method**: Traffic package purchase, free giveaway, activity reward, etc.
+- **Credits Quantity**: The number of Credits obtained in this acquisition
+- **Acquisition Source**: Specific acquisition scenarios (registration, Star, invitation, etc.)
+- **Validity Period**: The expiration time of this batch of Credits
+- **Remaining Quantity**: The remaining Credits of the current batch
+- **Usage Records**: Detailed usage history, including the type of model used
 
-### 关于到期日期的重要说明
+### Important Notes About Expiration Dates
 
-- **购买的 Credits**：到期日期为购买时确定的固定日期（购买后365天）
-- **赠送的 Credits**：
-  - 注册和 Star 赠送：30天有效期
-  - 每周一赠送：当月月底 23:59:59 清零
-- 与订阅制产品不同，CoStrict 的 Credits 有效期不会因账户变更而改变
-- 所有 Credits 均按照既定规则计算到期时间
+- **Purchased Credits**: The expiration date is a fixed date determined at the time of purchase (365 days after purchase)
+- **Giveaway Credits**:
+  - Registration and Star giveaway: 30-day validity
+  - Weekly Monday giveaway: Cleared at 23:59:59 on the last day of the month
+- Unlike subscription products, CoStrict's Credits validity will not change due to account changes
+- All Credits are calculated according to established rules
 
-### 使用统计
+### Usage Statistics
 
-Credits 日志不仅显示 Credits 的获取历史，还提供详细的使用统计：
+The Credits log not only shows the history of Credits acquisition but also provides detailed usage statistics:
 
-- **每日使用量**：查看每天的 Credits 消耗情况
-- **模型使用分布**：了解不同模型的调用次数和 Credits 消耗占比
+- **Daily Usage**: View daily Credits consumption
+- **Model Usage Distribution**: Understand the call times and Credits consumption ratio of different models
