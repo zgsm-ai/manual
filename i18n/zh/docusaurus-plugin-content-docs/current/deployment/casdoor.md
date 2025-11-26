@@ -44,30 +44,30 @@ sidebar_position: 5
 
 ### 登录配置
 
-首先看下正常启用的用户登陆页面
+首先看下正常启用的用户登录页面
 
 ![img.png](./img/casdoor/login-page.png)
 
-密码登陆是测试使用的, 内置了一个可以直接使用的账号密码
+密码登录是测试使用的, 内置了一个可以直接使用的账号密码
 
 ```commandline
 账号： demo
 密码： test123
 ```
 
-配置登陆：选择身份认证 -> 应用 -> loginApp（模板）
+配置登录：选择身份认证 -> 应用 -> loginApp（模板）
 
 ![img.png](./img/casdoor/config-login.png)
 
-首先修改登陆页面的图标
+首先修改登录页面的图标
 
 ![img_1.png](./img/casdoor/edit-login-logo.png)
 
-点击删除按钮去掉密码登陆方式
+点击删除按钮去掉密码登录方式
 
 ![img.png](./img/casdoor/remove-password-login.png)
 
-也可以去除oauth登陆方式（短信验证哪里是无法去除的）
+也可以去除oauth登录方式（短信验证哪里是无法去除的）
 
 ![img.png](./img/casdoor/remove-oauth-login.png)
 

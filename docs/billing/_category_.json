@@ -1,8 +1,8 @@
 {
-  "label": "billing",
+  "label": "Billing",
   "position": 5,
   "link": {
-    "title": "billing",
+    "title": "Billing",
     "type": "generated-index"
   }
 }
