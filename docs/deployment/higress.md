@@ -18,15 +18,15 @@ To register a newly deployed model in CoStrict’s model list, follow the three 
 
 ### 2.1 Configure an AI Service Provider
 
-1. In the left-hand navigation pane, choose **AI Ingress Management** → **AI Service Provider Management**.
+1. In the left-hand navigation pane, choose **AI Gateway Config** → **LLM Provider Management**.
 2. Click **Create AI Service Provider**.
 3. In the **Create AI Service Provider** dialog, fill in the model details:
-   - **Model Vendor**: e.g `OpenAI`.  
+   - **LLM Provider**: e.g `OpenAI`.  
    - **Service Name**: a custom name such as `{{MODEL_PROVIDER}}`.  
-   - **Protocol**: select the one required by the vendor, e.g `openaiv1`.  
-   - **Credential**: your model-service API key, e.g `{{MODEL_APIKEY}}`.  
+   - **Request Procotol**: select the one required by the vendor, e.g `openaiv1`.  
+   - **Tokens**: your model-service API key, e.g `{{MODEL_APIKEY}}`.  
    - **OpenAI Service Type**: choose **Custom OpenAI Service BaseURL**.  
-   - **Custom OpenAI Service BaseURL**: enter your model’s base URL (`{{MODEL_BASEURL}}`).  
+   - **Custom OpenAI Service Base URL**: enter your model’s base URL (`{{MODEL_BASEURL}}`).  
      **Include the version path**, e.g `https://zgsm.sangfor.com/v1/`.
 
 <!-- ![img](https://wdcdn.qpic.cn/MTY4ODg1NTc1NDYyNDA0MA_621408_2fKH133T6cdAY8_e_1751892112?w=1879&h=689&type=image/png) -->
@@ -37,16 +37,16 @@ To register a newly deployed model in CoStrict’s model list, follow the three 
 
 AI routes forward requests to the correct AI service provider based on request characteristics such as path or model name.
 
-1. In the left-hand navigation pane, choose **AI Ingress Management** → **AI Route Management**.
+1. In the left-hand navigation pane, choose **AI Gateway Config** → **AI Route Config**.
 2. Click **Create AI Route**.
 3. In the **Create AI Route** dialog, configure:
    - **Path**: a frontend-matching path, e.g `/`.  
-   - **Model Matching Rules**:
+   - **Model Match Rule**:
      - **Key**: `model` (matches the `model` field in the request body).  
-     - **Match Type**: `Exact`.  
+     - **Model Match Type**: `Exact`.  
      - **Match Value**: `{{MODEL_NAME}}` (the exact model name).  
      - *Tip*: you can also choose **Prefix** and supply a case-sensitive prefix of the model name.  
-   - **Target AI Service**:
+   - **Target Services**:
      - **Service Name**: select the provider created in the previous step, e.g `{{MODEL_PROVIDER}}`.
 
 *The rule above means: if the request path starts with `/` and the model name matches, forward the request to the specified AI service provider.*
@@ -59,7 +59,7 @@ AI routes forward requests to the correct AI service provider based on request c
 
 *This step exposes the new model in the user-facing model picker. Without it, users must manually type the full model name.*
 
-1. On the **Plugin Config** page, locate the **AI Quota Management** card and click **Configure**.
+1. On the **Plugin Management** page, locate the **AI Quota** card and click **Configure**.
 2. Switch to **YAML View** and append the new model under `spec.defaultConfig.providers`:
 
 ```yaml
