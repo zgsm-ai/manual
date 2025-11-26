@@ -43,13 +43,13 @@
     "message": "最佳实践",
     "description": "The generated-index page title for category Best Practices in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.billing": {
+  "sidebar.tutorialSidebar.category.Billing": {
     "message": "套餐&计费说明",
-    "description": "The label for category billing in sidebar tutorialSidebar"
+    "description": "The label for category Billing in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.billing.link.generated-index.title": {
+  "sidebar.tutorialSidebar.category.Billing.link.generated-index.title": {
     "message": "套餐&计费说明",
-    "description": "The generated-index page title for category billing in sidebar tutorialSidebar"
+    "description": "The generated-index page title for category Billing in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Tutorial Videos": {
     "message": "视频教程",

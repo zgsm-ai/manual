@@ -8,7 +8,7 @@ sidebar_position: 5
 
 ### Accessing the Configuration Page
 
-Visit http://{COSTRICT_BACKEND}:{PORT_CASDOOR} to access the admin login page.
+Visit http://\{COSTRICT_BACKEND\}:\{PORT_CASDOOR\} to access the admin login page.
 
 ```commandline
 Default account: admin

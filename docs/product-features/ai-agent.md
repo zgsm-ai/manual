@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-### AI Agent
+# AI Agent
 
 Users only need to describe their requests in natural language, and the AI Agent can complete tasks end-to-end based on requirements. It is powerful, intelligent, and controllable. Capabilities include: autonomous decision-making, full repository context retrieval, tool calling, error fixing, terminal operation, and more.
 
