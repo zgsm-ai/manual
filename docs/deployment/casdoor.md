@@ -14,39 +14,39 @@ Visit http://\{COSTRICT_BACKEND\}:\{PORT_CASDOOR\} to access the admin login pag
 Default account: admin
 Default password: 123
 ```
-<!-- ![img.png](./img/casdoor/config-login-page.png) -->
+![descript](./img/casdoor/image1.png)
 
 Then enter the admin dashboard.
 
 #### Adding an `oauth` Authentication Provider
 
-Go to Authentication → Providers → `Oauth` (template).
+Go to Identity → Providers → `Oauth` (template).
 
-<!-- ![img.png](./img/casdoor/add-oauth.png) -->
+![descript](./img/casdoor/image2.png)
 
 Fill in the standard `oauth` information.
 
-<!-- ![img.png](./img/casdoor/edit-oauth.png) -->
+![descript](./img/casdoor/image3.png)
 
-<!-- ![img.png](./img/casdoor/id-secret.png) -->
+![descript](./img/casdoor/image4.png)
 
 After editing, scroll to the bottom of the page and click `Save & Exit`.
 
 ### Adding an SMS Authentication Provider
 
-First, go to Authentication → Providers → SMS (template).
+First, go to Identity → Providers → SMS (template).
 
-<!-- ![img.png](./img/casdoor/add-sms.png) -->
+![descript](./img/casdoor/image5.png)
 
 You only need to configure the region node settings.
 
-<!-- ![img.png](./img/casdoor/config-sms.png) -->
+![descript](./img/casdoor/image6.png)
 
 ### Login Configuration
 
 First, let's look at the normally enabled user login page.
 
-<!-- ![img.png](./img/casdoor/login-page.png) -->
+![descript](./img/casdoor/image7.png)
 
 Password login is for testing purposes and includes a built-in account that can be used directly.
 
@@ -55,21 +55,21 @@ Account: demo
 Password: test123
 ```
 
-To configure login: go to Authentication → Applications → loginApp (template).
+To configure login: go to Identity → Applications → loginApp (template).
 
-<!-- ![img.png](./img/casdoor/config-login.png) -->
+![descript](./img/casdoor/image8.png)
 
 First, modify the login page icon.
 
-<!-- ![img_1.png](./img/casdoor/edit-login-logo.png) -->
+![descript](./img/casdoor/image9.png)
 
 Click the delete button to remove the password login method.
 
-<!-- ![img.png](./img/casdoor/remove-password-login.png) -->
+![descript](./img/casdoor/image10.png)
 
 You can also remove the oauth login method (SMS verification cannot be removed).
 
-<!-- ![img.png](./img/casdoor/remove-oauth-login.png) -->
+![descript](./img/casdoor/image11.png)
 
 After configuration, scroll to the bottom of the page and click `Save & Exit`.
 
@@ -77,8 +77,8 @@ After configuration, scroll to the bottom of the page and click `Save & Exit`.
 
 > This section is mainly used to configure icons and title names.
 
-<!-- ![img.png](./img/casdoor/organization.png) -->
+![descript](./img/casdoor/image12.png)
 
-<!-- ![img.png](./img/casdoor/edit-organization.png) -->
+![descript](./img/casdoor/image13.png)
 
 Please ensure the display name in `built-in` matches the user-group name, and replace `logo` and `Organization Favicon` with your own.
