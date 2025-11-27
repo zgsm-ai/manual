@@ -26,9 +26,9 @@ sidebar_position: 4
     * **OpenAI 服务类型**: 选择 `自定义 OpenAI 服务 BaseURL`。
     * **自定义 OpenAI 服务 BaseURL**: 填入您的模型服务基础 URL(`{{MODEL_BASEURL}}`)，**注意需要带上版本号**，例如 `https://zgsm.sangfor.com/v1/`。
 
-![img](https://wdcdn.qpic.cn/MTY4ODg1NTc1NDYyNDA0MA_621408_2fKH133T6cdAY8_e_1751892112?w=1879&h=689&type=image/png)
+![descript](./img/higress/image1.png)
 
-![img](https://wdcdn.qpic.cn/MTY4ODg1NTc1NDYyNDA0MA_491553_E9UqjGwaa7i1qzHo_1751892334?w=1658&h=807&type=image/png)
+![descript](./img/higress/image2.png)
 
 ### 2.2. 配置 AI 路由
 
@@ -48,9 +48,9 @@ AI 路由用于根据请求特征（如路径、模型名称）将请求转发�
 
 备注：上述配置的意思就是如果请求路径包含前缀'/'，且模型名称匹配本规则，则将请求路由到指定的AI服务提供者。
 
-![img](https://wdcdn.qpic.cn/MTY4ODg1NTc1NDYyNDA0MA_972784_ctv20hv-bBUGVzD5_1751892440?w=1895&h=691&type=image/png)
+![descript](./img/higress/image3.png)
 
-![img](https://wdcdn.qpic.cn/MTY4ODg1NTc1NDYyNDA0MA_257655_X701-MgnXRLZyoGM_1751892547?w=1698&h=858&type=image/png)
+![descript](./img/higress/image4.png)
 
 ### 2.3. 配置模型列表
 

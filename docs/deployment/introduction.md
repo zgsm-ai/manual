@@ -51,7 +51,7 @@ The core functions of CoStrict all depend on large language models, and you need
 
 **Recommended Models** and **Download Addresses**:
 
-- ***Chat Model**: `GLM-4.6-FP8`
+- **Chat Model**: `GLM-4.6-FP8`
 
 - **Completion Model**: `Qwen3-4B-Instruct-2507`
 
