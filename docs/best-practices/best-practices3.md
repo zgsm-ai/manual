@@ -56,7 +56,7 @@ The emitted database layer mirrors the existing project layout, so it drops stra
 
 The auto-generated pages match the platform’s look-and-feel and expose full CRUD plus test-task triggering. They communicate with the back-end controller instantly, as shown here:
 
-<!-- ![alt text](img/case3/image8.png) -->
+![alt text](img/case3/image8.png)
 
 ![alt text](img/case3/image9.png)
 
