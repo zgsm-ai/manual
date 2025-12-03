@@ -3,7 +3,6 @@
   "position": 4,
   "link": {
     "title": "Product Features",
-    "type": "generated-index",
-    "description": "Costrict 的核心产品特性包括代码审查、智能体和智能代码补全功能"
+    "type": "generated-index"
   }
 }
