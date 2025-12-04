@@ -13,7 +13,6 @@ on:
       - 'master'
     paths:
       - 'docs/**'
-  workflow_dispatch: # 允许手动触发
 
 jobs:
   check-chinese:
