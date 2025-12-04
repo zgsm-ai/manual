@@ -1,0 +1,111 @@
+name: Check Chinese Content in Docs
+
+on:
+  push:
+    branches:
+      - 'main'
+      - 'master'
+    paths:
+      - 'docs/**'
+  pull_request:
+    branches:
+      - 'main'
+      - 'master'
+    paths:
+      - 'docs/**'
+  workflow_dispatch: # 允许手动触发
+
+jobs:
+  check-chinese:
+    name: Check for Chinese Characters
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Check Chinese Content
+        run: |
+          # 创建检查脚本
+          cat > check_chinese.js << 'EOF'
+          const fs = require('fs');
+          const path = require('path');
+          
+          // 递归查找所有.md和.json文件
+          function findFiles(dir, extensions) {
+            let results = [];
+            const files = fs.readdirSync(dir);
+            
+            for (const file of files) {
+              const filePath = path.join(dir, file);
+              const stat = fs.statSync(filePath);
+              
+              if (stat.isDirectory()) {
+                results = results.concat(findFiles(filePath, extensions));
+              } else if (extensions.some(ext => file.endsWith(ext))) {
+                results.push(filePath);
+              }
+            }
+            
+            return results;
+          }
+          
+          // 检查文件中的中文字符
+          function checkChinese(filePath) {
+            const content = fs.readFileSync(filePath, 'utf8');
+            const lines = content.split('\n');
+            const chineseRegex = /[\u4e00-\u9fff]/;
+            const results = [];
+            
+            lines.forEach((line, index) => {
+              if (chineseRegex.test(line)) {
+                results.push({
+                  lineNumber: index + 1,
+                  content: line.trim(),
+                  matches: line.match(chineseRegex)
+                });
+              }
+            });
+            
+            return results;
+          }
+          
+          // 主函数
+          function main() {
+            const docsDir = './docs';
+            const files = findFiles(docsDir, ['.md', '.json']);
+            let hasChinese = false;
+            
+            console.log(`检查 ${files.length} 个文件...`);
+            
+            for (const file of files) {
+              const chineseLines = checkChinese(file);
+              
+              if (chineseLines.length > 0) {
+                hasChinese = true;
+                console.error(`\n❌ 文件 "${file}" 包含中文字符:`);
+                
+                chineseLines.forEach(line => {
+                  console.error(`  行 ${line.lineNumber}: ${line.content}`);
+                });
+              }
+            }
+            
+            if (hasChinese) {
+              console.error('\n🚨 发现中文字符！docs文件夹中的文件不应包含中文内容。');
+              console.error('请将中文内容移至 i18n/zh/docusaurus-plugin-content-docs/current/ 目录下对应的文件中。');
+              process.exit(1);
+            } else {
+              console.log('\n✅ 所有文件检查通过，未发现中文字符。');
+            }
+          }
+          
+          main();
+          EOF
+          
+          # 运行检查脚本
+          node check_chinese.js

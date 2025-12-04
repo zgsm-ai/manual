@@ -1,0 +1,75 @@
+#!/bin/sh
+
+# Pre-push hook to check for Chinese characters in docs folder
+# 安装说明：
+# 1. 确保文件有执行权限：chmod +x .git/hooks/pre-push
+# 2. 或者将此文件复制到 .git/hooks/pre-push
+
+echo "🔍 检查docs文件夹中的文件是否包含中文字符..."
+
+# 获取即将推送的提交
+remote="$1"
+url="$2"
+
+z40=0000000000000000000000000000000000000000
+
+while read local_ref local_sha remote_ref remote_sha
+do
+    if [ "$local_sha" != $z40 ]
+    then
+        # 获取所有将要推送的提交中修改的docs文件夹下的文件
+        changed_files=$(git diff --name-only $remote_sha..$local_sha -- docs/** 2>/dev/null | grep -E '\.(md|json)$')
+        
+        if [ -n "$changed_files" ]; then
+            echo "检测到以下docs文件夹中的文件变更："
+            echo "$changed_files"
+            echo ""
+            
+            # 检查中文内容
+            has_chinese=false
+            
+            for file in $changed_files; do
+                # 转换路径格式（Windows兼容性）
+                file=$(echo "$file" | sed 's|\\|/|g')
+                
+                if [ -f "$file" ]; then
+                    echo "正在检查文件: $file"
+                    
+                    # 使用更兼容的方式检查中文字符
+                    if LC_ALL=C grep -q '[一-龯]' "$file" 2>/dev/null; then
+                        echo "❌ 文件 $file 包含中文字符："
+                        
+                        # 显示包含中文的行
+                        LC_ALL=C grep -n '[一-龯]' "$file" | while IFS= read -r line; do
+                            line_num=$(echo "$line" | cut -d: -f1)
+                            content=$(echo "$line" | cut -d: -f2-)
+                            echo "  行 $line_num: $content"
+                        done
+                        
+                        has_chinese=true
+                    else
+                        echo "✅ 文件 $file 检查通过"
+                    fi
+                else
+                    echo "⚠️ 文件 $file 不存在，跳过检查"
+                fi
+            done
+            
+            if [ "$has_chinese" = true ]; then
+                echo ""
+                echo "🚨 发现中文字符！docs文件夹中的文件不应包含中文内容。"
+                echo "请将中文内容移至 i18n/zh/docusaurus-plugin-content-docs/current/ 目录下对应的文件中。"
+                echo ""
+                echo "推送被阻止。修复问题后再次尝试推送。"
+                exit 1
+            else
+                echo "✅ 所有文件检查通过，未发现中文字符。"
+            fi
+        else
+            echo "未检测到docs文件夹中的.md或.json文件变更。"
+        fi
+    fi
+done
+
+echo "🎉 预推送检查完成！"
+exit 0
