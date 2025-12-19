@@ -147,7 +147,7 @@ You can view your Credits history and current usage in the Usage dashboard.
 
 **Credits Expiration:**
 
-- Purchased Credits are valid for 365 days after purchase
+- Purchased Credits are valid for 30 days after purchase
 - Giveaway Credits validity is determined by giveaway rules (30 days or cleared at month-end)
 - You can view specific expiration times in the Credits log
 
@@ -171,7 +171,7 @@ Credits acquisition history provides a complete record of all obtained Credits, 
 
 ### Important Notes About Expiration Dates
 
-- **Purchased Credits**: The expiration date is a fixed date determined at the time of purchase (365 days after purchase)
+- **Purchased Credits**: The expiration date is a fixed date determined at the time of purchase (30 days after purchase)
 - **Giveaway Credits**:
   - Registration and Star giveaway: 30-day validity
   - Weekly Monday giveaway: Cleared at 23:59:59 on the last day of the month

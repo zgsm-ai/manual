@@ -35,7 +35,7 @@ CoStrict is an open-source AI programming tool developed by Sangfor, designed fo
 
 ### 1.2 Service Billing Cycle
 
-The Service billing cycle refers to the valid usage period of the Credits you purchase. It is calculated from the date of successful Credit purchase and is valid for 365 calendar days.
+The Service billing cycle refers to the valid usage period of the Credits you purchase. It is calculated from the date of successful Credit purchase and is valid for 30 calendar days.
 
 ### 1.3 Service Unavailability
 
