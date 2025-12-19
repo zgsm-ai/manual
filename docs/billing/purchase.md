@@ -55,9 +55,9 @@ CoStrict currently offers the following Credits packages on JD Store:
 
 | Plan Name | Price | Credits Amount | Validity Period |
 |-----------|-------|----------------|-----------------|
-| Package 1 | ¥50 | 500 Credits | 365 days |
-| Package 2 | ¥200 | 2,100 Credits | 365 days |
-| Package 3 | ¥500 | 5,400 Credits | 365 days |
+| Package 1 | ¥50 | 500 Credits | 30 days |
+| Package 2 | ¥200 | 2,100 Credits | 30 days |
+| Package 3 | ¥500 | 5,400 Credits | 30 days |
 
 ### 1.2 Credits Consumption Rules
 
@@ -110,7 +110,7 @@ All payment methods provided by JD Store are supported, including but not limite
 
 ### 3.1 Validity Period
 
-- All purchased Credits are valid for **365 calendar days**
+- All purchased Credits are valid for **30 calendar days**
 - The validity period starts from the date when Credits are successfully recharged and credited
 - Credits that expire unused will automatically become invalid and will not be refunded
 
