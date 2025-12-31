@@ -4,35 +4,54 @@ sidebar_position: 7
 
 # FAQ
 
-### The "credit usage" page is blank or shows a "This site can't be reached" error
+### Are there any version requirements for the IDE?
 
-**Cause**:
-> The system previously had an incorrect permanent redirect rule (HTTP 301) that would incorrectly redirect `https` requests to `http`. Your browser may have cached this faulty redirect.
+Due to technical framework limitations, you must upgrade to version 2023.3 or higher.
 
-**Solution**:
+### Large model support?
 
-> *   First, check the protocol in your browser's address bar. If it is `http`, manually change it to `https` and try accessing the page again.
-> *   To permanently fix this, clear your browser's cache (specifically "Cached images and files") to remove the stored permanent redirect.
+You can use them directly. The impact on effectiveness is related to the deployed model parameter size. Models like qwen3-480b and deepseek-v3.2 will perform better. Currently, models that have shown good performance in experiments include: GLM-4.6, KIMI-K2.
 
-### `CoStrict` Plugin Fails to Redirect to the Chat Page After Successful Login
+### Computing resource requirements for large-scale use?
 
-**Cause**:
-> This is most likely caused by local proxy settings interfering with the extension's network connectivity.
+According to the recommended deployment of GLM 4.6 FP8, a scenario with 1,000 users in conversation requires at least 10 eight-card H20-141G servers. Based on the previous data standard version: Ascend 910B3-64B 8-card * 2, corresponding RPM: 6-8, supporting R&D personnel: 100. For 1,000 users, multiply the resources by about 10.
 
-**Diagnosing the Error**:
+### Minimum deployment list for private deployment?
 
-<details>
-  <summary>Click on 'OUTPUT' next to the 'TERMINAL' tab, then select 'CoStrict' from the dropdown menu.</summary>
+All components are microservices. If you need to deploy a minimal system, it requires targeted customization. Currently, we do not have plans for this.
 
-![img.png](FAQ-img/proxy-err.png)
+### Xinchuang support status?
 
-</details>
+Currently, we only temporarily support hardware other than amd64. If it is indeed necessary to support it, additional development and testing will be required.
 
-> If you see a `fetch failed` error in the output, the problem is almost certainly related to your proxy.
+### Does it support adaptation and scenario optimization?
 
-**Solution**:
+Please discuss specific application scenarios with us.
 
-1.  In VS Code, press `Ctrl + Shift + P` to open the command palette, type `user settings`, and open your settings. If `http.proxy` is configured, verify that the value is correct or remove it.
-2.  Close VS Code and turn off your proxy software (e.g., Charles, Fiddler, etc.).
-3.  Open the Windows "Proxy settings" and ensure the system-wide proxy is turned off.
-4.  Restart your proxy software (if needed) and then restart VS Code.
+### Version iteration and upgrade directions?
+
+On one hand, continue to improve the accuracy and code quality of AI-generated code in enterprise existing codebases. On the other hand, provide an AI-native development platform to support enterprises in their AI Native transformation.
+
+### Payment model for private deployment?
+
+If you don't need other services, you don't need to pay. All capabilities up to 2025 are free of charge. Subsequently, we will launch an AI Native platform in conjunction with CoStrict, which will be charged.
+
+### Trigger conditions and customization for code intelligent completion?
+
+Completion is automatically triggered during the input process, generally used to optimize the user's input experience. Due to the pursuit of response time, completion content is generally limited to outputting shorter content fragments. For structural content/large-scale code generation, it is recommended to complete it through the dialogue mechanism. Since users can provide more accurate intentions in dialogue, the generated code is more accurate (generally also slower).
+
+### CodeReview support for different languages?
+
+CoStrict's CodeReview adopts the Agent scanning scheme, which does not limit the scanning language. The plugin is open-source. The CodeReview feature is still in the closed-source polishing stage, and there will be open-source plans in the future. Please stay tuned.
+
+### Does it support cross-file awareness and enterprise knowledge base?
+
+Put the corresponding knowledge directly into the code repository, and use the @ function to specify reading files or file directories.
+
+### Introduction to vibe, plan, and spec modes?
+
+**vibe mode**: Focuses on human-computer interactive code, with code generation through dialogue interaction, focusing on step-by-step project completion. Reference: [Case Practice 2 - Code Generation, Project from 0 to 1 | costrict](/best-practices/best-practices2)
+
+**plan mode**: Serious programming, following the "Plan → Step-by-step Implementation" process. Suitable for iterative development and task management, ensuring orderly project progression. Suitable for old project iteration development functions. Reference: [Plan Mode Manual](/product-features/plan)
+
+**spec mode**: Serious programming, following the "Requirement Clarification → Design → Task Breakdown → Test Self-Verification and Self-Repair" process. Suitable for 0-1 development. Reference: [Serious Programming Mode](/product-features/strict-mode)
