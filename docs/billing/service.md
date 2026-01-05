@@ -73,14 +73,14 @@ If the service availability falls below the standard, you are entitled to compen
 
 (1) Compensation will be provided in the form of Credits issued by Sangfor. These Credits can only be used by you through your CoStrict account for the Service and cannot be used for other services, nor can they be transferred or gifted.
 
-(2) If the service availability standard is not met in a natural month, compensation is calculated separately for that month. The total compensation amount shall not exceed the value of the Credits you actually consumed in that month (calculated based on the unit price at the time of purchase).
+(2) If the service availability standard is not met in a natural month, compensation is calculated separately for that month. The total compensation amount shall not exceed the Credits you actually consumed in that month (calculated based on the price at the time of purchase).
 
 | Monthly Service Availability | Compensation Credit Amount |
 |-----------------------------|---------------------------|
-| Below 99.9% but ≥ 99.5%     | 5% of monthly Credits consumed |
-| Below 99.5% but ≥ 97.0%     | 10% of monthly Credits consumed |
-| Below 97.0% but ≥ 95.0%     | 20% of monthly Credits consumed |
-| Below 95.0%                 | 50% of monthly Credits consumed |
+| Below 99% but ≥ 98.5%     | 5% of monthly Credits  |
+| Below 98.5% but ≥ 98.0%     | 10% of monthly Credits |
+| Below 98.0% but ≥ 97.5%     | 20% of monthly Credits |
+| Below 95.0%                 | 50% of monthly Credits |
 
 ### 3.2 Compensation Application Deadline
 
