@@ -4,132 +4,242 @@ sidebar_position: 1
 
 # CoStrict Privacy Policy
 
-Last Updated: 2025/05/20
+**Last Updated: January 7, 2026**
 
-## Introduction
+Welcome to CoStrict!
 
-Welcome to CoStrict. This privacy policy ("Privacy Policy") explains how we collect, use, share and otherwise process the personal information of users and other individuals in connection with CoStrict app, websites, software, and related services (the "Platform"), that link to or reference this Privacy Policy.
+To protect your related rights, the "Privacy Protection Policy" (hereinafter referred to as "this Policy") will explain how Sangfor collects, uses, stores your personal information and what rights you enjoy. **Please read and understand the entire content of this Policy carefully before using CoStrict (also referred to as "this Application" or "this Service"), and confirm that you fully understand and agree to all contents before using it. Once you start using it, it means that you have fully understood and agreed to this Policy.**
 
-**Data Controller:** The Platform is provided and controlled by SANGFOR TECHNOLOGIES.
+**This Policy only applies to CoStrict's own functions and services, and does not apply to any products or services provided by other third parties. Before choosing to use third-party products/services, you should fully understand the functions and privacy protection policies of third-party products/services.**
 
-If you have any questions about this Privacy Policy or how we use your personal information, please contact feedback@zgsm@sangfor.com.cn
+**This Policy will help you understand the following content:**
 
-## What Information We Collect
+1. How we collect and use your personal information
 
-We collect your information in three ways: Information You Provide, Automatically Collected Information, and Information From Other Sources. More detail is provided below.
+2. How we store this information
 
-### Information You Provide
+3. How we share, transfer, and publicly disclose related information
 
-**Profile Information.** We collect information that you provide when you set up, sign-in, or manage your account on the Platform, such as your email address, and password.
+4. How we protect this information
 
-**User Content.** Your codebase files are stored locally on your devices. To provide you with codebase indexes, your codebase files will be temporarily uploaded to our servers to compute embeddings. Upon completion, all plaintext code will be permanently deleted; we only retain the embeddings and associated metadata. When you interact with the Platform's integrated AI-chatbot, we collect any information (including any code snippets) that you choose to input.
+5. How you access and manage your personal information
 
-**Purchase Information.** When you make a purchase on the Platform, we collect information about the purchase and payment method.
+6. How we use Cookies and similar technologies
 
-**Voluntary Surveys and Research Information.** We collect information you provide if you choose to participate in a survey, research, event, contest, or promotion conducted or sponsored by us.
+7. Protection of minors
 
-**Information When You Contact Us.** When you contact us, we collect the information you send us, such as feedback or inquiries about your use of the Platform, your data subject requests or queries, or information about possible violations of our Terms of Service (our "Terms") or other policies that we may introduce from time to time.
+8. Updates to this Policy
 
-### Automatically Collected Information
+9. How to contact us
 
-**Technical Information.** We automatically collect certain device and network connection information when you access the Platform. This information includes your operating system and IP address, and service-related, diagnostic, and performance information, including crash reports and performance logs. We automatically assign you a device ID and user ID.
+## 1. How we collect and use your personal information
 
-**Usage Information.** We automatically collect information about how you engage with the Platform, including when and how you register and log-in to the Platform and the duration and frequency of your Platform usage. When you engage with our AI-chatbot, we also collect any feedback you give, AI-generated output, and associated metadata.
+The CoStrict you are currently using is an AI intelligent service provided by Sangfor based on meeting the needs of enterprise serious development. It can systematically decompose requirements for user-provided needs, including requirement design, architecture design, test design, code design, and other steps, to output high-quality programming code for users. To provide you with CoStrict's functions and services, continuously maintain the normal operation of various functions and services, timely identify abnormal account status, ensure your account security as much as possible, and continuously improve and optimize the application usage experience, we will collect and use information you actively provide, authorize and provide or provided based on the requirements of your entity's users during registration and use of the application for the purposes described below under this Policy, as well as information generated when you use this application:
 
-**Cookies.** We use cookies and similar tracking technologies to operate and provide the Platform. To learn more about our use of cookies and other tracking technologies, and how to manage your website privacy settings, please visit our Cookies Policy.
+### 1.1 Helping you become a certified user of CoStrict
 
-### Information From Other Sources
+1.1.1 You can **register and create an account through a mobile phone number**, and use it to log in to CoStrict. To provide you with account verification and login services, we will save your mobile phone number.
 
-**Log-in, Sign-up, or Linked Services.** Where available, if you choose to sign-up or log-in to the Platform using, or link your account to, a third party service, we may collect information from that service, such as your username, profile photo and email address.
+1.1.2 You can use a third-party account to log in and use CoStrict. With your consent, we will obtain the public information you registered on the third-party platform (including account name, avatar, nickname and other information you authorize), which will be used to bind with the CoStrict account so that you can directly log in and use this product and related services. Currently, CoStrict only supports login through GitHub accounts. Based on the aforementioned purposes, we will record your authorized and synchronized **GitHub username and nickname information, ID, avatar, and email address information bound to the account**.
 
-**Payment and Transaction Fulfillment Providers.** We receive information about you from payment and transaction fulfillment providers, such as payment confirmation details, and information about the products you purchase.
+### 1.2 Information collected during the use of CoStrict
 
-## How We Use Your Information
+1.2.1 Generally, CoStrict services need to be pre-purchased before use, and users can purchase only after logging in to their accounts. During the purchase process, we will only record page response status and whether the purchase is successful through logs, without collecting other personal information from users. After the purchase is completed, users can request invoices. When users choose the invoice title as personal, they only need to provide an **email address** to receive electronic invoices. When users choose the invoice title as an enterprise, they must accurately provide the invoice title information and fill in an **email address** to receive electronic invoices.
 
-We use your information to operate, provide, develop, and improve the Platform, including for the following purposes:
+1.2.2 When you communicate with the AI programming assistant, we will automatically receive the **information you input (your command information, code snippets)** to provide you with functions such as code completion and code Q&A. Among them, when you use the Code Knowledge Graph, we will upload the code from your code repository to our server to calculate embedding vectors to build a code repository index. All plain text code only exists during request processing and is destroyed after the request ends; although embedding vectors and metadata of the code repository (including hash values and file names) may be stored in our database, the actual code content you uploaded will not be retained. Except for the use scenarios and purposes listed in this privacy policy and the fulfillment of legal obligations, we will not use the code files you uploaded and generated for any other scenarios not authorized by you, including not providing them to other third parties or using them as model training corpus;
 
-- **To provide and administer the Platform**, such as enabling you to browse the website, create and manage your account, and develop software using the provided tools.
+1.2.3 We may collect **user consultation records, fault records, and troubleshooting process records for user faults (such as communication or call records)** generated by your use of products and related services. We will record and analyze this information to more timely respond to your help requests and to improve services;
 
-- **To communicate with you and provide user support**, including notifying you about changes to the Platform or to our Terms or policies, and responding to and otherwise processing your queries, requests, complaints, and feedback.
+1.2.4 When you browse or use the product, to ensure the normal operation and operational security of the website and services, prevent network attacks and intrusion risks, and more accurately identify situations that violate laws and regulations or CoStrict-related agreements and service rules, we will collect your **operation records, operating system type and operating system version number, browser type and browser version, time zone and language and other device information**. Please understand that this information is the basic information that must be collected for us to provide services and ensure the normal operation and network security of services;
 
-- **To facilitate your purchases**, including sharing your information with payment and transaction fulfillment providers and other service providers in order to process your orders.
+1.2.5 To let you experience better services and ensure your use security, we need to record **network log information, as well as the frequency of use of products and related services, crash data, usage status and related performance data**;
 
-- **To enforce our Terms and other policies that apply to you**, such as by reviewing User Content and other information to protect the safety and well-being of our community.
+1.2.6 You know and agree that for the **contact information you provided (i.e., contact phone number, email address, etc.)** during the process of using the product and/or service, we may send notifications to one or more of them during operation for purposes such as user message notification, identity verification, security verification, and user usage experience research; in addition, we may also provide commercial information about services, functions or activities that you may be interested in through SMS, phone, and email to the mobile phone numbers and email addresses collected in the aforementioned process. However, please rest assured that if you do not wish to receive this information, you can unsubscribe through the unsubscribe methods provided in SMS or email, or contact us directly to unsubscribe.
 
-- **To maintain and enhance the Platform's safety, security, and stability** by identifying and addressing technical or security issues and detecting inappropriate and illegal activity.
+### 1.3 Other information you voluntarily provide to us
 
-- **To review, improve, and develop the Platform**, including by analyzing how you are using the Platform, conducting voluntary surveys and research, and training and improving our technology.
+During the process of using the functions and services of this application, you can also provide feedback on relevant experience issues by sending emails or other methods to help us better understand your needs for our products, thereby helping us continuously improve product functions and usage experience. For this purpose, we will record the problems or suggestions content you voluntarily submit for feedback, as well as contact information you voluntarily provide, so that we can further contact you and provide feedback on our handling opinions.
 
-- **To comply with our legal obligations**, including where necessary to assist in law enforcement and government or regulatory investigations.
+### 1.4 Personal information we may obtain from third parties
 
-We may also use your information for any other purposes disclosed to you at the time we collect your information, with your consent, or as otherwise permitted by applicable laws.
+To provide you with better, more optimized, and more personalized services, or to jointly provide services to you, or for the purpose of preventing Internet fraud, our affiliated companies and partners will share your personal information with us based on the provisions of laws and regulations or agreements with you or with your consent. We will adopt industry-standard methods and make the greatest commercial efforts to protect the security of your personal information in accordance with relevant laws and regulations and/or the requirements necessary for the identity authentication function.
 
-## How We Share Your Information
+### 1.5 Information collected for other purposes
 
-We share your personal information with the recipients or in the scenarios listed below, for the purposes described in this Privacy Policy.
+You understand and agree that the product functions/services we provide to you are continuously iterated and upgraded. If we need to collect and process your personal information beyond the scope explained in this Policy, we will explicitly inform you of the involved information content, scope and processing purpose through page prompts, interactive design, etc., and obtain your consent.
 
-### Service Providers
-We engage service providers that help us provide and develop the Platform. For example, the Platform shares your AI-chatbot inputs with large language models to support your coding experience and help generate responses.
+### 1.6 Exceptions to authorization consent for collecting and using personal information
 
-### Third Party Platforms and Partners
-We may share certain Information You Provide, Technical Information, and Usage Information with third parties whose platforms or services are integrated with the Platform. For example, if you sign-up or log-in to the Platform using your third party account details, we will share certain Technical Information to facilitate account sign-up or log-in.
+You fully know that based on applicable laws, in the following situations, we do not need to obtain your authorization consent to collect and use relevant personal information:
 
-### Our Corporate Group
-Certain entities within our corporate group ("Corporate Group") receive and process personal information to support the provision of the Platform. These entities process Information You Provide, Automatically Collected Information, and Information From Other Sources for us, as necessary to provide functions such as storage, content delivery, security, research and development, analytics, online payments, customer and technical support, and content moderation.
+1.6.1 Related to our performance of obligations prescribed by laws and regulations;
 
-### Corporate Transactions
-Your information may be disclosed to third parties:
-- In the event that we discuss or negotiate the sale or sell any business or assets, in which case we may disclose your information to the prospective buyer of such business or assets; or
-- In connection with a corporate transaction, such as a merger, sale of assets or shares, reorganization, financing, change of control, or acquisition of all or a portion of our business including asset sales, consolidations or in the unlikely event of bankruptcy.
+1.6.2 Directly related to national security and national defense security;
 
-## Legal Obligations and Rights
+1.6.3 Directly related to public safety, public health, and major public interests;
 
-We may access, preserve, and share the information described in "What Information We Collect" with any competent law enforcement body, regulatory or government agency, court, public authority, or other third party if we have good faith belief that it is necessary to:
+1.6.4 Directly related to criminal investigation, prosecution, trial and judgment execution;
 
-- Comply with applicable laws, regulations, codes of practice, legal process, or governmental guidance or requests as consistent with internationally recognised standards;
-- Protect the rights, property, and safety of our users and others as required or permitted by law;
-- Exercise or defend any legal claims, including to respond to subpoenas, court orders, legal process, law enforcement requests, legal claims, or government inquiries;
-- Investigate potential violations of and enforce our Terms, or any other applicable terms, policies, or standards; or
-- Detect, investigate, prevent, or otherwise address misleading or illegal activities.
+1.6.5 Necessary to protect the major legitimate rights and interests such as life and property of you or other individuals, but it is difficult to obtain your authorization consent;
 
-**With Your Consent.** We may share your information for other purposes pursuant to your consent or at your direction.
+1.6.6 The involved personal information has been voluntarily made public to the public by you;
 
-## Your Rights and Choices
+1.6.7 Necessary for the conclusion and performance of contracts/agreements reached between you or with us;
 
-You may have rights and choices when it comes to your information. Depending on where you live, your rights under applicable laws may include the right to access, delete, transfer, or correct your personal information; to be informed of the ways in which we process your personal information; to object to certain processing activities; to file complaints with authorities; and more. Some of your rights apply generally, while others will only apply in certain circumstances. And, depending on the scenario, these rights may be subject to some limitations by law.
+1.6.8 Collecting relevant personal information from legally publicly disclosed information, such as legitimate news reports, government information disclosure and other channels;
 
-For detailed information about the specific rights available to you in your region, please see the Supplemental Terms - Jurisdiction Specific section below. And, for information about your cookie-related privacy choices, please visit our Cookies Policy.
+1.6.9 Necessary to maintain the safe and stable operation of the products or services we provide, such as discovering and handling faults of products or services;
 
-If you have questions or would like to exercise any of your personal information rights, please Contact Us at email: zgsm@sangfor.com.cn or see the Supplemental Terms ‒ Jurisdiction Specific section below, in case a local contact is available in your region. Before we can respond to your request, you may be asked to verify your identity or your account details or provide additional information so that we can properly understand your request.
+1.6.10 Other situations prescribed by laws and regulations.
 
-If you are not satisfied with our response to any of your rights requests, we encourage you to Contact Us at zgsm@sangfor.com.cn
+## 2. How we store this information
 
-## Data Security
+2.1 Please know that the application services you log in to and use are deployed on servers within the People's Republic of China (hereinafter referred to as China), so the relevant data during the use of services are stored within China. Therefore, if you are a user outside China, please confirm by yourself whether the cross-border transmission of data involved during your use meets the requirements of relevant legal norms in your local area.
 
-Security of your information is important to us. We maintain technical, administrative, and physical security measures designed to protect your information from unauthorized access, theft, disclosure, modification, or loss, and to provide a level of security appropriate to the processing risk. We regularly review our security measures to consider newly available technology and methods.
+2.2 We will store processed/entrusted processed data, including your personal information, for the period necessary for the purpose of providing the application and related services, and in accordance with the requirements of applicable laws and regulations or the period agreed with users (must meet the necessary needs of providing products or services to users). You understand and acknowledge: Based on different services and their functional requirements, the necessary storage period may vary. The standards we use to determine the storage period include but are not limited to: the time required to retain personal information to complete the business purpose, including providing services, maintaining corresponding transaction and business records according to legal requirements, ensuring the security of systems and services, responding to possible user queries or complaints, problem positioning, etc.; longer retention periods agreed by users; special requirements of laws, contracts, etc. for retaining personal information, etc. After exceeding the necessary period, we will delete or anonymize your personal information, unless otherwise prescribed by laws and regulations.
 
-To help protect your personal information, please do not disclose personal or sensitive information when you engage with the Platform's AI-chatbot.
+2.3 If it is necessary to transmit relevant data processed domestically to overseas institutions for handling cross-border business, we will execute in accordance with the provisions of applicable laws, administrative regulations and relevant regulatory agencies. We will ensure that relevant personal information is sufficiently protected, for example, by anonymizing personal information, taking security encryption measures for storage and transmission, etc.
 
-The Platform may, from time to time, contain links to policies, functionality, or content maintained by third parties we do not control. We are not responsible for, and make no representations regarding, such third party policies and practices.
+2.4 You understand and agree that for security and backup needs, we may store the data we process on the servers of our affiliated companies.
 
-## Data Retention
+## 3. How we share, transfer, and publicly disclose related information
 
-We retain information for as long as necessary to provide the Platform and for the other purposes set out in this Privacy Policy. We also retain information when necessary to comply with our contractual and legal obligations, when we have a legitimate business interest to do so (such as improving and developing the Platform, and enhancing its safety, security, and stability), and for the exercise or defense of legal claims.
+### 3.1 Sharing
 
-The retention periods will be different depending on the type of information and the purposes for which we use the information. For example, we retain your Profile Information and User Content for as long as you have an account. If you violate our Terms, we may immediately remove your access to the Platform but retain your information as necessary to investigate the violation, to the extent permitted by applicable laws.
+Except in the following situations, we will not share processed/entrusted processed personal information with third parties:
 
-## International Data Transfers
+3.1.1 With your explicit consent;
 
-Your personal information may be stored on a server located outside of your country of residence. We store the information we collect in secure servers located in the United States, Singapore and Malaysia. We may also transfer your personal information internationally for one or more of the purposes described in this Privacy Policy. Any international transfer of, or access to, your personal information is conducted according to the requirements of applicable data protection laws.
+3.1.2 We may share relevant personal information externally according to the provisions of laws and regulations or mandatory requirements of government competent authorities;
 
-## Minimum Age and Minors
+3.1.3 Considered necessary to provide product or service functions, sharing relevant personal information with third parties including affiliated companies or authorized partners:
 
-The Platform is not directed at, and may not be used by, minors under the age of 18. If you believe that we have collected personal information from or about a minor under the minimum age, please contact us at zgsm@sangfor.com.cn
+We may need to cooperate with third parties to achieve the purpose of improving product or service security and optimizing user experience. Based on this, we may share part of personal information with third parties. We promise to explicitly inform you of the specific sharing purpose, method and information scope before sharing, and seek your consent.
 
-## Privacy Policy Updates
+We promise to you that we will only share relevant personal information with partners within the necessary scope, and de-identify the information as much as possible so that partners cannot directly identify relevant individuals. In addition, the processing of received information by that partner will be constrained by the content of this part. We will strictly prohibit cooperative third parties from using shared information for other purposes without the authorization and consent of users.
 
-We may amend or update this Privacy Policy from time to time. We will notify you of material changes by updating the "Last Updated" date at the top of the new Privacy Policy, posting the new Privacy Policy, or by providing other notice as required by applicable laws. We recommend that you review the Privacy Policy from time to time to stay informed of our privacy practices.
+### 3.2 Transfer
 
-## Contact Us
+We will not transfer processed/entrusted processed personal information to any company, organization, or individual, except in the following situations:
 
-Questions, comments, and requests regarding this Privacy Policy should be addressed to: zgsm@sangfor.com.cn
+3.2.1 With your explicit consent;
+
+3.2.2 In the event of merger, acquisition, or bankruptcy liquidation involving the transfer of personal information, we will require the new company, organization holding your personal information to continue to be bound by this privacy protection policy; otherwise, we will require that company, organization to re-obtain your authorization consent. If it does not involve the transfer of personal information, we will fully inform you and delete or anonymize the personal information we processed.
+
+### 3.3 Public Disclosure
+
+We will not publicly disclose relevant personal information, except in the following situations:
+
+3.3.1 Based on your explicit consent or your active choice, we may publicly disclose relevant personal information;
+
+3.3.2 Disclosure based on legal requirements: In the case of laws, legal proceedings, litigation or mandatory requirements of government competent authorities, we may publicly disclose relevant personal information;
+
+3.3.3 For the purpose of maintaining public interests, if disclosure is reasonable and necessary, we may disclose relevant personal information.
+
+### 3.4 In the following situations, we share, transfer, and publicly disclose relevant personal information without the need to obtain your prior authorization consent:
+
+3.4.1 Based on reasons related to national security and national defense security;
+
+3.4.2 Based on reasons related to public safety, public health, and major public interests;
+
+3.4.3 Based on reasons related to criminal investigation, prosecution, trial, and judgment execution;
+
+3.4.4 Necessary to protect the major legitimate rights and interests such as life and property of users or other individuals, but it is difficult to obtain your consent;
+
+3.4.5 Disclosing information collected from legally publicly disclosed information, such as legitimate news reports, government information disclosure and other channels;
+
+3.4.6 Necessary to maintain the safe and stable operation of the provided products or services, such as discovering and handling vulnerability or fault problems of products or services.
+
+## 4. How we protect this information
+
+4.1 Sangfor attaches great importance to information security. We will use various security technologies, including security encryption, anti-intrusion, anti-virus, etc., to protect information security from unauthorized access, use, disclosure, abuse, modification, or damage or loss.
+
+4.2 Sangfor will establish user information security management systems and work processes, strictly control access to user information, impose restrictions and security and confidentiality-related training on personnel who access personal information, regularly conduct personal information security risk assessments, and timely dispose of related risk issues to continuously improve the security capability of personal information protection.
+
+4.3 The Internet environment is not 100% safe. We will do our best to ensure the security of relevant personal information we process. If our physical, technical, or management protection facilities are destroyed, resulting in unauthorized access, public disclosure, tampering, or damage to relevant personal information, causing damage to your legitimate rights and interests, we will bear corresponding legal responsibilities.
+
+4.4 If an information security incident (leakage, loss, etc.) unfortunately occurs, we will inform you in a reasonable manner in accordance with the requirements of laws and regulations, including the basic situation of the security incident, possible impacts, measures we have taken or will take, suggestions for you to actively prevent and reduce risks, and remedial measures for you. At the same time, we will also actively report the handling status of personal information security incidents in accordance with the requirements of regulatory agencies.
+
+4.5 Although we are willing to make our greatest efforts to take reasonable measures to protect the security of user information, no security measure can be 100% perfect or unbreakable. Due to user's own reasons such as informing others of the product/service account password used or violating the agreement of product/service use, or due to third-party reasons such as hacker attack/virus intrusion, or force majeure factors resulting in security events such as user information leakage/loss, you understand that Sangfor will not be able to bear any direct or indirect losses or responsibilities.
+
+## 5. How you access and manage your personal information
+
+5.1 Sangfor promises to protect the relevant legitimate rights and interests you enjoy regarding your personal information based on obligations prescribed by laws or agreed in agreements and business ethics, and legally protect your rights to query, copy, correct, supplement, delete, withdraw authorized consent, cancel accounts, complain and report regarding your personal information, so that you have the ability to protect your privacy and information security. If you or other subjects with rights have any claims, requirements, or questions regarding the exercise of personal information rights granted by relevant laws and regulations, you can contact us through zgsm@sangfor.com.cn. We will review the involved issues as soon as possible and reply within 15 working days after verifying your user identity.
+
+### 5.2 Changing or withdrawing your authorization consent scope
+
+You can try to change the consent scope or withdraw your authorization by operating in the CoStrict interface or closing device permission functions in the system. If you cannot achieve the corresponding requirements through your own operation, you can contact us through the contact methods provided in this agreement to assist you in processing. Please know and understand that for the information collection described in Sections 1.1 and 1.2 above, it is necessary for the provision of CoStrict related services. Therefore, if you delete relevant information or withdraw corresponding authorization, you may not be able to obtain the services you need, but the operation of deletion or withdrawal will not affect the personal information processing previously carried out by us based on your authorization.
+
+### 5.3 Account cancellation or unbinding
+
+You can apply to cancel your account in accordance with the relevant provisions of CoStrict's "User Agreement". Users within China can request to complete account cancellation related verification and processing within 15 working days. Please know and understand that account cancellation is an irreversible behavior. When you cancel your account, we will stop providing any services to you and delete all information related to your account after exceeding the corresponding storage period or anonymize relevant information. If laws and regulations require the retention of personal information, we promise to store it separately and will not use that information in daily business activities.
+
+### 5.4 In the following situations, you can also request us to delete relevant personal information:
+
+5.4.1 Our act of processing/entrusting processing relevant personal information violates relevant laws and regulations;
+
+5.4.2 We actively collect and use your personal information without obtaining your explicit consent;
+
+5.4.3 Our act of processing/entrusting processing relevant personal information seriously violates relevant agreement provisions.
+
+### 5.5 Responding to your requests to exercise management rights
+
+5.5.1 You understand and agree: Based on the aforementioned explanation of our purpose of processing/entrusting processing personal information, your management of information may conflict with your normal registration and use of products or services. We will not be able to bear responsibility for obstacles to or losses suffered in the use of products or services caused by your own exercise of the right to manage personal information.
+
+5.5.2 For your reasonable requests, we will in principle not charge fees, but for requests that are repeatedly made and exceed reasonable limits, we will charge certain cost fees depending on the situation. For requests that are unreasonably repeated, require excessive technical investment (for example, require developing new systems or fundamentally changing current practices), or may bring risks to other people's legitimate rights and interests or are very impractical (for example, involving information stored on backup tapes), we may refuse them.
+
+5.5.3 To ensure security, you may need to provide a written request or prove your identity in other ways. We may first ask you to verify your identity and then process your request.
+
+5.5.4 In the following situations, we will be unable to respond to your request:
+
+5.5.4.1 Related to your performance of obligations prescribed by laws and regulations;
+
+5.5.4.2 Directly related to national security and national defense security;
+
+5.5.4.3 Directly related to public safety, public health, and major public interests;
+
+5.5.4.4 Directly related to criminal investigation, prosecution, trial and judgment execution;
+
+5.5.4.5 There is sufficient evidence that you have subjective malice or abuse rights;
+
+5.5.4.6 Unable to respond to protect major legitimate rights and interests such as personal life and property;
+
+5.5.4.7 Responding to your request will cause serious damage to other legitimate rights and interests of relevant individuals or organizations;
+
+5.5.4.8 Involving trade secrets.
+
+## 6. How we use Cookies and similar technologies
+
+6.1 To give you a more relaxed access experience, when you use our products/services, we may collect and store relevant data of your visits to products/services through various technologies, so that when you visit or revisit the same product/service, we can help you skip the step of repeatedly entering account information, also help us quickly identify your identity, as well as help judge your account security status, and provide you with more and better services by analyzing data. These technologies used to collect and store relevant data may be Cookies, Flash Cookies, or other local storage files provided by your browser or associated applications (collectively referred to as "Cookies").
+
+6.2 Web pages usually contain some electronic images, called "single-pixel GIF files" or "web beacons", which can help websites calculate users browsing web pages or accessing certain cookies. We may also collect relevant information about your web browsing activities through related products through web beacons, such as the address of the page you visit, the address of the referring page you previously visited, the time you stay on the page, your browsing environment and display settings, etc.
+
+6.3 You understand and agree that some of our services can only be realized by using Cookies. We will not use Cookies for any purpose other than those described in this Policy. You can modify the degree of acceptance of Cookies or refuse Cookies, but refusing Cookies in some cases may cause you to be unable to use some functions or services that rely on Cookies.
+
+## 7. Protection of minors
+
+**Our services are mainly oriented towards adults with full civil capacity or enterprises, so we presume you are an adult. Minors (under eighteen years of age) should not create an account or use CoStrict through any other means without the consent of a parent or guardian. If Sangfor discovers that it has collected personal information of minors without obtaining verifiable consent from parents or other guardians in advance, it will try its best to obtain effective authorization consent as soon as possible or delete relevant personal information. Relevant rights holders can also contact us through the contact methods in Section 9.**
+
+## 8. Updates to this Policy
+
+8.1 We may revise and update the content of this Policy from time to time according to the updates of products/services or business needs, and present the updated policy content to you in appropriate ways.
+
+8.2 For major revisions, we will provide prominent notifications (for example, we may notify through message push, website announcements, explaining the specific changes to this Policy), and notify you of changes through feasible channels and methods as much as possible, and re-obtain your explicit authorization consent. You can also query the latest updated version of this Policy through the login interface of this application or at the bottom of the website.
+
+8.3 Major changes referred to in this Policy include but are not limited to:
+
+8.3.1 We have undergone major changes in control rights, organizational structure, etc., such as changes in ownership caused by mergers and reorganizations, business adjustments, etc.;
+
+8.3.2 Our product functions/service modes have undergone major changes, leading to major changes in the purposes, information types, and processing methods of processing/entrusting processing user information;
+
+8.3.3 The main objects of user information sharing, transfer, or public disclosure have changed;
+
+8.3.4 Your participation in user information processing rights and the way you exercise them have undergone major changes;
+
+8.3.5 The responsible department for user information security handling, contact methods, and complaint channels have changed;
+
+8.3.6 The user information security impact assessment report indicates high risk.
+
+## 9. How to contact us
+
+When users use CoStrict, they can contact us through zgsm@sangfor.com.cn to obtain relevant technical support or conduct consultation, complaints, and reports on personal information compliance processing and security protection. Generally, we will reply within 15 days.
