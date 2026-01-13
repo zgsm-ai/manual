@@ -4,25 +4,6 @@ sidebar_position: 3
 
 # CoStrict Service Level Agreement
 
-- [CoStrict Service Level Agreement](#costrict-service-level-agreement)
-  - [1. Terms and Definitions](#1-terms-and-definitions)
-    - [1.1 CoStrict](#11-costrict)
-    - [1.2 Service Billing Cycle](#12-service-billing-cycle)
-    - [1.3 Service Unavailability](#13-service-unavailability)
-    - [1.4 Unavailable Minutes in a Billing Cycle](#14-unavailable-minutes-in-a-billing-cycle)
-    - [1.5 Total Service Minutes in a Billing Cycle](#15-total-service-minutes-in-a-billing-cycle)
-    - [1.6 Credits](#16-credits)
-  - [2. Service Availability / Service Success Rate](#2-service-availability--service-success-rate)
-    - [2.1 Service Availability Calculation](#21-service-availability-calculation)
-    - [2.2 Service Availability Standard](#22-service-availability-standard)
-  - [3. Compensation Plan](#3-compensation-plan)
-    - [3.1 Compensation Standard](#31-compensation-standard)
-    - [3.2 Compensation Application Deadline](#32-compensation-application-deadline)
-    - [3.3 Compensation Application Materials](#33-compensation-application-materials)
-  - [4. Disclaimer](#4-disclaimer)
-  - [5. Miscellaneous](#5-miscellaneous)
-
-
 To use the CoStrict AI programming service (hereinafter referred to as "the Service"), you must read and comply with the "CoStrict Service Level Agreement" (hereinafter referred to as "this Agreement" or "SLA"), as well as the "CoStrict Service Agreement". This Agreement includes terms and definitions related to the Service, service availability/service success rate indicators, compensation plans, disclaimers, and other relevant content. Please read carefully and fully understand each clause, especially those that may be highlighted in **bold** or underlined to draw your attention to important limitations, disclaimers, or other clauses that may significantly affect your rights.
 
 Unless you have fully read, understood, and accepted all terms of this Agreement, please do not purchase the Service. By clicking "Agree", "Next", or by purchasing, using, or otherwise expressly or implicitly accepting this Agreement, you acknowledge that you have read and agreed to be bound by this Agreement. This Agreement shall become legally binding between you and Sangfor, constituting a legally enforceable agreement for both parties.
@@ -119,4 +100,4 @@ Service unavailability caused by the following reasons is excluded from the calc
 
 5.2 Sangfor reserves the right to modify the terms of this Agreement as necessary. You may review the latest version of the Agreement on the CoStrict official website (https://costrict.ai). If you do not agree with any modifications, you have the right to discontinue using the Service. Continued use of the Service constitutes your acceptance of the modified Agreement.
 
-5.3 This Agreement is a supplementary agreement to the "CoStrict Service Agreement" and holds equal legal effect. Matters not covered herein shall be governed by the "CoStrict Service Agreement". In case of conflict or inconsistency between this Agreement and the "CoStrict Service Agreement", this Agreement shall prevail, but only to the extent of such conflict or inconsistency.
+5.3 This Agreement is a supplementary agreement to the "CoStrict Purchase Terms" and holds equal legal effect. Matters not covered herein shall be governed by the "CoStrict Purchase Terms". In case of conflict or inconsistency between this Agreement and the "CoStrict Purchase Terms", this Agreement shall prevail, but only to the extent of such conflict or inconsistency.
