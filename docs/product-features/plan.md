@@ -2,7 +2,9 @@
 sidebar_position: 2
 ---
 
-# Plan Mode
+# Strict Mode (Plan Mode)
+
+Serious programming following the **"Plan Formulation → Step-by-Step Implementation"** workflow. Suitable for incremental development and task management, ensuring orderly project progress.
 
 ## Software Version
 
