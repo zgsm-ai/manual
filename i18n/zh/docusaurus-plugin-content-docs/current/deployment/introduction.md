@@ -83,7 +83,7 @@ https://modelscope.cn/models/iic/gte-reranker-modernbert-base
 - 若有资源，为了体验完整的功能，请确保 **所有模型部署时满足上述要求**。
 - 若无资源，我们可以提供两种方式：
   - 直接使用我们正式发布的CoStrict，无需额外部署，体验CoStrict所有功能。
-  - 由我们提供 **限时** 的线上`对话`模型接口，用于短期体验CoStrict主要的`AGNET`和`CODE REVIEW`功能。
+  - 由我们提供 **限时** 的线上`对话`模型接口，用于短期体验CoStrict主要的`AGENT`和`CODE REVIEW`功能。
 
 | 功能 | 自部署（模型符合要求） | 正式发布CoStrict | 使用限时接口 |
 |------|------------|--------------|--------------|
