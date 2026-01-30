@@ -4,242 +4,312 @@ sidebar_position: 2
 
 # CoStrict Terms of Service
 
-Last Updated: 2025/05/20
+**Last Updated: January 4, 2026**
 
-## Table of Contents
-- Your Relationship With Us
-- Accepting these Terms
-- Changes to these Terms
-- Your Account with Us
-- Prohibited Uses
-- We Own the Services
-- Your Content
-- Nature of Outputs
-- Third Party Services and Content
-- Intellectual Property
-- Feedback
-- Indemnity
-- Exclusion of Warranties
-- Limitation of Liability
-- Termination
-- Other Terms
+This Agreement is entered into between **the user ("You")** and **the provider of the current product** regarding the use of the product. The "**Current Product Provider**" refers to Sangfor Technologies Co., Ltd. and other related companies associated with the provision of the current product, collectively referred to as "Sangfor" or "We" hereafter.
 
-## Your Relationship With Us
+This Agreement is concluded between You and Sangfor. When You confirm and sign this Agreement by clicking/checking, the rights and obligations specified in the terms and conditions of this Agreement shall be borne by You. When You and Sangfor are separately referred to herein, each may be referred to as a "Party," and when referred to collectively, as "Both Parties."
 
-Welcome to CoStrict (the "Platform")! CoStrict is provided by SANGFOR TECHNOLOGIES.or one of its affiliates ("Sangfor", "we", "us", "our"). For purposes of these Terms, "you" and "your" means you as the user of the Services (defined below).
+Please read carefully and fully understand all the terms and conditions of this Agreement, especially those terms that exempt or limit Sangfor's liability, those that restrict Your rights, those concerning dispute resolution methods and jurisdiction, as well as targeted or specific agreements or other rules. Terms that limit liability, disclaim liability, or otherwise involve Your significant rights or interests will be highlighted in bold, underlined, or other forms to draw Your attention.
 
-These Terms of Service (these "Terms") set forth the terms and conditions by which you may access and use the Platform and its related websites, applications, products, third party services, software, tools, content, and documentation (collectively, the "Services"). You may use the Services to write software applications, scripts, and other code-based products. We may publish operating rules, policies, guidelines and procedures from time to time, which are incorporated herein by reference. We make no warranty that the Services, in full or in part, are available or will continue to be available in any jurisdiction. The functions or features of the Services may also vary in different jurisdictions.
+**Unless You have fully read, completely understand, and accept all terms of this Agreement, please do not use the products provided by Sangfor. You click "Agree" or "Next" or similar buttons, check boxes, or You directly use Sangfor products, or You indicate acceptance of this Agreement by any express or implied means including downloading, installing, and using, or obtaining/login through accounts/account permissions, etc., all of which shall be deemed that You have read and agree to sign this Agreement, and this Agreement shall become a legally binding document binding on both Parties.**
 
-These Terms form a legally binding agreement between you and us. Please take the time to read them carefully.
+## Article 1 Important Definitions
 
-## Accepting these Terms
+**1.1 Product:** "Product" under this Agreement is a generic term for various forms of solutions provided by Sangfor, including but not limited to software products, hardware products, subscription services, authorizations, other related services, or combinations of the aforementioned forms of products. The specific methods of use may include web pages, plug-ins, applications (possibly containing different versions), software development kits (SDKs) for use by third-party websites and applications, application programming interfaces (APIs), and other innovation forms emerging with technological development.
 
-If you do not agree to these Terms, you shall not access the Services. By accessing or using the Services, you confirm that you can enter into a binding contract with us, and that you accept these Terms and agree to comply with them. Your access to and use of the Services is also subject to our Privacy Policy, which can be found on the Platform. If you access or use the Services from within a jurisdiction for which there are separate supplemental terms (listed at the bottom of this page, or otherwise made available to you through the Platform), you also hereby agree to the supplemental terms applicable to such jurisdiction. In the event of a conflict between the provisions of the "Supplemental Terms ‒ Jurisdiction-Specific" that are relevant to your jurisdiction from which you access or use the Services, and the rest of these Terms, the relevant jurisdiction's Supplemental Terms will supersede and control with respect to the relevant jurisdiction.
+**1.2 Authenticated User:** Refers to a subject who has obtained the relevant product account/usage permission through registration or other methods permitted by Sangfor and uses product functions. Authenticated Users of the current product will be deemed to have full civil capacity and be independent natural persons.
 
-If you are accessing or using the Services on behalf of a business or entity, then (i) "you" and "your" include you and that business or entity, (ii) you represent and warrant that you are an authorized representative of the business or entity with the authority to bind the business or entity to these Terms, and that you agree to these Terms on the entity's behalf, and (iii) your business or entity is legally and financially responsible for the access or use of your account, including without limitation any employees, agents or contractors.
+**1.3 Non-Authenticated User:** Refers to a subject who has not registered an account and only browses product-related information or uses some product functions within a limited scope.
 
-## Changes to these Terms
+**1.4 User:** The Authenticated User and Non-Authenticated User under this Agreement are collectively referred to as "User," also referred to as "You."
 
-We reserve the right, in our sole discretion, to modify these Terms at any time. We will use commercially reasonable efforts to notify all users of any material changes to these Terms, such as through a notice on the Platform. However, you should look at these Terms regularly to check for such changes. We will also update the "Last Updated" date at the top of these Terms, which reflects the effective date of such Terms. Your continued access or use of the Services after the effective date of the new Terms constitutes your acceptance of the new Terms. If you do not agree to the new Terms, you must stop accessing or using the Services.
+**1.5 User Data:** Refers to data actively filled by Users during the registration of Sangfor product accounts and the use of Sangfor products, or data obtained/collected based on the agreement of this Agreement (including the User Data Processing Agreement) during the use of the products, as well as other related data generated from the aforementioned data. The types of User Data may include both network asset-related information and personal information.
 
-## Your Account with Us
+**1.6 Personal Information:** Refers to all types of information recorded in electronic or other means relating to identified or identifiable natural persons, excluding information after anonymization processing.
 
-To access or use some of the Services, you may need to create an account with us and log in to your account. When you create your account, you must provide accurate and up-to-date information. It is important that you maintain and promptly update your details and any other information you provide to us in connection with your account and keep such information up-to-date and complete. You may be able to access the Services by using a third party account ("Third Party Account"). Your access to the Services may be unavailable if the relevant third party service provider of your Third Party Account suspends or terminates your access or our connection to your Third Party Account. Your relationship with the third party service provider of your Third Party Account is governed solely by your agreement with the relevant third party service.
+## Article 2 Product Use and Restrictions
 
-It is important that you keep your account credentials confidential and that you do not disclose them to any third party. If you know or suspect that any third party knows your account credentials or has accessed your account, you must notify us immediately at: zgsm@sangfor.com.cn. You agree that you are solely responsible (to us and to others) for the activities that occur under your account.
+### 2.1 Product Use Right License
 
-If you no longer want to use the Services, and would like to have your account deleted, you can do so through the Platform's settings page or contact us at: zgsm@sangfor.com.cn and we will provide you with further assistance and guide you through the process. Once you choose to delete your account, you will not be able to reactivate your account or retrieve any of the content or information in connection with your account.
+**2.1.1 License Statement:** For the current product provided by Sangfor to the User, Sangfor and the terms and conditions of this Agreement grant the User a non-transferable, non-sublicensable, non-exclusive, limited, and revocable use license. **Except as expressly granted, all other rights not expressly granted to the User under the terms and conditions of this Agreement are reserved by Sangfor, and Sangfor does not grant the User any implied license under this Agreement;** When the User exercises these rights, additional written permission from Sangfor must be obtained, and if Sangfor fails to exercise any of the aforementioned rights, it does not constitute a waiver of such rights.
 
-## Prohibited Uses
+**2.1.2 License Use and Maintenance:** Users shall use the products on the premise of complying with the agreements of this Agreement and other relevant rules and restrictions. Unless otherwise agreed or stated, Users' use of the products under this Agreement is limited to non-commercial use. Users promise not to copy, duplicate, sell, resell, or use the current product or any part thereof for commercial purposes including but not limited to advertising and any other commercial purposes. For products that Users use through legally and validly authorized licenses, Sangfor shall provide product functions and related services to Users in accordance with the signed contracts, this Agreement, or other relevant rules, as well as Users' configuration or other forms of authorization/instructions, and provide comprehensive support and guarantees to the greatest extent possible during the User's use.
 
-Ensuring safety and integrity within our ecosystem is paramount. We strive to create an environment where you can engage with our products constructively, securely, and with transparency.
+### 2.2 Product Use Specifications and Restrictions
 
-You will not, and will not permit or assist anyone to, use the Services to:
+Sangfor is responsible for complying with relevant laws and regulations applicable to the delivery of products to Users. However, since the current product outputs corresponding content to the User according to the User's instructions, the User's input instruction content and the purpose of the content output by the current product are independently determined by the User according to their own needs. Users shall assess by themselves whether it complies with the laws and regulations or policy requirements of the region where they are located in terms of network, information content, data, and other aspects involved in their own use needs and product function implementation.
 
-- **produce any output, or upload any input, related to an individual for purposes that could significantly affect that person**. This includes, but is not limited to, impersonation, decisions related to credit, payments, education, employment, housing, insurance, legal matters, medical or health decisions, or other substantial determinations;
+#### 2.2.1 Network Security Specifications
 
-- **generate, express or promote content that**:
-  - is hateful, defamatory, offensive, abusive, disruptive, tortious or vulgar;
-  - is deliberately designed to provoke or antagonize another or is bullying or trolling another;
-  - may harass, intimidate, threaten, harm, hurt, scare, distress, embarrass or upset another;
-  - is discriminatory, such as discriminating against another based on race, gender, sexuality, religion, nationality, disability or age;
-  - facilitates, promotes, incites or glorifies violence or terrorism/extremism;
-  - exploits, harms, or attempts to exploit or harm minors or exposes minors to such content;
-  - would constitute, encourage or provide instructions for a criminal offense; or
-  - sends any form of unauthorized or unsolicited messages including advertising, promotional materials or spam;
+During the use of Sangfor products, You promise not to engage, or assist/instruct others to engage, in the following behaviors:
 
-- **engage with other developers or with your end users in deceitful, inaccurate, misleading, or harassing ways** (including but not limited to passing off or representing generated answers as human-generated, plagiarism or academic dishonesty, disinformation, scams, phishing, or hiding or attempting to hide your identity);
+2.2.1.1 Disseminating software viruses or other computer codes, programs, or related information that may interfere with, destroy, or limit the functions of any computer software, hardware, or communication equipment by uploading, publicly posting, or targeted sending methods;
 
-- **use the Services or Your Content (as defined below) in any manner that may violate the privacy rights of any third party**, such as unlawfully collecting or disclosing:
-  - personal data (such as addresses, phone numbers, email addresses, identifiers in a personal identity document);
-  - educational records;
-  - financial information relating to an individual; or
-  - other protected records.
+2.2.1.2 Illegally intruding, destroying, interfering, changing, or attempting to change the operation or connection of Sangfor's or any other third party's product functions, software, server systems, networks through technical means, or modifying, adding, deleting, stealing, intercepting, replacing data in server systems carrying product/service operation, or illegally occupying server space for product/service operation, or implementing other behaviors causing them to operate under overload;
 
-- **generate pictures depicting a person that appears to be under 18 years old**, or transmit personal data of children under 13 years old or below the age-appropriate digital consent age in the applicable jurisdiction;
+2.2.1.3 Unauthorized mining/detection of possible vulnerabilities or defects in products or server systems through scanning or other methods, or violating relevant laws and regulations to publish vulnerabilities or defects, or using relevant vulnerabilities or defects to engage in behaviors that damage relevant products and Sangfor;
 
-- **engage in or assist in illegal or high-risk activities**, including, but not limited to:
-  - military and warfare uses;
-  - the development of weapons, explosives, or dangerous materials;
-  - the management or operation of critical infrastructure (e.g., transportation, energy);
-  - the creation or distribution of controlled substances or services;
-  - the solicitation or distribution of information in connection with self-harm;
-  - activities with a high risk of economic harm (e.g., gambling, automated determinations of eligibility for educational institutions);
-  - building software for political purposes such as campaigning or lobbying purposes;
-  - analyzing individuals or groups of people for unlawful or discriminatory purposes; or
-  - engaging in high-risk government decisions (e.g., law enforcement decisions or regulatory reviews);
+2.2.1.4 Producing, publishing, or disseminating software, media, or methods for the aforementioned purposes, regardless of whether such behaviors are for commercial purposes.
 
-- **develop artificial intelligence or machine learning models or any products or services in direct competition with CoStrict or other generative services from us and our affiliates**;
+#### 2.2.2 Information Content Specifications
 
-- **autonomously or programmatically extract output, or take any action that imposes or may impose an unreasonable or disproportionately large load on our infrastructure**, or use our Services to engage in cryptocurrency mining, or rent, lease, distribute, license, transfer, or sell the Services or any part thereof;
+**During the use of Sangfor products, You promise to comply with the Constitution and laws of China, maintain public order, and respect social morality. You shall not produce, copy, publish, or disseminate information containing the following content, or intentionally provide technical support or any convenience/assistance for the production, copying, publishing, or dissemination of information containing the following content:**
 
-- **create or contribute to security risks for our customers, us, or external parties**, or disrupt, harm, or access any software, technology, or services belonging to us or third parties without authorization, or include or attempt to generate malware, viruses, spyware, or any harmful software or code; or
+2.2.2.1 Opposing the basic principles determined by the Constitution, or endangering national security, national honor, and national interests, disclosing state secrets, inciting subversion of state power, overthrowing the socialist system, dividing the country, or destroying national unity;
 
-- **reverse engineer, disassemble, decompile or otherwise attempt to discover the source code or underlying technologies, algorithms, or models of the Services**; or engage in hacking, password "mining", or any other illegitimate means, or disrupt, damage, probe, scan, or test the vulnerability of the Services;
+2.2.2.2 Advocating terrorism or extremism, or advocating national hatred, national discrimination, destroying national unity, inciting regional discrimination or regional hatred, destroying national religious policies, or advocating cults and feudal superstition;
 
-- **violate any applicable laws, regulations, or the internal policies of your organization or entity (if any)**.
+2.2.2.3 Fabricating or disseminating rumors about dangerous situations, epidemics, police situations, natural disasters, production safety, food and drug product safety, and other aspects that disrupt social order;
 
-You hereby agree that we have the right to investigate and address any potential violation of the foregoing prohibited uses, which may include monitoring the Services, collecting and analysing technical information, and accessing and reviewing Your Content (as defined in Section 8), solely as needed for such purpose, whether by automated or non-automated means. We may suspend or terminate your use of the Services in accordance with these terms if we have reasonable suspicion that you are engaging in the above prohibited uses. You may contact zgsm@sangfor.com.cn if you believe that your use of the Services has been wrongly suspended or terminated.
+2.2.2.4 Disseminating incitement for illegal assemblies, associations, parades, demonstrations, or other behaviors that disrupt social management order and destroy social stability;
 
-## We Own the Services
+2.2.2.5 Fabricating or disseminating false information that disrupts economic order and social order and destroys social stability;
 
-The Services are owned by us and our licensors, and we retain all right, title, and interest in and to the Services. We may remove or exclude any of Your Content from our Services at any time, for any reason or no reason at all.
+2.2.2.6 Disseminating obscene, pornographic, violent, gambling, homicide, or terrorist information, as well as instigating crimes, teaching criminal means and methods, manufacturing or trading prohibited articles, controlled articles, implementing fraud, and other illegal and criminal activities;
 
-Subject to your compliance with these Terms, we grant to you a non-exclusive, limited, non-transferable, non-sublicensable, revocable right to access and use the Services. You acknowledge and agree that we may terminate the license granted to you at any time for breach of these Terms or for any other reason upon written notice to you, unless otherwise prohibited or restricted under applicable laws.
+2.2.2.7 Endangering network security, or using the network to engage in behaviors that endanger national security, national honor, and national interests, or infringe upon the legitimate rights and interests of others;
 
-## Your Content
+2.2.2.8 Involving impersonation or false claims in the name of state institutions, social groups and their staff or other legal persons, or using others' names for the purpose of engaging in illegal or criminal activities;
 
-Any content that you create, upload, import, submit, post, display, or otherwise make available (collectively referred to as "make available" hereafter in this Section) on or through the Services, is referred to as "Your Content". Your Content includes but is not limited to code, text, URLs, or other information, data, datasets, images, videos, audio, documentation, file and other materials you make available on or through the Services.
+2.2.2.9 Insulting or slandering others, infringing upon others' reputation, privacy, intellectual property rights, or other legitimate rights and interests, as well as endangering the physical and mental health of minors and being detrimental to the healthy growth of minors;
 
-Between you and us, you own Your Content, subject to the license granted to us hereunder to provide the Services. We own and retain all rights to the settings and configurations within the Services, and metadata generated by the Services through their use (collectively, "Service Attributes"). For clarity, Service Attributes do not include any of Your Content.
+2.2.2.10 Distorting, uglifying, blaspheming, or denying heroic martyrs' deeds and spirit, or infringing upon heroic martyrs' names, portraits, reputations, and honors by means of insult, slander, or other methods;
 
-We may use Your Content to provide and improve the Services, including:
-- Using AI to generate code, outputs, or other functions based on your input;
-- Building codebase indexes by temporarily uploading code from your codebase ("Your Codebase") to our servers to compute embeddings. Once processing is completed, all plaintext code is permanently deleted. Only the generated embeddings and associated metadata are retained. We do not store your actual codebase files;
-- Performing troubleshooting, diagnostics, security and safety reviews, and addressing customer support requests; and
-- Improving your user experience.
+2.2.2.11 Other content that violates laws and regulations, public policies, social security, public order and good morals, or infringes upon the legitimate rights and interests of Sangfor, other Users, or third parties.
 
-Other than to compute embeddings as mentioned above, we do not use Your Codebase for any other purposes. We also do not use Your Content as training data for model training.
+**Users shall be responsible for the legality of information content involved in publishing or disseminating through any means during the use of Sangfor products. For platforms/websites and other products independently operated and managed by Sangfor, Sangfor has the right to review information content involved in the process of Users using relevant functions/services. If Users violate the aforementioned information content specifications, Sangfor has the right to delete or block relevant content at any time without notice, and depending on the circumstances of the violation, impose restrictions on the use of functions on violating accounts, suspend, or even cancel them. All consequences and responsibilities arising therefrom shall be borne by Users themselves, and system logs or other relevant record data retained by Sangfor may serve as evidence of Users' violations of laws and regulations.**
 
-You represent and warrant that any names, slogans, trademarks, logos and other designations you use in association with Your Content are owned by or duly licensed to you. You hereby grant CoStrict Parties a non-exclusive, royalty-free, perpetual, transferable, sub-licensable, worldwide license to use your relevant names, slogans, trademarks, logos and other designations on the Services for the purposes of operating and providing the Services to you.
+#### 2.2.3 Other Behavioral Specifications
 
-You represent and warrant that you own or have the necessary licenses, authorizations or clearance to make Your Content available to the Services (including providing any required notice and obtaining all required consents for the relevant data processing and data sharing in compliance with applicable laws), and to grant the rights granted by you under these Terms.
+During the entire period of using relevant products, Users should avoid engaging in any behaviors that violate laws and regulations, the socialist system, national interests, citizens' legitimate interests, public order, social morality and information authenticity, as well as other illegal and criminal behaviors, and should not engage in any behaviors that infringe upon the legitimate rights and interests of other Users or third parties, interfere with Sangfor's normal operation or the stable operation of products/services, or other behaviors not expressly authorized by Sangfor, and Users promise not to provide any convenience or assistance to other third parties engaging in the aforementioned behaviors.
 
-You expressly acknowledge and agree that we may disclose Your Content to comply with applicable laws, enforce these Terms, prevent fraud, fix security or technical issues, or in other circumstances we deem necessary as per the applicable laws. If Your Content contains personal data, you are responsible and accountable for such data.
+## Article 3 Product Use Charges
 
-## Nature of Outputs
+3.1 Users shall pay product use-related charges in accordance with this Agreement and other relevant agreements signed to obtain valid authorization or license to use the current product. Users understand and agree: Sangfor has the right to independently decide, and adjust as needed, product functions or other related services that Users can use for free, as well as free use periods or other conditions to be met (Sangfor reserves the right to charge for any functions/services not expressly indicated in writing as free for Users), and will only provide corresponding technical support and guarantees within the scope prescribed by law or clearly stated by Sangfor.
 
-Artificial intelligence and machine learning are dynamic and continuously advancing. By agreeing to these terms, you recognize the inherent limitations of AI-generated output and accept responsibility for its application and interpretation within your context. Due to the inherent probabilistic nature of machine learning algorithms, the Services might occasionally generate outputs that do not precisely depict actual individuals, locations, or factual data. By utilizing the Services, you acknowledge and agree to the following:
+3.2 Users understand and agree that the operation and maintenance of any product require certain costs. If Users make relevant requests to Sangfor beyond the scope of product functions or related services provided free of charge by Sangfor (including but not limited to accessing or exporting relevant usage data), in addition to confirming that such requests do not violate relevant laws, regulations, or requirements and do not infringe upon the legitimate rights and interests of other third parties, Sangfor has the right to independently evaluate the reasonableness of Users' requests, as well as the time limit or other necessary conditions required to respond to Users' requests, and has the right to require Users to bear reasonable costs required to meet their requests themselves.
 
-### Variable Accuracy of Output
-The output derived from our Services may not always be accurate. It is crucial not to use this output as the only basis for decision-making or as a replacement for specialized advice. The output should not be solely relied upon for critical factual information.
+3.3 Users should note that You shall pay Internet access fees, traffic charges, and other communication fees, information fees, etc. collected by third parties that may be incurred when using the product.
 
-### Responsibility to Assess Output
-You bear the responsibility to assess the accuracy and suitability of the output for your specific needs. This includes: (a) conducting a human review, where necessary, prior to the application or dissemination of the output from our Services; and (b) making your own determination regarding the intellectual property rights you have in output, taking into account, among other things, your usage scenario(s) and the laws of the relevant jurisdiction. **NOTWITHSTANDING THE FOREGOING, YOU MUST NOT USE THE OUTPUT FOR ANY UNLAWFUL OR INFRINGING PURPOSES.**
+## Article 4 User Statements and Guarantees
 
-### Prohibited Use of Output
-You are prohibited from using any output related to an individual for purposes that could significantly affect that person. This includes, but is not limited to, decisions related to credit, education, employment, housing, insurance, legal matters, medical decisions, or other substantial determinations.
+### 4.1 Legal Operation Guarantee
 
-### Nature of Output
-Our Services may occasionally produce output that is incomplete, incorrect, or potentially offensive, which should not be interpreted as reflective of our views or positions. Additionally, any reference to third-party products or services within the output does not imply endorsement or affiliation with us.
+4.1.1 Both contracting parties guarantee that they have obtained legal operation qualifications or government approvals, etc., in accordance with relevant national regulations, and have the right to legally operate their respective products or services and other businesses. Both parties further guarantee that they will continue to maintain operation qualifications or approval procedures required by relevant national regulations during the validity period of this Agreement. Sangfor provides various products to You in accordance with the agreement or based on Your authorization, but will not participate in Your operation of related websites, applications, software, platforms, etc. Your websites, applications, software, platforms, etc., as well as the businesses and related content You engage in, shall be operated by You Yourself and You shall bear full responsibility.
 
-We make no representations, warranties, guarantees or conditions that any output is free from errors or bugs, authentic, accurate, verifiable, reliable, complete or up-to-date and disclaim any and all representations, warranties, guarantees and conditions of any nature for the output, expressly or implied. Output generated for you is not unique; the Services may generate the same or similar output for different users.
+4.1.2 If You choose to use products provided by Sangfor outside China, You shall evaluate by Yourself whether the product use meets Your cross-border use needs, including but not limited to compliance with requirements of local laws, regulations, policies, etc., especially permits or approval requirements related to cross-border data transmission, cross-border networking, etc.; at the same time, You shall also ensure that the business or non-business activities You engage in, relevant qualifications/licenses, as well as all behaviors related to the signing and performance of this Agreement, etc., all comply with the requirements of local laws, regulations, policies, etc., and shall bear full relevant responsibility.
 
-## Third Party Services and Content
+### 4.2 Authorization Guarantee
 
-The Services may include third party services, including without limitation third party large language models ("LLMs"), Plugins, and APIs. You acknowledge and agree that third party services are provided to you by applicable third party service providers. You are subject to and must comply with additional terms and conditions (e.g., user terms, acceptable use policies, privacy policies, and content policies) published or otherwise made available by the applicable third parties. You acknowledge and agree that your use of the third party LLMs, Plugins, and APIs may be subject to conditions established by such third parties (e.g., a third party LLM may refuse to generate output for you if your input is harmful or contains improper content).
+**If You are an authenticated User using relevant products based on the authorization/instructions/requirements of relevant enterprises or other entities, You shall guarantee that all relevant behaviors of Your use of the product have obtained legal, valid, and sufficient authorization from the enterprise or other entity, and will consciously fulfill all responsibilities in accordance with the agreements of this Agreement, as well as the system specifications, management needs, and true intentions of the enterprise or other entity, including but not limited to complying with account registration and use-related specifications, effectively conducting account security protection, standardized use of product functions, and paying attention to protecting the involved information systems and data security throughout the entire use process. Except as otherwise provided by law, Sangfor does not bear any responsibility to authenticated Users or any enterprises/other entities for authorization behaviors between authenticated Users and any enterprises or other entities, product use-related authority control, and relevant rights and interests disposal behaviors.**
 
-Notwithstanding the generality of the foregoing, as mentioned, the Services may be powered by one or more third party services. To enable you to use the Services, Your Content may be shared with such third parties (e.g., enabling a third party LLM to generate output). We are not responsible for the output generated or other content made available by third party services which may directly or indirectly power output. You acknowledge that we have no obligation to pre-screen, monitor, review, or edit any output or other content or services provided by or through such third party services. To the extent your use of the Services accesses third party LLMs, Plugins, or APIs, your data will be processed according to the third parties' terms.
+### 4.3 Third-Party Products/Services
 
-## Intellectual Property
+4.3.1 If due to the specificity of the business You operate/manage, You need to use products based on third-party authorization or license as a prerequisite, You shall guarantee that You have met that prerequisite. Sangfor will accept Your entrustment to provide You with the products agreed upon in this Agreement or other related services based on Your aforementioned guarantee, and Sangfor does not bear any form of joint and several liability for Your behaviors that violate agreements with third parties or infringe upon the legitimate rights and interests of third parties.
 
-We respect intellectual property rights and require you to do the same. Without limiting the generality of rights reserved elsewhere in these Terms, we reserve the right to respond to suspected infringement of intellectual property or publicity rights by: (i) blocking your access to the Services, (ii) terminating your account for the Services, (iii) removing or blocking Your Content, or (iv) taking other actions we deem appropriate.
+4.3.2 You understand and acknowledge that the products provided by Sangfor and Sangfor themselves will maintain independence from third-party products or other businesses/contents. For issues legality, reliability, applicability, or quality of software/hardware, plug-ins, tools, or published advertisements, promotions, or publicity information (including commercial or non-commercial information) provided by third parties, You shall judge by Yourself and be responsible for Your judgment behavior; except as expressly provided by law, Sangfor bears no responsibility for any losses or damages You suffer due to products/services/information content provided by third parties.
 
-The code generation capabilities of the Services are designed to generate new, original code. Attempting to generate existing, copyrighted code via specific requests or other prompt manipulation is a violation of these Terms. If you encounter an inappropriate response or output from the Services that violates applicable laws, or if you believe that your intellectual property rights have been infringed, please contact us at: email: zgsm@sangfor.com.cn
+4.3.3 This Agreement only applies to matters related to the use of the current product and does not apply to any other products provided by third parties through Sangfor products. Before choosing to use third-party products, You should fully understand and confirm by Yourself whether You accept the agreements or rules applicable to third-party products.
 
-Written claims alleging copyright infringement must include the following information:
-- a physical or electronic signature of the person authorized to act on behalf of the owner of the copyright interest;
-- a description of the copyrighted work that has been infringed, and a statement of rights secured over the same;
-- a description of the infringing material and where the same is located on the site;
-- address, telephone number, and e-mail address of the copyright owner or its agent;
-- a statement that the person submitting the claim has certain knowledge that the disputed use is not authorized by the copyright owner, its agent, or the laws; and
-- a statement by the person submitting the claim, made under penalty of perjury, that the above information in the notice is accurate and that the person submitting the claim is the copyright owner or authorized to act on the copyright owner's behalf.
+## Article 5 Sangfor's Obligation Performance
 
-## Feedback
+### 5.1 Providing Products and Related Services
 
-While our own staff is continually working to develop and evaluate our own product ideas and features, we pride ourselves on paying close attention to the interests, feedback, and suggestions we receive from users. If you choose to contribute by sending us or our employees any ideas for products, services, features, modifications, enhancements, responses, refinements, technologies, strategies, or product/feature names, or any related documentation, artwork, computer code, diagrams, or other materials (collectively, the "Feedback"), then regardless of what your accompanying communication may say, the following terms will apply.
+**Sangfor shall provide products and after-sales services to You in accordance with the agreements of this Agreement.** Meanwhile, in order to provide Users with perfect and high-quality products, Sangfor will periodically or irregularly conduct inspection, maintenance, upgrades, and optimizations on the products themselves or relevant infrastructure/equipment, systems, software, etc. that carry the operation of products (collectively referred to as "Routine Maintenance"). To ensure product safety and stability, Sangfor may also conduct major adjustments such as computer room/data migration, equipment replacement, etc. Routine maintenance and major adjustments may cause interruption or suspension of product use within a reasonable time. Sangfor will notify Users in advance, and Users shall cooperate. If non-routine maintenance is required due to force majeure factors, basic carrier faults, or other reasons, Sangfor will notify Users as soon as possible. Sangfor does not need to bear liability for breach of contract or compensation for damages for such interruption or suspension of services to Users.
 
-By sending us Feedback, you agree that:
-- we have no obligation to review, consider, or implement your Feedback, or to return to you all or any part of any Feedback for any reason;
-- Feedback is provided on a non-confidential basis, and we are not under any obligation to keep any part of any Feedback you send confidential or to refrain from using or disclosing it in any way; and
-- you irrevocably grant CoStrict Parties a perpetual and unlimited permission to reproduce, distribute, create derivative works of, modify, publicly perform (including on a through-to-the-audience basis), communicate to the public, make available, publicly display, and otherwise use and exploit the Feedback and derivatives thereof for any purpose and without restriction, free of charge and without attribution of any kind, including by making, using, selling, offering for sale, importing, and promoting commercial products and services that incorporate or embody Feedback, whether in whole or in part, and whether as provided or as modified, to the extent permitted by the applicable laws.
+### 5.2 Handling of Violation Behaviors
 
-## Indemnity
+**Users agree and accept that Sangfor has the right to conduct continuous supervision and review on the situation of their use of relevant product functions and other services. If Sangfor discovers that You have engaged in any behavior violated relevant agreements of this Agreement, or receives questions or complaints from third-party institutions or individuals regarding Your engagement in illegal or infringing behaviors, Sangfor will have the right to verify relevant behaviors or information content, and take corresponding handling measures according to specific circumstances, including but not limited to immediately suspending/terminating the use of relevant functions/services, deleting relevant information, and reporting to relevant departments, and has the right to require You to submit relevant explanations or proof materials within a specified limit as necessary, and You agree to cooperate in this regard. Sangfor does not bear any legal responsibility for losses caused to You due to Sangfor taking corresponding measures in the aforementioned circumstances. At the same time, Sangfor will reserve the right to pursue Your legal responsibility and claim all losses suffered by Sangfor from You (including but not limited to investigation fees, litigation/arbitration fees, attorney fees incurred due to rights protection, as well as business losses or claims suffered as a result).**
 
-YOU AGREE TO DEFEND, INDEMNIFY, AND HOLD HARMLESS COSTRICT PARTIES AND EACH OF THEIR RESPECTIVE OFFICERS, DIRECTORS, EMPLOYEES, AGENTS AND ADVISORS FROM ANY AND ALL CLAIMS, LIABILITIES, LOSSES, DAMAGES, COSTS, AND EXPENSES, INCLUDING, BUT NOT LIMITED TO, ATTORNEYS' FEES AND EXPENSES, ARISING OUT OF A BREACH BY YOU OR ANY USER OF YOUR ACCOUNT OF THESE TERMS OR THE TERMS AND CONDITIONS OF THE THIRD PARTY LLMS, YOUR VIOLATION OF APPLICABLE LAWS AND REGULATIONS OR THIRD PARTY RIGHTS, YOUR FRAUD OR OTHER ILLEGAL ACTS, OR YOUR INTENTIONAL MISCONDUCT OR GROSS NEGLIGENCE, TO THE EXTENT PERMITED BY APPLICABLE LAWS. TO THE FULLEST EXTENT PERMITTED BY LAW, ANY DISPUTE YOU HAVE WITH ANY THIRD PARTY ARISING OUT OF YOUR USE OF THE SERVICES IS DIRECTLY BETWEEN YOU AND SUCH THIRD PARTY, AND YOU IRREEVOCABLY RELEASE SPRING PARTIES FROM ANY AND ALL CLAIMS, DEMANDS, FINES, INDEMNIFICATION OBLIGATIONS, AND DAMAGES (ACTUAL AND/ OR CONSEQUENTIAL) OF EVERY KIND AND NATURE, KNOWN AND UNKNOWN, ARISING OUT OF OR IN ANY WAY CONNECTED WITH SUCH DISPUTE. THE RIGHTS AND OBLIGATIONS OF THIS SECTION ("INDEMNITY") WILL SURVIVE ANY TERMINATION OF THESE TERMS.
+### 5.3 Prevention of Illegal and Criminal Behaviors
 
-## Exclusion of Warranties
+**Meanwhile, You should understand that if the Sangfor product You use is utilized through any means to engage in illegal and criminal behaviors such as fraud (including but not limited to sending fraud information, connecting to remote control to engage in fraud-related operations, etc.), gambling, prostitution, illegal lending, etc., when such events occur, Sangfor will make every effort to cooperate with public security or other regulatory agencies in investigation and evidence collection, and take measures conducive to reducing losses as much as possible. However, as a product provider, Sangfor cannot predict or control the occurrence of such events. Therefore, Users should always exercise caution during the use of products and related services to prevent corresponding risks brought by using products to engage in illegal and criminal behaviors.**
 
-NOTHING IN THESE TERMS WILL AFFECT ANY STATUTORY RIGHTS THAT YOU CANNOT CONTRACTUALLY AGREE TO ALTER OR WAIVE AND ARE LEGALLY ALWAYS ENTITLED TO AS A CONSUMER.
+## Article 6 Confidentiality
 
-THE SERVICES ARE PROVIDED ON AN "AS IS" AND "AS AVAILABLE" BASIS. TO THE MAXIMUM EXTENT PERMITTED BY LAW, WE AND OUR AFFILIATES AND LICENSORS DISCLAIM ALL WARRANTIES, WHETHER EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE, RELATING TO THE SERVICES. THIS INCLUDES BUT IS NOT LIMITED TO DISCLAIMERS OF WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, SATISFACTORY QUALITY, NON-INFRINGEMENT, AND QUIET ENJOYMENT, AS WELL AS ANY WARRANTIES ARISING FROM COURSE OF DEALING OR TRADE USAGE THAT THE SERVICES WILL BE UNINTERRUPTED, ACCURATE, ERROR-FREE, BUG-FREE, VIRUS-FREE, OR THAT CONTENT OR INFORMATION WILL BE SECURE, UNALTERED, OR NOT BE LOST. IN PARTICULAR, WE DO NOT REPRESENT OR WARRANT TO YOU THAT:
-- YOUR USE OF THE SERVICES WILL MEET YOUR REQUIREMENTS;
-- ANY CODE, SUGGESTIONS, OR OTHER OUTPUT OR OTHER INFORMATION OBTAINED BY YOU AS A RESULT OF YOUR USE OF THE SERVICES WILL BE ACCURATE, UP-TO-DATE, RELIABLE, NON-INFRINGING OR SECURE; OR
-- DEFECTS IN THE OPERATION OR FUNCTIONALITY OF THE SERVICES WILL BE CORRECTED.
+### 6.1 Definition
 
-WE MAY CHANGE, SUSPEND, WITHDRAW, OR RESTRICT THE AVAILABILITY OF ALL OR ANY PART OF OUR PLATFORM OR SERVICES FOR BUSINESS AND OPERATIONAL REASONS AT ANY TIME WITHOUT NOTICE AND WITHOUT LIABILITY.
+Confidential Information refers to all technical and non-technical information (including but not limited to relevant materials such as product or service prices or marketing plans, business planning and strategies, customer lists and customer information, financial information, product development status or relevant technical solutions, etc.) disclosed by one party to the other party but not known to the public, capable of bringing economic benefits or other benefits to the disclosing party, and having practicality.
 
-## Limitation of Liability
+### 6.2 Confidentiality Obligation
 
-NOTHING IN THESE TERMS SHALL EXCLUDE OR LIMIT OUR LIABILITY WHICH MAY NOT BE LAWFULLY EXCLUDED OR LIMITED BY APPLICABLE LAWS.
+6.2.1 Either party to this Agreement agrees to keep the aforementioned Confidential Information of the other party disclosed to it confidential and strictly restrict personnel who access the aforementioned Confidential Information to comply with the confidentiality obligations of this Article. Unless required by state organs in accordance with law or the aforementioned Confidential Information has entered the public domain, the party receiving the Confidential Information shall not disclose it to the outside.
 
-SUBJECT TO THE PARAGRAPH ABOVE, WE SHALL NOT BE LIABLE TO YOU FOR:
-- ANY LOSS OF PROFIT OR BUSINESS (WHETHER INCURRED DIRECTLY OR INDIRECTLY);
-- ANY LOSS OF GOODWILL OR BUSINESS REPUTATION;
-- ANY LOSS OF OPPORTUNITY;
-- ANY LOSS OF DATA SUFFERED BY YOU;
-- ANY INDIRECT OR CONSEQUENTIAL LOSSES WHICH MAY BE INCURRED BY YOU; OR
-- ANY LOSS OR DAMAGE WHICH MAY BE INCURRED BY YOU AS A RESULT OF:
-  - ANY CHANGES WHICH WE MAY MAKE TO THE SERVICES, OR FOR ANY PERMANENT OR TEMPORARY CESSATION IN THE PROVISION OF THE SERVICES (OR ANY FEATURE OR CONTENT WITHIN THE SERVICES);
-  - THE DELETION OF, CORRUPTION OF, OR FAILURE TO STORE, ANY CONTENT AND OTHER COMMUNICATIONS DATA MAINTAINED OR TRANSMITTED BY OR THROUGH YOUR USE OF THE SERVICES;
-  - YOUR FAILURE TO PROVIDE US WITH ACCURATE ACCOUNT INFORMATION; OR
-  - YOUR FAILURE TO KEEP YOUR PASSWORD OR ACCOUNT DETAILS SECURE AND CONFIDENTIAL.
+6.2.2 Both parties to this Agreement expressly recognize that business data and other information owned by each party are important assets of each party and key Confidential Information, and agree to make maximum efforts to protect the aforementioned Confidential Information from being disclosed. Once discovering any risk or hidden danger or event of relevant Confidential Information leakage, both parties shall cooperate to take all reasonable measures to avoid or mitigate damaging consequences.
 
-THESE LIMITATIONS ON OUR LIABILITY TO YOU SHALL APPLY WHETHER OR NOT WE HAVE BEEN ADVISED OF OR SHOULD HAVE BEEN AWARE OF THE POSSIBILITY OF ANY SUCH LOSSES. YOU ARE RESPONSIBLE FOR ANY MOBILE OR NETWORK CHARGES THAT MAY APPLY TO YOUR USE OF OUR SERVICES, INCLUDING DATA CHARGES. IF YOU ARE UNSURE WHAT THOSE CHARGES MAY BE, YOU SHOULD ASK YOUR MOBILE OR NETWORK SERVICE PROVIDER BEFORE USING THE SERVICES.
+### 6.3 Validity Period of Confidentiality Obligation
 
-## Termination
+During the product use period, both parties bear confidentiality obligations, unless otherwise agreed by both parties.
 
-These Terms will remain effective unless terminated.
-You may terminate your use of the Services at any time. We reserve the rights to terminate your account, remove Your Content or Plugin, and/or block the distribution, deployment, or compilation of Your Content or Plugin at any time. If we terminate your account or you delete your account, these Terms between you and us will automatically terminate.
+## Article 7 Data Compliance and Privacy Protection
 
-The right and license you grant to CoStrict Parties or other parties under these Terms, and any section of these Terms which, by their nature, should survive the termination of these Terms, shall survive the termination of these Terms.
+7.1 Specific circumstances of data involved in the use of the current product by Users, including but not limited to data types, processing purposes and methods, as well as data security protection, etc., will be centrally explained to Users through Annex I "Privacy Protection Policy" of this Agreement.
 
-## Other Terms
+7.2 As a product provider, in addition to providing products that meet Users' needs, Sangfor will also be committed to working with Users through product function implementation methods and relevant interaction design to better implement data security and personal information protection, thereby better protecting the legitimate rights and interests of Users and relevant personal subjects.
 
-### Applicable Law and Jurisdiction
-Subject to the "Supplemental Terms ‒ Jurisdiction-Specific", these Terms, their subject matter and their formation, are governed by the laws of Singapore. Any dispute arising out of or in connection with these Terms, including any question regarding the existence, validity or termination of these Terms, shall be referred to and finally resolved by arbitration administered by the Singapore International Arbitration Centre in accordance with the Arbitration Rules of the Singapore International Arbitration Centre for the time being in force, which rules are deemed to be incorporated by reference in this Section. The seat of the arbitration shall be Singapore. The Tribunal shall consist of three (3) arbitrators. The arbitration language will be English. Both parties agree, to the maximum extent permitted by law, that any claims against each other must be brought on an individual basis and not as part of a class, consolidated, or representative proceeding.
+## Article 8 Intellectual Property Rights
 
-### Open Source
-The Services may contain certain open source software. Each instance of open source software may be subject to its own applicable license terms, which can be found at Open Source Notice.
+8.1 As the owner of relevant intellectual property rights included in products provided to You, Sangfor legally enjoys intellectual property rights such as copyright, trademark rights, patent rights, etc. as well as legal protection of trade secrets. Intellectual property rights are valuable intangible assets on which Sangfor's business depends for existence, contained both in Sangfor products used by Users and in the brand image that Users recognize in Sangfor trademarks and logos. Sangfor promises to Users: products that Users acquire through legally authorized means and use within China are all independently and completely owned by Sangfor in terms of intellectual property rights, without any rights defects infringing upon third-party intellectual property rights.
 
-### Entire Agreement
-These Terms (including "the Supplemental Terms ‒ Jurisdiction-Specific" below and other agreements, terms, policies, guidelines and documents incorporated herein by reference) constitute the entire agreement between you and us regarding your use of the Services and supersede any prior agreements, communications or understandings between you and us on that subject. These Terms will be binding upon and will inure to the benefits of our and your successors, heirs and permitted assigns, respectively.
+8.2 Meanwhile, You understand and agree: during the process of using Sangfor's products, You shall not infringe upon intellectual property rights and other legitimate rights and interests owned by Sangfor in any way, including but not limited to not, without Sangfor's written consent, independently or allowing any third party to implement, license, or transfer the aforementioned intellectual property rights involved for commercial or non-commercial purposes, not copying, modifying, disassembling, decompiling, reverse cracking, reverse engineering, etc. on software and hardware products provided by Sangfor for Your use or any part thereof, or attempting to access or intercept any source code in Sangfor products through any means, not avoiding or destroying technical measures taken by Sangfor to protect intellectual property rights, and not modifying, destroying, or concealing trademarks or logos marked on Sangfor products or relevant system platforms without authorization. Sangfor reserves the right to pursue legal responsibility for any infringing intellectual property behaviors.
 
-### Assignment
-Each party may not assign or transfer these Terms, except that we may assign or transfer these Terms or our rights or obligations hereunder to our affiliates or in connection with a merger, acquisition or sale of all or substantially all of our assets.
+## Article 9 Limitation of Liability
 
-### Age Limit
-The Services are only for people 18 years old and over (with additional limits that may be set forth in the "Supplemental Terms ‒ Jurisdiction-Specific"). By using the Services, you confirm that you are over the relevant age specified herein. If we learn that someone under the relevant age specified above is using the Services, we will terminate that account.
+### 9.1 Disclaimer
 
-### No Waiver
-Our failure to insist upon or enforce any provision of these Terms shall not be construed as a waiver of any provision or right.
+**You understand and agree that the products provided to You by Sangfor are provided in the status that can be achieved based on existing technology and conditions. Sangfor will make every effort to provide You with high-quality products, but due to limitations of industry technical level or other objective factors, Sangfor cannot guarantee that the products provided are completely flawless or fully applicable to Your business needs. Therefore, except for matters where Sangfor makes express guarantees to You in specific scenarios, Sangfor makes no commitment or guarantee regarding the validity, completeness, accuracy, reliability, timeliness, etc. of technology or information involved in the products provided, and does not need to bear any responsibility. If during the process of Users using the product, technical or other issues beyond the scope of commitments or cognition of both parties occur, both parties may seek joint resolution through friendly collaboration.**
 
-### Severability
-If any court of law, having jurisdiction to decide on this matter, rules that any provision of these Terms is invalid, then that provision will be removed from the Terms without affecting the rest of these Terms, and the remaining provisions of these Terms will continue to be valid and enforceable.
+### 9.2 Force Majeure and Other Exemption Situations
 
-### Trade Controls
-The Services may operate from servers within the United States, and your output may be subject to the United States Export Administration Regulations ("EAR"). By accessing or using our Services, you confirm that:
-- you are exclusively responsible for ensuring that your use of the Services and your Content, including output, comply with all applicable trade compliance laws, including but not limited to the EAR and sanctions administered by the U.S. Office of Foreign Assets Control ("OFAC"). For avoidance of doubt, your responsibility includes identifying and complying with any trade compliance obligations associated with your use of the Services;
-- you are not identified on any list of restricted or prohibited parties maintained by the U.S. government, including but not limited to the Bureau of Industry and Security's ("BIS") Entity List and OFAC's list of Specially Designated Nationals ("SDN List"), and that your organization is not owned or controlled by any party identified on the SDN List;
-- you will not use the Services for, or in support of, any prohibited end use identified in the EAR, 15 CFR 744, or in, for, or on behalf of any country or region subject to comprehensive U.S. sanctions (including Cuba, Iran, North Korea, Syria, and the LNR, DNR, and Crimea regions of Ukraine), Belarus, or Russia; and
-- Your Content will not include any information that requires governmental authorization for release or export.
+**You understand and agree that during the use of the product, the following situations may be encountered that cause interruption of functions/services. When the following situations occur, Sangfor will timely cooperate with relevant units to carry out repairs, but Sangfor will be unable to bear the losses suffered by You due to this:**
+
+9.2.1 Affected by force majeure factors, including but not limited to natural disasters, government actions, issuance and adjustment of laws and regulations, strikes (except internal labor disputes of either party), turmoil, etc. objective situations that cannot be foreseen, avoided, or overcome;
+
+9.2.2 Affected by basic carrier services, including but not limited to technical adjustments by the telecommunications department, destruction of telecommunications/power lines by others, installation, transformation, maintenance, etc. of telecommunications networks/power resources by the telecommunications/power department;
+
+9.2.3 Network security incidents occur, such as computer viruses, Trojan horses or other malicious programs, hacker attacks, etc.;
+
+9.2.4 You use relevant product functions or services through means not permitted by Sangfor, or due to Your improper operation, account loss or theft, or faults in Your computer software, system, hardware, and communication lines, resulting in inability to use functions or services normally;
+
+9.2.5 Other situations that are not the fault of Sangfor, and that Sangfor cannot control or reasonably foresee.
+
+### 9.3 Liability Exclusions
+
+**Under any circumstances, Sangfor shall not bear any responsibility for indirect, punitive, sudden/accidental, or special damage consequences. The types of the aforementioned damage consequences include but are not limited to loss of profits, loss of interest, business interruption, destruction or loss of data or other assets.**
+
+### 9.4 Limitation of Liability
+
+**The total amount of liability for breach of contract or compensation for loss that Sangfor shall bear based on the products provided to You for violating applicable agreement terms or other relevant rules shall not exceed the total amount of fees charged for providing corresponding products.**
+
+## Article 10 Agreement Term, Suspension and Termination
+
+10.1 This Agreement is valid before termination or upon expiration of the current product use term (if applicable). Users understand and agree that when the conditions for suspension or termination of the use of all or part of the product functions agreed upon by Sangfor with Users through the terms of this Agreement or other means are achieved, Sangfor has the right to send a unilateral notice to suspend or terminate the provision to Users of the use license for part or all of the product functions agreed upon in this Agreement:
+
+**The suspension conditions referred to in this Article include but are not limited to: due to Users refusing to agree to updates to this Agreement or other relevant rules, or Users failing to renew fees in a timely manner after expiration of the authorized license use period, or other reasons attributed to Users themselves such as Users failing to satisfy the necessary conditions for using products due to violations of various obligations agreed upon in this Agreement;**
+
+**The termination conditions referred to in this Article include but are not limited to: due to Users failing to renew fees for more than a certain period, or Users failing to satisfy necessary conditions for using products due to violations of obligations agreed upon in this Agreement, or actual damage caused to Sangfor due to Users violating legal provisions.**
+
+10.2 Sangfor has the right to adjust or terminate part or all of the functions of relevant products at any time according to its own operational arrangements (including but not limited to offline, iteration, integration, etc. of relevant functions) without prior notice, and any changes to the products shall be bound by the agreement terms effective at that time. For relevant product changes that may affect Users' businesses, Sangfor will notify Users as much in advance as possible so that Users can make preparations such as data transfer backups or business adjustments, avoiding unnecessary costs or losses as much as possible. For scenarios where Sangfor has notified Users that it will stop operating the current service, after agreeing with Users to shut down the service account, Sangfor will delete or anonymize personal information collected during the process of providing services in accordance with legal and regulatory requirements.
+
+## Article 11 Applicable Law and Dispute Resolution Jurisdiction
+
+**The place where this Agreement is signed is the location of Sangfor.** The formation, validity, performance, interpretation, and dispute resolution of the Agreement, etc., shall all be governed by the laws of the People's Republic of China (excluding conflict of law rules, for the purpose of this Agreement, not including Hong Kong, Macao, and Taiwan regions); if there are no relevant legal provisions, commercial practice conventions may be referenced as applicable. If any dispute or controversy arises between You and Sangfor, it shall first be resolved through friendly consultation; if consultation fails, **You agree to submit the dispute or controversy to the jurisdiction of the People's Court at the place where this Agreement is signed.**
+
+## Article 12 Supplementary Provisions
+
+### 12.1 Relationship
+
+**Sangfor and Users are independent contracting parties, and this Agreement does not constitute legal relationships such as partnership, agency, or employment. Neither party or its affiliated companies is the agent of the other party and has no right to bind the other party's conduct.**
+
+### 12.2 Transfer of Rights and Obligations
+
+**Without Sangfor's prior written consent, You may not transfer or otherwise transfer this Agreement or any rights and obligations under this Agreement. Any transfer or transfer that violates this Article is invalid. You understand and agree that Sangfor has the right to transfer part or all of the rights and obligations of this Agreement to Sangfor's affiliated companies on the premise of notifying You in advance.**
+
+### 12.3 Completeness of Agreement
+
+**The body of this Agreement, annexes, cited policies and documents, as well as other policies, rules, declarations, notices, warnings, prompts, instructions (collectively referred to as "rules" in this Agreement) related to this Agreement, constitute the complete agreement reached between You and Us regarding the current product. All the aforementioned types of rules are inseparable components of this Agreement and have equal legal effectiveness as this Agreement.**
+
+### 12.4 No Waiver of Rights Declaration
+
+If Sangfor waives the rights prescribed in this Agreement when You are negligent or in breach of contract, it shall not be deemed that it waives rights regarding Your other or future similar negligence or breach of contract behaviors.
+
+### 12.5 Severability
+
+If any part of the content of this Agreement is invalid or unenforceable for any reason, it shall not affect the legal effectiveness of the remaining parts.
+
+### 12.6 Agreement Updates
+
+Based on the real-time, complex, and efficient characteristics of the Internet, as well as adjustments to legal/regulatory/monitoring requirements/policies, significant changes in Users'/Sangfor's businesses or operations, product function iteration updates, etc., You agree that Sangfor may update the body, annexes, or relevant rules of this Agreement from time to time. The modified agreement or rules will be re-submitted to Users for confirmation through this product interface, or separately notified to You through the effective notification methods set forth in this Agreement. If You do not agree to relevant changes to the agreement, You shall immediately stop using relevant products; if You continue to use, it indicates that You have fully read, understood, and agreed to accept the revised and updated agreement.
+
+### 12.7 Notice
+
+#### 12.7.1 Authenticity and Validity of Contact Information
+
+You shall guarantee and maintain the authenticity and validity of relevant materials submitted during the use of relevant products (including but not limited to phone numbers, email addresses, and other contact information). If the relevant materials submitted by You have any defects such as falsity or invalidity that may result in Your inability to timely learn business notifications, function/service prompts, technical support, dispute coordination, violation punishment, etc., information, the corresponding responsibility shall be borne by You Yourself.
+
+#### 12.7.2 Effective Notice Methods
+
+You shall send notices to Sangfor according to the contact methods specified in this Agreement or published on Sangfor's official website, unless otherwise agreed by both parties.
+
+Sangfor may send You various information related to products/services (including but not limited to updated user agreements, relevant rules, product/service upgrades, computer room removal, advertisements, etc.) through one or more of the following methods: webpage announcements, system notifications, in-site messages, emails, mobile text messages, instant messaging tools, letters, etc. The aforementioned information shall be deemed to have been delivered on the date it is sent or published (if the delivery date is a statutory holiday, the first working day after delivery shall be the delivery date).
+
+#### 12.7.3 Push Authorization
+
+In order to better deliver required products to You or provide other related services supporting the use of products, for contact information such as phone numbers and email addresses that You actively provide when applying for or activating use (including trial) of products or specific functions, You agree that Sangfor may send You short messages or emails during Your use period to push real-time information on product use or product release/update information related thereto. Sangfor will provide You with unsubscribe methods, or You may also actively contact Sangfor's customer service personnel to solve relevant problems for You.
+
+### 12.8 Export Control Compliance
+
+Both parties promise to comply with the export control and sanctions laws and regulations of the People's Republic of China, and at the same time comply with other export control and sanctions laws and regulations applicable to this Contract. You promise not to use the products or services provided by Sangfor for military, nuclear weapons, fuel production or propulsion systems, missiles, rockets or unmanned aircraft systems, biochemical weapons, etc., and not to use the products or services provided by Sangfor for purposes prohibited by applicable export control and sanctions laws and regulations. Without permission from relevant competent authorities, You and other individuals or entities authorized by You to use Sangfor products or services will not provide controlled products, technology, software, or services to destinations, entities, or individuals prohibited by applicable export control and sanctions laws and regulations through Sangfor products or services.
+
+### 12.9 Headings
+
+The headings of all terms in this Agreement are only for content summary, for ease of reading, and the headings themselves cannot serve as the sole basis for interpreting the content of this Agreement's terms.
+
+### 12.10 Language
+
+This Agreement is written in Chinese, and any other language is for reference only. If there are conflicts between different language versions, the Chinese version shall prevail.
+
+### 12.11 Conflict Application
+
+If the provisions of this Agreement conflict with relevant agreements of the proprietary agreements or rules applicable to the specific product functions/services You use, the agreements of the proprietary agreements or rules shall prevail; if the provisions of this Agreement conflict with the terms of the procurement contract signed by You in specific projects with Sangfor or Sangfor-authorized distributors, the provisions of this Agreement shall prevail.
+
+### 12.12 Contact Information
+
+We value Users' feedback and suggestions, and also attach importance to the quality of content generated by artificial intelligence models. Therefore, if You discover that the content output by the current product or the processing results returned are unreasonable, have defects, or have other problems, You may send an email at any time to zgsm@sangfor.com.cn to provide feedback.
+
+### Agreement Annexes
+
+#### Annex I: Privacy Protection Policy
+
+For details, see the login page or the bottom of the webpage
+
+#### Annex II: Account Use Agreement
+
+##### 1. Account Registration
+
+1.1 Any User using Sangfor products shall lawfully possess necessary and appropriate capacity for rights and capacity for conduct in accordance with the law, and shall complete registration or obtain the right to use relevant product accounts through other methods permitted by Sangfor in accordance with requirements such as real-name authentication, and shall consciously comply with relevant specifications and restrictions during account registration, including but not limited to not maliciously registering and using product accounts (malicious registration behaviors referred to in this article include but are not limited to frequent registration, batch registration of accounts, abuse of multiple accounts, buying and selling accounts, etc.).
+
+1.2 Based on the positioning and functions of Sangfor's main business and products, we will primarily provide account registration and related functions/services to adult users. Before any entity instructs/authorizes a minor to register relevant product accounts or use products through any other means, it shall be responsible for obtaining consent from their guardian, and verifying the true identity of the authorized minor and their guardian through ID number, and shall pay attention to specially protecting the legitimate rights and interests such as personal information of that minor user throughout the entire use period.
+
+##### 2. User Information
+
+2.1 Users shall fill in and submit authentic, legal, and effective information in accordance with requirements, including but not limited to user names, contact persons, email addresses, contact phone numbers, so that Sangfor may conduct real-name authentication on the identity of relevant subjects by itself or by entrusting a third party in accordance with relevant laws and regulations, or use it when necessary to verify the authenticity and legality of businesses carried out by relevant subjects using products or other related services provided by Sangfor. If any of the aforementioned information changes, You shall notify Sangfor in writing in a timely manner or update it Yourself according to the usage rules of specific products.
+
+2.2 Users shall guarantee that information such as their registered account names, avatars, and profile descriptions (if any) will not contain any content that violates laws and regulations, public policies, social security, public order and good morals, or infringes upon the legitimate rights and interests of any third party, including but not limited to: not impersonating, falsely claiming, fabricating the names or logos of political parties, party, government and military organs, enterprises and institutions, people's groups and social organizations, countries (regions), international organizations, news media, as well as important geographical names, logos, etc.; not impersonating others (including but not limited to administrators) or unauthorized use of others' names, portraits or trademarks/logos; not intentionally containing QR codes, URLs, email addresses, contact information, etc.; and not containing content such as being untrue to the name, exaggerated, etc. that may mislead the public or cause misunderstanding.
+
+##### 3. Account Use Behavioral Specifications
+
+3.1 During the period when Users log in to product accounts and use relevant functions/services, they shall consciously assume legal obligations related to the account entity, including but not limited to not utilizing any product functions through account login or other means to engage in behaviors that violate laws, regulations, or policy requirements, not interfering with Sangfor product operation or Sangfor's operational management of products through any technical means, not maliciously circumventing or resisting the rules of relevant functions/services, or breaking through account authorities or other use restrictions, not publishing or disseminating illegal or false information content or publishing advertisements through any means, not interfering with other Users' normal use of products through methods such as brushing posts, watering, fake rewards, etc., or infringing upon legitimate rights and interests of others through any other means.
+
+##### 4. Account Security Protection
+
+4.1 Accounts will serve as the basis for identity recognition of Users' use of corresponding products. You shall take necessary and effective protection measures (including but not limited to conducting effective permission control, setting high-strength passwords and changing them regularly, etc.) for account names, passwords, and other information and account security.
+
+4.2 If You discover that others are stealing Your accounts and passwords, or any other situations where Your account use permissions are obtained by others without Your legal authorization, You shall immediately notify Sangfor in effective ways and provide necessary materials (such as situation explanations, proving materials, specific requests and contact information, etc.). After Sangfor receives Your effective notice and verifies identity, confirms the fact situation, it will handle matters according to laws and regulations and agreement/rule agreements. Relevant responsibilities and consequences resulting from Sangfor's handling according to this Article shall be borne by You. If materials provided by You have flaws, resulting in Sangfor being unable to verify Your identity or unable to judge Your needs and thus failing to handle in time, resulting in You suffering losses, You shall bear them yourself. At the same time, **You understand that Sangfor needs a reasonable period to handle Your requests. For losses You have already suffered before Sangfor takes measures, and for losses caused after Sangfor takes measures for reasons not attributable to Sangfor, Sangfor does not bear any responsibility.**
+
+##### 5. Account Management
+
+5.1 Besides account security protection, You should also establish and improve internal management systems and standardize the use and management of accounts. If any user actually violates this Agreement or other relevant rules or agreements, You have the obligation to immediately notify us, and at the same time should take appropriate actions to stop and correct relevant violation/breach behaviors, and be responsible for bearing all relevant responsibilities.
+
+5.2 You understand and agree: As the operation party of products, Sangfor will have the right to take necessary measures including but not limited to limiting, suspending, or terminating access/use of corresponding products or other related services, in accordance with relevant laws or this Agreement and other relevant agreements, when any user exists in behaviors violating this Agreement or other relevant rules/agreements, or disputes related to account authority occur, in order to ensure the safe and effective operation of products to the greatest extent possible. If this results in users losing or clearing data related to their use of relevant products, Users shall be responsible for bearing them themselves; and Sangfor has the right to independently evaluate and establish a user account credit management system, and provide services or other relevant rights and interest guarantees to Users according to credit evaluation situations during the user account use period.
+
+##### 6. Account Authority Limitations and Termination
+
+###### 6.1 Account Cancellation
+
+Generally, users with Sangfor product use accounts may independently operate to cancel accounts, or apply to Sangfor for account cancellation through contact methods in this Agreement body or other exclusive contact methods. Any account cancellation must meet the following conditions:
+
+6.1.1 The account is in a normal state, not involving any dispute disputes (including complaints reports or being complained and reported), and not being subject to restriction measures by competent authorities;
+
+6.1.2 There are no unfinished transactions within the account;
+
+6.1.3 There are no outstanding rights and obligations within the account or situations where disputes may arise due to account cancellation;
+
+6.1.4 There are no other situations that may affect account cancellation.
+
+Sangfor will stop providing corresponding product functions and other related services to users whose accounts have been officially cancelled. After account cancellation, we will properly handle relevant data according to requirements of relevant laws and regulations and relevant agreements with You (if any).
+
+6.2 To protect user account security, Sangfor has the right to independently detect and judge behaviors with abnormal access and take corresponding handling measures. For example, for accounts that have not logged in for a long time after registration or have no access or operation records for a long time after logging in, to protect user account security, Sangfor has the right to limit their login functions, and users need to reactivate accounts or log in again before they can use normally.
+
+6.3 When Users violate relevant agreements of this Agreement or suspension or termination conditions of account use license authorities agreed upon between both Parties are achieved, Sangfor has the right to recover or terminate the use permission of the account used by You.
