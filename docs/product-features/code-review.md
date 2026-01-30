@@ -16,7 +16,7 @@ For code lines and functions, use the universal trigger method: right-click and 
 ![alt text](./img/12.png)
 
 
-For functions, you can also click the quick action button `Code Review`" `at the top.
+For functions, you can also click the quick action button `Code Review` at the top.
 
 ![alt text](./img/13.png)
 
@@ -57,9 +57,6 @@ Code Review supports filtering issues based on three dimensions: severity, issue
 - **Severity**: High, medium, low, corresponding to the color bars on the left side of the issue list: red, yellow, blue.
 
 - **Labels**: The AI automatically categorizes and tags issues based on their descriptions. Typically, an issue will have one or more tags. Common issue label types include: syntax errors, logic errors, memory leaks, security vulnerabilities, etc.
-
-- **Confidence**: Refers to how certain the AI is about the issue. Higher confidence levels indicate greater reliability, and fewer issues will meet the filter criteria. Conversely, lower confidence levels will include more issues. The default setting is "Medium."
-
 
 ![alt text](./img/17.png)
 
