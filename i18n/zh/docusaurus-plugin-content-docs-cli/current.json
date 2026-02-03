@@ -1,0 +1,70 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.cliSidebar.category.快速开始": {
+    "message": "快速开始",
+    "description": "The label for category Getting Started in sidebar cliSidebar"
+  },
+  "sidebar.cliSidebar.category.快速开始.link.generated-index.title": {
+    "message": "快速开始",
+    "description": "The generated-index page title for category Getting Started in sidebar cliSidebar"
+  },
+  "sidebar.cliSidebar.category.产品功能": {
+    "message": "产品功能",
+    "description": "The label for category Product Features in sidebar cliSidebar"
+  },
+  "sidebar.cliSidebar.category.产品功能.link.generated-index.title": {
+    "message": "产品功能",
+    "description": "The generated-index page title for category Product Features in sidebar cliSidebar"
+  },
+  "sidebar.cliSidebar.category.计费说明": {
+    "message": "计费说明",
+    "description": "The label for category Billing in sidebar cliSidebar"
+  },
+  "sidebar.cliSidebar.category.计费说明.link.generated-index.title": {
+    "message": "计费说明",
+    "description": "The generated-index page title for category Billing in sidebar cliSidebar"
+  },
+  "sidebar.cliSidebar.category.协议": {
+    "message": "协议",
+    "description": "The label for category Policy in sidebar cliSidebar"
+  },
+  "sidebar.cliSidebar.category.协议.link.generated-index.title": {
+    "message": "协议",
+    "description": "The generated-index page title for category Policy in sidebar cliSidebar"
+  },
+  "sidebar.cliSidebar.category.Getting Started": {
+    "message": "快速开始",
+    "description": "The label for category Getting Started in sidebar cliSidebar"
+  },
+  "sidebar.cliSidebar.category.Getting Started.link.generated-index.title": {
+    "message": "快速开始",
+    "description": "The generated-index page title for category Getting Started in sidebar cliSidebar"
+  },
+  "sidebar.cliSidebar.category.Product Features": {
+    "message": "产品功能",
+    "description": "The label for category Product Features in sidebar cliSidebar"
+  },
+  "sidebar.cliSidebar.category.Product Features.link.generated-index.title": {
+    "message": "产品功能",
+    "description": "The generated-index page title for category Product Features in sidebar cliSidebar"
+  },
+  "sidebar.cliSidebar.category.Billing": {
+    "message": "计费说明",
+    "description": "The label for category Billing in sidebar cliSidebar"
+  },
+  "sidebar.cliSidebar.category.Billing.link.generated-index.title": {
+    "message": "计费说明",
+    "description": "The generated-index page title for category Billing in sidebar cliSidebar"
+  },
+  "sidebar.cliSidebar.category.Policy": {
+    "message": "协议",
+    "description": "The label for category Policy in sidebar cliSidebar"
+  },
+  "sidebar.cliSidebar.category.Policy.link.generated-index.title": {
+    "message": "协议",
+    "description": "The generated-index page title for category Policy in sidebar cliSidebar"
+  }
+}

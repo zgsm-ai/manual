@@ -7,12 +7,21 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   plugins: [
     [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'cli',
+        path: 'docs-cli',
+        routeBasePath: 'cli',
+        sidebarPath: './sidebars-cli.ts',
+      },
+    ],
+    [
       '@docusaurus/plugin-client-redirects',
       {
         redirects: [
           {
             from: '/',
-            to: '/guide/installation',
+            to: '/plugin/guide/installation',
           },
         ],
       },
@@ -43,7 +52,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          routeBasePath: '/',
+          routeBasePath: 'plugin',
         },
 
         theme: {
@@ -62,9 +71,22 @@ const config: Config = {
       logo: {
         alt: 'costrict logo',
         src: 'img/logo.svg',
-        href: '/guide/installation',
+        href: '/plugin/guide/installation',
       },
       items: [
+        {
+          type: 'doc',
+          docId: 'guide/installation',
+          position: 'left',
+          label: 'Plugin',
+        },
+        {
+          type: 'doc',
+          docId: 'guide/installation',
+          docsPluginId: 'cli',
+          position: 'left',
+          label: 'CLI',
+        },
         {
           href: 'https://github.com/zgsm-ai/costrict',
           position: 'right',
