@@ -10,5 +10,13 @@
   "item.label.GitHub": {
     "message": "GitHub",
     "description": "Navbar item with label GitHub"
+  },
+  "item.label.Plugin": {
+    "message": "Plugin",
+    "description": "Navbar item with label Plugin"
+  },
+  "item.label.CLI": {
+    "message": "CLI",
+    "description": "Navbar item with label CLI"
   }
 }

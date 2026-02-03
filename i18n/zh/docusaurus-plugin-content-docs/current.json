@@ -29,11 +29,11 @@
   },
   "sidebar.tutorialSidebar.category.Version notes": {
     "message": "版本更新",
-    "description": "The label for category Version Notes in sidebar tutorialSidebar"
+    "description": "The label for category Version notes in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Version notes.link.generated-index.title": {
     "message": "版本更新",
-    "description": "The generated-index page title for category Version Notes in sidebar tutorialSidebar"
+    "description": "The generated-index page title for category Version notes in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Best Practices": {
     "message": "最佳实践",
@@ -61,10 +61,10 @@
   },
   "sidebar.tutorialSidebar.category.Policy": {
     "message": "协议",
-    "description": "The label for category policy in sidebar tutorialSidebar"
+    "description": "The label for category Policy in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Policy.link.generated-index.title": {
     "message": "协议",
-    "description": "The generated-index page title for category policy in sidebar tutorialSidebar"
+    "description": "The generated-index page title for category Policy in sidebar tutorialSidebar"
   }
 }
