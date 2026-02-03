@@ -66,5 +66,21 @@
   "sidebar.cliSidebar.category.Policy.link.generated-index.title": {
     "message": "协议",
     "description": "The generated-index page title for category Policy in sidebar cliSidebar"
+  },
+  "sidebar.cliSidebar.category.Deployment": {
+    "message": "私有化部署",
+    "description": "The label for category Deployment in sidebar cliSidebar"
+  },
+  "sidebar.cliSidebar.category.Deployment.link.generated-index.title": {
+    "message": "私有化部署",
+    "description": "The generated-index page title for category Deployment in sidebar cliSidebar"
+  },
+  "sidebar.cliSidebar.category.Best Practices": {
+    "message": "最佳实践",
+    "description": "The label for category Best Practices in sidebar cliSidebar"
+  },
+  "sidebar.cliSidebar.category.Best Practices.link.generated-index.title": {
+    "message": "最佳实践",
+    "description": "The generated-index page title for category Best Practices in sidebar cliSidebar"
   }
 }

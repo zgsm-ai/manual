@@ -1,5 +1,5 @@
 ---
-sidebar_position: 100
+sidebar_position: 8
 ---
 
 # 常见问题
@@ -30,7 +30,7 @@ sidebar_position: 100
 
 - 方法二：复制界面上的url，手动在浏览器中打开使用。（注意Mobaxterm无法复制，需要切换其它终端，比如直接用ssh命令连接服务器）
 
-- 方法三：先在windows上登录CoStrict（cli或者插件均可），然后将 %USER_PROFILE%/.costrict/share/auth.json  复制到  服务器 ${HOME}/.costrict/share/auth.json ，然后进行使用即可（过期后，再次执行同样操作）。目录不存在，请自动创建。
+- 方法三：先在windows上登录CoStrict（cli或者插件均可），然后将 `%USER_PROFILE%/.costrict/share/auth.json` 复制到服务器 `${HOME}/.costrict/share/auth.json`，然后进行使用即可（过期后，再次执行同样操作）。目录不存在，请自动创建。
 
 ## 6、win7无法使用
 
