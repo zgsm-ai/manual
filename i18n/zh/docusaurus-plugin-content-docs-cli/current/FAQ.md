@@ -4,64 +4,34 @@ sidebar_position: 100
 
 # 常见问题
 
-关于 CoStrict CLI 的常见问题。
+## 1、输入框无法粘贴
 
-## 安装与设置
+在终端顶部，点击鼠标右键->编辑->粘贴：
 
-### 问：系统要求是什么？
+![img](img/FAQ/png.png)
 
-答：需要 Node.js 18.x 或更高版本。CLI 支持 Windows、macOS 和 Linux。
+## 2、Tab键无法切换问卷中的问题
 
-### 问：如何更新 CLI？
+使用左右方向键进行切换。
 
-答：运行 `npm update -g @costrict/cli` 或 `yarn global upgrade @costrict/cli`
+![img](img/FAQ/png-17700999595561.png)
 
-### 问：可以同时使用 CLI 和插件吗？
+## 3、linux出现GLIB版本问题导致无法执行
 
-答：可以！它们共享相同的账号和额度。
+使用Centos 8、Ubuntu 20.0 以上版本linux 机器或者容器。
 
-## 使用
+## 4、进入子Agent会话后使用快捷键无法回到父Agent
 
-### 问：如何进行身份认证？
+鼠标左键点击左上角的Parent。
 
-答：运行 `costrict login` 并按照浏览器认证流程操作。
+## 5、linux登录无法打开浏览器
 
-### 问：可以在 CI/CD 流水线中使用 CLI 吗？
+- 方法一：在vscode中打开终端，远程连接linux。vscode可打开浏览器；
 
-答：可以，使用 `costrict login --token YOUR_TOKEN` 进行非交互式认证。
+- 方法二：复制界面上的url，手动在浏览器中打开使用。（注意Mobaxterm无法复制，需要切换其它终端，比如直接用ssh命令连接服务器）
 
-### 问：CLI 可以离线工作吗？
+- 方法三：先在windows上登录CoStrict（cli或者插件均可），然后将 %USER_PROFILE%/.costrict/share/auth.json  复制到  服务器 ${HOME}/.costrict/share/auth.json ，然后进行使用即可（过期后，再次执行同样操作）。目录不存在，请自动创建。
 
-答：不可以，CLI 需要互联网连接来与 CoStrict AI 服务通信。
+## 6、win7无法使用
 
-## 计费
-
-### 问：CLI 和插件共享额度吗？
-
-答：是的，所有使用都计入你账号的总额度。
-
-### 问：CLI 使用如何计算？
-
-答：与插件类似 - 基于处理的 token 数量和使用的模型。
-
-更多计费问题，请查看 [计费文档](/plugin/billing/purchase)。
-
-## 故障排除
-
-### 问：安装后找不到 CLI 命令
-
-答：确保你的全局 npm/yarn bin 目录在 PATH 中。
-
-### 问：认证失败
-
-答：尝试 `costrict logout` 然后重新 `costrict login`。
-
-### 问：响应时间慢
-
-答：检查你的网络连接并重试。如果问题持续，请联系支持。
-
-## 获取帮助
-
-- GitHub Issues: [报告 bug](https://github.com/zgsm-ai/costrict/issues)
-- 文档：浏览其他部分获取详细指南
-- 支持：通过网站联系我们
+在远程linux服务器上启动 costrict-cli的web模式，然后在浏览器中打开使用；或者使用 vscode远程连接服务器开发。

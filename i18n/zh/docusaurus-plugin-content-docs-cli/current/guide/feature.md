@@ -2,63 +2,68 @@
 sidebar_position: 3
 ---
 
-# CLI 功能
+# 基本功能入门
 
-CoStrict CLI 提供强大的命令行工具，用于 AI 辅助开发。
-
-## 核心功能
-
-### 交互式聊天模式
-
-启动与 AI 的交互式会话：
+## 启动
+- tui：
 
 ```bash
-costrict chat
+cs
 ```
 
-### 文件操作
+![img](img/feature/main.png)
 
-使用 AI 辅助编辑文件：
+- 命令行：
 
 ```bash
-costrict edit <文件> --prompt "你的指令"
+cs run  --agent build  --model costrict/GLM-4.7   "你好"
+# 你好！有什么可以帮助你的吗？
 ```
 
-### 代码审查
-
-审查你的代码变更：
+- web:
 
 ```bash
-costrict review
+cs web     # 可以通过--hostname  --port 指定ip、端口
 ```
 
-### 项目分析
+然后在浏览器中打开地址，默认 http://127.0.0.1:4096/  
 
-分析整个项目：
+![img](img/feature/png-17700885881302.png)
+
+- 容器
 
 ```bash
-costrict analyze
+docker pull zgsm/costrict-cli:latest
+docker run -it zgsm/costrict-cli:latest
 ```
 
-## 配置
+## 选择模型
 
-配置 CLI 设置：
+在cli内部，输入 `/models` 选择模型
 
-```bash
-costrict config set <键> <值>
+## 开始新会话
+在cli内部，输入 `/new`
+
+## 继续上次会话
+
+```
+cs  --continue
 ```
 
-查看当前配置：
+或者输入 `/session`， 选择对应会话确认即可。
 
-```bash
-costrict config list
-```
+## 切换Agent
 
-## 高级功能
+● 父Agent: 在对话框，使用Tab键进行切换，默认内置Build/StrictPlan Agent。
 
-- 自定义提示词和规则
-- MCP (模型上下文协议) 集成
-- Skills 技能系统
-- Plan 模式用于复杂任务
+● 子Agent：@名字 方式使用。
 
-在 [产品特性](../product-features/ai-agent.md) 部分了解更多这些功能。
+## 进入/退出子Agent对话
+
+- 进入：双击子Agent对话，可进入子Agent内部；
+
+- 退出：按页面上方提示的快捷键操作，如果快捷键冲突，可使用鼠标点击左上角的Parent退出。
+
+## 其它命令
+
+请使用 `cs --help ` 查看。

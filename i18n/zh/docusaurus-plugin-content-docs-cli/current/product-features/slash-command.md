@@ -1,8 +1,8 @@
 ---
-sidebar_position: 6
+sidebar_position: 5
 ---
 
-# Slash 命令
+# 自定义command
 
 CoStrict CLI 中常用操作的快捷命令。
 
@@ -10,62 +10,62 @@ CoStrict CLI 中常用操作的快捷命令。
 
 Slash 命令为常用操作提供快捷方式。
 
-## 可用命令
+## 配置位置
 
-### /review
+● 全局：~/.config/costrict/commands/
 
-快速代码审查:
+● 项目：.costrict/commands/
 
-```bash
-costrict /review
+## 示例
+
+项目根目录下，.costrict/commands/my-test.md：
+
+```
+---
+description: Run tests with coverage
+agent: build
+---
+ 
+Run the full test suite with coverage report and show any failures.
+Focus on the failing tests and suggest fixes.
 ```
 
-### /test
+参数说明：agent 是一个可选的配置选项。如果未指定，将默认使用您当前的智能体。
 
-运行测试:
+**注意**：配置完成后，建议重启cli，以加载commands。
 
-```bash
-costrict /test
+## 测试
+
+![img](img/slash-command/png.png)
+
+## 其它配置
+
+● 使用 $ARGUMENTS 占位符将参数传递给命令。
+
+```
+---
+description: Create a new component
+---
+ 
+Create a new React component named $ARGUMENTS with TypeScript support.
+Include proper typing and basic structure.
 ```
 
-### /fix
+你也可以使用位置参数访问各个参数：
 
-自动修复问题:
+$1 - 第一个参数、$2 - 第二个参数、$3 - 第三个参数
 
-```bash
-costrict /fix
+```
+---
+description: Create a new file with content
+---
+ 
+Create a file named $1 in the directory $2
+with the following content: $3
 ```
 
-### /explain
+使用：`/xxx config.json src "{ \"key\": \"value\" }"`
 
-解释代码:
+● subtask: true  ，可选参数，强制以子agent方式执行。
 
-```bash
-costrict /explain src/auth.js
-```
-
-### /optimize
-
-优化代码:
-
-```bash
-costrict /optimize
-```
-
-## 自定义 Slash 命令
-
-在 `.costrictrc.json` 中创建自定义命令:
-
-```json
-{
-  "slash_commands": {
-    "/deploy": "npm run build && npm run deploy",
-    "/lint": "eslint . --fix"
-  }
-}
-```
-
-## 相关功能
-
-- [Skills](./Skills/skills.md) - 扩展能力
-- [AI Agent](./ai-agent.md) - 自主执行
+●  model: anthropic/claude-3-5-sonnet-20241022，可选参数，配置命令使用的模型。

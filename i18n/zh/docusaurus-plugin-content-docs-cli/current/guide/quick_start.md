@@ -2,41 +2,29 @@
 sidebar_position: 2
 ---
 
-# 快速开始
+# 账号登录
 
-本指南将帮助你快速上手 CoStrict CLI。
+- 选择CoStrict 供应商
+执行cs，工具启动完成后将出现对话框，输入 /connect， 选择 CoStrict 供应商
 
-## 基本使用
-
-### 启动聊天会话
-
+或者：
 ```bash
-costrict chat
+cs auth login
 ```
 
-这将打开一个与 AI 助手的交互式聊天会话。
+![img.png](img/quick_start/connect.png)
 
-### 运行单个命令
+- 在浏览器进行登录。（如未自动打开浏览器，可手动复制url到浏览器中进行登录）
 
-```bash
-costrict ask "如何创建一个 React 组件？"
-```
+![image-20260203110234558](img/quick_start/image-20260203110234558.png)
 
-### 处理文件
+- 回到终端，等待登录完成（一般几秒内）。
 
-```bash
-costrict edit src/App.js --prompt "添加错误处理"
-```
+注：linux无法打开浏览器，有以下几种解决方式：
 
-## 常用命令
+1.在vscode中打开终端，远程连接服务器，vscode中可自动打开浏览器；
 
-- `costrict chat` - 启动交互式聊天
-- `costrict ask <问题>` - 提问单个问题
-- `costrict edit <文件>` - 使用 AI 辅助编辑文件
-- `costrict review` - 审查代码变更
-- `costrict help` - 显示所有可用命令
+2.复制登录窗口上面的url，手动在浏览器中打开，进行登录（部分终端，比如mobaxterm无法复制url，请更换终端，比如直接使用ssh命令连接服务器）；
 
-## 下一步
+3.先在windows上登录CoStrict（cli或者插件均可），然后将 `%USER_PROFILE%/.costrict/share/auth.json`  复制到  服务器 `${HOME}/.costrict/share/auth.json` ，然后进行使用即可。如果目录不存在，请手动创建。
 
-- 探索 [CLI 功能](./feature.md)
-- 了解 [产品特性](../product-features/ai-agent.md)

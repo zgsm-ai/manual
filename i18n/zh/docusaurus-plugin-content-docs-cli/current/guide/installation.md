@@ -2,44 +2,20 @@
 sidebar_position: 1
 ---
 
-# 安装
+# 安装流程
 
-## CLI 安装
+## 环境要求
+- win10及以上
+- 高版本linux机器/容器
+- 推荐终端： Windows Terminal 或者 vscode中打开终端
 
-### 前置要求
+注：如果您的机器是win7，可使用web模式，在远程linux服务器上启动 costrict-cli的web服务器，然后在浏览器中打开使用；或者使用 vscode远程连接服务器开发。
 
-- Node.js 18.x 或更高版本
-- npm 或 yarn
-
-### 通过 npm 安装
-
-```bash
-npm install -g @costrict/cli
-```
-
-### 通过 yarn 安装
+## 安装
 
 ```bash
-yarn global add @costrict/cli
+npm config set registry=https://registry.npmjs.org
+npm install -g @costrict/cs
 ```
 
-### 验证安装
-
-```bash
-costrict --version
-```
-
-### 身份认证
-
-安装完成后，需要进行身份认证：
-
-```bash
-costrict login
-```
-
-这将打开浏览器窗口，让你使用 CoStrict 账号登录。
-
-## 下一步
-
-- [快速开始](./quick_start.md) - 开始使用第一个 CLI 命令
-- [功能概览](./feature.md) - 了解 CLI 功能
+执行 `cs --version`，出现版本号，则安装成功。
