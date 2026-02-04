@@ -30,7 +30,7 @@ Click "Parent" in the upper left corner with the left mouse button.
 
 - Method 2: Copy the URL on the interface and manually open it in the browser. (Note: Mobaxterm cannot copy URLs. You need to switch to another terminal, such as directly using the ssh command to connect to the server)
 
-- Method 3: Log in to CoStrict on Windows first (either CLI or plugin), then copy %USER_PROFILE%/.costrict/share/auth.json to the server at ${HOME}/.costrict/share/auth.json, and then use it (after expiration, perform the same operation again). If the directory does not exist, please create it automatically.
+- Method 3: Log in to CoStrict on Windows first (either CLI or plugin), then copy `%USER_PROFILE%/.costrict/share/auth.json` to the server at `${HOME}/.costrict/share/auth.json`, and then use it (after expiration, perform the same operation again). If the directory does not exist, please create it automatically.
 
 ## 6. Windows 7 Cannot Be Used
 

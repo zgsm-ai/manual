@@ -26,7 +26,7 @@ Analyzes and generates project testing strategies, which can be used in both Spe
 
 Input problem logs or fault descriptions, and AI assists in locating the root cause and providing repair solutions.
 
-For detailed usage instructions, please refer to the [CoStrict 2.0 User Manual](../../best-practices/user-manual).
+For detailed usage instructions, please refer to the [CoStrict 2.0 User Manual](/plugin/best-practices/user-manual).
 
 ## Supporting Intelligent Collaboration Workflow for More Efficient and Controllable Development
 

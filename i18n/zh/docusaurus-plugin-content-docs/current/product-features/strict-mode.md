@@ -26,7 +26,7 @@ CoStrict内置多项增强生成效果的智能工具，包括项目理解、测
 
 输入问题日志或故障描述，AI协助定位问题根源，提供修复方案。
 
-详细使用教程参见[CoStrict2.0版本用户手册](../../best-practices/user-manual)
+详细使用教程参见[CoStrict2.0版本用户手册](/plugin/best-practices/user-manual)
 
 ## 支持智能化协作流程，让开发更高效更可控
 

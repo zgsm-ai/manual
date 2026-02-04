@@ -104,3 +104,8 @@ permission:
  
 Only analyze code and suggest changes.
 ```
+
+## 环境变量
+
+- COSTRICT_BASE_URL:  costrict服务端地址，私有化部署后端，配置使用；
+- COSTRICT_EXPERIMENTAL_LSP_TOOL：启用实验性LSP工具；
