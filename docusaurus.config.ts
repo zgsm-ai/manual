@@ -19,11 +19,25 @@ const config: Config = {
       '@docusaurus/plugin-client-redirects',
       {
         redirects: [
+          // 根路径重定向到 plugin 首页
           {
             from: '/',
             to: '/plugin/guide/installation',
           },
+          // FAQ 重定向
+          {
+            from: '/FAQ',
+            to: '/plugin/FAQ',
+          },
         ],
+        // 使用函数动态创建重定向规则
+        createRedirects(existingPath) {
+          // 如果是 plugin 路径,创建不带 /plugin 前缀的旧路径重定向
+          if (existingPath.startsWith('/plugin/')) {
+            return [existingPath.replace('/plugin/', '/')];
+          }
+          return undefined; // 不创建重定向
+        },
       },
     ],
   ],
