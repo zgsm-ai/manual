@@ -103,3 +103,8 @@ permission:
 
 Only analyze code and suggest changes.
 ```
+
+## Environment Variables
+
+- COSTRICT_BASE_URL: CoStrict server address, used for private deployment backend configuration;
+- COSTRICT_EXPERIMENTAL_LSP_TOOL: Enable experimental LSP tool;

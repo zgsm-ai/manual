@@ -50,8 +50,8 @@ Put the corresponding knowledge directly into the code repository, and use the @
 
 ### Introduction to vibe, plan, and spec modes?
 
-**vibe mode**: Focuses on human-computer interactive code, with code generation through dialogue interaction, focusing on step-by-step project completion. Reference: [Case Practice 2 - Code Generation, Project from 0 to 1 | costrict](/best-practices/best-practices2)
+**vibe mode**: Focuses on human-computer interactive code, with code generation through dialogue interaction, focusing on step-by-step project completion. Reference: [Case Practice 2 - Code Generation, Project from 0 to 1 | costrict](/plugin/best-practices/best-practices2)
 
-**plan mode**: Serious programming, following the "Plan → Step-by-step Implementation" process. Suitable for iterative development and task management, ensuring orderly project progression. Suitable for old project iteration development functions. Reference: [Plan Mode Manual](/product-features/plan)
+**plan mode**: Serious programming, following the "Plan → Step-by-step Implementation" process. Suitable for iterative development and task management, ensuring orderly project progression. Suitable for old project iteration development functions. Reference: [Plan Mode Manual](/plugin/product-features/plan)
 
-**spec mode**: Serious programming, following the "Requirement Clarification → Design → Task Breakdown → Test Self-Verification and Self-Repair" process. Suitable for 0-1 development. Reference: [Serious Programming Mode](/product-features/strict-mode)
+**spec mode**: Serious programming, following the "Requirement Clarification → Design → Task Breakdown → Test Self-Verification and Self-Repair" process. Suitable for 0-1 development. Reference: [Serious Programming Mode](/plugin/product-features/strict-mode)
