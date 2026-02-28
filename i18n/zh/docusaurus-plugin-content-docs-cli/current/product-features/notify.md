@@ -37,10 +37,10 @@ Github: https://github.com/zgsm-ai/costrict-system-notify
 
 基于 [node-notify](https://github.com/mikaelbr/node-notifier) 库进行通知，支持 windows、mac、linux
 
-通过配置以下环境变量进行启用，默认关闭：
+默认启用，无需配置。如需关闭，请配置以下环境变量：
 
 ```bash
-export NOTIFY_ENABLE_SYSTEM=true
+export NOTIFY_ENABLE_SYSTEM=false
 ```
 
 ### 2. 企微群消息机器人通知
