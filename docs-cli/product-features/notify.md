@@ -37,10 +37,10 @@ The plugin provides the following three notification channels:
 
 Based on the [node-notify](https://github.com/mikaelbr/node-notifier) library, supports Windows, macOS, and Linux
 
-Enable by configuring the following environment variable, disabled by default:
+Enabled by default. No configuration required. To disable, configure the following environment variable:
 
 ```bash
-export NOTIFY_ENABLE_SYSTEM=true
+export NOTIFY_ENABLE_SYSTEM=false
 ```
 
 ### 2. WeCom Group Message Bot Notification
