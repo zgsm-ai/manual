@@ -27,21 +27,6 @@ The plugin will send notifications for the following events:
 
 ![img](img/notify/question.png)
 
-## Enable Plugin
-
-Enable the notification plugin by adding `@costrict/notify` to the plugin field in the CoStrict CLI configuration file:
-
-```json
-{
-    "plugin": ["@costrict/notify"]
-}
-```
-
-CoStrict CLI configuration file locations:
-
-- Global: `~/.config/costrict/config.json`
-- Project level: `<project-root>/.costrict/config.json`
-
 ## Notification Channels and Configuration
 
 The plugin provides the following three notification channels:
