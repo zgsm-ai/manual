@@ -27,21 +27,6 @@ Github: https://github.com/zgsm-ai/costrict-system-notify
 
 ![img](img/notify/question.png)
 
-## 启用插件
-
-通过修改 CoStrict CLI 配置文件，在 plugin 字段中新增 `@costrict/notify` 来启用通知插件：
-
-```json
-{
-    "plugin": ["@costrict/notify"]
-}
-```
-
-CoStrict CLI 配置文件位置：
-
-- 全局：`~/.config/costrict/config.json`
-- 项目级：`<project-root>/.costrict/config.json`
-
 ## 通知渠道与启用配置
 
 插件提供以下三种通知渠道
