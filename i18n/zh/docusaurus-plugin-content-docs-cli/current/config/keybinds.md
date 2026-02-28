@@ -1,10 +1,10 @@
 ---
-sidebar_position: 12
+sidebar_position: 6
 ---
 
-# Keybinds
+# 快捷键
 
-CoStrict provides a set of keyboard shortcuts that can be customized via the config file.
+CoStrict 提供了一系列快捷键，可以通过配置文件进行自定义。
 
 ```json title="costrict.json"
 {
@@ -22,17 +22,17 @@ CoStrict provides a set of keyboard shortcuts that can be customized via the con
 
 ---
 
-## Leader Key
+## 前导键
 
-Most CoStrict shortcuts use a `leader` key to avoid conflicts with other terminal shortcuts.
+CoStrict 的大多数快捷键使用 `leader`（前导键）来避免与终端中的其他快捷键冲突。
 
-The default leader is `ctrl+x`. For example, to start a new session, press `ctrl+x` then `n`.
+默认前导键为 `ctrl+x`。例如，新建会话需要先按 `ctrl+x`，再按 `n`。
 
 ---
 
-## Disabling a Shortcut
+## 禁用快捷键
 
-Set the value to `"none"` to disable a shortcut:
+将对应键值设置为 `"none"` 即可禁用：
 
 ```json title="costrict.json"
 {
@@ -45,9 +45,9 @@ Set the value to `"none"` to disable a shortcut:
 
 ---
 
-## Full Keybind List
+## 完整快捷键列表
 
-All configurable shortcuts and their defaults:
+以下是所有可配置的快捷键及其默认值：
 
 ```json title="costrict.json"
 {
@@ -149,35 +149,35 @@ All configurable shortcuts and their defaults:
 
 ---
 
-## Input Box Shortcuts
+## 输入框快捷键
 
-The prompt input box supports Readline/Emacs-style text editing shortcuts:
+提示词输入框支持 Readline/Emacs 风格的文本编辑快捷键：
 
-| Shortcut | Action |
-| -------- | ------ |
-| `ctrl+a` | Move to the beginning of the current line |
-| `ctrl+e` | Move to the end of the current line |
-| `ctrl+b` | Move cursor back one character |
-| `ctrl+f` | Move cursor forward one character |
-| `alt+b` | Move cursor back one word |
-| `alt+f` | Move cursor forward one word |
-| `ctrl+d` | Delete character at cursor |
-| `ctrl+k` | Delete from cursor to end of line |
-| `ctrl+u` | Delete from cursor to start of line |
-| `ctrl+w` | Delete the previous word |
-| `alt+d` | Delete the next word |
-| `ctrl+t` | Swap characters around cursor |
-| `ctrl+g` | Cancel popup / abort running response |
+| 快捷键   | 操作                              |
+| -------- | --------------------------------- |
+| `ctrl+a` | 移动到当前行的开头                |
+| `ctrl+e` | 移动到当前行的末尾                |
+| `ctrl+b` | 光标向后移动一个字符              |
+| `ctrl+f` | 光标向前移动一个字符              |
+| `alt+b`  | 光标向后移动一个单词              |
+| `alt+f`  | 光标向前移动一个单词              |
+| `ctrl+d` | 删除光标所在位置的字符            |
+| `ctrl+k` | 删除从光标到行尾的内容            |
+| `ctrl+u` | 删除从光标到行首的内容            |
+| `ctrl+w` | 删除前一个单词                    |
+| `alt+d`  | 删除后一个单词                    |
+| `ctrl+t` | 交换光标前后的字符                |
+| `ctrl+g` | 取消弹出窗口 / 中止正在运行的响应 |
 
 ---
 
-## Shift+Enter Configuration
+## Shift+Enter 配置
 
-Some terminals do not send modified Enter keys by default. You may need to configure your terminal.
+某些终端默认不会发送带修饰键的 Enter 键，需要手动配置。
 
 ### Windows Terminal
 
-Open `settings.json` at `%LOCALAPPDATA%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json` and add to the root `actions` array:
+打开 `settings.json`（路径：`%LOCALAPPDATA%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json`），在根级 `actions` 数组中添加：
 
 ```json
 "actions": [
@@ -191,7 +191,7 @@ Open `settings.json` at `%LOCALAPPDATA%\Packages\Microsoft.WindowsTerminal_8weky
 ]
 ```
 
-Add to the root `keybindings` array:
+在根级 `keybindings` 数组中添加：
 
 ```json
 "keybindings": [
@@ -202,4 +202,4 @@ Add to the root `keybindings` array:
 ]
 ```
 
-Save and restart Windows Terminal or open a new tab.
+保存后重启 Windows Terminal 或打开新标签页即可生效。

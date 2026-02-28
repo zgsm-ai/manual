@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# CLI 参考
+# CLI 命令
 
 CoStrict CLI 在不带任何参数运行时，默认启动 TUI 界面。
 

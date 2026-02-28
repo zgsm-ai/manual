@@ -1,5 +1,5 @@
 ---
-sidebar_position: 23
+sidebar_position: 7
 ---
 
 # ACP Protocol Support

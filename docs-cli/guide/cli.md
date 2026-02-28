@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# CLI Reference
+# CLI Commands
 
 When run without arguments, the CoStrict CLI launches the TUI interface by default.
 

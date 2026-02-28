@@ -1,27 +1,27 @@
 ---
-sidebar_position: 14
+sidebar_position: 4
 ---
 
-# Models & Providers
+# 模型与提供商
 
-CoStrict supports 75+ LLM providers via [AI SDK](https://ai-sdk.dev/), plus the built-in CoStrict platform provider.
-
----
-
-## CoStrict Platform
-
-The CoStrict platform is the recommended default provider. After logging in, it is available immediately with no additional API key configuration.
-
-See [Account Login](../guide/quick_start) to get started.
+CoStrict 基于 [AI SDK](https://ai-sdk.dev/) 支持 75+ LLM 提供商，同时内置了 CoStrict 平台提供商。
 
 ---
 
-## Built-in Providers
+## CoStrict 平台
 
-The following major providers are built in and ready to use once API keys are configured:
+CoStrict 平台是推荐的默认提供商，登录后即可直接使用，无需额外配置 API Key。
 
-| Provider | Provider ID | Get API Key |
-| -------- | ----------- | ----------- |
+登录方式参见[快速开始](../guide/quick_start)。
+
+---
+
+## 内置提供商
+
+除 CoStrict 平台外，以下主流提供商均已内置支持，配置好 API Key 后即可使用：
+
+| 提供商 | 提供商 ID | 获取 API Key |
+| ------ | --------- | ------------ |
 | Anthropic | `anthropic` | [console.anthropic.com](https://console.anthropic.com) |
 | OpenAI | `openai` | [platform.openai.com](https://platform.openai.com) |
 | Google Gemini | `google` | [aistudio.google.com](https://aistudio.google.com) |
@@ -32,26 +32,26 @@ The following major providers are built in and ready to use once API keys are co
 | Mistral | `mistral` | [console.mistral.ai](https://console.mistral.ai) |
 | DeepSeek | `deepseek` | [platform.deepseek.com](https://platform.deepseek.com) |
 | xAI (Grok) | `xai` | [console.x.ai](https://console.x.ai) |
-| Ollama (local) | `ollama` | No key needed |
-| LM Studio (local) | `lmstudio` | No key needed |
+| Ollama（本地） | `ollama` | 本地运行，无需 Key |
+| LM Studio（本地） | `lmstudio` | 本地运行，无需 Key |
 
-Additional providers can be added via [Custom Providers](#custom-providers).
+更多提供商可通过[自定义提供商](#自定义提供商)方式接入。
 
 ---
 
-## Configuring API Keys
+## 配置 API Key
 
-### Via CLI
+### 通过命令行
 
-Use `cs auth login` to configure API keys interactively. Keys are stored in `~/.local/share/costrict/auth.json`:
+使用 `cs auth login` 交互式配置 API Key，密钥存储在 `~/.local/share/costrict/auth.json` 中：
 
 ```bash
 cs auth login
 ```
 
-### Via Environment Variables
+### 通过环境变量
 
-CoStrict automatically reads API keys from environment variables on startup:
+CoStrict 启动时会自动读取环境变量中的 API Key：
 
 ```bash
 export ANTHROPIC_API_KEY=sk-ant-...
@@ -59,26 +59,26 @@ export OPENAI_API_KEY=sk-...
 export GOOGLE_GENERATIVE_AI_API_KEY=...
 ```
 
-You can also define them in a `.env` file in the project root.
+也可以在项目根目录的 `.env` 文件中定义。
 
 ---
 
-## Selecting a Model
+## 选择模型
 
-Type `/models` in the TUI to open the model selection UI, or use the shortcut `<leader>m`.
+在 TUI 中输入 `/models` 打开模型选择界面，或使用快捷键 `<leader>m`。
 
-Specify a model on the command line:
+通过命令行指定模型：
 
 ```bash
 cs --model anthropic/claude-sonnet-4-5
-cs run --model costrict/GLM-4.7 "Hello"
+cs run --model costrict/GLM-4.7 "你好"
 ```
 
 ---
 
-## Recommended Models
+## 推荐模型
 
-The following models perform well for code generation and tool use:
+以下模型在代码生成和工具调用方面表现良好：
 
 - Claude Opus 4.5
 - Claude Sonnet 4.5
@@ -87,9 +87,9 @@ The following models perform well for code generation and tool use:
 
 ---
 
-## Setting the Default Model
+## 设置默认模型
 
-Set the `model` field in the config file using the format `provider_id/model_id`:
+在配置文件中设置 `model` 字段，格式为 `provider_id/model_id`：
 
 ```json title="costrict.json"
 {
@@ -98,7 +98,7 @@ Set the `model` field in the config file using the format `provider_id/model_id`
 }
 ```
 
-Use `small_model` for lightweight background tasks like title generation:
+`small_model` 用于标题生成等轻量级任务：
 
 ```json title="costrict.json"
 {
@@ -108,18 +108,18 @@ Use `small_model` for lightweight background tasks like title generation:
 }
 ```
 
-### Model Loading Priority
+### 模型加载优先级
 
-1. `--model` / `-m` CLI flag
-2. `model` field in config file
-3. Last used model
-4. First available model by internal priority
+1. `--model` 或 `-m` 命令行标志
+2. 配置文件中的 `model` 字段
+3. 上次使用的模型
+4. 按内部优先级排列的第一个可用模型
 
 ---
 
-## Configuring Model Options
+## 配置模型选项
 
-Set global options for a specific model:
+可以为特定模型配置全局选项：
 
 ```jsonc title="costrict.json"
 {
@@ -152,24 +152,24 @@ Set global options for a specific model:
 
 ---
 
-## Model Variants
+## 模型变体
 
-Many models support multiple variants with different configurations. Use `ctrl+t` (`variant_cycle`) to switch between them.
+许多模型支持具有不同配置的多种变体，使用快捷键 `ctrl+t`（`variant_cycle`）可以快速切换。
 
-### Built-in Variants
+### 内置变体
 
-**Anthropic:**
-- `high` — High thinking budget (default)
-- `max` — Maximum thinking budget
+**Anthropic**：
+- `high` — 高思考预算（默认）
+- `max` — 最大思考预算
 
-**OpenAI** (varies by model):
-- `none` / `minimal` / `low` / `medium` / `high` / `xhigh` — Reasoning intensity levels
+**OpenAI**（因模型而异）：
+- `none` / `minimal` / `low` / `medium` / `high` / `xhigh` — 不同推理强度
 
-**Google:**
-- `low` — Lower reasoning/token budget
-- `high` — Higher reasoning/token budget
+**Google**：
+- `low` — 较低推理/Token 预算
+- `high` — 较高推理/Token 预算
 
-### Custom Variants
+### 自定义变体
 
 ```jsonc title="costrict.json"
 {
@@ -196,9 +196,9 @@ Many models support multiple variants with different configurations. Use `ctrl+t
 
 ---
 
-## Custom Providers
+## 自定义提供商
 
-Connect any provider that exposes an OpenAI-compatible API:
+支持接入任何兼容 OpenAI 接口风格的提供商：
 
 ```json title="costrict.json"
 {
@@ -225,15 +225,15 @@ Connect any provider that exposes an OpenAI-compatible API:
 }
 ```
 
-Config file locations:
-- Project-level: `costrict.json` in the project root
-- Global: `~/.config/costrict/costrict.json`
+配置文件位置：
+- 项目级：项目根目录 `costrict.json`
+- 全局：`~/.config/costrict/costrict.json`
 
 ---
 
 ## Amazon Bedrock
 
-Amazon Bedrock supports additional AWS-specific configuration:
+Amazon Bedrock 支持额外的 AWS 特定配置：
 
 ```json title="costrict.json"
 {
@@ -249,19 +249,21 @@ Amazon Bedrock supports additional AWS-specific configuration:
 }
 ```
 
-- `region` — AWS region (defaults to `AWS_REGION` env var)
-- `profile` — Named AWS profile from `~/.aws/credentials`
+- `region` — AWS 区域（默认读取 `AWS_REGION` 环境变量）
+- `profile` — 来自 `~/.aws/credentials` 的 AWS 命名配置文件
 
 ---
 
-## Listing Available Models
+## 查看可用模型
+
+列出所有已配置提供商的可用模型：
 
 ```bash
 cs models
 
-# Filter by provider
+# 按提供商筛选
 cs models anthropic
 
-# Refresh the model cache
+# 刷新模型缓存
 cs models --refresh
 ```
