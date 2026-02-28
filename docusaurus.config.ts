@@ -96,7 +96,7 @@ const config: Config = {
         },
         {
           type: 'doc',
-          docId: 'guide/installation',
+          docId: 'guide/introduction',
           docsPluginId: 'cli',
           position: 'left',
           label: 'CLI',

@@ -86,7 +86,7 @@ cs attach [url]
 cs web --port 4096 --hostname 0.0.0.0
 
 # 在另一个终端中，将 TUI 连接到运行中的后端
-cs attach http://10.20.30.40:4096
+cs attach http:\/\/10.20.30.40:4096
 ```
 
 #### 标志
@@ -242,7 +242,7 @@ cs run 解释 Go 中 context 的用法
 cs serve
 
 # 在另一个终端运行命令
-cs run --attach http://localhost:4096 "解释 async/await"
+cs run --attach http:\/\/localhost:4096 "解释 async/await"
 ```
 
 #### 标志
@@ -259,7 +259,7 @@ cs run --attach http://localhost:4096 "解释 async/await"
 | `--file`     | `-f` | 附加到消息的文件                                               |
 | `--format`   |      | 格式：default（格式化输出）或 json（原始 JSON 事件）           |
 | `--title`    |      | 会话标题                                                       |
-| `--attach`   |      | 连接到正在运行的 CoStrict 服务器（例如 http://localhost:4096） |
+| `--attach`   |      | 连接到正在运行的 CoStrict 服务器（例如 http:\/\/localhost:4096） |
 | `--port`     |      | 本地服务器端口（默认为随机端口）                               |
 
 ---
@@ -357,7 +357,7 @@ cs import <file>
 cs web
 ```
 
-此命令启动 HTTP 服务器并打开浏览器，通过 Web 界面访问 CoStrict。默认地址为 `http://127.0.0.1:4096/`。
+此命令启动 HTTP 服务器并打开浏览器，通过 Web 界面访问 CoStrict。默认地址为 `http:\/\/127.0.0.1:4096/`。
 
 #### 标志
 
