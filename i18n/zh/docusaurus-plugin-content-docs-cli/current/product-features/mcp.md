@@ -2,7 +2,7 @@
 sidebar_position: 6
 ---
 
-# mcp
+# MCP 服务器
 
 ## 配置位置
 

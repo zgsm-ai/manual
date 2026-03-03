@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# Skills
+# 代理技能
 
 Skills 通过自定义命令和工作流扩展 CoStrict CLI 的能力。
 

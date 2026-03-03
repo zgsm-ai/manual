@@ -1,7 +1,7 @@
 ---
-sidebar_position: 9
+sidebar_position: 8
 ---
-# lsp
+# LSP 服务器
 
 ## 概述
 
