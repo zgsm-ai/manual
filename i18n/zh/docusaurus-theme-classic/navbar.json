@@ -12,7 +12,7 @@
     "description": "Navbar item with label GitHub"
   },
   "item.label.Plugin": {
-    "message": "Plugin",
+    "message": "插件端",
     "description": "Navbar item with label Plugin"
   },
   "item.label.CLI": {
