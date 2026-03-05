@@ -1,4 +1,4 @@
-import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
+import type { SidebarsConfig } from '@docusaurus/plugin-content-docs';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
@@ -39,21 +39,17 @@ const sidebarsCli: SidebarsConfig = {
       collapsed: true,
       link: {
         type: 'doc',
-        id: 'config/config',
+        id: 'config/plugins',
       },
       items: [
-        'config/acp',
         'config/plugins',
         'config/formatters',
         'config/config',
         'config/keybinds',
-        'config/lsp',
-        'config/mcp',
         'config/modes',
         'config/models',
         'config/tools',
         'config/settings',
-        'config/skills',
         'config/notify',
         'config/network',
         'config/themes',
@@ -62,6 +58,10 @@ const sidebarsCli: SidebarsConfig = {
         'config/provider',
         'config/rules',
         'config/custom-tools',
+        'config/acp',
+        'config/lsp',
+        'config/mcp',
+        'config/skills',
       ],
     },
     {

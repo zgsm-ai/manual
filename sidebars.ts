@@ -123,7 +123,7 @@ const sidebars: SidebarsConfig = {
     // 其他
     {
       type: 'category',
-      label: 'Policy',
+      label: 'Others',
       collapsible: true,
       collapsed: true,
       link: {
