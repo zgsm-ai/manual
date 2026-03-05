@@ -59,12 +59,12 @@
     "message": "视频教程",
     "description": "The generated-index page title for category Tutorial Videos in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.Policy": {
+  "sidebar.tutorialSidebar.category.Others": {
     "message": "其他",
-    "description": "The label for category Policy in sidebar tutorialSidebar"
+    "description": "The label for category Others in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.Policy.link.generated-index.title": {
+  "sidebar.tutorialSidebar.category.Others.link.generated-index.title": {
     "message": "其他",
-    "description": "The generated-index page title for category Policy in sidebar tutorialSidebar"
+    "description": "The generated-index page title for category Others in sidebar tutorialSidebar"
   }
 }

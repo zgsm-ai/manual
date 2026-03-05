@@ -375,7 +375,7 @@
   font-size: 0.85rem;
   color: var(--ifm-color-content);
   padding: 0.625rem 0.875rem;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   letter-spacing: 0.05em;
 }
 

@@ -14,7 +14,7 @@ Skills are reusable command templates that encapsulate common workflows and best
 
 Create a folder for each skill name and place a SKILL.md in it. CoStrict will search these locations:
 
-● Project configuration: `.costrict/skill/<name>/SKILL.md`
+● Project configuration: `.costrict/{skill|skills}/<name>/SKILL.md`
 
 ● Global configuration: `~/.config/costrict/skill/<name>/SKILL.md`
 
