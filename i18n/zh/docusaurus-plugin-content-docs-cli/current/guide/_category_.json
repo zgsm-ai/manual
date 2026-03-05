@@ -2,7 +2,7 @@
   "label": "快速开始",
   "position": 1,
   "link": {
-    "title": "快速开始",
-    "type": "generated-index"
+    "type": "doc",
+    "id": "introduction"
   }
 }

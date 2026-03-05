@@ -18,7 +18,7 @@ Build is the **default** mode with all tools enabled — the standard mode for d
 
 ### StrictPlan
 
-**StrictPlan** provides a complete planning workflow. See the [StrictPlan documentation](./strict-plan) for details.
+**StrictPlan** provides a complete planning workflow. See the [StrictPlan documentation](../product-characteristics/strict-plan) for details.
 
 ---
 

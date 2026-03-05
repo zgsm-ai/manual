@@ -135,7 +135,7 @@ cs --continue
 }
 ```
 
-详见[模型与提供商文档](../product-features/models)。
+详见[模型与提供商文档](../config/models)。
 
 ---
 

@@ -4,11 +4,11 @@
     "description": "The label for version current"
   },
   "sidebar.tutorialSidebar.category.Getting Started": {
-    "message": "开始上手",
+    "message": "快速开始",
     "description": "The label for category Getting Started in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Getting Started.link.generated-index.title": {
-    "message": "开始上手",
+    "message": "快速开始",
     "description": "The generated-index page title for category Getting Started in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Local deployment": {
@@ -60,11 +60,11 @@
     "description": "The generated-index page title for category Tutorial Videos in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Policy": {
-    "message": "协议",
+    "message": "其他",
     "description": "The label for category Policy in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Policy.link.generated-index.title": {
-    "message": "协议",
+    "message": "其他",
     "description": "The generated-index page title for category Policy in sidebar tutorialSidebar"
   }
 }

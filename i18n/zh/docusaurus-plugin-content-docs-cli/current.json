@@ -11,12 +11,12 @@
     "message": "快速开始",
     "description": "The generated-index page title for category Getting Started in sidebar cliSidebar"
   },
-  "sidebar.cliSidebar.category.产品功能": {
-    "message": "产品功能",
+  "sidebar.cliSidebar.category.Product Characteristics": {
+    "message": "产品特性",
     "description": "The label for category Product Features in sidebar cliSidebar"
   },
-  "sidebar.cliSidebar.category.产品功能.link.generated-index.title": {
-    "message": "产品功能",
+  "sidebar.cliSidebar.category.Product Characteristics.link.generated-index.title": {
+    "message": "产品特性",
     "description": "The generated-index page title for category Product Features in sidebar cliSidebar"
   },
   "sidebar.cliSidebar.category.计费说明": {
@@ -60,11 +60,11 @@
     "description": "The generated-index page title for category Billing in sidebar cliSidebar"
   },
   "sidebar.cliSidebar.category.Policy": {
-    "message": "协议",
+    "message": "其他",
     "description": "The label for category Policy in sidebar cliSidebar"
   },
   "sidebar.cliSidebar.category.Policy.link.generated-index.title": {
-    "message": "协议",
+    "message": "其他",
     "description": "The generated-index page title for category Policy in sidebar cliSidebar"
   },
   "sidebar.cliSidebar.category.Deployment": {
@@ -88,7 +88,11 @@
     "description": "The label for category Configuration in sidebar cliSidebar"
   },
   "sidebar.cliSidebar.category.CLI Configuration.link.generated-index.title": {
-    "message": "CLI 配置",
+    "message": "配置",
     "description": "The generated-index page title for category Configuration in sidebar cliSidebar"
+  },
+  "sidebar.cliSidebar.category.Configuration": {
+    "message": "配置",
+    "description": "The label for category Configuration in sidebar cliSidebar"
   }
 }

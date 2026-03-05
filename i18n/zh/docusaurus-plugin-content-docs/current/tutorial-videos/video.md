@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+sidebar_label: 视频教程
 ---
 
 # 全部视频
