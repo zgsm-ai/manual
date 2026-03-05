@@ -1,0 +1,247 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://costrict.com/schemas/knowledge-base.json",
+  "title": "AI Knowledge Base Resource",
+  "description": "Schema for AI knowledge base resource entries",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "description",
+    "url",
+    "category",
+    "type",
+    "createdAt",
+    "updatedAt"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the resource",
+      "pattern": "^[a-z0-9-]+$",
+      "minLength": 1,
+      "maxLength": 100
+    },
+    "name": {
+      "type": "string",
+      "description": "Display name of the resource",
+      "minLength": 1,
+      "maxLength": 200
+    },
+    "description": {
+      "type": "string",
+      "description": "Detailed description of the resource",
+      "minLength": 10,
+      "maxLength": 2000
+    },
+    "url": {
+      "type": "string",
+      "description": "Primary URL or repository link",
+      "format": "uri",
+      "pattern": "^https?://"
+    },
+    "category": {
+      "type": "string",
+      "description": "Primary category classification",
+      "enum": [
+        "open-source",
+        "documentation",
+        "dataset",
+        "tool"
+      ]
+    },
+    "type": {
+      "type": "string",
+      "description": "Resource type within category",
+      "examples": [
+        "framework",
+        "library",
+        "application",
+        "tutorial",
+        "video",
+        "dataset",
+        "model",
+        "tool",
+        "platform"
+      ]
+    },
+    "author": {
+      "type": "string",
+      "description": "Author or organization name",
+      "maxLength": 200
+    },
+    "stars": {
+      "type": "integer",
+      "description": "GitHub stars count (for repositories)",
+      "minimum": 0
+    },
+    "forks": {
+      "type": "integer",
+      "description": "GitHub forks count (for repositories)",
+      "minimum": 0
+    },
+    "downloads": {
+      "type": "integer",
+      "description": "Download count (for packages)",
+      "minimum": 0
+    },
+    "version": {
+      "type": "string",
+      "description": "Current version number",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+"
+    },
+    "updatedAt": {
+      "type": "string",
+      "description": "Last update timestamp (ISO 8601)",
+      "format": "date-time"
+    },
+    "createdAt": {
+      "type": "string",
+      "description": "Creation timestamp (ISO 8601)",
+      "format": "date-time"
+    },
+    "example": {
+      "type": "string",
+      "description": "Code example or usage snippet",
+      "maxLength": 5000
+    },
+    "config": {
+      "type": "object",
+      "description": "Configuration examples",
+      "additionalProperties": true
+    },
+    "dependencies": {
+      "type": "array",
+      "description": "Required dependencies",
+      "items": {
+        "type": "string"
+      }
+    },
+    "installSteps": {
+      "type": "array",
+      "description": "Installation steps",
+      "items": {
+        "type": "object",
+        "required": ["step", "command"],
+        "properties": {
+          "step": {
+            "type": "string",
+            "description": "Step description"
+          },
+          "command": {
+            "type": "string",
+            "description": "Command to execute"
+          }
+        }
+      }
+    },
+    "rating": {
+      "type": "number",
+      "description": "Average user rating (0-5)",
+      "minimum": 0,
+      "maximum": 5
+    },
+    "reviews": {
+      "type": "integer",
+      "description": "Number of user reviews",
+      "minimum": 0
+    },
+    "feedback": {
+      "type": "array",
+      "description": "User feedback entries",
+      "items": {
+        "type": "object",
+        "required": ["user", "comment", "date"],
+        "properties": {
+          "user": {
+            "type": "string",
+            "description": "Username or identifier"
+          },
+          "comment": {
+            "type": "string",
+            "description": "Feedback comment"
+          },
+          "date": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "rating": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 5
+          }
+        }
+      }
+    },
+    "qualityTags": {
+      "type": "array",
+      "description": "Quality assessment tags",
+      "items": {
+        "type": "string",
+        "enum": [
+          "well-documented",
+          "actively-maintained",
+          "production-ready",
+          "beginner-friendly",
+          "enterprise-ready",
+          "high-performance",
+          "lightweight",
+          "community-favorite"
+        ]
+      }
+    },
+    "tags": {
+      "type": "array",
+      "description": "Searchable tags",
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 50
+      }
+    },
+    "license": {
+      "type": "string",
+      "description": "License type",
+      "examples": [
+        "MIT",
+        "Apache-2.0",
+        "GPL-3.0",
+        "BSD-3-Clause",
+        "Proprietary"
+      ]
+    },
+    "platform": {
+      "type": "array",
+      "description": "Supported platforms",
+      "items": {
+        "type": "string",
+        "enum": [
+          "windows",
+          "macos",
+          "linux",
+          "web",
+          "docker",
+          "cloud"
+        ]
+      }
+    },
+    "language": {
+      "type": "array",
+      "description": "Programming languages supported",
+      "items": {
+        "type": "string",
+        "examples": [
+          "python",
+          "javascript",
+          "typescript",
+          "java",
+          "go",
+          "rust",
+          "cpp",
+          "c"
+        ]
+      }
+    }
+  },
+  "additionalProperties": false
+}

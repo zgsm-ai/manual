@@ -1,0 +1,49 @@
+{
+  "$schema": "./schema.json",
+  "id": "test-resource",
+  "name": "Test AI Resource",
+  "description": "This is a test resource to validate the JSON schema structure and ensure all required fields are properly defined.",
+  "url": "https://github.com/test/test-ai-resource",
+  "category": "open-source",
+  "type": "framework",
+  "author": "Test Author",
+  "stars": 1000,
+  "forks": 200,
+  "downloads": 10000,
+  "version": "1.0.0",
+  "updatedAt": "2024-01-01T00:00:00Z",
+  "createdAt": "2023-01-01T00:00:00Z",
+  "example": "# Example usage\nimport test\nprint('Hello, AI!')",
+  "config": {
+    "debug": true,
+    "max_iterations": 100
+  },
+  "dependencies": [
+    "python>=3.8",
+    "numpy>=1.20"
+  ],
+  "installSteps": [
+    {
+      "step": "Clone repository",
+      "command": "git clone https://github.com/test/test-ai-resource.git"
+    },
+    {
+      "step": "Install dependencies",
+      "command": "pip install -r requirements.txt"
+    }
+  ],
+  "rating": 4.5,
+  "reviews": 50,
+  "qualityTags": [
+    "well-documented",
+    "actively-maintained"
+  ],
+  "tags": [
+    "test",
+    "ai",
+    "machine-learning"
+  ],
+  "license": "MIT",
+  "platform": ["linux", "macos", "windows"],
+  "language": ["python"]
+}

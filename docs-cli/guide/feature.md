@@ -135,7 +135,7 @@ In `costrict.json`:
 }
 ```
 
-See the [Models & Providers documentation](../product-features/models) for details.
+See the [Models & Providers documentation](../config/models) for details.
 
 ---
 

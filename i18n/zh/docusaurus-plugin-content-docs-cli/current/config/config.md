@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# 配置
+# 基础配置
 
 CoStrict 使用 JSON 配置文件进行配置。
 

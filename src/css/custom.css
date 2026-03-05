@@ -62,7 +62,7 @@
 
 /* Logo and Title */
 .navbar__brand {
-  margin-right: 1rem;
+  margin-right: 2rem;
   display: flex;
   align-items: center;
 }
@@ -367,7 +367,7 @@
 
 /* Category headers */
 .menu__list-item-collapsible {
-  margin: 1rem 0 0.5rem 0;
+  margin: 0.125rem 0;
 }
 
 .menu__list-item-collapsible .menu__link {
@@ -386,8 +386,8 @@
 
 /* Category arrow icon */
 .menu__caret {
-  padding: 0.375rem;
-  margin-right: 0.5rem;
+  padding: 0.25rem;
+  margin-right: 0.375rem;
   opacity: 0.6;
   transition: all 0.2s ease;
   transform: rotate(0deg);
