@@ -35,3 +35,9 @@ sidebar_position: 2
 3. 登录完成后返回IDE插件端即可开始使用
 
 ![img.png](install/other.png)
+
+---
+
+:::tip 私有化部署
+私有化部署登录时需要填写 Base Url。
+:::
