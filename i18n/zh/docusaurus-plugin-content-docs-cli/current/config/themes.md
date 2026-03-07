@@ -4,7 +4,7 @@ sidebar_position: 5
 
 # 主题
 
-CoStrict 提供多个内置主题，也支持自定义主题。默认使用 `opencode` 主题。
+CoStrict 提供多个内置主题，也支持自定义主题。
 
 ---
 

@@ -33,3 +33,9 @@ Users who have logged in before can log in again through the following two metho
 3. After logging in, return to the IDE plugin to start using the CoStrict.
 
 ![img.png](./login/other.png)
+
+---
+
+:::tip Private Deployment
+For private deployment login, you need to fill in the Base Url.
+:::

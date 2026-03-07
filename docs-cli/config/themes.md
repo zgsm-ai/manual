@@ -4,7 +4,7 @@ sidebar_position: 5
 
 # Themes
 
-CoStrict ships with several built-in themes and supports custom themes. The default theme is `opencode`.
+CoStrict ships with several built-in themes and supports custom themes.
 
 ---
 

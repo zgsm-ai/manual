@@ -28,3 +28,11 @@ cs auth login
 
 3.先在windows上登录CoStrict（cli或者插件均可），然后将 `%USER_PROFILE%/.costrict/share/auth.json`  复制到  服务器 `${HOME}/.costrict/share/auth.json` ，然后进行使用即可。如果目录不存在，请手动创建。
 
+---
+
+:::tip 私有化部署配置
+私有化部署需要进行以下配置：
+- CLI 场景需要配置 `COSTRICT_BASE_URL` 环境变量再启动
+- 后续如果认证完成，会将认证信息存储到本地 `~/.costrict/share/auth.json`，将优先读取该文件的服务器配置
+:::
+
