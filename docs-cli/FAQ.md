@@ -8,13 +8,13 @@ sidebar_position: 8
 
 At the top of the terminal, right-click → Edit → Paste:
 
-![img](img/FAQ/png.png)
+<!-- ![img](img/FAQ/png.png) -->
 
 ## 2. Tab Key Cannot Switch Questions in Questionnaire
 
 Use the left and right arrow keys to switch.
 
-![img](img/FAQ/png-17700999595561.png)
+<!-- ![img](img/FAQ/png-17700999595561.png) -->
 
 ## 3. Linux GLIB Version Issue Causing Execution Failure
 

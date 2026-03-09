@@ -6,7 +6,7 @@ sidebar_position: 0
 
 CoStrict CLI is a terminal-based AI coding assistant that lets you collaborate with large language models on coding tasks without leaving your command line.
 
-![TUI main screen](img/feature/main.png)
+![img](img/feature/main.png)
 
 ---
 
@@ -33,15 +33,25 @@ Deep integration with Zed, JetBrains, and Neovim via the ACP protocol. Also avai
 
 ## Quick Start
 
+### Installation
+
+**One-click Installation (Recommended)**
 ```bash
-# Install
-npm install -g @costrict/cs
+# Linux / macOS
+curl -fsSL https://costrict.ai/install.sh | bash
 
-# Launch the interactive UI
-cs
-
-# Non-interactive mode
-cs run "Generate a README for this project"
+# Windows PowerShell
+powershell iwr https://costrict.ai/install.bat -Out install.bat;.\install.bat
 ```
 
-For detailed installation steps, see [Installation](./installation). For a full feature walkthrough, see [Features](./feature).
+**NPM Installation**
+```bash
+npm install -g @costrict/cs
+```
+
+### Launch
+```bash
+cs
+```
+
+> 💡 For more installation options (version specification, permission troubleshooting, etc.), see [Installation](./installation). For a full feature walkthrough, see [Features](./feature).
