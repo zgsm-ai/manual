@@ -70,7 +70,66 @@ npm config set registry=https://registry.npmjs.org
 npm install -g @costrict/cs
 ```
 
-## 四、权限问题解决方案
+## 四、兜底方案：GitHub Release 二进制手动安装
+
+若一键安装、NPM 手动安装均失败（如网络屏蔽脚本、无 Node.js 环境、权限严格受限等极端场景），可直接从 GitHub 官方 Release 页面下载对应系统架构的二进制文件，手动解压并配置环境变量，完成离线安装。该方式无额外依赖，适配所有兼容系统。
+
+**官方 Release 地址：** https://github.com/zgsm-ai/opencode/releases
+
+页面内 Assets 板块提供全架构二进制包，需根据自身设备系统和架构选择对应文件，切勿下载错误版本，否则无法运行。
+
+### 1. 下载对应二进制包
+
+- **Windows 系统**：常规新款 CPU（支持 AVX2 指令集）选择 `cs-windows-x64.zip`；老旧 CPU、无 AVX2 指令集的设备，务必选择 `cs-windows-x64-baseline.zip`，该版本专为兼容老旧硬件优化，确保程序可正常启动运行。
+
+- **macOS Intel 芯片**：常规机型选择 `cs-darwin-x64.zip`；老旧 Intel 处理器无 AVX2 支持时，可选用对应 baseline 兼容包；Apple Silicon ARM64 芯片无 AVX2 兼容问题，直接选择 `cs-darwin-arm64.zip`。
+
+- **Linux x86_64 架构**：主流新 CPU 选择 `cs-linux-x64.tar.gz`，搭载 AVX2 指令集，运行效率更高；老旧服务器、老式台式机 CPU 无 AVX2 指令集，选择 `cs-linux-x64-baseline.tar.gz` 兼容版；ARM64 架构无需区分，直接选择 `cs-linux-arm64.tar.gz`。
+
+### 2. 解压文件
+
+- **Windows**：右键压缩包，选择"全部提取"，解压至固定目录（建议：`C:\Program Files\cs-cli`），避免随意移动导致路径失效。
+
+- **Linux/macOS**：打开终端，进入压缩包所在目录，执行解压命令。以 Linux 为例：
+  ```bash
+  tar -zxvf cs-linux-x64.tar.gz -C /usr/local/cs-cli
+  ```
+  建议解压至 `/usr/local` 目录下，方便权限管理。
+
+### 3. 配置系统环境变量
+
+#### Windows 系统配置
+
+1. 右键"此电脑" → 选择"属性" → 点击"高级系统设置" → 切换至"高级"选项卡 → 点击"环境变量"。
+2. 在"用户变量"或"系统变量"中，找到 `Path` 变量，双击打开编辑页面。
+3. 点击"新建"，粘贴解压后的 `bin` 目录完整路径（如 `C:\Program Files\cs-cli\bin`）。
+4. 依次点击"确定"保存配置，关闭所有设置窗口，重启终端生效。
+
+#### Linux/macOS 系统配置
+
+1. 打开终端，编辑系统环境配置文件：
+   - bash 终端：`vim ~/.bashrc`
+   - zsh 终端：`vim ~/.zshrc`
+2. 在文件末尾添加一行配置（替换为自己的解压 bin 路径）：
+   ```bash
+   export PATH=/usr/local/cs-cli/bin:$PATH
+   ```
+3. 保存文件并退出，执行命令重载配置：
+   - bash 终端：`source ~/.bashrc`
+   - zsh 终端：`source ~/.zshrc`
+
+### 4. macOS 提示"文件已损坏"解决方案
+
+在 macOS 上，二进制文件可能被 Gatekeeper 拦截并自动杀死进程，提示"文件已损坏，无法打开"。原因是 macOS 的 Gatekeeper 会拦截未签名的二进制文件。
+
+在二进制文件所在目录执行以下命令，移除隔离属性：
+```bash
+xattr -d com.apple.quarantine ./cs
+```
+之后即可正常运行 `cs`。
+
+
+## 五、权限问题解决方案
 
 ### 1. Linux/macOS 权限错误（推荐方案）
 
@@ -118,7 +177,7 @@ sudo npm install -g @costrict/cs
 - 右键点击终端（CMD/PowerShell/Windows Terminal），选择「以管理员身份运行」；
 - 重新执行安装命令即可。
 
-## 五、验证安装
+## 六、验证安装
 
 安装完成后，执行以下命令验证：
 ```bash
