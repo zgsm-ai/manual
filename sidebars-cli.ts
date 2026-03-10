@@ -25,7 +25,7 @@ const sidebarsCli: SidebarsConfig = {
         'guide/quick_start',
         'guide/feature',
         'guide/cli',
-        'guide/ide',
+        // 'guide/ide',
       ],
     },
     {
