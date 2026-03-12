@@ -6,9 +6,17 @@ sidebar_position: 8
 
 ## 1、输入框无法粘贴
 
-在终端顶部,点击鼠标右键 → 编辑 → 粘贴:
+由于 CS 内置 TUI 框架会劫持快捷键，直接使用快捷键粘贴可能失效，需按系统及终端类型操作：
+
+Windows 系统（cmd / PowerShell 等终端）
+终端顶部点击鼠标右键 → 编辑 → 粘贴
 
 ![img](img/FAQ/png.png)
+
+Linux 系统
+取决于所用终端，通常按下 Shift + 右键，即可弹出包含粘贴选项的菜单，选择对应粘贴项即可。
+
+![img](img/FAQ/linux-paste.png)
 
 ## 2、Tab键无法切换问卷中的问题
 
