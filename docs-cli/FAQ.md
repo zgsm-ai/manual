@@ -6,9 +6,17 @@ sidebar_position: 8
 
 ## 1. Cannot Paste in Input Box
 
-At the top of the terminal, right-click → Edit → Paste:
+Since CS's built-in TUI framework hijacks shortcut keys, direct shortcut key pasting may not work. Please follow the instructions based on your system and terminal type:
 
-<!-- ![img](img/FAQ/png.png) -->
+Windows System (cmd / PowerShell and other terminals)
+At the top of the terminal, right-click → Edit → Paste
+
+![img](img/FAQ/png.png)
+
+Linux System
+Depends on the terminal used. Usually, press Shift + right-click to bring up a menu with paste options, then select the corresponding paste item.
+
+![img](img/FAQ/linux-paste.png)
 
 ## 2. Tab Key Cannot Switch Questions in Questionnaire
 
